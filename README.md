@@ -15,7 +15,7 @@
     <br> <br>
     Profesor: Juan Antonio Flores Moroco
     <br> <br>
-    Ciclo: 2025-10 
+    Ciclo: 2025-20 
     <br> <br>
     Informe de TB1
     <br> <br>
@@ -29,14 +29,14 @@
 | <div style="width:300px">Alumno</div> | <div style="width:125px">Código</div> |
 |:-------------------------------------------:|:-------------------------------------------:|
 |   Kenyi Efrain Ramirez Cabrera        |              U202220138           |
-|                                       |                                   |
+|   Leandro Saul Contreras López        |                                   |
 |                                       |                                   |
 |                                       |                                   |             
 |                                       |                                   |
 
 </div>
 
-<div align="center"> Setiembre 2025 </div>
+<div align="center"> Septiembre 2025 </div>
 
 <hr>
 
@@ -160,6 +160,13 @@ Insights del TB1
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
 - [Avance de Conclusiones, Bibliografía y Anexos](#avance-de-conclusiones-bibliografía-y-anexos)
+
+<br>
+<hr>
+
+# Capítulo I: Introducción
+
+Este capítulo proporciona una visión general del proyecto, incluyendo la problemática abordada, los objetivos planteados, la motivación del equipo y el alcance de la solución propuesta. Se establece el contexto en el que surge la necesidad de la plataforma ElectroLink, y se justifica su relevancia para los usuarios objetivo y el entorno actual.
 
 
 <div style="page-break-after: always;"></div>
