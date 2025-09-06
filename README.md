@@ -1406,3 +1406,38 @@ Asimismo, cada proveedor tendrá un perfil verificado con información detallada
 #### 4.2.1. Organization Systems
 Para representar la estructura de los usuario se han realizado diagramas para la explicación de la funcionalidades de la aplicación y el recorrido del usuario en la misma.
 <img src="https://i.postimg.cc/W3D8J0XR/57567.png"/>
+
+#### 4.2.2. Labeling Systems
+
+| Sección                                     | Etiqueta                        | Descripción                                                                 |
+|--------------------------------------------|----------------------------------|-----------------------------------------------------------------------------|
+| **Menú de inicio**                          | Inicio                           | Página principal con visión general de la plataforma y acceso rápido a secciones. |
+|                                             | Cómo funciona                    | Explicación clara y visual del funcionamiento del sistema paso a paso.     |
+|                                             | Testimonios                      | Opiniones y experiencias reales de usuarios satisfechos.                   |
+|                                             | Contacto                         | Formulario y canales disponibles para consultas, soporte o sugerencias.    |
+|                                             |                                  |                                                                            |
+| **Botones de ingreso y salida               | Iniciar Sesión                   | Botón donde los usuarios podrán iniciar sesión con su cuenta.              |
+|   de la plataforma**                        | Iniciar Sesión con Google        | Botón que permite a los usuarios iniciar sesión con su cuenta de Google.   |
+|                                             | Iniciar Sesión con Facebook      | Botón que permite a los usuarios iniciar sesión con su cuenta de Facebook. |
+|                                             | Registrarse                      | Botón donde los usuarios podrán crearse una cuenta en la plataforma.       |
+|                                             | Dashboard                        | Botón que dirige a la interfaz del usuario seleccionado.                   |
+|                                             | Cerrar Sesión                    | Botón que permite al usuario empezar una conversación con el asistente virtual. |
+|                                             |                                  |                                                                            |
+| **Sección menú del propietario**            | Historial de servicios           | Visualiza el registro de mantenimientos y reparaciones realizadas.         |
+|                                             | Inventario de electrodomésticos  | Consulta la lista de equipos registrados y su consumo energético.          |
+|                                             | Buscar proveedores               | Encuentra técnicos y proveedores certificados.                             |
+|                                             | Detectar problema                | Analiza factores para identificar fallas o excesos de consumo.             |
+|                                             | Monitorear energía               | Seguimiento del consumo eléctrico mensual y estado de componentes.         |
+|                                             | Inventario de electrodomésticos (Subir) | Añade nuevos dispositivos con sus características de consumo.       |
+|                                             | Suscripción                      | Gestión del plan actual y beneficios exclusivos.                           |
+|                                             | Mi perfil                        | Edición de información personal, preferencias y datos de contacto.         |
+|                                             |                                  |                                                                            |
+| **Menú de proveedores y técnicos**          | Gestión y Agenda de Citas        | Organiza, programa y visualiza citas con clientes.                         |
+|                                             | Gestión de Servicios Ofrecidos   | Administra los servicios disponibles y sus detalles.                       |
+|                                             | Historial de Servicios           | Registro completo de todos los servicios realizados.                       |
+|                                             | Panel de Métricas y Rendimiento  | Estadísticas clave sobre actividad y eficiencia del proveedor.             |
+|                                             | Inventario y Catálogo de Productos (En caso aplique) | Gestiona stock y presenta productos disponibles.       |
+|                                             | Subscripción                     | Visualiza y gestiona el plan de suscripción y beneficios.                  |
+|                                             | Mi Perfil                        | Edita y actualiza la información personal y profesional.                   |
+
+<hr>
