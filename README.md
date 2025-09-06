@@ -1239,6 +1239,106 @@ Un mapa de impacto es una técnica colaborativa y visual de planificación estra
 <img src="https://i.postimg.cc/8P7Z2mN2/asdasda.png"/>
 <hr>
 
+## 3.4. Product Backlog
 
+El product backlog es una lista priorizada, dinámica y evolutiva de requisitos, funcionalidades, mejoras y correcciones necesarias para el desarrollo de un producto. En esta sección, el equipo establecio el product backlog de acuerdo al peso en story points de cada historia sea tecnica o de usuario.
+
+<hr>
+
+# 
+
+| StoryID | Título | Descripción | Story Points (1/3/5/8) |
+|---------|--------|-------------|------------------------|
+| US-08 | Ver Información del Startup | Como potencial cliente, quiero conocer información sobre la empresa desarrolladora, para evaluar su credibilidad y confiabilidad. | 1 |
+| US-09 | Conocer la Misión de la Startup | Como visitante interesado, quiero conocer la misión de la empresa, para entender sus valores y propósito. | 1 |
+| US-10 | Conocer la Visión de la Startup | Como visitante interesado, quiero conocer la visión de la empresa, para entender sus objetivos a largo plazo y su proyección de futuro. | 1 |
+| US-04 | Visualización de una Sección Principal | Como visitante de la página, quiero ver una sección principal atractiva que me presente un breve resumen de la idea del producto, para entender rápidamente de qué se trata el servicio. | 2 |
+| US-05 | Navegación sin errores | Como visitante, quiero navegar por la página web sin encontrar errores, para tener una experiencia fluida que me anime a registrarme. | 2 |
+| US-06 | Navegación mediante Encabezado | Como usuario, quiero un menú de navegación claro en el encabezado, para acceder fácilmente a las diferentes secciones de la página. | 2 |
+| US-07 | Visualización del Pie de página | Como visitante, quiero ver un pie de página organizado con accesos directos e información de contacto, para encontrar información adicional rápidamente. | 2 |
+| US-19 | Mensajes de éxito retroalimentación de registro | Como usuario, quiero recibir mensajes claros y accesibles al completar el registro sobre éxito para entender fácilmente el resultado de mis acciones. | 2 |
+| US-20 | Mensajes de error retroalimentación de registro | Como usuario, quiero recibir mensajes claros y accesibles al completar el registro sobre cualquier error a la hora de completar el formulario, para entender fácilmente el resultado de mis acciones y saber cómo proceder. | 2 |
+| US-22 | Cierre de Sesión | Como usuario autenticado, quiero cerrar mi sesión de forma segura para proteger mi cuenta cuando termine de usar la aplicación. | 2 |
+| US-01 | Visualización de Características y Beneficios | Como visitante de la landing page, Quiero ver claramente las características y beneficios de la plataforma, Para entender cómo puede ayudarme y decidir si registrarme. | 3 |
+| US-02 | Visualización de Testimonios | Como visitante indeciso sobre la plataforma, Quiero ver testimonios de usuarios reales, Para aumentar mi confianza en el servicio antes de registrarse. | 3 |
+| US-03 | Adaptabilidad a Diferentes Dispositivos | Como visitante que accede desde diferentes dispositivos, Quiero que la landing page se adapte correctamente a mi pantalla, Para tener una experiencia óptima independientemente del dispositivo que use. | 3 |
+| US-11 | Conocer más a fondo los servicios que ofrecen | Como visitante interesado, quiero conocer de manera más específica los servicios que ofrecen por medio de capturas de pantallas, para comprender su solución y decidir si optar por ella. | 3 |
+| US-12 | Ver planes de suscripción disponibles | Como visitante interesado, quiero ver una sección clara que me presente los planes de suscripción disponibles, separados por Planes para Técnicos y Planes para Propietarios, para comparar fácilmente sus características y precios. | 3 |
+| US-18 | Validación de datos de registro | Como usuario, quiero recibir retroalimentación inmediata sobre la validez de los datos que ingresó durante el registro para corregir errores rápidamente. | 3 |
+| US-23 | Visualización de Perfil de Propietario | Como propietario registrado, quiero visualizar mi perfil, para revisar mi información personal y preferencias almacenadas en el sistema. | 3 |
+| US-30 | Configuración de Notificaciones Personalizadas | Como usuario de la plataforma, quiero configurar mis preferencias de notificaciones (email, SMS, push) y frecuencia, para recibir información relevante sin ser saturado de mensajes. | 3 |
+| US-43 | Descripción Detallada del Problema Eléctrico | Como propietario que ya ha seleccionado un servicio, quiero añadir una descripción detallada de mi problema, para que el técnico asignado conozca el contexto específico antes de su llegada. | 3 |
+| US-45 | Cancelación de servicios programados | Como cliente, quiero cancelar un servicio programado con anticipación para evitar cargos innecesarios. | 3 |
+| US-47 | Historial de servicios contratados | Como cliente, quiero ver un historial de los servicios que he contratado anteriormente para referencia futura. | 3 |
+| US-55 | Eliminar Servicios del Catálogo | Como técnico registrado, quiero eliminar servicios que ya no ofrezco de mi catálogo, para evitar que el sistema me asigne trabajos que no puedo realizar. | 3 |
+| US-63 | Historial de Clientes Atendidos | Como Técnico, quiero acceder a un historial detallado de los clientes que he atendido, para dar seguimiento a relaciones profesionales y mejorar mi servicio basado en experiencias previas. | 3 |
+| US-68 | Exportación de datos de consumo | Como usuario, quiero exportar mis datos históricos de consumo en formatos comunes (CSV, Excel) para análisis externos. | 3 |
+| TS-01 | Registrar Propiedad | Como desarrollador, quiero crear un endpoint POST para registrar una propiedad asociada a un propietario. | 3 |
+| TS-02 | Obtener Propiedades por Propietario | Como desarrollador, quiero crear un endpoint GET para listar todas las propiedades registradas por un propietario. | 3 |
+| TS-04 | Actualizar Stock de Componente | Como desarrollador, quiero crear un endpoint PATCH para actualizar el stock de un componente del inventario del técnico. | 3 |
+| TS-12 | Obtener Evaluaciones por Técnico | Como desarrollador, quiero crear un endpoint GET para obtener las evaluaciones de un técnico. | 3 |
+| TS-22 | Endpoint de Gestión de Perfiles | Como desarrollador, necesito crear endpoints para visualizar y editar perfiles de usuario para soportar la funcionalidad de gestión de cuentas diferenciada por tipo de usuario. | 3 |
+| TS-15 | Reinicio Mensual de Contador | Como desarrollador, quiero crear una tarea programada (cron job) que se ejecute mensualmente. | 3 |
+| TS-19 | Verificación de Email | Como desarrollador, quiero crear endpoints para verificar emails de usuarios para completar el proceso de registro. | 3 |
+| TS-21 | Recuperación de Contraseña | Como desarrollador, quiero crear endpoints para recuperación de contraseña para permitir a usuarios restablecer sus credenciales. | 3 |
+| TS-22 | Endpoints de Gestión de Perfiles | Como desarrollador, quiero crear endpoints CRUD para gestión de perfiles para permitir a usuarios actualizar su información personal. | 3 |
+| US-13 | Registro de cuentas como Dueño de Hogar | Como dueño de hogar, quiero registrarme para tener una cuenta en la aplicación, para gestionar los componentes eléctricos de mi vivienda. | 5 |
+| US-14 | Registro de cuentas como Dueño de Empresa | Como dueño o representante de empresa, quiero registrarme para tener una cuenta en la aplicación, para gestionar los componentes eléctricos de mis instalaciones comerciales. | 5 |
+| US-15 | Registro de cuentas para Técnicos | Como Técnico de componentes eléctricos yo servicios, quiero registrarme para tener una cuenta en la aplicación, para ofrecer mis productos y servicios a los usuarios. | 5 |
+| US-16 | Verificación de cuenta por correo electrónico | Como usuario, quiero verificar mi cuenta a través de un enlace enviado por correo electrónico para confirmar mi identidad. | 5 |
+| US-17 | Inicio de sesión de usuarios | Como usuario registrado, quiero iniciar sesión en la aplicación con mis credenciales para acceder a mi cuenta y utilizar las funcionalidades de la plataforma. | 5 |
+| US-21 | Recuperación de Contraseña | Como usuario registrado, quiero recuperar mi contraseña en caso de olvidarla, para volver a acceder a mi cuenta de manera segura. | 5 |
+| US-24 | Edición de Perfil de Propietario | Como propietario registrado, quiero editar mi información personal y preferencias, para mantener mi perfil actualizado y tener más control sobre este. | 5 |
+| US-25 | Visualización de Perfil de Técnico | Como Técnico registrado Quiero visualizar mi perfil profesional Para revisar cómo se presenta mi información y servicios a los clientes potenciales. | 5 |
+| US-27 | Entrar a un dashboard Personalizado | Como usuario de la plataforma, quiero acceder a un dashboard personalizado al iniciar sesión, para visualizar de forma inmediata la información relevante según mi rol y actividad reciente. | 5 |
+| US-28 | Crear Portafolio Digital con Evidencias de Trabajo | Como Técnico de servicios eléctricos, quiero crear un portafolio digital dentro de mi perfil que incluya fotos, descripciones y referencias de trabajos anteriores, para mostrar mi experiencia y generar mayor confianza en potenciales clientes. | 5 |
+| US-29 | Configuración de Zona de Cobertura Geográfica | Como técnico registrado, quiero configurar mi zona de cobertura geográfica especificando radio de acción y ubicaciones donde ofrezco servicios, para recibir solicitudes solo de clientes dentro de mi área de trabajo. | 5 |
+| US-31 | Crear Componente Eléctrico | Como técnico Quiero registrar nuevos componentes eléctricos en mi inventario Para mantener un inventario completo de mi infraestructura eléctrica. | 5 |
+| US-32 | Editar Componente Eléctrico | Como técnico Quiero modificar la información de los componentes eléctricos registrados Para mantener actualizada la información técnica y de consumo. | 5 |
+| US-33 | Eliminar Componente Eléctrico | Como técnico Quiero eliminar componentes eléctricos de mi inventario Para mantener actualizada mi configuración cuando retire o reemplace equipos. | 5 |
+| US-34 | Registro de Propiedad (Propietario) | Como propietario, quiero registrar una nueva propiedad en el sistema, incluyendo su dirección y geolocalización, para solicitar servicios para ella. | 5 |
+| US-35 | Edición de Información de Propiedad (Propietario) | Como propietario, quiero editar la información de mis propiedades registradas (ej. dirección, características), para mantenerla actualizada. | 5 |
+| US-36 | Eliminación de Propiedad (Propietario) | Como propietario, quiero eliminar una propiedad de mi cuenta, si ya no la gestiono. | 5 |
+| US-37 | Registro de Inventario de Componentes (Técnico) | Como Técnico, quiero registrar los componentes eléctricos que tengo en mi inventario, incluyendo cantidad y costo, para controlar mi stock. | 5 |
+| US-38 | Actualización de Stock de Componentes (Técnico) | Como Técnico, quiero actualizar las cantidades de mis componentes en inventario después de una compra o uso en un servicio, para mantener la precisión del stock. | 5 |
+| US-39 | Configuración de Alertas de Stock Mínimo (Técnico) | Como Técnico, quiero definir umbrales de stock mínimo para mis componentes y recibir alertas cuando el stock alcance ese nivel, para planificar reposiciones. | 5 |
+| US-40 | Contratación de Servicios Eléctricos mediante Wizard | Como propietario de PyME, quiero contar con un proceso guiado paso a paso para contratar servicios eléctricos, para solucionar mis problemas de forma rápida y sin complicaciones. | 5 |
+| US-41 | Selección de Propiedad | Como propietario con múltiples propiedades, quiero seleccionar la propiedad específica donde necesito el servicio, para que el sistema asigne al técnico más cercano a esa ubicación. | 5 |
+| US-42 | Carga Manual de Datos de Recibos Eléctricos (3-6 recibos) | Como propietario solicitando un servicio, quiero ingresar manualmente los datos clave de mi último recibo eléctrico durante el proceso de solicitud, para registrar mi historial de consumo y permitir análisis a largo plazo en mi panel de Analytics. | 5 |
+| US-44 | Selección de Servicio Específico del Catálogo | Como propietario, después de seleccionar mi propiedad, quiero ver una lista de servicios específicos disponibles en mi zona (ej 'Instalación de tomacorriente', 'Diagnóstico General') y seleccionar el que necesito, para que el sistema sepa exactamente qué trabajo solicitar y pueda automatizar la asignación. | 5 |
+| US-46 | Notificación de Asignación Automática de Técnico (Propietario) | Como propietario, después de que mi solicitud de servicio es asignada automáticamente, quiero recibir una notificación con la información del técnico asignado. | 5 |
+| US-48 | Configurar Horarios de Trabajo Semanales | Como técnico registrado, quiero configurar mis horarios de trabajo por día de la semana (ej Lunes 8AM-6PM, Martes 10AM-4PM) y definir la duración promedio que me toma cada tipo de servicio, para que el sistema pueda asignarme automáticamente trabajos solo en mis horarios laborales disponibles. | 5 |
+| US-49 | Modificar Horarios de Trabajo Existentes | Como técnico registrado, quiero modificar mis horarios de trabajo ya configurados (cambiar horas de inicio/fin, días laborales), para ajustar mi disponibilidad según cambios en mi situación personal o comercial. | 5 |
+| US-50 | Bloquer Fechas y Horarios Específicos | Como técnico registrado, quiero bloquear fechas específicas (vacaciones, emergencias) o horarios puntuales (citas médicas, otros compromisos) en mi calendario, para evitar que el sistema me asigne trabajos durante esos períodos. | 5 |
+| US-51 | Visualizar Agenda de Trabajos Asignados Automáticamente | Como técnico registrado, quiero visualizar en un calendario todos los trabajos que el sistema me ha asignado automáticamente dentro de mis horarios disponibles, para planificar mi día y ver mi carga de trabajo semanal. | 5 |
+| US-52 | Configurar Tiempo de Traslado Entre Servicios | Como técnico registrado, quiero configurar el tiempo promedio que necesito para trasladarme entre ubicaciones en mi zona de cobertura, para que el sistema considere estos intervalos al asignarme trabajos consecutivos. | 5 |
+| US-54 | Modificar Servicios y sus Recetas de Componentes | Como técnico registrado, quiero modificar los servicios existentes en mi catálogo (precio, descripción, componentes necesarios), para mantener actualizada mi oferta y las recetas de materiales. | 5 |
+| US-56 | Establecimiento Precios por Tipo de Servicio y Zona | Como técnico registrado, quiero establecer precios diferenciados por tipo de servicio y opcionalmente por zona dentro de mi área de cobertura, para tener una estructura tarifaria clara y rentable. | 5 |
+| US-57 | Beneficio de Solicitud Prioritaria | Como propietario con suscripción Premium, al crear una solicitud de servicio, quiero tener disponible y activar la opción de marcar como prioritaria, para que mi solicitud tenga preferencia en el sistema de asignación y así resolver mi problema más rápidamente. | 5 |
+| US-58 | Notificación de Límite de Solicitudes Alcanzado | Como propietario del plan Básico, al intentar crear una solicitud que excede mi límite mensual (2), quiero ser notificado claramente por el sistema y ver una opción directa para mejorar mi plan a Premium, para entender las reglas del plan gratuito y continuar usando el servicio si lo necesito. | 5 |
+| US-59 | Seguimiento de Estados de Servicio en Tiempo Real | Como propietario y técnico, quiero ver el estado actual del servicio (programado, confirmado, en progreso, completado) actualizado en tiempo real, para estar informado sobre el progreso del trabajo. | 5 |
+| US-60 | Registro Fotográfico de Trabajos (Antes/Después) | Como técnico ejecutando un servicio, quiero tomar y subir fotografías del área de trabajo antes y después de la intervención, para documentar el trabajo realizado y protegerme ante reclamos. | 5 |
+| US-61 | Generación de Reportes Técnicos Estructurados | Como técnico completando un servicio, quiero generar un reporte técnico estructurado que incluya los componentes utilizados de la 'receta' original, los procedimientos realizados y recomendaciones, para profesionalizar mi servicio y dejar constancia del trabajo. | 5 |
+| US-62 | Actualización Automática de Inventario Post-Servicio | Como técnico que completa un servicio, quiero que el sistema descuente automáticamente del mi inventario los componentes que marqué como utilizados en el reporte técnico, para mantener mi stock actualizado sin trabajo manual. | 5 |
+| US-64 | Sistema de Calificación Post-Servicio | Como usuario, quiero calificar y dejar reseñas sobre los servicios que he utilizado, para compartir mi experiencia con otros usuarios y proporcionar retroalimentación a los Técnicos. | 5 |
+| US-65 | Visualización de Calificaciones y Reseñas | Como usuario, quiero ver las calificaciones y reseñas dejadas por otros usuarios, para tomar decisiones informadas sobre qué servicios utilizar. | 5 |
+| US-66 | Retroalimentación directa de servicios | Como Técnico, quiero recibir retroalimentación directa sobre mis servicios para mejorar mi oferta. | 5 |
+| TS-03 | Crear Componente | Como desarrollador, quiero crear un endpoint POST para que el técnico registre un nuevo componente en su inventario. | 5 |
+| TS-05 | Crear Servicio de Técnico | Como desarrollador, quiero crear un endpoint POST para que el técnico defina un nuevo servicio en su catálogo, incluyendo su receta de componentes. | 5 |
+| TS-06 | Obtener Servicios por Zona | Como desarrollador, quiero crear un endpoint GET que devuelva los servicios disponibles en una zona geográfica específica. | 5 |
+| TS-08 | Enviar Solicitud de Servicio | Como desarrollador, quiero crear un endpoint POST que registre los detalles de una solicitud de servicio. | 5 |
+| TS-10 | Actualización Automática de Stock | Como desarrollador, quiero crear un listener que reaccione al evento Servicio Completado para descontar el stock. | 5 |
+| TS-11 | Enviar Evaluación de Servicio | Como desarrollador, quiero crear un endpoint POST para registrar una evaluación. | 5 |
+| TS-16 | Sesión de Portal de Stripe | Como desarrollador, quiero crear un endpoint que genere una sesión para el Portal de Cliente de Stripe. | 5 |
+| TS-17 | Endpoint de Autenticación JWT | Como desarrollador, quiero crear un endpoint de login que genere tokens JWT para permitir la autenticación segura de usuarios. | 5 |
+| TS-18 | Endpoint de Registro de Usuarios | Como desarrollador, quiero crear endpoints de registro diferenciados para permitir el registro de propietarios y técnicos. | 5 |
+| TS-20 | Middleware de Autorización | Como desarrollador, quiero crear middleware de autorización para controlar acceso a endpoints según roles de usuario. | 5 |
+| TS-23 | Sistema de Notificaciones Básico | Como desarrollador, quiero crear un servicio básico de notificaciones para enviar emails simples a los usuarios. | 5 |
+| US-26 | Edición de Perfil de Técnico | Como Técnico registrado, quiero editar mi información profesional, certificaciones y servicios ofrecidos para mantener mi perfil actualizado y atractivo para los clientes. | 8 |
+| US-53 | Crear Servicios en Catálogo con Recetas de Componentes | Como técnico registrado, quiero crear nuevos servicios en mi catálogo especificando qué componentes eléctricos exactos necesito y en qué cantidades (receta), para que el sistema verifique automáticamente si tengo stock suficiente antes de asignarme ese tipo de trabajo. | 8 |
+| TS-07 | Iniciar Flujo de Solicitud | Como desarrollador, quiero crear un endpoint que valide el plan del propietario al iniciar una solicitud. | 8 |
+| TS-09 | Asignar Técnico Automáticamente | Como desarrollador, quiero implementar la lógica para asignar automáticamente un técnico a una solicitud. | 8 |
+| TS-13 | Conectar a Base de Datos | Como desarrollador, quiero configurar la conexión a la base de datos PostgreSQL. | 8 |
+| TS-14 | Listener de Webhook de Stripe | Como desarrollador, quiero crear un endpoint para recibir y procesar webhooks de Stripe. | 8 |
 
 <div style="page-break-after: always;"></div>
