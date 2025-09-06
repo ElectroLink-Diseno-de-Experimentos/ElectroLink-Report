@@ -1503,3 +1503,99 @@ Los sistemas de navegación de ElectroLink han sido diseñados para guiar de for
 
 <img src="https://i.postimg.cc/fTwVkDHZ/75675.png"/>
 
+
+### 4.6. Web Applications UX/UI Design.
+
+### 4.6.1. Web Applications Wireframes.
+
+## Web Applications Wireframes - ElectroLink
+
+En esta sección se presentan los **wireframes de la aplicación web de ElectroLink**, los cuales permiten visualizar cómo será la estructura y disposición de los elementos en la interfaz. Estos bocetos funcionales aseguran una experiencia fluida, clara e inclusiva para los diferentes segmentos de usuarios, como propietarios de hogares, pequeños empresarios y proveedores técnicos, incluyendo además personas con ansiedad social, TEA, o discapacidades físicas.
+
+El propósito de los wireframes es establecer la **estructura base de la aplicación**, mostrando la organización de la información, la navegación y la ubicación de los elementos interactivos sin enfocarse aún en los aspectos visuales finales. Esta etapa es crucial para garantizar una **experiencia de usuario intuitiva y accesible desde el inicio del diseño**.
+
+---
+
+### Elementos clave del diseño
+
+#### Arquitectura de la información
+
+- El contenido y las funciones están organizadas para facilitar el acceso a herramientas como el historial de servicios, monitoreo de consumo energético, o gestión de citas.
+- Los wireframes incluyen pantallas clave como:
+  - Panel de control del propietario.
+  - Dashboard del proveedor técnico.
+  - Formulario para solicitar mantenimientos preventivos.
+  - Historial de dispositivos y consumo energético.
+- Se ha priorizado una **navegación simple y accesible**, permitiendo que usuarios con diversas habilidades puedan moverse con facilidad por la plataforma.
+
+#### Estructura de la interfaz
+
+- Los elementos interactivos (botones, menús, tarjetas de información) están ubicados estratégicamente para que el usuario pueda realizar tareas con pocos clics.
+- Las pantallas permiten acceso directo a secciones importantes como:
+  - Subir o editar dispositivos eléctricos.
+  - Contactar proveedores certificados.
+  - Visualizar métricas de rendimiento o consumo.
+- Se incluye también una sección de perfil adaptable y configurable, especialmente útil para personas que requieren adaptaciones visuales, físicas o cognitivas.
+
+---
+
+### Principios de diseño aplicados
+
+- **Simplicidad**: Cada interfaz está diseñada para minimizar la carga cognitiva, con estructuras limpias que priorizan las acciones más importantes para el usuario.
+- **Consistencia**: Todos los botones, iconos y menús siguen un mismo estilo visual y funcional, lo que reduce el tiempo de aprendizaje para los usuarios.
+- **Accesibilidad**: Se aplican principios de diseño inclusivo, incluyendo opciones como:
+  - Ajuste del tamaño de texto y botones.
+  - Contraste de colores adecuado.
+  - Navegación compatible con teclado y lectores de pantalla.
+  - Diseño responsive para su uso en laptops, tablets y móviles.
+
+---
+Los wireframes son una guía esencial para la implementación efectiva de la plataforma ElectroLink, alineando las necesidades de los usuarios con un diseño funcional, ordenado y accesible para todos.
+
+<img src="https://i.postimg.cc/wM7CMts3/75675.png"/>
+
+<img src="https://i.postimg.cc/T38z232Y/686.png"/>
+
+<img src="https://i.postimg.cc/G2SfWcSR/3121231.png"/>
+
+<img src="https://i.postimg.cc/1XkjzvQY/6757.png"/>
+
+<img src="https://i.postimg.cc/c1v1r6WQ/3565.png"/>
+
+<img src="https://i.postimg.cc/fW1zXZW1/67456.png"/>
+
+<img src="https://i.postimg.cc/x129xRzR/453535.png"/>
+
+### 4.6.2. Web Applications Wireflow Diagrams
+
+<img src="https://i.postimg.cc/xTw4P2L5/imagen-2025-07-08-211031407.png"/>
+
+<img src="https://i.postimg.cc/J0BQysYL/imagen-2025-07-08-211104504.png"/>
+
+<img src="https://i.postimg.cc/SKP55SPh/4243.png"/>
+
+<img src="https://i.postimg.cc/g0xtv92B/4534534.png"/>
+<br>
+
+[Abrir diagrama en Lucidchart](https://lucid.app/lucidchart/9bc93c27-6140-47f1-9cfc-e7c0c5a15134/edit?invitationId=inv_f9a0cb75-977e-4669-a09e-21a42409c64d&page=0_0)
+
+### 4.6.3. Web Applications Mock-ups
+
+<img src="https://i.postimg.cc/G2YM5kYF/4645645.png"/>
+
+<img src="https://i.postimg.cc/jdvMmqWF/6456456.png"/>
+
+<img src="https://i.postimg.cc/7ZWmPBn1/6456457.png"/>
+
+<img src="https://i.postimg.cc/dtQB2MWm/8678.png"/>
+
+<img src="https://i.postimg.cc/Sx3fbnmD/88888.png"/>
+
+<img src="https://i.postimg.cc/8cphmWbP/56756756.png"/>
+
+<img src="https://i.postimg.cc/PJS13x6b/78768768.png"/>
+
+### 4.6.4. Web Applications User Flow Diagrams
+
+En esta sección, el equipo define el web appication user flow diagram
+<img src="https://i.postimg.cc/26wcTDgQ/image-37.png"/>
