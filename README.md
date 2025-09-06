@@ -462,6 +462,9 @@ Aspectos psicográficos:
 
 <div style="page-break-after: always;"></div>
 
+## Capítulo II: Requirements Elicitation & Analysis
+
+Aquí se describe el proceso de levantamiento y análisis de requerimientos funcionales y no funcionales del sistema. Incluye las técnicas utilizadas (entrevistas, encuestas, historias de usuario), los perfiles de usuario identificados y las prioridades del negocio. Se documentan las necesidades desde la perspectiva de los stakeholders, con énfasis en la trazabilidad y validación de requisitos clave.
 
 
 <div style="page-break-after: always;"></div>
