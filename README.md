@@ -462,9 +462,66 @@ Aspectos psicográficos:
 
 <div style="page-break-after: always;"></div>
 
-## Capítulo II: Requirements Elicitation & Analysis
+# Capítulo II: Requirements Elicitation & Analysis
 
 Aquí se describe el proceso de levantamiento y análisis de requerimientos funcionales y no funcionales del sistema. Incluye las técnicas utilizadas (entrevistas, encuestas, historias de usuario), los perfiles de usuario identificados y las prioridades del negocio. Se documentan las necesidades desde la perspectiva de los stakeholders, con énfasis en la trazabilidad y validación de requisitos clave.
 
+<br>
+
+## 2.1. Competidores
+
+Hoy en día el competitivo mercado digital en la contratación de servicios, existen diversas empresas importantes que ofrecen soluciones en áreas como reparaciones, mantenimiento y tareas domésticas. Entre los competidores más destacados se encuentran Thumbtack, Handy y TaskRabbit
+
+* **Thumbtack:**
+
+Es una plataforma en línea que conecta a personas que necesitan servicios locales con profesionales que los ofrecen. Funciona como un marketplace donde puedes buscar desde plomeros, electricistas entre muchos otros.
+
+Así es como funciona:
+
+1. El cliente publica un proyecto explicando qué necesita
+
+2. Los profesionales que están registrados en esa categoría y área geográfica reciben una notificación.
+
+3. Los profesionales interesados envían cotizaciones o propuestas al cliente.
+
+4. El cliente elige al profesional que mejor se adapte a su presupuesto y necesidades.
+
+Es popular en Estados Unidos y suele ser útil para freelancers y pequeñas empresas
+
+* **Handy:**
+
+A diferencia de Thumbtack, Handy no te muestra varios profesionales para que elijas, sino que ellos se encargan de asignarte uno basado en disponibilidad y ubicación.
+
+Especialidad: Servicios para el hogar (limpieza, montaje de muebles, plomería, electricidad, mudanzas, etc.).
+
+Cómo funciona: Los clientes reservan directamente desde la app o el sitio web, eligen fecha/hora y el servicio que necesitan, y Handy asigna automáticamente a un profesional disponible.
+
+Ubicación: Opera principalmente en EE. UU., Canadá y Reino Unido.
+
+* **TaskRabbit:**
+
+Es una plataforma donde puedes contratar “taskers” (personas que hacen tareas). Estos operan un mercado en línea que con la demanda local, permite a las personas encontrar ayuda con tareas que incluyen:
+
+\+Montaje de muebles (especialmente de IKEA, ya que tienen una alianza).
+
+\+Mudanzas y cargado de cosas pesadas.
+
+\+Limpieza.
+
+\+Reparaciones menores en el hogar.
+
+\+Hacer compras o entregas.
+
+\+Colgar cuadros, instalar estanterías, etc.
+
+Cómo funciona TaskRabbit: 
+
+1. Buscas el tipo de tarea que necesitas hacer.
+
+2. Elige a un tasker basado en su perfil, tarifas por hora, y reseñas.
+
+3. Agendas el servicio directamente con esa persona, eligiendo la fecha y la hora.
+
+4. Pagas a través de la plataforma cuando el trabajo está completo.
 
 <div style="page-break-after: always;"></div>
