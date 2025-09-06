@@ -1486,3 +1486,20 @@ ElectroLink cuenta con un sistema de búsqueda avanzada que permite a los usuari
 Los sistemas de navegación de ElectroLink han sido diseñados para guiar de forma intuitiva a los usuarios a través del Landing Page y la aplicación, facilitando la exploración del contenido y el acceso a las funcionalidades clave. La estructura sigue una lógica clara que permite a cada tipo de usuario (hogar, oficina, proveedor) encontrar rápidamente lo que necesita mediante menús jerárquicos, enlaces destacados y botones de acción visibles.
 
 <img src="https://i.postimg.cc/LXBXDbyj/78768.png"/>
+
+### 4.3. Landing Page UI Design
+
+### 4.3.1. Landing Page Wireframe.
+
+<img src="https://i.postimg.cc/wx2MsnRp/67867.png"/>
+
+<img src="https://i.postimg.cc/kXh5T8yY/32432.png"/>
+
+<img src="https://i.postimg.cc/Y9k2vxp0/5675.png"/>
+
+### 4.3.2. Landing Page Mock-up
+
+<img src="https://i.postimg.cc/7PKPL7jP/5675.png"/>
+
+<img src="https://i.postimg.cc/fTwVkDHZ/75675.png"/>
+
