@@ -759,6 +759,232 @@ Explorar si los usuarios estarían dispuestos a pagar por servicios premium (com
 El needfinding es una metodología de diseño e innovación que consiste en descubrir las necesidades reales de los usuarios a través de la investigación cualitativa, la observación y las entrevistas, con el fin de generar soluciones relevantes y exitosas, en lugar de basarse en suposiciones previas. 
 En esta sección, el equipo presenta los elementos del Needfinding.
 
+### 2.3.1. User Personas
+
+En esta sección, el equipo presenta a los user personas de acuerdo a los segmenots objetivos
+
+**Segmento #1**
+<img src="https://i.postimg.cc/wjYCqGfK/Olivia-P-rez-4.png"/>
+
+**Segmento #2**
+<img src="https://i.postimg.cc/L5ZWRtj6/Eduardo-Gonzales.png"/>
+
+**Segmento #3**
+<img src="https://i.postimg.cc/85Tk7CZS/Alejandro-L-pez-9.png"/>
+
+### 2.3.2. User Task Matrix
+
+En esta sección se detallan las tareas que realizan los diferentes segmentos de usuarios representados por los User Personas de **ElectroLink**, con el objetivo de cumplir sus metas relacionadas con el mantenimiento preventivo de sistemas eléctricos en hogares, oficinas o como parte de su actividad profesional.
+
+---
+
+### Olivia Pérez – Propietaria de hogar urbano
+
+| Actividades                                          | Frecuencia     | Importancia |
+|------------------------------------------------------|----------------|-------------|
+| Buscar electricistas certificados                    | Frecuentemente | Alta        |
+| Agendar mantenimientos preventivos para el hogar     | Ocasionalmente | Alta        |
+| Comparar calificaciones de proveedores               | Frecuentemente | Media       |
+| Buscar soluciones que ahorren energía en el hogar    | Ocasionalmente | Media       |
+| Pedir recomendaciones a vecinos o conocidos          | Rara vez       | Media       |
+
+---
+
+### Eduardo Gonzales – Dueño de PYME / Oficina
+
+| Actividades                                          | Frecuencia     | Importancia |
+|------------------------------------------------------|----------------|-------------|
+| Buscar formas de reducir costos energéticos          | Frecuentemente | Alta        |
+| Contratar servicios de mantenimiento eléctrico        | Ocasionalmente | Alta        |
+| Llevar registro del historial de mantenimiento        | Ocasionalmente | Media       |
+| Buscar proveedores o técnicos de confianza            | Ocasionalmente | Alta        |
+| Usar herramientas digitales para gestionar instalaciones | A veces     | Media       |
+
+---
+
+### Alejandro López – Proveedor de servicios eléctricos certificados
+
+| Actividades                                          | Frecuencia     | Importancia |
+|------------------------------------------------------|----------------|-------------|
+| Buscar nuevos clientes o trabajos                    | Frecuentemente | Alta        |
+| Actualizar su disponibilidad de servicios en plataformas | Ocasionalmente | Media    |
+| Gestionar pedidos y comunicación con clientes        | Frecuentemente | Alta        |
+| Pedir reseñas o testimonios a sus clientes           | Rara vez       | Media       |
+| Mantenerse al día con normativas eléctricas          | Ocasionalmente | Alta        |
+
+<hr>
+
+### 2.3.3. User Journey Mapping
+
+Un journey map es una representación visual que detalla las acciones, pensamientos y emociones de una persona (cliente o usuario) a medida que interactúa con una empresa, producto o servicio para alcanzar un objetivo. En esta seccion presentaremos el Journey Map de nuestro proyecto.
+
+<img src="https://i.postimg.cc/SxDbgGrw/xcvcvc.png"/>
+
+<hr>
+
+
+#### 2.3.4. Empathy Mapping
+
+Un mapa de empatía es una herramienta visual y colaborativa que permite a los equipos entender profundamente a un usuario, capturando sus pensamientos, sentimientos, percepciones y comportamientos en relación con un producto o servicio. En esta sección, el equipo presenta el empathy mapping para cada user persona.
+
+<hr>
+
+<img src="https://i.postimg.cc/xdzgXfct/ffsd.png"/>
+
+**Olivia Rodriguez**
+
+<hr>
+
+<img src="https://i.postimg.cc/pL9JSWYR/fsdfsdfsd.png"/>
+
+**Eduardo Gonzales**
+
+<hr>
+
+
+<img src="https://i.postimg.cc/59n5NYsf/Captura.png"/>
+
+**Alejandro Lopez**
+
+<hr>
+
+
+### 2.3.5. As-is Scenario Mapping
+
+Un "As Is Scenario Map" es una herramienta de diseño de experiencias de usuario (UX) que documenta el estado actual y el recorrido de un usuario al interactuar con un producto o servicio, incluyendo sus acciones, pensamientos y emociones en cada paso. En esta sección, el equipo presenta los escnerarios as is para sus respectivos users personas
+
+**Alejandro Lopez**
+<img src="https://i.postimg.cc/cLN7xCsY/imagen-2025-07-08-205115361.png"/>
+
+**Áreas Negativas** 
+
+Promoción de productos:
+- Frustración por la baja efectividad de la publicidad.
+- Sentimiento de que no alcanza a los clientes correctos.
+- Alto gasto en publicidad sin retorno claro.
+  
+Atención de consultas:
+- Agobio y ansiedad por la sobrecarga.
+- Dudas sobre su profesionalismo.
+- Falta de tiempo para responder con calidad.
+  
+Cotizaciones:
+- Estrés por cálculos manuales.
+- Ineficiencia y desorganización.
+- Percepción de poca escalabilidad y falta de optimización.
+  
+Entrega de productos:
+- Preocupación por los errores.
+- Falta de digitalización.
+- Sensación de sistema poco confiable y propenso a reclamos.
+
+**Áreas Positivas**
+
+Promoción de productos:
+- Esperanza cuando recibe contacto de un nuevo cliente.
+  
+Atención de consultas:
+- No se identifican ups, lo que revela una necesidad urgente de mejora.
+
+Cotizaciones:
+- Alivio al concretar una venta sin errores, aunque depende de factores externos.
+  
+Entrega de productos:
+- Satisfacción al cerrar una venta sin errores.
+- Tranquilidad una vez que el cliente confirma.
+  
+**Conclusión**
+
+Alejandro enfrenta varios puntos críticos en su proceso: publicidad poco efectiva, consultas y cotizaciones manuales que lo agobian, y entregas propensas a errores. Aunque hay momentos de esperanza, su experiencia general es frustrante. Esto evidencia la necesidad urgente de herramientas digitales que lo ayuden a automatizar, organizar y profesionalizar su servicio.
+
+**Eduardo Gonzales**
+
+<img src="https://i.postimg.cc/LXZJML0j/imagen-2025-07-08-205223250.png"/>
+
+**Áreas negativas**
+
+Identificar una necesidad operativa o de mantenimiento:
+- Eduardo parte con incertidumbre al preguntarse si debe resolver el problema de inmediato o si puede esperar, lo que genera estrés.
+- Se siente preocupado y frustrado porque los problemas son frecuentes y no siempre encuentra soluciones rápidas, lo que podría acarrear riesgos operativos o pérdidas importantes para la empresa.
+
+Buscar proveedores adecuados:
+- Esta etapa está llena de desconfianza. Eduardo duda si los proveedores entienden realmente lo que necesita o si solo quieren cerrar una venta rápida.
+- Se siente inseguro e impaciente ante las respuestas lentas y poco claras, lo que afecta su percepción de profesionalismo y genera tensión en un momento clave para la toma de decisiones.
+  
+Solicitar cotización y evaluar propuestas:
+- Eduardo se enfrenta a la ansiedad de cometer errores al seleccionar proveedores, y sufre por tener que repetir procesos que no mejoran con el tiempo.
+- La sobrecarga de evaluar múltiples propuestas, sin estar seguro de si le responderán bien tras la compra, lo hace sentirse cansado, inseguro y con miedo a consecuencias graves.
+  
+Supervisar ejecución y validar resultados:
+- Aunque ya en una etapa avanzada, Eduardo aún siente incertidumbre y dudas sobre si tomó la mejor decisión o si dejó pasar una opción superior.
+- Esto lo hace sentirse dudoso, y aunque confía en algunos proveedores, no siempre puede validar si son la mejor opción a largo plazo.
+
+**Áreas positivas**
+
+Identificar una necesidad operativa o de mantenimiento:
+
+- Eduardo demuestra proactividad al realizar inspecciones periódicas y tomar nota del estado de los equipos, lo que le da visibilidad y control sobre su entorno operativo.
+- Se siente comprometido con su equipo y con la empresa, lo que impulsa su deseo de mejorar continuamente.
+  
+Buscar proveedores adecuados:
+- Aunque tiene dudas, Eduardo explora múltiples canales (web, catálogos, redes, recomendaciones) para encontrar proveedores, lo que muestra una búsqueda activa y estratégica.
+- Tiene un enfoque exigente y selectivo, no se conforma con la primera opción, lo que garantiza estándares de calidad más altos.
+
+Solicitar cotización y evaluar propuestas:
+- Filtra activamente a proveedores que no cumplen con aspectos técnicos o de confianza, lo que indica una evaluación rigurosa.
+- Esta etapa, aunque estresante, muestra que Eduardo sabe qué quiere y no acepta cualquier solución, buscando equilibrio entre precio, calidad y conocimiento técnico.
+
+Supervisar ejecución y validar resultados:
+- Finalmente, cuando logra decidir con seguridad, se siente aliviado por haber elegido correctamente pensando en el largo plazo.
+- Esta satisfacción final indica que, a pesar del proceso complejo, Eduardo valora las decisiones bien fundamentadas y aspira a establecer relaciones sostenibles con los proveedores.
+
+**Conclusión**
+
+Eduardo es un perfil técnico y exigente, que valora la calidad, la previsión y la confiabilidad en todo el proceso de adquisición y mantenimiento. Aunque su recorrido está lleno de tensiones y dudas, especialmente en la interacción con proveedores, también muestra una actitud proactiva y profesional. Una plataforma que le brinde confianza, claridad, rapidez en respuestas y herramientas para comparar y validar proveedores fácilmente puede ayudarlo a reducir su ansiedad, optimizar decisiones y reforzar la seguridad en sus elecciones.
+
+**Olivia Rodriguez**
+
+<img src="https://i.postimg.cc/gJR27dnD/imagen-2025-07-08-205305571.png"/>
+
+**Áreas negativas**
+
+Buscar proveedores confiables:
+- Olivia se enfrenta a una búsqueda larga, tediosa y desconfiada, lo que le genera cansancio y frustración.
+- No puede confiar en cualquier empresa, y siente que el proceso es muy desgastante, además de que nada le garantiza la calidad de los materiales.
+  
+Contactar y validar a los proveedores:
+- Se siente insegura sobre permitir el ingreso a su casa y teme contactar a proveedores sin garantías, lo que le genera nerviosismo y desconfianza.
+- Olivia percibe que hacer un proceso de descarte por su cuenta es ineficiente, lo que la hace sentir molesta cuando los proveedores son informales o poco claros.
+
+Solicitar cotizaciones y comparar:
+- Se ve obligada a comparar manualmente propuestas en hojas de cálculo, recibiendo cotizaciones en formatos poco intuitivos, lo que la abruma.
+- Siente que los precios no siempre son justos y se cansa de descartar opciones sin apoyo externo.
+
+Tomar la decisión y agendar el servicio:
+- Aun en la fase final, Olivia no siempre confía en la calidad de lo que va a recibir, ni en la relación entre el costo y el producto final.
+- Se siente inquieta, nerviosa y exhausta, especialmente si no tiene claridad sobre las garantías o si invirtió mucho tiempo en el proceso sin estar completamente segura.
+
+**Áreas positivas**
+
+Buscar proveedores confiables:
+- Olivia es proactiva, utiliza Google, páginas web y preguntas a familiares o amigos de confianza.
+- Guarda enlaces y captura información útil, y valora la idea de una plataforma donde todo ya esté validado, lo que indica apertura a soluciones digitales confiables.
+
+Contactar y validar a los proveedores:
+- Pide certificados, RUC o documentos de formalidad, mostrando una actitud responsable y detallista en su proceso de selección.
+- Aunque frustrada, busca garantías y seguridad, lo que refuerza su interés por soluciones formales y transparentes.
+
+Solicitar cotizaciones y comparar:
+- A pesar del cansancio, Olivia desea prevenir problemas a futuro, lo que muestra un enfoque de largo plazo.
+- Expresa que le gustaría tener una plataforma que la ayude a comparar todo más fácilmente, lo que es una oportunidad clara para digitalizar y simplificar su experiencia.
+
+Tomar la decisión y agendar el servicio:
+- Olivia valida documentos y garantías antes de cerrar un acuerdo, lo que muestra que se preocupa por protegerse.
+- Quiere asegurarse de que su elección evite problemas futuros, lo que revela una clara orientación hacia la prevención.
+
+**Conclusión**
+
+Olivia es una usuaria cautelosa, exigente y preocupada por la seguridad y la calidad, pero actualmente enfrenta un proceso cargado de incertidumbre, informalidad y desorganización. Su experiencia se ve afectada por la falta de herramientas que la acompañen en todo el recorrido. Una plataforma que le brinde proveedores verificados, cotizaciones estandarizadas, comparaciones automáticas y validaciones de calidad y seguridad tendría un impacto muy positivo, reduciendo su ansiedad, optimizando su tiempo y fortaleciendo su confianza al momento de tomar decisiones.
 
 
 <div style="page-break-after: always;"></div>
