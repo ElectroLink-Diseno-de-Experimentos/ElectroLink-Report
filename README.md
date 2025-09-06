@@ -1396,3 +1396,93 @@ Por otro lado, el gris cálido y el grafito profundo aportan equilibrio visual y
 De manera que el contenido de nuestro sitio web se vea organizado y sea mostrado de manera adecuada, implementamos el patrón F. El objetivo del patrón F en un sitio web es reflejar la forma natural en la que los usuarios escanean el contenido, empezando por la parte superior izquierda y moviéndose en forma de "F" hacia abajo. Este diseño resalta la información clave en las primeras líneas y en el lateral izquierdo, donde la vista se concentra más. Mejora la usabilidad al alinear la estructura con el comportamiento visual del usuario, facilitando la lectura rápida y efectiva. Se utiliza para mejorar la experiencia del usuario y destacar contenido relevante.
 
 <img src="https://i.postimg.cc/JzWFVYKs/6456456.png"/>
+
+## 4.2. Information Architecture
+
+La arquitectura de información que se implementará en ElectroLink está diseñada para facilitar una experiencia de navegación clara, eficiente y centrada en conectar usuarios con proveedores de servicios y componentes eléctricos. Desde el menú principal, los visitantes podrán acceder rápidamente a categorías clave como "Proveedores", "Servicios", "Asesoramiento", y "Mantenimientos preventivos", lo que les permitirá encontrar con facilidad las soluciones que se ajusten a sus necesidades técnicas o del hogar.
+La plataforma contará con un sistema de filtrado inteligente que permitirá a los usuarios buscar proveedores según ubicación, especialización (instalaciones, mantenimiento, venta de componentes), certificaciones legales y valoraciones de otros clientes. Además, ElectroLink ofrecerá un apartado de asesoría técnica, donde los usuarios podrán consultar artículos, guías rápidas y recomendaciones para la gestión segura de instalaciones eléctricas tanto en hogares como en negocios.
+Asimismo, cada proveedor tendrá un perfil verificado con información detallada sobre sus servicios, casos anteriores, contacto directo y una sección de opiniones. También se incluirá un sistema de solicitud rápida de cotización, permitiendo a los clientes establecer una comunicación ágil y efectiva. Con esta arquitectura, ElectroLink busca no solo ordenar y categorizar la información de manera accesible, sino también fomentar la confianza, la transparencia y una red de colaboración técnica eficiente, alineada con estándares de seguridad y legalidad en el rubro eléctrico.
+
+#### 4.2.1. Organization Systems
+Para representar la estructura de los usuario se han realizado diagramas para la explicación de la funcionalidades de la aplicación y el recorrido del usuario en la misma.
+<img src="https://i.postimg.cc/W3D8J0XR/57567.png"/>
+
+#### 4.2.2. Labeling Systems
+
+| Sección                                     | Etiqueta                        | Descripción                                                                 |
+|--------------------------------------------|----------------------------------|-----------------------------------------------------------------------------|
+| **Menú de inicio**                          | Inicio                           | Página principal con visión general de la plataforma y acceso rápido a secciones. |
+|                                             | Cómo funciona                    | Explicación clara y visual del funcionamiento del sistema paso a paso.     |
+|                                             | Testimonios                      | Opiniones y experiencias reales de usuarios satisfechos.                   |
+|                                             | Contacto                         | Formulario y canales disponibles para consultas, soporte o sugerencias.    |
+|                                             |                                  |                                                                            |
+| **Botones de ingreso y salida               | Iniciar Sesión                   | Botón donde los usuarios podrán iniciar sesión con su cuenta.              |
+|   de la plataforma**                        | Iniciar Sesión con Google        | Botón que permite a los usuarios iniciar sesión con su cuenta de Google.   |
+|                                             | Iniciar Sesión con Facebook      | Botón que permite a los usuarios iniciar sesión con su cuenta de Facebook. |
+|                                             | Registrarse                      | Botón donde los usuarios podrán crearse una cuenta en la plataforma.       |
+|                                             | Dashboard                        | Botón que dirige a la interfaz del usuario seleccionado.                   |
+|                                             | Cerrar Sesión                    | Botón que permite al usuario empezar una conversación con el asistente virtual. |
+|                                             |                                  |                                                                            |
+| **Sección menú del propietario**            | Historial de servicios           | Visualiza el registro de mantenimientos y reparaciones realizadas.         |
+|                                             | Inventario de electrodomésticos  | Consulta la lista de equipos registrados y su consumo energético.          |
+|                                             | Buscar proveedores               | Encuentra técnicos y proveedores certificados.                             |
+|                                             | Detectar problema                | Analiza factores para identificar fallas o excesos de consumo.             |
+|                                             | Monitorear energía               | Seguimiento del consumo eléctrico mensual y estado de componentes.         |
+|                                             | Inventario de electrodomésticos (Subir) | Añade nuevos dispositivos con sus características de consumo.       |
+|                                             | Suscripción                      | Gestión del plan actual y beneficios exclusivos.                           |
+|                                             | Mi perfil                        | Edición de información personal, preferencias y datos de contacto.         |
+|                                             |                                  |                                                                            |
+| **Menú de proveedores y técnicos**          | Gestión y Agenda de Citas        | Organiza, programa y visualiza citas con clientes.                         |
+|                                             | Gestión de Servicios Ofrecidos   | Administra los servicios disponibles y sus detalles.                       |
+|                                             | Historial de Servicios           | Registro completo de todos los servicios realizados.                       |
+|                                             | Panel de Métricas y Rendimiento  | Estadísticas clave sobre actividad y eficiencia del proveedor.             |
+|                                             | Inventario y Catálogo de Productos (En caso aplique) | Gestiona stock y presenta productos disponibles.       |
+|                                             | Subscripción                     | Visualiza y gestiona el plan de suscripción y beneficios.                  |
+|                                             | Mi Perfil                        | Edita y actualiza la información personal y profesional.                   |
+
+<hr>
+
+### 4.2.3. SEO Tags and Meta Tags
+
+**Landing Page Title:** ElectroLink - Tu conexión segura a la electricidad
+
+**Description:** ElectroLink es una plataforma enfocada en conectar a proveedores de componentes o servicios eléctricos con clientes que necesitan asesoramiento o asistencia para realizar mantenimientos preventivos en sus hogares u oficinas.
+
+**Meta Keywords:** seguridad, ahorro eléctrico, mantenimiento, asesoramiento.
+
+**ElectroLink Meta Author:** ElectroLink
+
+**Meta Description:** facilitar la conexión entre clientes que necesitan servicios eléctricos confiables y proveedores calificados.
+
+**Title:** ElectroLink
+
+**Description:** Buscar conectar a dueños de hogares urbanos con proveedores técnicos eléctricos certificados, garantizando servicios seguros y eficientes dentro de los parámetros legales mediante una plataforma intuitiva y fácil de usar.
+
+**Meta Keywords:** seguridad, ahorro eléctrico, mantenimiento, asesoramiento.
+
+**Meta Author:** ElectroLink
+
+<hr>
+
+### 4.2.4. Searching Systems
+
+ElectroLink cuenta con un sistema de búsqueda avanzada que permite a los usuarios encontrar servicios y productos eléctricos de forma eficiente, a través de múltiples filtros:
+
+| **Filtro**                         | **Descripción**                                                                                                                                          |
+|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Tipo de Servicio**              | Permite al usuario buscar proveedores en función del tipo de servicio requerido (instalación, mantenimiento preventivo, reparación, auditoría eléctrica, etc.). |
+| **Ubicación / Zona**              | Filtro geográfico que ayuda a encontrar proveedores o técnicos disponibles en una zona específica o cercana al domicilio/oficina del usuario.              |
+| **Disponibilidad de Agenda**      | Permite filtrar proveedores según fechas y horarios disponibles para programar una cita.                                                                 |
+| **Certificación del Proveedor**   | Muestra solo técnicos o empresas que cuentan con certificaciones válidas y actualizadas en el área eléctrica.                                             |
+| **Rango de Precio**               | Filtra servicios o productos según el presupuesto disponible del usuario, desde opciones económicas hasta servicios premium.                             |
+| **Proveedores con Mejores Reseñas** | Filtro para mostrar técnicos con mayores calificaciones o comentarios positivos según otros usuarios.                                                   |
+| **Categoría de Producto Eléctrico** | Ayuda a encontrar productos específicos en el inventario (bombillas, disyuntores, medidores, enchufes, etc.).                                           |
+| **Historial de Consumo Energético** | Permite visualizar patrones de consumo eléctrico mensual o anual filtrando por fecha o dispositivos.                                                   |
+| **Planes de Suscripción**         | Filtra y compara distintos planes de suscripción según los beneficios ofrecidos (monitoreo, asesoría, prioridad en atención, etc.).                       |
+
+
+### 4.2.5. Navigation Systems
+
+Los sistemas de navegación de ElectroLink han sido diseñados para guiar de forma intuitiva a los usuarios a través del Landing Page y la aplicación, facilitando la exploración del contenido y el acceso a las funcionalidades clave. La estructura sigue una lógica clara que permite a cada tipo de usuario (hogar, oficina, proveedor) encontrar rápidamente lo que necesita mediante menús jerárquicos, enlaces destacados y botones de acción visibles.
+
+<img src="https://i.postimg.cc/LXBXDbyj/78768.png"/>
