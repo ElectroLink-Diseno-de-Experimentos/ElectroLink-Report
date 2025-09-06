@@ -1504,9 +1504,9 @@ Los sistemas de navegación de ElectroLink han sido diseñados para guiar de for
 <img src="https://i.postimg.cc/fTwVkDHZ/75675.png"/>
 
 
-### 4.4. Web Applications UX/UI Design.
+### 4.6. Web Applications UX/UI Design.
 
-### 4.4.1. Web Applications Wireframes.
+### 4.6.1. Web Applications Wireframes.
 
 ## Web Applications Wireframes - ElectroLink
 
@@ -1566,3 +1566,15 @@ Los wireframes son una guía esencial para la implementación efectiva de la pla
 
 <img src="https://i.postimg.cc/x129xRzR/453535.png"/>
 
+### 4.6.2. Web Applications Wireflow Diagrams
+
+<img src="https://i.postimg.cc/xTw4P2L5/imagen-2025-07-08-211031407.png"/>
+
+<img src="https://i.postimg.cc/J0BQysYL/imagen-2025-07-08-211104504.png"/>
+
+<img src="https://i.postimg.cc/SKP55SPh/4243.png"/>
+
+<img src="https://i.postimg.cc/g0xtv92B/4534534.png"/>
+<br>
+
+[Abrir diagrama en Lucidchart](https://lucid.app/lucidchart/9bc93c27-6140-47f1-9cfc-e7c0c5a15134/edit?invitationId=inv_f9a0cb75-977e-4669-a09e-21a42409c64d&page=0_0)
