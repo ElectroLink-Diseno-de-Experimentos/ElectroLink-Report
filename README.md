@@ -565,4 +565,191 @@ A diferencia de Thumbtack, el cual utiliza un modelo de pago basado en leads, El
 
 De acuerdo con Easwaramoorthy y Zarinpoush (2006), las entrevistas son un método de investigación, en el que se lleva a cabo “una conversación para recolectar información”. En esta, se realizan una serie de preguntas sobre el agente que queremos llegar a conocer mejor y profundizar en su sentir y punto de vista. Para HampCoders, la información recogida a través de las entrevistas es esencial para identificar cómo ElectroLink aportaría a solucionar el problema relacionado a la instalación y mantenimiento preventivo sobre el consumo de energía, en qué medida y en qué aspectos específicos. Por ello, realizamos un total de 3 entrevistas por segmento. Todas las entrevistas se realizaron a larga distancia (Google Meet, Zoom y Discord), y de manera presencial, en un espacio cómodo y silencioso y dentro del ámbito informal. 
 
+### 2.2.1. Diseño de entrevistas
+
+**Segmento #1: Propietarios de hogares urbanos:**
+
+**Preguntas principales:**
+-   ¿Cómo te sientes normalmente cuando surge un problema eléctrico en tu casa, como un corte de luz o un tomacorriente que no funciona?
+-   ¿Qué haces normalmente cuando necesitas encontrar a alguien que repare o revise una instalación eléctrica en tu hogar?
+-   ¿Qué tan fácil o difícil te resulta encontrar técnicos eléctricos en quienes puedas confiar?
+-   ¿Cuando has contratado un servicio eléctrico antes, ¿qué fue lo que más te preocupó?
+-   ¿Qué cosas valoras más cuando contratas a alguien para que trabaje en tu casa (puntualidad, certificación, costo, rapidez)?
+-   ¿Con qué frecuencia tomas medidas preventivas para evitar problemas eléctricos en tu hogar?
+-   ¿Te ha pasado que una instalación mal hecha haya causado problemas luego? ¿Cómo lo resolviste?
+-   ¿Qué importancia le das a que un servicio eléctrico esté dentro de los parámetros legales o normativos?
+-   ¿Te interesaría usar una plataforma que conecte con proveedores verificados para servicios eléctricos en tu zona? ¿Por qué?
+-   ¿Qué funcionalidades crees que harían esa plataforma útil para ti en el día a día?
+
+**Preguntas complementarias:**
+-   ¿Qué sueles buscar en internet cuando tienes dudas sobre una falla eléctrica?
+-   ¿Cuánto confías en las recomendaciones de redes sociales o conocidos para encontrar técnicos?
+-   ¿En qué momentos específicos crees que te sería más útil tener acceso rápido a un proveedor certificado?
+-   ¿Te sentirías cómodo usando una plataforma para agendar mantenimientos eléctricos preventivos?
+
+**Segmento #2: Dueños de PYMES u oficinas:**
+
+**Preguntas principales:**
+-   ¿Qué tipo de instalaciones eléctricas utilizas actualmente en tu negocio u oficina?
+-   ¿Qué tan seguido te has enfrentado a fallas eléctricas en tus operaciones diarias?
+-   ¿Cómo manejas actualmente el mantenimiento eléctrico de tu empresa? ¿Lo haces tú o lo delegas?
+-   ¿Qué impacto tiene una falla eléctrica en tu productividad o en la atención al cliente?
+-   ¿Qué criterios tomas en cuenta al contratar a un proveedor eléctrico para tu negocio?
+-   ¿Has tenido malas experiencias con servicios técnicos eléctricos? ¿Qué aprendiste de esas situaciones?
+-   ¿Qué tan importante es para ti que los proveedores cumplan con normativas legales y ofrezcan garantía?
+-   ¿Te sentirías cómodo usando una plataforma que te conecte directamente con proveedores certificados?
+-   ¿Qué funcionalidades esperarías de esa plataforma para que realmente te ayude a ahorrar tiempo y dinero?
+-   ¿Crees que una herramienta así te daría una ventaja competitiva frente a otros negocios?
+
+**Preguntas complementarias:**
+-   ¿Qué sueles hacer cuando necesitas encontrar un componente eléctrico específico para tu empresa?
+-   ¿Qué herramientas digitales usas actualmente para gestionar el mantenimiento o las instalaciones eléctricas de tu negocio?
+-   ¿Dónde buscarías una solución que reduzca riesgos y mejore la eficiencia energética en tu negocio?
+-   ¿Te sentirías más confiado si pudieras ver opiniones, calificaciones y certificaciones de los proveedores antes de contratarlos?
+
+**Segmento #3: Proveedores de componentes o servicios eléctricos certificados:**
+
+**Preguntas principales:**
+-   ¿Cómo te sientes actualmente con la forma en que consigues clientes para tus servicios eléctricos?
+-   ¿Qué estrategias usas para dar a conocer tu trabajo y atraer nuevos clientes?
+-   ¿Qué dificultades enfrentas al competir con proveedores no certificados o informales?
+-   ¿Qué tan fácil es para ti comunicar la calidad y legalidad de tu trabajo a los potenciales clientes?
+-   ¿Cómo manejas la gestión de pedidos o solicitudes de trabajo actualmente?
+-   ¿Qué importancia tiene para ti pertenecer a una red de profesionales avalados o certificados?
+-   ¿Qué tanto te ayudaría una plataforma que te permita mostrar tu experiencia, certificaciones y opiniones de clientes?
+-   ¿Estarías dispuesto a pagar una suscripción mensual si eso te garantiza mayor visibilidad y más clientes? ¿Por qué?
+-   ¿Qué funcionalidades crees que te facilitarán la gestión comercial desde una app o plataforma?
+-   ¿Cómo crees que cambiaría tu negocio si pudieras digitalizar la forma en que conectas con clientes?
+
+**Preguntas complementarias:**
+-   ¿Dónde públicas actualmente tus servicios (Facebook, grupos, WhatsApp, boca a boca)?
+-   ¿Has probado plataformas para ofrecer tus servicios? ¿Cómo fue la experiencia?
+-   ¿Qué herramientas digitales usas (si usas alguna) para organizar tus trabajos y pedidos?
+-   ¿Qué tan dispuesto estarías a formar parte de una comunidad de proveedores certificados con estándares comunes?
+
+<hr>
+
+### 2.2.2 Segmentación de Entrevistas
+
+### Segmento #1: Propietarios de hogares urbanos
+
+**Entrevista: Mari Vallejos**  
+- **Sexo:** Femenino  
+- **Edad:** 30  
+- **Link:** https://www.youtube.com/watch?v=nTeFYzyawYk
+- **Inicia en:** 0:06  
+- **Duración:** 6:35
+  
+<img src="https://i.postimg.cc/k4ZTG2y1/Screenshot-2025-07-08-at-5-52-09-PM.png"/>
+
+**Resumen:**  
+Mari es ama de casa y pasa la mayor parte del tiempo en su hogar, lo que la hace responsable de todos los asuntos domésticos. Cuando surge un problema eléctrico, como un corte de luz o un enchufe dañado, experimenta ansiedad por no saber cómo resolverlo. Su reacción suele ser buscar ayuda en redes sociales, especialmente en Instagram o grupos vecinales, basándose en recomendaciones y comentarios.
+
+Le preocupa que el servicio sea de calidad, que el proveedor sea puntual, rápido y comprometido, ya que valora que el problema se resuelva de manera eficaz. Sin embargo, no realiza mantenimientos preventivos por falta de conocimiento. Aunque sabe que las normativas legales son importantes, su prioridad es que el trabajo funcione bien.
+
+Mari muestra interés en una plataforma como **ElectroLink**, siempre que incluya proveedores verificados y reseñas reales. Sugiere que la plataforma tenga filtros por experiencia, horario, costo y calificaciones para facilitar su uso.
+
+---
+
+### Segmento #2: Dueños de PYMES u oficinas
+
+**Entrevista : Piero Tenorio**  
+- **Sexo:** Masculino  
+- **Edad:** 26  
+- **Link:** https://www.youtube.com/watch?v=_z8UNTi_cmA
+- **Inicia en:** 0:01  
+- **Duración:** 9:54
+<img src="https://i.postimg.cc/jSKZD0zb/Screenshot-2025-07-08-at-5-53-11-PM.png"/>
+
+**Resumen:**  
+Piero es dueño de una pequeña empresa de autopartes con varias sucursales. Su negocio depende de equipos eléctricos como computadoras, escáneres, cámaras de seguridad y luces. Las fallas eléctricas, aunque poco frecuentes, afectan la productividad al interrumpir los sistemas de inventario, lo cual puede hacer que los clientes se vayan.
+
+Aunque intentó manejar el mantenimiento por sí mismo, ahora lo delega pero sin un plan definido. No realiza mantenimiento preventivo y reconoce que esto es un riesgo. También conoce casos de técnicos no confiables, por lo que valora servicios con garantía y cumplimiento normativo.
+
+Está dispuesto a usar **ElectroLink** si ofrece proveedores certificados, reseñas, calificaciones y funcionalidades como el registro de consumo eléctrico, alertas de fallas y recomendaciones de mejora.
+
+
+**Entrevista : Brian Cerna**  
+- **Sexo:** Masculino  
+- **Edad:** 25  
+- **Link:** https://www.youtube.com/watch?v=m8Q_n7i_xEk
+- **Inicia en:** 0:01  
+- **Duración:** 6:16
+<img src="https://i.postimg.cc/yNpPpD21/Screenshot-2025-07-08-at-5-53-57-PM.png"/>
+
+En esta entrevista se conversó con Brian Cerna, representante del sector de dueños de pymes u oficinas, con el objetivo de conocer su experiencia y necesidades respecto a las instalaciones eléctricas en su negocio. Brian indicó que en su oficina utilizan instalaciones eléctricas trifásicas, ya que requieren soportar la carga de equipos industriales como calderas, aire acondicionado, un sistema de lavandería, además del sistema de iluminación, el cual funciona con luces LED. También cuentan con un grupo electrógeno como respaldo para asegurar el funcionamiento continuo.
+
+Respecto a las fallas eléctricas, señaló que no son frecuentes, pero sí preocupantes, ya que pueden afectar gravemente la operación diaria. Las más comunes incluyen cortes imprevistos, fallos en el tablero de distribución y problemas con los sistemas de climatización. En cuanto al mantenimiento eléctrico, comentó que suelen delegarlo a técnicos externos de confianza. Sin embargo, a veces enfrentan demoras o falta de disponibilidad inmediata, lo que genera complicaciones operativas.
+
+Sobre el impacto de estas fallas en la productividad, Brian fue claro al decir que puede ser muy alto, ya que una interrupción puede dejar habitaciones sin energía y afectar la atención al cliente. A la hora de contratar un proveedor eléctrico, considera esencial revisar la experiencia comprobada, las certificaciones, la capacidad de respuesta las 24 horas, el cumplimiento de normas y un historial confiable con otros clientes. Aunque también buscan precios competitivos, nunca sacrifican la calidad del servicio.
+
+Relató una mala experiencia pasada con un técnico no certificado que ofrecía rapidez, pero cuyo trabajo resultó poco duradero. Esta situación le enseñó que es mejor invertir en profesionales calificados, incluso si son más costosos, para evitar riesgos innecesarios. También destacó que para él es fundamental que los proveedores cumplan con normativas legales y ofrezcan garantía, ya que esto no solo asegura un trabajo bien hecho, sino que también protege legalmente al negocio y cumple con estándares de seguridad ante el público.
+
+Brian expresó su interés en una plataforma que conecte directamente con proveedores certificados, ya que esto le ahorraría tiempo y facilitaría encontrar opciones confiables sin recurrir a métodos tradicionales. En cuanto a las funcionalidades deseadas en dicha plataforma, mencionó la posibilidad de filtrar por tipo de servicio, nivel de urgencia y ubicación del negocio.
+
+Considera que una herramienta de este tipo podría ofrecerle una ventaja competitiva, ya que permitiría resolver problemas eléctricos con rapidez, mejorar la experiencia del cliente y reducir costos operativos. Cuando necesita encontrar componentes eléctricos específicos, suele comunicarse con proveedores conocidos, buscar en Google o WhatsApp, e incluso acudir a ferreterías especializadas, aunque este proceso suele tomar mucho tiempo.
+
+---
+
+### Segmento #3: Proveedores de componentes o servicios eléctricos certificados
+
+**Entrevista: Juan Lucas**  
+- **Sexo:** Masculino  
+- **Edad:** 25  
+- **Link:** https://youtu.be/I_ISRdC6mHI
+- **Inicia en:** 0:01  
+- **Duración:** 4:52  
+<img src="https://i.postimg.cc/JnyQf1Wb/Screenshot-2025-07-08-at-5-54-27-PM.png">
+**Resumen:**  
+Juan tiene conocimientos en electricidad y electrónica, y suele encargarse de resolver cualquier problema eléctrico en casa. Si no puede solucionarlo, contacta a amigos electricistas de confianza. Toma medidas preventivas básicas como apagar luces o usar llaves térmicas para evitar sobrecargas.
+
+Nunca ha contratado servicios eléctricos, pero comprende la importancia de cumplir con normas legales debido al riesgo que conlleva el mal manejo eléctrico. Muestra interés en una aplicación como **ElectroLink**, ya que le permitiría acceder fácilmente a proveedores confiables para consultas o necesidades que escapen a sus conocimientos.
+
+### 2.2.3. Análisis de entrevistas
+
+### Segmento #1: Propietarios de hogares urbanos
+
+Los propietarios entrevistados, como **Mari Vallejos**, expresaron una fuerte dependencia de **redes sociales** y **recomendaciones informales** para resolver problemas eléctricos. El **desconocimiento técnico genera ansiedad**, y las decisiones de contratación se basan en criterios como **puntualidad, rapidez, compromiso** y **precio razonable**. La **prevención eléctrica es poco frecuente**, debido a la falta de información o cultura preventiva. Existe una clara **disposición a usar plataformas digitales**, siempre que incluyan **reseñas verificadas, técnicos certificados** y opciones de **filtrado según sus necesidades** (experiencia, precio, horarios).
+
+> **Insight clave:** Este grupo valora la confianza, accesibilidad y la sensación de seguridad que brinda un servicio verificado. Una plataforma como **ElectroLink** puede convertirse en su aliado principal para enfrentar problemas eléctricos con mayor tranquilidad.
+
+---
+
+### Segmento #2: Dueños de PYMES u oficinas
+
+Entrevistados como **Piero Tenorio** y **Brian Cerna** revelan que las fallas eléctricas, aunque no constantes, **generan pérdidas inmediatas** en productividad y atención al cliente. La gestión del mantenimiento suele ser **reactiva y poco sistematizada**. Se reconoce el valor de contratar **técnicos con certificación**, y se busca garantizar **respaldo legal, eficiencia y rapidez**. Este segmento está interesado en **plataformas que ayuden a optimizar el tiempo**, ofrecer control del consumo, mantenimiento preventivo y gestión multi-sucursal. Además, ven **una ventaja competitiva** en automatizar y digitalizar este proceso.
+
+> **Insight clave:** Existe una necesidad de digitalización en la gestión eléctrica empresarial. **ElectroLink** podría ofrecer valor inmediato con funcionalidades como historial de mantenimientos, seguimiento de consumos y contratación de técnicos certificados bajo SLA.
+
+---
+
+### Segmento #3: Proveedores de componentes o servicios eléctricos certificados
+
+Proveedores como **Juan Lucas** valoran el **reconocimiento profesional**, pero enfrentan dificultades para competir con técnicos informales. Mencionan barreras como la **falta de canales para mostrar su experiencia, reseñas o certificaciones**. También existe interés en contar con una plataforma que les **brinde visibilidad, credibilidad** y **facilite la gestión de pedidos**. Están dispuestos a **pagar una suscripción si eso les garantiza mayor alcance**, clientes recurrentes y reputación digital consolidada.
+
+> **Insight clave:** **ElectroLink** puede convertirse en un ecosistema donde los proveedores formales fortalezcan su presencia, profesionalicen su oferta y generen relaciones duraderas con clientes que valoran la calidad y el cumplimiento normativo.
+
+
+## Análisis de Hallazgos
+
+<img src="https://i.postimg.cc/NFmk0pFF/Screenshot-2025-07-08-at-5-55-09-PM.png"/>
+
+Los entrevistados resaltan como uno de los principales puntos de fricción la dificultad para identificar proveedores eléctricos realmente confiables. La presencia de técnicos informales sin certificaciones claras genera desconfianza. Este hallazgo valida la necesidad de que ElectroLink destaque las certificaciones legales de los proveedores como un diferenciador clave dentro de la plataforma.
+
+<img src="https://i.postimg.cc/SNLGFTHt/Screenshot-2025-07-08-at-5-55-47-PM.png"/>
+
+La posibilidad de llevar un registro digital de los servicios eléctricos realizados (por ejemplo, mantenimientos o reparaciones) es vista como una funcionalidad útil, especialmente para usuarios que hoy lo hacen de forma manual. Esto refuerza la importancia de integrar funciones de gestión documental dentro de ElectroLink, facilitando el seguimiento y la trazabilidad de los trabajos realizados.
+
+<img src="https://i.postimg.cc/4xBbnKf6/Screenshot-2025-07-08-at-5-56-16-PM.png"/>
+ 
+Consultas relacionadas con la recepción de recordatorios permiten identificar una oportunidad para fomentar el mantenimiento eléctrico preventivo. La mayoría de los usuarios no tiene hábitos estructurados en este aspecto. Una funcionalidad de alertas o notificaciones podría ser clave para ayudar a prevenir fallas eléctricas y extender la vida útil de las instalaciones.
+
+<img src="https://i.postimg.cc/wBrXcSs3/Screenshot-2025-07-08-at-5-56-48-PM.png "/>
+
+Tanto en el entorno doméstico como empresarial, los entrevistados valoran la transparencia. Acceder a opiniones reales de otros usuarios es considerado un elemento crucial para decidir a qué proveedor contratar. Por ello, se valida la necesidad de incluir una sección de **comentarios y calificaciones** dentro de la app para fomentar la confianza y facilitar la toma de decisiones.
+
+<img src="https://i.postimg.cc/d32GF3NT/Screenshot-2025-07-08-at-5-57-26-PM.png"/>
+
+Explorar si los usuarios estarían dispuestos a pagar por servicios premium (como soporte prioritario o asesoría técnica especializada) permite analizar la viabilidad de modelos de negocio basados en **suscripciones** o **comisiones por servicio**. Algunos entrevistados afirmaron estar dispuestos a pagar si los beneficios ofrecidos son claros y valiosos, lo cual abre la puerta a monetización sostenible para ElectroLink.
+
 <div style="page-break-after: always;"></div>
