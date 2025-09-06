@@ -1503,8 +1503,22 @@ Los sistemas de navegación de ElectroLink han sido diseñados para guiar de for
 
 <img src="https://i.postimg.cc/fTwVkDHZ/75675.png"/>
 
+### 4.4. Mobile Applications UX/UI Design.
 
-### 4.6. Web Applications UX/UI Design.
+### 4.4.1. Mobile Applications Wireframes.
+
+### 4.4.2. Mobile Applications Wireflow Diagrams
+
+### 4.4.3. Mobile Applications Mock-ups
+
+### 4.4.4. Mobile Applications User Flow Diagrams
+
+## 4.5. Mobile Applications Prototyping
+
+### 4.5.1. Android Mobile Applications Prototyping.
+### 4.5.2. iOS Mobile Applications Prototyping.
+
+## 4.6. Web Applications UX/UI Design.
 
 ### 4.6.1. Web Applications Wireframes.
 
@@ -1825,12 +1839,12 @@ Subscription Billing Bounded Context Diagram
 
 <hr>
 
-### 4.8. Database Design
+### 4.10. Database Design
 <hr>
 
 <hr>
 
-#### 4.8.1. Database Diagram
+#### 4.10.1. Database Diagram
 
 <hr>
 
