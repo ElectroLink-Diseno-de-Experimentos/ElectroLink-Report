@@ -29,7 +29,7 @@
 | <div style="width:300px">Alumno</div> | <div style="width:125px">Código</div> |
 |:-------------------------------------------:|:-------------------------------------------:|
 |   Kenyi Efrain Ramirez Cabrera        |              U202220138           |
-|   Leandro Saul Contreras López        |                                   |
+|   Leandro Saul Contreras López        |       U20231E215                  |
 |                                       |                                   |
 |                                       |                                   |             
 |                                       |                                   |
@@ -168,5 +168,15 @@ Insights del TB1
 
 Este capítulo proporciona una visión general del proyecto, incluyendo la problemática abordada, los objetivos planteados, la motivación del equipo y el alcance de la solución propuesta. Se establece el contexto en el que surge la necesidad de la plataforma ElectroLink, y se justifica su relevancia para los usuarios objetivo y el entorno actual.
 
+<br>
+
+## 1.1. Startup Profile
+### 1.1.1. Descripción de la Startup
+
+HampCoders es una startup innovadora que se enfoca en el desarrollo de soluciones empleando una arquitectura orientada a servicios, haciendo uso de tecnologías open-source. Mediante esta startup, buscamos lograr conectar a los proveedores de componentes eléctricos con posibles clientes. Es por ello que presentamos el proyecto ElectroLink.
+
+Misión: Nuestra misión es desarrollar una solución tecnológica innovadora que permita a las personas contactar con empresas proveedoras especializadas en electrónica, para prevenir o solucionar problemas en instalaciones eléctricas de manera efectiva, segura y legalmente correctas.
+
+Visión: Nuestra visión es convertirnos en líderes globales en el desarrollo de tecnologías y plataformas eficientes y escalables, proporcionando herramientas que permitan conectar a los usuarios y empresas con proveedores especializados, para prevenir o solucionar instalaciones eléctricas ineficientes, transformando el entorno brindando calidad y seguridad.
 
 <div style="page-break-after: always;"></div>
