@@ -752,4 +752,13 @@ Tanto en el entorno doméstico como empresarial, los entrevistados valoran la tr
 
 Explorar si los usuarios estarían dispuestos a pagar por servicios premium (como soporte prioritario o asesoría técnica especializada) permite analizar la viabilidad de modelos de negocio basados en **suscripciones** o **comisiones por servicio**. Algunos entrevistados afirmaron estar dispuestos a pagar si los beneficios ofrecidos son claros y valiosos, lo cual abre la puerta a monetización sostenible para ElectroLink.
 
+<br> 
+
+## 2.3. Needfinding
+
+El needfinding es una metodología de diseño e innovación que consiste en descubrir las necesidades reales de los usuarios a través de la investigación cualitativa, la observación y las entrevistas, con el fin de generar soluciones relevantes y exitosas, en lugar de basarse en suposiciones previas. 
+En esta sección, el equipo presenta los elementos del Needfinding.
+
+
+
 <div style="page-break-after: always;"></div>
