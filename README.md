@@ -161,8 +161,7 @@ Insights del TB1
   - [5.3. Video About-the-Product](#53-video-about-the-product)
 - [Avance de Conclusiones, Bibliografía y Anexos](#avance-de-conclusiones-bibliografía-y-anexos)
 
-<br>
-<hr>
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 
@@ -394,5 +393,75 @@ Nuestros usuarios principales son:
 
 #### 1.2.2.4. Lean UX Canvas
 <img src="https://i.imgur.com/OD3PmHm.png"/>
+
+<hr>
+
+## 1.3. Segmentos Objetivos
+
+En esa sección se presentaran los segmentos objetivos encontrados
+
+Nuestros usuarios principales son propietarios de hogares urbanos, dueños PYMES u oficinas y proveedores de componentes o servicios eléctricos certificados
+
+**Segmento objetivo #1: Propietarios de hogares urbanos**
+
+Aspectos demográficos:
+
+- Sexo: Masculino y femenino
+- Edades: Entre 25 y 60 años
+- Nivel socioeconómico: Medio a Medio-alto
+  
+Aspectos geográficos:
+
+- Zona geográfica en la que viven: Urbana, en ciudades de tamaño medio a grande
+- Residen principalmente en: Zonas residenciales o condominios dentro de áreas urbanizadas
+  
+Aspectos psicográficos:
+
+- Valoran el confort, la eficiencia y la seguridad en el hogar.
+- Buscan soluciones tecnológicas que optimicen el uso de recursos eléctricos.
+- Tienen interés en el mantenimiento preventivo y la mejora continua de sus viviendas.
+
+**Segmento objetivo #2: Dueños PYMES u oficinas**
+
+Aspectos demográficos:
+
+- Sexo: Masculino y femenino
+- Edades: Entre 28 y 55 años
+- Nivel socioeconómico: Medio-alto
+  
+Aspectos geográficos:
+
+- Zona geográfica en la que viven: Urbana
+- Residen principalmente en: Zonas residenciales o condominios dentro de áreas urbanizadas
+  
+Aspectos psicográficos:
+
+- Buscan optimizar los costos operativos y mejorar la eficiencia de sus instalaciones.
+- Valoran soluciones tecnológicas que automaticen procesos de búsqueda y compra de componentes eléctricos para reducir y optimizar el consumo de recursos.
+- Tienen mentalidad emprendedora y están abiertos a innovaciones que les den ventaja competitiva.
+
+**Segmento objetivo #3: Proveedores de componentes o servicios eléctricos certificados**
+
+Aspectos demográficos:
+
+- Sexo: Masculino y femenino
+- Edades: Entre 25 y 55 años
+- Nivel socioeconómico: Medio a medio-alto
+  
+Aspectos geográficos:
+
+- Zona geográfica en la que trabajan: Urbana, semi urbana e industrial
+- Residen principalmente en: Regiones con alta demanda de servicios eléctricos (ciudades en expansión, polos industriales, etc.)
+  
+Aspectos psicográficos:
+
+- Buscan aumentar su visibilidad y captar más clientes de forma digital.
+- Están interesados en plataformas que les faciliten la gestión de pedidos o contactos comerciales.
+- Valoran pertenecer a una red confiable de profesionales del rubro eléctrico.
+- Están enfocados en el crecimiento profesional y la fidelización de clientes.
+
+<div style="page-break-after: always;"></div>
+
+
 
 <div style="page-break-after: always;"></div>
