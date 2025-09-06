@@ -1084,3 +1084,7 @@ Este glosario contiene términos clave relacionados al dominio del proyecto Elec
     * Visibilidad que tiene un proveedor dentro de la plataforma, influyendo en su reputación y oportunidades de negocio.
 
 <div style="page-break-after: always;"></div>
+
+# Capítulo III: Requirements Specification
+
+En este apartado se formalizan los requerimientos del sistema en formato estructurado y verificable. Se presenta el catálogo de requisitos, modelos de casos de uso, restricciones técnicas y condiciones de aceptación. Esta especificación servirá como base contractual entre el equipo de desarrollo y los interesados.
