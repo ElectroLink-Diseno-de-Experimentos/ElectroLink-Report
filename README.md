@@ -189,4 +189,10 @@ Visión: Nuestra visión es convertirnos en líderes globales en el desarrollo d
 | Imagen del compañero   | codigo            | descrpcion | 
 | Imagen del compañero  | codigo            | descripcion | 
 
+<br> 
+
+## 1.2. Solution Profile 
+
+ElectroLink es una solución que busca conectar proveedores de componentes o servicios electrónicos con potenciales clientes que necesiten asesoramiento para realizar mantenimientos preventivos en sus hogares u oficinas. Nuestra plataforma busca exhibir a los proveedores con el fin de resolver la desconexión entre proveedores de componentes eléctricos y el mercado real y garantizar servicios seguros y eficientes dentro de los parámetros legales para los clientes dueños de hogares y PYMES.
+
 <div style="page-break-after: always;"></div>
