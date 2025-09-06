@@ -179,4 +179,14 @@ Misión: Nuestra misión es desarrollar una solución tecnológica innovadora qu
 
 Visión: Nuestra visión es convertirnos en líderes globales en el desarrollo de tecnologías y plataformas eficientes y escalables, proporcionando herramientas que permitan conectar a los usuarios y empresas con proveedores especializados, para prevenir o solucionar instalaciones eléctricas ineficientes, transformando el entorno brindando calidad y seguridad.
 
+
+### 1.1.2. Perfiles de Integrantes de equipo
+| Miembros del equipo                             | Codigo Estudiante | Descripcion            |
+| ----------------------------------------------- | ----------------- | ---------------------- |
+| Imagen del compañero  | codigo           | descripcion | 
+| Imagen del compañero   | codigo            | descrpcion | 
+| Leandro Saúl Contreras Lopez	![Imagen del compañero](https://i.postimg.cc/FF86sBWr/Screenshot-2025-07-08-at-5-48-58-PM.png)   | U20231E215            | Mucho gusto, soy Leandro Contreras, estudiante de la carrera de Ingeniería de Software en la UPC, sede San Miguel, tengo 19 años y estoy cursando el sexto ciclo académico. Me considero una persona adaptativa, perseverante y comprometida con lo que me propongo. En este proyecto tengo como objetivo buscar múltiples soluciones que beneficien a todo el grupo, por experiencia propia suelo trabajar de manera colaborativa y eficaz. Terminando la carrera de ingeniería, me gustaría estudiar una segunda carrera: Gastronomía y Gestión culinaria | 
+| Imagen del compañero   | codigo            | descrpcion | 
+| Imagen del compañero  | codigo            | descripcion | 
+
 <div style="page-break-after: always;"></div>
