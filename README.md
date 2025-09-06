@@ -1594,3 +1594,8 @@ Los wireframes son una guía esencial para la implementación efectiva de la pla
 <img src="https://i.postimg.cc/8cphmWbP/56756756.png"/>
 
 <img src="https://i.postimg.cc/PJS13x6b/78768768.png"/>
+
+### 4.6.4. Web Applications User Flow Diagrams
+
+En esta sección, el equipo define el web appication user flow diagram
+<img src="https://i.postimg.cc/26wcTDgQ/image-37.png"/>
