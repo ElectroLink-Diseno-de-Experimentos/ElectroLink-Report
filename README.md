@@ -1342,3 +1342,57 @@ El product backlog es una lista priorizada, dinámica y evolutiva de requisitos,
 | TS-14 | Listener de Webhook de Stripe | Como desarrollador, quiero crear un endpoint para recibir y procesar webhooks de Stripe. | 8 |
 
 <div style="page-break-after: always;"></div>
+
+## Capítulo IV: Product Design
+
+Este capítulo detalla el diseño de la solución propuesta desde una perspectiva técnica y visual. Incluye la arquitectura de software bajo principios de Domain-Driven Design (DDD), la selección de tecnologías, el diseño de base de datos y el modelado de entidades. También se presentan los mockups, diagramas de flujo y lineamientos de experiencia de usuario.
+ 
+### 4.1. Style Guidelines
+
+#### 4.1.1. General Style Guidelines
+
+**Branding:**
+
+El logo de ElectroLink representa la esencia de la plataforma como un puente moderno y confiable entre soluciones eléctricas y quienes las necesitan. El enchufe central simboliza el rubro eléctrico y la conexión energética, mientras que el contorno en forma de techo alude a hogares y oficinas, principales escenarios donde se brindan los servicios. Las líneas internas sugieren flujo de energía y conectividad digital, reforzando el enfoque tecnológico. La paleta de colores —azul eléctrico, blanco y naranja— transmite confianza, claridad e innovación. Todo esto, junto con una tipografía limpia y moderna, refuerza la identidad de ElectroLink como una herramienta accesible, profesional y orientada a resolver problemas reales.
+
+**Variantes de Logo:**
+
+*Logo Original*
+
+<img src="https://i.postimg.cc/MGm57smQ/434232.png"/>
+
+*Logo sin Letras*
+
+<img src="https://i.postimg.cc/Nf2xJGxY/423423.png"/>
+
+*Colores Invertidos*
+
+<img src="https://i.postimg.cc/k5sN627N/766.png"/>
+
+**Typography:**
+
+La tipografía de nuestra marca tiene un estilo moderno y ordenado, va de la mano con la imagen de nuestra marca y lo que nosotros, como startup, queremos transmitir. Se usará un lenguaje casual y sencillo, con la finalidad de que el público se sienta cómodo usando nuestra plataforma.
+La tipografía debe ser clara y legible, utilizando la fuente "Abel", que se mantendrá consistente en toda la plataforma. Los títulos y subtítulos usarán una fuente ligeramente más grande que el cuerpo del texto para mejorar la jerarquía visual. En general, se debe usar un tamaño que garantice que todo el texto sea fácilmente legible tanto en pantallas pequeñas como grandes.
+
+**Colors:**
+
+La paleta de colores elegida para la web de ElectroLink fue diseñada para complementar visualmente el logo sin competir con él, manteniendo una identidad coherente, moderna y profesional. El azul grisáceo suave establece una base limpia y tecnológica, ideal para fondos que no cansan la vista y dan protagonismo al contenido. Este tono, junto al celeste claro para botones o elementos interactivos, mantiene la sensación de confianza y dinamismo que el logo transmite, pero con una suavidad que hace la interfaz más amigable.
+Por otro lado, el gris cálido y el grafito profundo aportan equilibrio visual y legibilidad. Son tonos sobrios que ayudan a jerarquizar la información sin recargarla, perfectos para textos y detalles estructurales. El naranja pastel, inspirado en el logo pero más atenuado, actúa como acento para destacar avisos o llamadas a la acción sin ser intrusivo. Finalmente, el verde menta claro introduce un toque de frescura y vitalidad, ideal para confirmar acciones exitosas o transmitir sensación de progreso. En conjunto, esta paleta respalda los valores de la marca: precisión, accesibilidad, tecnología y conexión humana.
+
+## Paleta de Colores – ElectroLink
+
+| Color                | Uso                                              | Código Hex              |
+|----------------------|--------------------------------------------------|--------------------------|
+| Azul grisáceo suave  | Fondo de secciones, tarjetas, menús laterales    | `#B5D5F5`, `#E8EEF7`     |
+| Gris cálido          | Texto secundario, bordes suaves, fondos suaves   | `#A9B1BA`                |
+| Celeste claro        | Hover, botones secundarios, íconos de ayuda      | `#B5D5F5`, `#3DADFF`     |
+| Amarillo pastel      | Elementos destacados suaves, fondos de aviso     | `#FFE492`, `#D5D6D8`     |
+| Grafito profundo     | Texto principal, íconos oscuros                  | `#2E3A59`                |
+
+<hr>
+
+#### 4.1.2. Web Style Guidelines
+
+De manera que el contenido de nuestro sitio web se vea organizado y sea mostrado de manera adecuada, implementamos el patrón F. El objetivo del patrón F en un sitio web es reflejar la forma natural en la que los usuarios escanean el contenido, empezando por la parte superior izquierda y moviéndose en forma de "F" hacia abajo. Este diseño resalta la información clave en las primeras líneas y en el lateral izquierdo, donde la vista se concentra más. Mejora la usabilidad al alinear la estructura con el comportamiento visual del usuario, facilitando la lectura rápida y efectiva. Se utiliza para mejorar la experiencia del usuario y destacar contenido relevante.
+
+<img src="https://i.postimg.cc/JzWFVYKs/6456456.png"/>
