@@ -1220,4 +1220,25 @@ En esta sección, se definieron las epicas y la visualización de las user stori
 | TS-22 | Endpoints de Gestión de Perfiles | Como desarrollador, quiero crear endpoints CRUD para gestión de perfiles para permitir a usuarios actualizar su información personal. | **Escenario 1: Obtener perfil** <br> Dado que se envía GET /api/users/profile con token válido <br> Cuando se procesa la petición <br> Entonces el sistema retorna la información del usuario <br> Y omite campos sensibles como contraseña <br> Y retorna código 200 <br> <br> **Escenario 2: Actualizar perfil** <br> Dado que se envía PUT /api/users/profile con datos válidos <br> Cuando se procesa la petición <br> Entonces el sistema actualiza los campos permitidos <br> Y retorna el perfil actualizado <br> Y retorna código 200 <br> <br> **Escenario 3: Datos inválidos** <br> Dado que se envían datos inválidos en actualización <br> Cuando se validan los datos <br> Entonces el sistema retorna error 400 <br> Y retorna lista de errores de validación por campo | EP-03 |
 | TS-23 | Sistema de Notificaciones Básico | Como desarrollador, quiero crear un servicio básico de notificaciones para enviar emails simples a los usuarios. | **Escenario 1: Enviar email simple** <br> Dado que se requiere enviar un email <br> Cuando se llama al servicio de notificaciones <br> Entonces el sistema envía el email usando configuración SMTP <br> Y registra el envío en logs <br> Y retorna confirmación de envío <br> <br> **Escenario 2: Configurar preferencias** <br> Dado que se envía PUT /api/users/notifications con preferencias <br> Cuando se procesa la petición <br> Entonces el sistema actualiza las preferencias del usuario <br> Y retorna código 200 <br> <br> **Escenario 3: Error en envío** <br> Dado que falla el envío de email <br> Cuando se detecta el error <br> Entonces el sistema registra el error en logs <br> Y retorna error apropiado al llamador | EP-04 |
 
+## 3.3. Impact Mapping
+
+Un mapa de impacto es una técnica colaborativa y visual de planificación estratégica que alinea los objetivos de un proyecto con las acciones necesarias para alcanzarlos. En este sección , el equipo presenta los mapas de impacto realizados.
+
+<hr>
+
+<img src="https://i.postimg.cc/jjHPVLW0/asdasd.png"/>
+<hr>
+
+
+
+<img src="https://i.postimg.cc/Dz0060qP/rwerwetre.png"/>
+<hr>
+
+
+
+<img src="https://i.postimg.cc/8P7Z2mN2/asdasda.png"/>
+<hr>
+
+
+
 <div style="page-break-after: always;"></div>
