@@ -1088,3 +1088,20 @@ Este glosario contiene términos clave relacionados al dominio del proyecto Elec
 # Capítulo III: Requirements Specification
 
 En este apartado se formalizan los requerimientos del sistema en formato estructurado y verificable. Se presenta el catálogo de requisitos, modelos de casos de uso, restricciones técnicas y condiciones de aceptación. Esta especificación servirá como base contractual entre el equipo de desarrollo y los interesados.
+
+## 3.1. To-Be Scenario Mapping
+
+En esta sección, el equipo presenta el to be scenario mapping para sus users personas en realción a los semgnetos objetivos
+
+Semgmento 1
+<img src="https://i.postimg.cc/QxR9064h/imagen-2025-07-08-205917558.png"/>
+
+Segmento 2
+<img src="https://i.postimg.cc/wjZt4ww9/imagen-2025-07-08-205645366.png"/>
+
+Segmento 3
+<img src="https://i.postimg.cc/J00MLLhv/imagen-2025-07-08-205729249.png"/>
+
+
+
+<div style="page-break-after: always;"></div>
