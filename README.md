@@ -1824,3 +1824,18 @@ Subscription Billing Bounded Context Diagram
 <hr>
 
 <hr>
+
+### 4.8. Database Design
+<hr>
+
+<hr>
+
+#### 4.8.1. Database Diagram
+
+<hr>
+
+<img src="https://i.postimg.cc/zD9VSTXz/90.png"/>
+<hr>
+
+<div style="page-break-after: always;"></div>
+
