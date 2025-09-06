@@ -1578,3 +1578,19 @@ Los wireframes son una guía esencial para la implementación efectiva de la pla
 <br>
 
 [Abrir diagrama en Lucidchart](https://lucid.app/lucidchart/9bc93c27-6140-47f1-9cfc-e7c0c5a15134/edit?invitationId=inv_f9a0cb75-977e-4669-a09e-21a42409c64d&page=0_0)
+
+### 4.6.3. Web Applications Mock-ups
+
+<img src="https://i.postimg.cc/G2YM5kYF/4645645.png"/>
+
+<img src="https://i.postimg.cc/jdvMmqWF/6456456.png"/>
+
+<img src="https://i.postimg.cc/7ZWmPBn1/6456457.png"/>
+
+<img src="https://i.postimg.cc/dtQB2MWm/8678.png"/>
+
+<img src="https://i.postimg.cc/Sx3fbnmD/88888.png"/>
+
+<img src="https://i.postimg.cc/8cphmWbP/56756756.png"/>
+
+<img src="https://i.postimg.cc/PJS13x6b/78768768.png"/>
