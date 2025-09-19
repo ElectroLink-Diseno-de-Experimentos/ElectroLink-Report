@@ -5978,6 +5978,8 @@ Tras haber compilado subido el directorio dist, desplegamos con el siguiente com
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+Url: https://electrolinkv2.onrender.com/swagger-ui/index.html#
+
 Vista general de Swagger con los grupos Autenticación, Propiedades y Perfiles, cada uno con sus operaciones CRUD protegidas.
 
 <img  src="https://i.postimg.cc/KzwsXDD0/7c8bebf7-f9bd-4728-a6dc-1c1131947026-1.jpg"/>
