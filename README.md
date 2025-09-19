@@ -19,7 +19,7 @@
     <br> <br>
     Informe de TB1
     <br> <br>
-    Startup: 
+    Startup: HampCoders
     <br> <br>
     Producto: ElectroLink  
 </h3>
@@ -5739,4 +5739,433 @@ Subscription Billing Bounded Context Diagram
 <hr>
 
 <div style="page-break-after: always;"></div>
+
+
+## Capítulo V: Product Implementation
+
+Se documenta el proceso de implementación progresiva del sistema mediante sprints. Se incluyen las decisiones técnicas clave, estrategias de control de versiones, convenciones de codificación y validación del producto con usuarios reales. Además, se abordan los procedimientos de despliegue, pruebas funcionales y ajustes realizados tras retroalimentación de validación.
+
+## 5.1. Software Configuration Management
+
+Aunque la falta de una gestión adecuada de la configuración del software puede generar desorden, confusión y versiones inconsistentes entre los miembros del equipo, implementar un control riguroso sobre el código fuente, los documentos de diseño y los activos digitales asegura que todos trabajen de manera coordinada y eficiente. Así, la colaboración entre desarrolladores se fortalece y se evitan errores derivados de trabajar con archivos desactualizados.
+
+<hr>
+
+### 5.1.1. Software Development Environment Configuration
+
+**Project Management**
+
+| Plataforma    | Descripción                                                                                                                                                                                                                                                                                           | Enlace                       |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
+| Trello        | Esta plataforma de gestión de proyectos ofrece funcionalidades para el seguimiento detallado del progreso de cada tarea a lo largo de su ciclo de vida, además de permitir la designación clara de responsables para cada actividad dentro del equipo de trabajo.                                      | https://trello.com           |
+| Uxpressia     | Herramienta en línea que ayuda en el proceso de mapeo.                                                                                                                                                                                                                                              | https://uxpressia.com/      |
+| Canva         | Es una aplicación web de diseño y comunicación visual donde los usuarios pueden diseñar lo que deseen y publicarlo. Cuenta con diversos formatos y estilos de creación para todo tipo de trabajo.                                                                                                    | https://www.canva.com      |
+| Vertabelo     | Fundamental para el diseño, la documentación y la gestión de bases de datos relacionales, ya que simplifica el proceso de modelado, fomenta la colaboración y ayuda a garantizar la calidad y la coherencia de la estructura de los datos.                                                        | https://vertabelo.com   |
+| Lucidchart    | Sirve como un lienzo visual versátil para representar cualquier tipo de información estructurada o proceso, facilitando la comprensión, la comunicación y la colaboración entre equipos.                                                                                                                | https://www.lucidchart.com/ |
+| C4 Model      | Sistema de notación visual para arquitectos de software y equipos de desarrollo que ayuda a describir la arquitectura de un sistema de software en diferentes niveles de abstracción.                                                                                                                    | https://c4model.com            |
+
+**Product UX/UI Desing**
+
+| Plataforma | Descripción                                                                                                                                                                                                                            | Link                                                    |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| Figma      | Herramienta para el diseño de productos digitales que fomenta la colaboración, agiliza el flujo de trabajo y permite crear experiencias de usuario efectivas y visualmente atractivas.                                                 | https://www.figma.com |
+
+**Software Development**
+
+| Plataforma           | Descripción                                                                                                                                                                                                                            | Link                                                |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| HTML                | Sirve para definir la estructura y el contenido de una página web.                                                                                                                                                                      | https://www.w3schools.com/html/default.asp                                      |
+| CSS                 | Se encarga de la presentación visual y el estilo de la página web.                                                                                                                                                                       | https://www.w3schools.com/css/default.asp                                       |
+| JS                  | Añade interactividad y dinamismo a la página web.                                                                                                                                                                                        | https://www.w3schools.com/js/default.asp                               |
+| Visual Studio Code  | Entorno de desarrollo que facilita la escritura, edición, depuración y gestión de código para una amplia gama de lenguajes y proyectos.                                                                                                    | https://code.visualstudio.com          |
+
+**Software Documentation**
+
+| Plataforma | Descripción                                             | Link                                                              |
+|------------|---------------------------------------------------------|-------------------------------------------------------------------|
+| GitHub     | Gestión de la documentación en función a repositorios y organizaciones | https://github.com          |
+| Markdown   | Formato base para la presentación y documentación del proyecto | https://markdown.es/                     |
+<br>
+
+### 5.1.2. Source Code Management
+
+Definir convenciones de nomenclatura para ramas en Git mejora la organización del flujo de trabajo y facilita la colaboración entre desarrolladores. Siguiendo buenas prácticas como las de Git Flow o trunk-based development, se puede establecer una estructura ordenada y predecible.
+
+- Además, utilizar un esquema de nombres predecible permite:
+
+- Automatizar procesos (CI/CD).
+
+- Identificar fácilmente el propósito y alcance de una rama.
+
+GitFlow es un modelo de gestión de ramas en Git que facilita el manejo de proyectos grandes mediante la separación en ramas principales y de características. En nuestro proyecto, utilizamos las siguientes ramas:
+
+* **Rama `main`:** Esta rama contiene el código en producción, incluyendo archivos CSS, imágenes, JavaScript y la página principal en HTML. Aseguramos que todo el contenido aquí esté en un estado estable y listo para ser desplegado.
+
+* **Rama `gh-pages`:** Esta rama se utiliza para desplegar y mostrar una versión visualizable del proyecto en GitHub Pages, permitiendo que cualquier persona acceda a la página `index.html` en tiempo real.
+
+Además, contamos con un repositorio separado que organiza nuestras tareas en epics, utilizando archivos `.feature` que describen los criterios de aceptación para cada funcionalidad. Esto nos ayuda a mantener un seguimiento claro del progreso del desarrollo.
+
+Elegimos GitHub como nuestra plataforma de colaboración para facilitar el seguimiento del progreso, la gestión de cambios y la visualización de actualizaciones. Las actualizaciones al código se reflejan automáticamente en `gh-pages`, permitiendo que los interesados vean los avances en tiempo real.
+
+**Convenciones:**
+
+✔ Convenciones para ramas feature
+Prefijo: `feature/`
+Formato: `feature/nombre-corto-descriptivo`
+
+Ejemplo:
+`feature/login-ui`
+`feature/pdf-export`
+`feature/api-integration-usuarios`
+
+✔ Convenciones para ramas release
+Prefijo: `release/`
+Formato: `release/x.y.z (donde x, y, z son número mayor, menor y de parche)`
+
+Ejemplo:
+`release/1.0.0`
+`release/2.1.0`
+
+✔ Convenciones para ramas hotfix
+Prefijo: `hotfix/`
+Formato: `hotfix/x.y.z-nombre-corto`
+
+Ejemplo:
+`hotfix/1.0.1-fix-login-error`
+`hotfix/2.3.2-bug-carrito`
+
+Repositorio principal: https://github.com/ElectroLink-Diseno-de-Experimentos
+
+<br>
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+Se nombrará las siguientes etiquetas que utilizamos para desarrollar nuestra solución
+
+**HTML**
+
+* `<!DOCTYPE html>` - Define el tipo de documento como HTML5.
+* `<html>` - Raíz del documento HTML.
+* `<head>` - Encabezado del documento, donde se incluyen metadatos.
+* `<meta>` - Define metadatos sobre el documento (charset y viewport).
+* `<title>` - Título del documento.
+* `<link>` - Para enlaces de icono, hoja de estilos CSS y fuente externa.
+* `<body>` - Cuerpo del documento, donde se encuentra el contenido visible.
+* `<header>` - Encabezado de la página.
+* `<div>` - Contenedor para el logo y otros elementos.
+* `<img>` - Imagen del logo.
+* `<nav>` - Contenedor para la navegación.
+* `<ul>` - Lista no ordenada de enlaces de navegación.
+* `<li>` - Elemento de lista para cada enlace de navegación.
+* `<a>` - Enlaces de navegación.
+* `<button>` - Botón para el modo de deuteranopia.
+* `<section>` - Define secciones de contenido principal:
+  * Sección principal: `<h1>`, `<p>`
+  * Por Qué Interactiva: `<h2>`, `<span>`, `<div>`, `<h3>`, `<p>`
+  * Valor Propuesto: `<h3>`, `<p>`, `<img>`
+  * Presentamos a...: `<h2>`, `<h4>`, `<p>`, `<img>`
+  * Servicios: `<h2>`, `<div>`, `<h4>`, `<p>`
+  * Testimonios: `<h2>`, `<p>`, `<img>`
+  * Cómo empezar: `<h2>`, `<h5>`, `<strong>`, `<p>`
+  * Descargar: `<h2>`, `<h3>`, `<span>`, `<a>`, `<img>`
+* `<footer>` - Pie de página.
+* `<small>` - Texto de derechos reservados.
+* `<script>` - Script JavaScript para funcionalidades.
+
+**CSS**
+
+* `width:` Representa el ancho de un elemento.
+* `height:` Representa el alto de un elemento.
+* `padding:` Representa el espacio con relleno entre el borde y el contenido.
+* `font-family:` Representa el tipo de letra.
+* `font-size:` Representa el tamaño de letra.
+* `font-weight:` Representa el grueso o el peso de la letra.
+* `font-style:` Representa el estilo de letra.
+* `Text-align:` Representa la alineación del texto.
+* `color:` Otorga color al elemento.
+* `Background-color:` Otorga color del fondo del elemento.
+
+<hr>
+
+### 5.1.4. Software Deployment Configuration.
+
+**Consideraciones Preliminares al Despliegue:**
+
+* **Implementación de Archivos Web:** Se requiere la implementación completa de la página web utilizando archivos HTML, CSS y JS para garantizar su correcta operatividad. Se autoriza el uso de diversos formatos para los archivos de imagen (jpg, png, webp, etc.).
+* **Mecanismo de Publicación en Github:** En virtud del servicio Github Pages, todos los archivos necesarios para la funcionalidad de la aplicación se cargarán al repositorio compartido de Github, facilitando la colaboración simultánea entre los miembros del equipo.
+* **Protocolo de Pruebas de Funcionamiento:** Tras cada actualización e integración al repositorio, se ejecutarán pruebas internas para asegurar la correcta operación de la página. Asimismo, se someterá la página a pruebas por parte de usuarios externos al grupo de trabajo para obtener una evaluación imparcial.
+
+**Requisitos Mandatorios para el Despliegue:**
+
+* Existencia de un repositorio dentro de la organización de GitHub.
+* El repositorio debe poseer visibilidad pública.
+* Disposición de los permisos de Github necesarios.
+* Disponibilidad del código fuente de la Landing Page.
+
+**Procedimiento de Despliegue de la Landing Page:**
+
+* Carga del código fuente de la Landing Page al repositorio de destino en GitHub.
+* Acceso a la interfaz de configuración del repositorio en GitHub.
+* Selección de la sección denominada "Pages".
+* Una vez completados los pasos precedentes, se iniciará el proceso de construcción, tras el cual la Landing Page deberá estar accesible en breve.
+
+<hr>
+
+
+## 5.2. Product Implementation & Deployment.
+### 5.2.1. Sprint Backlogs
+
+| Sprint #       | Sprint 4 | |                                                            |                                                                                                                   |                     |                   |            |
+|----------------|----------|---|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------|-------------------|------------|
+| **User Story** | | **Work-Item/task** |                                                            |                                                                                                                   |                     |                   |            |
+| **ID**         | **Title** | **Id** | **Title**                                                  | **Description**                                                                                                   | **Estimation(Hrs)** | **Assigned To**   | **Status** |
+| **US-08**      | Ver Información del Startup | T001 | Actualización de startup                                   | Actualizar la información sobre los miembros de la startup pertenecientes al proyecto                             | 1                   | Jefferson Castro  | Done       |
+| **US-27**      | Entrar a un dashboard Personalizado | T001 | Mejorar la visualización del dashboard para el propietario | Mejorar el estilo y la estructura funcional del dashboard orientado para el tipo de usuario "Homeowner"           | 1                   | Kenyi Ramirez     | Done       |
+|                | | T002 | Mejorar la visualización del dashboard para el proveedor   | Mejorar el estilo y la estructura funcional del dashboard orientado para el tipo de usuario "Provider/Technician" | 2                   | Kenyi Ramirez     | Done       |
+| **US-13**      | Registro de cuentas como Dueño de Hogar | T001 | Mejorar la visualización del formulario                        | Actualizar la estructura y estilos del formulario de la sección 'Sign up'                                         | 1                   | Leandro Contreras | Done       |
+| **US-17**      | Inicio de sesión de usuarios | T001 | Mejorar la visualización del formulario | Actualizar la estructura y estilos del formulario de la sección 'Sign in'                                         | 1                   | Leandro Contreras | Done       |
+| **TS-13**      | Conectar a Base de Datos | T001 | Desplegar el Backend                                       | Actualizar el despliegue de los servicios web (Backend)                                                           | 1                   | Miguel Gomez      | Done       |
+
+### 5.2.2. Implemented Landing Page Evidence
+
+Ingresamos a github
+
+<a href="https://ibb.co/C5ZrL2Gh"><img src="https://i.ibb.co/MD4Xd60M/Github1.png" alt="Github1" border="0"></a>
+
+Nos dirijimos a la sección de pages en configuración, configuramos la rama a desplegar y guardamos en save.
+Luego de unos minutos de seleccionar "Save", se generará un enlace donde se podrá visualizar el landing page desplegado
+
+<a href="https://ibb.co/8RswyZm"><img src="https://i.ibb.co/Vh9GF4L/github3.png" alt="github3" border="0"></a>
+
+<a href="https://ibb.co/4ZFNj4Yb"><img src="https://i.ibb.co/3yTh0SMx/lp1.png" alt="lp1" border="0"></a>
+
+
+### 5.2.3. Implemented Frontend-Web Application Evidence
+
+En esta sección, explicamos el despliegue de la aplicación Front-end en firebase
+
+Ingresamos al portal de Firebase
+<br>
+
+<img src="https://i.ibb.co/tPvdG42H/image.png">
+<br>
+<br>
+
+Dentro del portal, reutilizamos la aplicación front end previamente desplegada "electrolink-frontend-v2".
+<br>
+
+<img src="https://i.ibb.co/xtKnQtdr/image.png">
+<br>
+<br>
+
+Ahora, desde la consola del IDE, realizamos los siguientes comandos
+<br>
+
+<img src="https://i.ibb.co/rfNWtpcp/image.png">
+<br>
+<br>
+
+
+Tras haber compilado subido el directorio dist, desplegamos con el siguiente comando y obtendremós el enlace de la aplicación front-end
+<br>
+
+<img src="https://i.ibb.co/fdzrZCP6/image.png">
+<br>
+<br>
+
+
+### 5.2.4. Implemented Native-Mobile Application Evidence
+
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+Vista general de Swagger con los grupos Autenticación, Propiedades y Perfiles, cada uno con sus operaciones CRUD protegidas.
+
+<img  src="https://i.postimg.cc/KzwsXDD0/7c8bebf7-f9bd-4728-a6dc-1c1131947026-1.jpg"/>
+
+Endpoints de Tipos de Componente, Componentes, Roles y Usuarios, listados para gestión y consulta.
+
+<img  src="https://i.postimg.cc/9ffxrnxx/bbde6494-e315-4433-9026-1e3435f0500e-1.jpg"/>
+
+Controladores de Inventario de Técnicos, Servicios, Schedules y Requests, mostrando endpoints CRUD y consultas especializadas.
+
+<img  src="https://i.postimg.cc/HkYzhNCp/d67b08ef-0883-4368-9caa-125775c7863b-1.jpg"/>
+
+
+### 5.2.6. RESTful API documentation
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **POST** | `/api/v1/catalog/types` | Crear tipo de componente |
+| **GET** | `/api/v1/catalog/types` | Obtener todos los tipos de componentes |
+| **GET** | `/api/v1/catalog/types/{typeId}` | Obtener tipo de componente por ID |
+| **PUT** | `/api/v1/catalog/types/{typeId}` | Actualizar tipo de componente por ID |
+| **DELETE** | `/api/v1/catalog/types/{typeId}` | Eliminar tipo de componente por ID |
+| **POST** | `/api/v1/catalog/components` | Crear componente |
+| **GET** | `/api/v1/catalog/components` | Obtener todos los componentes |
+| **PUT** | `/api/v1/catalog/components/{componentId}` | Actualizar componente por ID |
+| **DELETE** | `/api/v1/catalog/components/{componentId}` | Eliminar componente por ID |
+
+---
+
+### Technician Inventory
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **POST** | `/api/v1/technicians/{technicianId}/inventory` | Crear inventario de técnico |
+| **GET** | `/api/v1/technicians/{technicianId}/inventory` | Obtener inventario de técnico |
+| **POST** | `/api/v1/technicians/{technicianId}/inventory/stock-items` | Agregar ítem al stock |
+| **PUT** | `/api/v1/technicians/{technicianId}/inventory/{componentId}` | Actualizar componente del inventario |
+| **DELETE** | `/api/v1/technicians/{technicianId}/inventory/{componentId}` | Eliminar componente del inventario |
+
+---
+
+### Properties
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **GET** | `/api/v1/owners/{ownerId}/properties` | Obtener propiedades de un propietario |
+| **POST** | `/api/v1/owners/{ownerId}/properties` | Crear propiedad |
+| **GET** | `/api/v1/owners/{ownerId}/properties/{propertyId}` | Obtener propiedad por ID |
+| **PUT** | `/api/v1/owners/{ownerId}/properties/{propertyId}` | Actualizar propiedad |
+| **PUT** | `/api/v1/owners/{ownerId}/properties/{propertyId}/photo` | Actualizar foto |
+| **PUT** | `/api/v1/owners/{ownerId}/properties/{propertyId}/address` | Actualizar dirección |
+| **DELETE** | `/api/v1/owners/{ownerId}/properties/{propertyId}` | Eliminar propiedad |
+
+---
+
+### Technicians
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **GET** | `/api/v1/technicians/{technicianId}` | Obtener técnico por ID |
+| **POST** | `/api/v1/technicians` | Crear técnico |
+| **GET** | `/api/v1/technicians` | Obtener todas las categorías |
+| **GET** | `/api/v1/technicians/{technicianId}/works` | Obtener trabajos por técnico |
+
+---
+
+### Works
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **GET** | `/api/v1/works/{workId}` | Obtener trabajo por ID |
+| **POST** | `/api/v1/works` | Crear nuevo trabajo |
+| **GET** | `/api/v1/works` | Obtener todos los trabajos |
+| **POST** | `/api/v1/works/{workId}/image` | Agregar imagen a un trabajo |
+
+---
+
+### Ratings
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **POST** | `/api/v1/ratings/{id}/rating` | Crear calificación |
+| **GET** | `/api/v1/ratings/{id}/rating` | Obtener calificación por ID |
+| **GET** | `/api/v1/ratings/technician/{technicianId}/ratings` | Obtener calificaciones por técnico |
+| **DELETE** | `/api/v1/ratings/{id}` | Eliminar calificación |
+| **PUT** | `/api/v1/ratings/{id}` | Actualizar calificación |
+| **GET** | `/api/v1/ratings` | Obtener todas las calificaciones |
+
+---
+
+### Reports
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **POST** | `/api/v1/reports/{id}/report` | Crear reporte |
+| **GET** | `/api/v1/reports/{id}` | Obtener reporte por ID |
+| **DELETE** | `/api/v1/reports/{id}` | Eliminar reporte |
+| **POST** | `/api/v1/reports/{id}/photo` | Agregar foto al reporte |
+| **GET** | `/api/v1/reports` | Obtener todos los reportes |
+
+---
+
+### Service Operations
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **POST** | `/api/v1/service-operations` | Crear operación de servicio |
+| **GET** | `/api/v1/service-operations` | Obtener todas las operaciones |
+| **PUT** | `/api/v1/service-operations/{id}/status` | Actualizar estado de la operación |
+| **GET** | `/api/v1/service-operations/{id}/status` | Obtener estado de la operación |
+| **GET** | `/api/v1/service-operations/technician/{technicianId}/history` | Obtener historial del técnico |
+
+---
+
+### Requests
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **GET** | `/api/v1/requests/{requestId}` | Obtener solicitud por ID |
+| **PUT** | `/api/v1/requests/{requestId}` | Actualizar una solicitud |
+| **DELETE** | `/api/v1/requests/{requestId}` | Eliminar una solicitud |
+| **GET** | `/api/v1/requests/client/{clientId}` | Obtener solicitudes por cliente |
+| **POST** | `/api/v1/requests` | Crear nueva solicitud |
+
+---
+
+### Schedules
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **GET** | `/api/v1/schedules/technician/{technicianId}` | Obtener agenda por técnico |
+| **POST** | `/api/v1/schedules` | Crear nueva agenda |
+| **PUT** | `/api/v1/schedules/{scheduleId}` | Actualizar agenda |
+| **DELETE** | `/api/v1/schedules/{scheduleId}` | Eliminar agenda |
+
+---
+
+### Services
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **GET** | `/api/v1/services/{serviceId}` | Obtener servicio por ID |
+| **PUT** | `/api/v1/services/{serviceId}` | Actualizar servicio |
+| **DELETE** | `/api/v1/services/{serviceId}` | Eliminar servicio |
+| **POST** | `/api/v1/services` | Crear nuevo servicio |
+
+---
+Detalle del POST /authentication/sign-up, con ejemplo de JSON de registro y respuesta de usuario creado.
+
+<img  src="https://i.postimg.cc/3w6ZWJ0R/280218fe-28da-435d-89fd-97c9291e768f-1.jpg"/>
+
+Detalle del POST /authentication/sign-in, mostrando el JSON de login y la respuesta con token JWT.
+
+<img  src="https://i.postimg.cc/RhmKn3SM/bc809343-f09e-4a50-bb44-82149c52651f-1.jpg"/>
+
+Detalle del POST /properties para crear una propiedad, con payload de dirección completo y respuesta 201.
+
+<img  src="https://i.postimg.cc/4x0cQ2f2/f39078a9-2159-482b-b12d-f41c80e8ae14-1.jpg"/>
+
+Detalle del POST /components, ilustrando la creación de un componente con su tipo y estado activo.
+
+<img  src="https://i.postimg.cc/SQGzvxQM/d6a73e71-b447-4a97-ab90-529e7c740af7-1.jpg"/>
+
+Detalle del POST /technician-inventories, devolviendo el inventario creado con stocks y umbrales.
+
+<img  src="https://i.postimg.cc/q7nNXkZg/5122357d-b0d4-4693-9a73-48af8880b67d.jpg"/>
+
+Detalle del POST /requests, con estructura completa de solicitud de servicio (factura, fotos, fechas).
+
+<img  src="https://i.postimg.cc/8P0c2F2j/df562760-3766-4933-966f-8805fb761cbd.jpg"/>
+
+Detalle del POST /services, mostrando la creación de un servicio con política, restricciones, etiquetas y componentes asociados.
+
+<img  src="https://i.postimg.cc/QMLtM2xD/335c4d6a-fb9a-45cd-9a47-8997896e5376.jpg"/>
+
+
+### 5.2.7. Team Collaboration Insights
+
+Durante este Sprint, el equipo ha colaborado en el soporte de la Landing Page, Frontend y Backend. Las actividades fueron gestionadas a través de GitHub, permitiendo una trazabilidad clara de los aportes de cada miembro del equipo. Se realizaron tareas de codificación, revisión, organización del repositorio y mejoras visuales y funcionales del producto. Cada miembro del equipo tuvo participación activa, realizando commits, revisando código, y apoyando en la estructura y documentación del proyecto.
+
+Insights de Landing Page:
+<a href="https://ibb.co/20vmC3mP"><img src="https://i.ibb.co/fVkBydBt/i1.png" alt="i1" border="0"></a>
+
+Insights de Frontend:
+<a href="https://ibb.co/pjFPWtQN"><img src="https://i.ibb.co/VY4NH7xb/i2.png" alt="i2" border="0"></a>
+
+Insights de Backend:
+<a href="https://ibb.co/nN8dCNNy"><img src="https://i.ibb.co/YFTnZFFS/i3.png" alt="i3" border="0"></a>
+
+## 5.3. Video About-the-Product
 
