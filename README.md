@@ -5910,3 +5910,242 @@ Se nombrará las siguientes etiquetas que utilizamos para desarrollar nuestra so
 * Una vez completados los pasos precedentes, se iniciará el proceso de construcción, tras el cual la Landing Page deberá estar accesible en breve.
 
 <hr>
+
+
+## 5.2. Product Implementation & Deployment.
+### 5.2.1. Sprint Backlogs
+
+### 5.2.2. Implemented Landing Page Evidence
+
+Ingresamos a github
+
+<a href="https://ibb.co/C5ZrL2Gh"><img src="https://i.ibb.co/MD4Xd60M/Github1.png" alt="Github1" border="0"></a>
+
+Nos dirijimos a la sección de pages en configuración, configuramos la rama a desplegar y guardamos en save.
+Luego de unos minutos de seleccionar "Save", se generará un enlace donde se podrá visualizar el landing page desplegado
+
+<a href="https://ibb.co/8RswyZm"><img src="https://i.ibb.co/Vh9GF4L/github3.png" alt="github3" border="0"></a>
+
+<a href="https://ibb.co/4ZFNj4Yb"><img src="https://i.ibb.co/3yTh0SMx/lp1.png" alt="lp1" border="0"></a>
+
+
+### 5.2.3. Implemented Frontend-Web Application Evidence
+
+En esta sección, explicamos el despliegue de la aplicación Front-end en firebase
+
+Ingresamos al portal de Firebase
+<br>
+
+<img src="https://i.ibb.co/tPvdG42H/image.png">
+<br>
+<br>
+
+Dentro del portal, reutilizamos la aplicación front end previamente desplegada "electrolink-frontend-v2".
+<br>
+
+<img src="https://i.ibb.co/xtKnQtdr/image.png">
+<br>
+<br>
+
+Ahora, desde la consola del IDE, realizamos los siguientes comandos
+<br>
+
+<img src="https://i.ibb.co/rfNWtpcp/image.png">
+<br>
+<br>
+
+
+Tras haber compilado subido el directorio dist, desplegamos con el siguiente comando y obtendremós el enlace de la aplicación front-end
+<br>
+
+<img src="https://i.ibb.co/fdzrZCP6/image.png">
+<br>
+<br>
+
+
+### 5.2.4. Acuerdo de Servicio - SaaS
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
+
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+
+Vista general de Swagger con los grupos Autenticación, Propiedades y Perfiles, cada uno con sus operaciones CRUD protegidas.
+
+<img  src="https://i.postimg.cc/KzwsXDD0/7c8bebf7-f9bd-4728-a6dc-1c1131947026-1.jpg"/>
+
+Endpoints de Tipos de Componente, Componentes, Roles y Usuarios, listados para gestión y consulta.
+
+<img  src="https://i.postimg.cc/9ffxrnxx/bbde6494-e315-4433-9026-1e3435f0500e-1.jpg"/>
+
+Controladores de Inventario de Técnicos, Servicios, Schedules y Requests, mostrando endpoints CRUD y consultas especializadas.
+
+<img  src="https://i.postimg.cc/HkYzhNCp/d67b08ef-0883-4368-9caa-125775c7863b-1.jpg"/>
+
+
+### 5.2.7. RESTful API documentation
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **POST** | `/api/v1/catalog/types` | Crear tipo de componente |
+| **GET** | `/api/v1/catalog/types` | Obtener todos los tipos de componentes |
+| **GET** | `/api/v1/catalog/types/{typeId}` | Obtener tipo de componente por ID |
+| **PUT** | `/api/v1/catalog/types/{typeId}` | Actualizar tipo de componente por ID |
+| **DELETE** | `/api/v1/catalog/types/{typeId}` | Eliminar tipo de componente por ID |
+| **POST** | `/api/v1/catalog/components` | Crear componente |
+| **GET** | `/api/v1/catalog/components` | Obtener todos los componentes |
+| **PUT** | `/api/v1/catalog/components/{componentId}` | Actualizar componente por ID |
+| **DELETE** | `/api/v1/catalog/components/{componentId}` | Eliminar componente por ID |
+
+---
+
+### Technician Inventory
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **POST** | `/api/v1/technicians/{technicianId}/inventory` | Crear inventario de técnico |
+| **GET** | `/api/v1/technicians/{technicianId}/inventory` | Obtener inventario de técnico |
+| **POST** | `/api/v1/technicians/{technicianId}/inventory/stock-items` | Agregar ítem al stock |
+| **PUT** | `/api/v1/technicians/{technicianId}/inventory/{componentId}` | Actualizar componente del inventario |
+| **DELETE** | `/api/v1/technicians/{technicianId}/inventory/{componentId}` | Eliminar componente del inventario |
+
+---
+
+### Properties
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **GET** | `/api/v1/owners/{ownerId}/properties` | Obtener propiedades de un propietario |
+| **POST** | `/api/v1/owners/{ownerId}/properties` | Crear propiedad |
+| **GET** | `/api/v1/owners/{ownerId}/properties/{propertyId}` | Obtener propiedad por ID |
+| **PUT** | `/api/v1/owners/{ownerId}/properties/{propertyId}` | Actualizar propiedad |
+| **PUT** | `/api/v1/owners/{ownerId}/properties/{propertyId}/photo` | Actualizar foto |
+| **PUT** | `/api/v1/owners/{ownerId}/properties/{propertyId}/address` | Actualizar dirección |
+| **DELETE** | `/api/v1/owners/{ownerId}/properties/{propertyId}` | Eliminar propiedad |
+
+---
+
+### Technicians
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **GET** | `/api/v1/technicians/{technicianId}` | Obtener técnico por ID |
+| **POST** | `/api/v1/technicians` | Crear técnico |
+| **GET** | `/api/v1/technicians` | Obtener todas las categorías |
+| **GET** | `/api/v1/technicians/{technicianId}/works` | Obtener trabajos por técnico |
+
+---
+
+### Works
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **GET** | `/api/v1/works/{workId}` | Obtener trabajo por ID |
+| **POST** | `/api/v1/works` | Crear nuevo trabajo |
+| **GET** | `/api/v1/works` | Obtener todos los trabajos |
+| **POST** | `/api/v1/works/{workId}/image` | Agregar imagen a un trabajo |
+
+---
+
+### Ratings
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **POST** | `/api/v1/ratings/{id}/rating` | Crear calificación |
+| **GET** | `/api/v1/ratings/{id}/rating` | Obtener calificación por ID |
+| **GET** | `/api/v1/ratings/technician/{technicianId}/ratings` | Obtener calificaciones por técnico |
+| **DELETE** | `/api/v1/ratings/{id}` | Eliminar calificación |
+| **PUT** | `/api/v1/ratings/{id}` | Actualizar calificación |
+| **GET** | `/api/v1/ratings` | Obtener todas las calificaciones |
+
+---
+
+### Reports
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **POST** | `/api/v1/reports/{id}/report` | Crear reporte |
+| **GET** | `/api/v1/reports/{id}` | Obtener reporte por ID |
+| **DELETE** | `/api/v1/reports/{id}` | Eliminar reporte |
+| **POST** | `/api/v1/reports/{id}/photo` | Agregar foto al reporte |
+| **GET** | `/api/v1/reports` | Obtener todos los reportes |
+
+---
+
+### Service Operations
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **POST** | `/api/v1/service-operations` | Crear operación de servicio |
+| **GET** | `/api/v1/service-operations` | Obtener todas las operaciones |
+| **PUT** | `/api/v1/service-operations/{id}/status` | Actualizar estado de la operación |
+| **GET** | `/api/v1/service-operations/{id}/status` | Obtener estado de la operación |
+| **GET** | `/api/v1/service-operations/technician/{technicianId}/history` | Obtener historial del técnico |
+
+---
+
+### Requests
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **GET** | `/api/v1/requests/{requestId}` | Obtener solicitud por ID |
+| **PUT** | `/api/v1/requests/{requestId}` | Actualizar una solicitud |
+| **DELETE** | `/api/v1/requests/{requestId}` | Eliminar una solicitud |
+| **GET** | `/api/v1/requests/client/{clientId}` | Obtener solicitudes por cliente |
+| **POST** | `/api/v1/requests` | Crear nueva solicitud |
+
+---
+
+### Schedules
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **GET** | `/api/v1/schedules/technician/{technicianId}` | Obtener agenda por técnico |
+| **POST** | `/api/v1/schedules` | Crear nueva agenda |
+| **PUT** | `/api/v1/schedules/{scheduleId}` | Actualizar agenda |
+| **DELETE** | `/api/v1/schedules/{scheduleId}` | Eliminar agenda |
+
+---
+
+### Services
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| **GET** | `/api/v1/services/{serviceId}` | Obtener servicio por ID |
+| **PUT** | `/api/v1/services/{serviceId}` | Actualizar servicio |
+| **DELETE** | `/api/v1/services/{serviceId}` | Eliminar servicio |
+| **POST** | `/api/v1/services` | Crear nuevo servicio |
+
+---
+Detalle del POST /authentication/sign-up, con ejemplo de JSON de registro y respuesta de usuario creado.
+
+<img  src="https://i.postimg.cc/3w6ZWJ0R/280218fe-28da-435d-89fd-97c9291e768f-1.jpg"/>
+
+Detalle del POST /authentication/sign-in, mostrando el JSON de login y la respuesta con token JWT.
+
+<img  src="https://i.postimg.cc/RhmKn3SM/bc809343-f09e-4a50-bb44-82149c52651f-1.jpg"/>
+
+Detalle del POST /properties para crear una propiedad, con payload de dirección completo y respuesta 201.
+
+<img  src="https://i.postimg.cc/4x0cQ2f2/f39078a9-2159-482b-b12d-f41c80e8ae14-1.jpg"/>
+
+Detalle del POST /components, ilustrando la creación de un componente con su tipo y estado activo.
+
+<img  src="https://i.postimg.cc/SQGzvxQM/d6a73e71-b447-4a97-ab90-529e7c740af7-1.jpg"/>
+
+Detalle del POST /technician-inventories, devolviendo el inventario creado con stocks y umbrales.
+
+<img  src="https://i.postimg.cc/q7nNXkZg/5122357d-b0d4-4693-9a73-48af8880b67d.jpg"/>
+
+Detalle del POST /requests, con estructura completa de solicitud de servicio (factura, fotos, fechas).
+
+<img  src="https://i.postimg.cc/8P0c2F2j/df562760-3766-4933-966f-8805fb761cbd.jpg"/>
+
+Detalle del POST /services, mostrando la creación de un servicio con política, restricciones, etiquetas y componentes asociados.
+
+<img  src="https://i.postimg.cc/QMLtM2xD/335c4d6a-fb9a-45cd-9a47-8997896e5376.jpg"/>
+
+
+### 5.2.8. Team Collaboration Insights
+
+## 5.3. Video About-the-Product
+
