@@ -19,7 +19,7 @@
     <br> <br>
     Informe de TB1
     <br> <br>
-    Startup: 
+    Startup: HampCoders
     <br> <br>
     Producto: ElectroLink  
 </h3>
@@ -5963,11 +5963,9 @@ Tras haber compilado subido el directorio dist, desplegamos con el siguiente com
 <br>
 
 
-### 5.2.4. Acuerdo de Servicio - SaaS
+### 5.2.4. Implemented Native-Mobile Application Evidence
 
-### 5.2.5. Implemented Native-Mobile Application Evidence
-
-### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 Vista general de Swagger con los grupos Autenticación, Propiedades y Perfiles, cada uno con sus operaciones CRUD protegidas.
 
@@ -5982,7 +5980,7 @@ Controladores de Inventario de Técnicos, Servicios, Schedules y Requests, mostr
 <img  src="https://i.postimg.cc/HkYzhNCp/d67b08ef-0883-4368-9caa-125775c7863b-1.jpg"/>
 
 
-### 5.2.7. RESTful API documentation
+### 5.2.6. RESTful API documentation
 
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|
@@ -6145,7 +6143,18 @@ Detalle del POST /services, mostrando la creación de un servicio con política,
 <img  src="https://i.postimg.cc/QMLtM2xD/335c4d6a-fb9a-45cd-9a47-8997896e5376.jpg"/>
 
 
-### 5.2.8. Team Collaboration Insights
+### 5.2.7. Team Collaboration Insights
+
+Durante este Sprint, el equipo ha colaborado en el soporte de la Landing Page, Frontend y Backend. Las actividades fueron gestionadas a través de GitHub, permitiendo una trazabilidad clara de los aportes de cada miembro del equipo. Se realizaron tareas de codificación, revisión, organización del repositorio y mejoras visuales y funcionales del producto. Cada miembro del equipo tuvo participación activa, realizando commits, revisando código, y apoyando en la estructura y documentación del proyecto.
+
+Insights de Landing Page:
+<a href="https://ibb.co/20vmC3mP"><img src="https://i.ibb.co/fVkBydBt/i1.png" alt="i1" border="0"></a>
+
+Insights de Frontend:
+<a href="https://ibb.co/pjFPWtQN"><img src="https://i.ibb.co/VY4NH7xb/i2.png" alt="i2" border="0"></a>
+
+Insights de Backend:
+<a href="https://ibb.co/nN8dCNNy"><img src="https://i.ibb.co/YFTnZFFS/i3.png" alt="i3" border="0"></a>
 
 ## 5.3. Video About-the-Product
 
