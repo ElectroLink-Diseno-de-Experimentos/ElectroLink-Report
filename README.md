@@ -5915,6 +5915,17 @@ Se nombrará las siguientes etiquetas que utilizamos para desarrollar nuestra so
 ## 5.2. Product Implementation & Deployment.
 ### 5.2.1. Sprint Backlogs
 
+| Sprint #       | Sprint 4 | |                                                            |                                                                                                                   |                     |                   |            |
+|----------------|----------|---|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------|-------------------|------------|
+| **User Story** | | **Work-Item/task** |                                                            |                                                                                                                   |                     |                   |            |
+| **ID**         | **Title** | **Id** | **Title**                                                  | **Description**                                                                                                   | **Estimation(Hrs)** | **Assigned To**   | **Status** |
+| **US-08**      | Ver Información del Startup | T001 | Actualización de startup                                   | Actualizar la información sobre los miembros de la startup pertenecientes al proyecto                             | 1                   | Jefferson Castro  | Done       |
+| **US-27**      | Entrar a un dashboard Personalizado | T001 | Mejorar la visualización del dashboard para el propietario | Mejorar el estilo y la estructura funcional del dashboard orientado para el tipo de usuario "Homeowner"           | 1                   | Kenyi Ramirez     | Done       |
+|                | | T002 | Mejorar la visualización del dashboard para el proveedor   | Mejorar el estilo y la estructura funcional del dashboard orientado para el tipo de usuario "Provider/Technician" | 2                   | Kenyi Ramirez     | Done       |
+| **US-13**      | Registro de cuentas como Dueño de Hogar | T001 | Mejorar la visualización del formulario                        | Actualizar la estructura y estilos del formulario de la sección 'Sign up'                                         | 1                   | Leandro Contreras | Done       |
+| **US-17**      | Inicio de sesión de usuarios | T001 | Mejorar la visualización del formulario | Actualizar la estructura y estilos del formulario de la sección 'Sign in'                                         | 1                   | Leandro Contreras | Done       |
+| **TS-13**      | Conectar a Base de Datos | T001 | Desplegar el Backend                                       | Actualizar el despliegue de los servicios web (Backend)                                                           | 1                   | Miguel Gomez      | Done       |
+
 ### 5.2.2. Implemented Landing Page Evidence
 
 Ingresamos a github
