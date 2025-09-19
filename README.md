@@ -26,13 +26,13 @@
 
 <div align="center">
 
-| <div style="width:300px">Alumno</div> | <div style="width:125px">Código</div> |
-|:-------------------------------------------:|:-------------------------------------------:|
-|   Kenyi Efrain Ramirez Cabrera        |              U202220138           |
-|   Leandro Saul Contreras López        |              U20231E215           |
-|   Jefferson Ernesto Castro Pariona    |              U201822823           |
-|                                       |                                   |             
-|                                       |                                   |
+|             <div style="width:300px">Alumno</div>             | <div style="width:125px">Código</div> |
+|:-------------------------------------------------------------:|:-------------------------------------------:|
+|                 Kenyi Efrain Ramirez Cabrera                  |              U202220138           |
+|                 Leandro Saul Contreras López                  |              U20231E215           |
+|               Jefferson Ernesto Castro Pariona                |              U201822823           |
+|                   Miguel Angel Gomez Hurtado                  |                                   |             
+|                                                               |                                   |
 
 </div>
 
@@ -180,13 +180,13 @@ Visión: Nuestra visión es convertirnos en líderes globales en el desarrollo d
 
 
 ### 1.1.2. Perfiles de Integrantes de equipo
-| Miembros del equipo                             | Codigo Estudiante | Descripcion            |
-| ----------------------------------------------- | ----------------- | ---------------------- |
-| Imagen del compañero  | codigo           | descripcion | 
-| Imagen del compañero   | codigo            | descrpcion | 
-| Leandro Saúl Contreras Lopez	![Imagen del compañero](https://i.postimg.cc/FF86sBWr/Screenshot-2025-07-08-at-5-48-58-PM.png)   | U20231E215            | Mucho gusto, soy Leandro Contreras, estudiante de la carrera de Ingeniería de Software en la UPC, sede San Miguel, tengo 19 años y estoy cursando el sexto ciclo académico. Me considero una persona adaptativa, perseverante y comprometida con lo que me propongo. En este proyecto tengo como objetivo buscar múltiples soluciones que beneficien a todo el grupo, por experiencia propia suelo trabajar de manera colaborativa y eficaz. Terminando la carrera de ingeniería, me gustaría estudiar una segunda carrera: Gastronomía y Gestión culinaria | 
-| Imagen del compañero   | codigo            | descrpcion | 
-| Imagen del compañero  | codigo            | descripcion | 
+| Miembros del equipo                                                                                                         | Codigo Estudiante | Descripcion            |
+|-----------------------------------------------------------------------------------------------------------------------------|-------------------| ---------------------- |
+| Imagen del compañero                                                                                                        | codigo            | descripcion | 
+| Kenyi Efrain Ramirez Cabrera [![Whats-App-Image-2025-09-12-at-10-09-31-PM-1.jpg](https://i.postimg.cc/ZqgfRqwf/Whats-App-Image-2025-09-12-at-10-09-31-PM-1.jpg)](https://postimg.cc/5HB5Kfdv)                                                                                               | u202220138        | Soy Kenyi Ramirez, estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida y trabajadora. Poseo un nivel intermedio en los lenguajes C++, C#, Python, Java y HTML, además de algunos frameworks como Angular, Node.js y Vue, los cuales aplico para garantizar resultados efectivos en mis proyectos. | 
+| Leandro Saúl Contreras Lopez	![Imagen del compañero](https://i.postimg.cc/FF86sBWr/Screenshot-2025-07-08-at-5-48-58-PM.png) | U20231E215        | Mucho gusto, soy Leandro Contreras, estudiante de la carrera de Ingeniería de Software en la UPC, sede San Miguel, tengo 19 años y estoy cursando el sexto ciclo académico. Me considero una persona adaptativa, perseverante y comprometida con lo que me propongo. En este proyecto tengo como objetivo buscar múltiples soluciones que beneficien a todo el grupo, por experiencia propia suelo trabajar de manera colaborativa y eficaz. Terminando la carrera de ingeniería, me gustaría estudiar una segunda carrera: Gastronomía y Gestión culinaria | 
+| Imagen del compañero                                                                                                        | codigo            | descrpcion | 
+| Imagen del compañero                                                                                                        | codigo            | descripcion | 
 
 <br> 
 
