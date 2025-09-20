@@ -5782,6 +5782,7 @@ Luego de unos minutos de seleccionar "Save", se generará un enlace donde se pod
 
 <a href="https://ibb.co/4ZFNj4Yb"><img src="https://i.ibb.co/3yTh0SMx/lp1.png" alt="lp1" border="0"></a>
 
+URL:https://electrolink-diseno-de-experimentos.github.io/Landing-Page/
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
@@ -5817,6 +5818,11 @@ Tras haber compilado subido el directorio dist, desplegamos con el siguiente com
 <img src="https://i.ibb.co/fdzrZCP6/image.png">
 <br>
 <br>
+
+Y ya podemos interactuar con nuestro frontend desplegado.
+
+<a href="https://ibb.co/TBSQ6pJ1"><img src="https://i.ibb.co/VWZFRrbx/frontend.png" alt="frontend" border="0"></a>
+
 
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
@@ -6064,6 +6070,19 @@ Durante este Sprint, el equipo ha colaborado en el soporte de la Landing Page, F
 
 ## Conclusiones
 
+Aplicación integral de Domain-Driven Design (DDD) como base estructural del sistema A lo largo de los cuatro sprints, implementamos con rigor el enfoque Domain-Driven Design, lo que nos permitió modelar el sistema en torno a las reglas del negocio y segmentarlo en bounded contexts claramente definidos. Esta estrategia favoreció una solución escalable, mantenible y con bajo acoplamiento, reflejada en la implementación exitosa de los módulos Profiles, IAM, Subscriptions, Monitoring y Service Design and Planning.
+
+Desarrollo completo de la solución con visión modular y centrada en el usuario El sistema final integra perfiles personalizables, control de acceso y autenticación, gestión de suscripciones con beneficios concretos, monitoreo de operaciones y planificación de servicios eléctricos. Cada módulo respondió directamente a una necesidad prioritaria detectada en la investigación inicial, asegurando que la solución tuviera impacto real tanto en usuarios residenciales como en proveedores eléctricos.
+
+Evolución progresiva y consistente en los 4 sprints A lo largo del ciclo de desarrollo, cada sprint abordó objetivos técnicos y funcionales de manera incremental: desde la validación de hipótesis con usuarios hasta el despliegue y prueba de funcionalidades clave. Esta metodología ágil nos permitió iterar rápidamente sobre feedback, ajustar componentes críticos del dominio y entregar una plataforma robusta al finalizar el proyecto.
+
+Trabajo colaborativo y madurez del equipo en entornos reales de ingeniería de software El equipo demostró madurez técnica y organizacional al distribuir responsabilidades de forma eficiente, resolver conflictos de integración y tomar decisiones fundamentadas en el dominio. A medida que el proyecto avanzaba, se fortaleció la sinergia entre los roles de análisis, desarrollo, diseño y pruebas, consolidando un flujo de trabajo productivo y alineado a los objetivos del cliente.
+
+Alineamiento entre descubrimiento de usuario y diseño técnico Las metodologías aplicadas —como entrevistas en profundidad, Lean UX, y Customer Journey Mapping— fueron claves para construir una solución centrada en el usuario. Estas herramientas no solo enriquecieron la comprensión del problema, sino que permitieron traducir insights reales en decisiones técnicas concretas a nivel de entidades, agregados, servicios y eventos de dominio.
+
+Base sólida para la evolución futura del producto en nuevos mercados La arquitectura actual permite escalar la plataforma a nuevas regiones y segmentos con mínima fricción técnica. Además, la implementación por contextos desacoplados favorece la incorporación futura de integraciones externas (pagos, logística, verificación digital) y mecanismos de gobernanza para comunidades de técnicos certificados.
+
+Cumplimiento de los objetivos estratégicos del proyecto ElectroLink finaliza su desarrollo como una solución madura que conecta de forma confiable a usuarios con técnicos certificados y proveedores de componentes, reduciendo significativamente los riesgos de informalidad e ineficiencia en el sector eléctrico. La plataforma logra resolver los principales pain points del mercado inicial, y está lista para ser validada en condiciones reales de uso con métricas claras de éxito.
 
 ## Bibliografía
 
@@ -6083,7 +6102,10 @@ Durante este Sprint, el equipo ha colaborado en el soporte de la Landing Page, F
 
 ## Anexos
 
-- Organización GitHub: 
-- Repositorio de la Landing Page: 
-- Repositorio Frontend: 
-- Repositorio Backend: 
+- Organización GitHub: https://github.com/ElectroLink-Diseno-de-Experimentos
+- Repositorio de la Landing Page: https://github.com/ElectroLink-Diseno-de-Experimentos/Landing-Page
+- Repositorio Frontend: https://github.com/ElectroLink-Diseno-de-Experimentos/Frontend
+- Repositorio Backend: https://github.com/ElectroLink-Diseno-de-Experimentos/Backend
+- Landing Page: https://electrolink-diseno-de-experimentos.github.io/Landing-Page/
+- Frontend: https://electrolink-195e0.web.app/
+- Backend: https://electrolinkv2.onrender.com/swagger-ui/index.html#
