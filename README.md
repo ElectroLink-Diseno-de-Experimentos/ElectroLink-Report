@@ -42,8 +42,6 @@
 
 <div style="page-break-after: always;"></div>
 
-## Registro de Versiones del Informe
-
 # Registro de Versiones del Informe
 
 | Versión | Fecha       | Autor(es)                                   | Descripción de modificación |
@@ -62,14 +60,18 @@
 
 **Enlace de la organización del proyecto**
 - [Organización GitHub: ElectroLink-Diseño de Experimentos](https://github.com/ElectroLink-Diseno-de-Experimentos)
-- [Repositorio GitHub: ElectroLink]([https://github.com/Open-Source-4341](https://github.com/ElectroLink-Diseno-de-Experimentos/ElectroLink-Report))
+- [Repositorio GitHub: ElectroLink]((https://github.com/ElectroLink-Diseno-de-Experimentos/ElectroLink-Report))
   
 
 Insights del TB1
 
 <br>
-<img src=""/>
-<br>
+
+<a href="https://ibb.co/HDMHzSSS"><img src="https://i.ibb.co/WWd2yhhh/Insights.png" alt="Insights" border="0"></a>
+
+
+<a href="https://ibb.co/kgGdWcFQ"><img src="https://i.ibb.co/TBwCFh5m/contri.png" alt="contri" border="0"></a><br>
+
 
 <hr>
 
@@ -198,13 +200,13 @@ Visión: Nuestra visión es convertirnos en líderes globales en el desarrollo d
 
 
 ### 1.1.2. Perfiles de Integrantes de equipo
-| Miembros del equipo                                                                                                         | Codigo Estudiante | Descripcion            |
-|-----------------------------------------------------------------------------------------------------------------------------|-------------------| ---------------------- |
-| Imagen del compañero                                                                                                        | codigo            | descripcion | 
-| Kenyi Efrain Ramirez Cabrera [![Whats-App-Image-2025-09-12-at-10-09-31-PM-1.jpg](https://i.postimg.cc/ZqgfRqwf/Whats-App-Image-2025-09-12-at-10-09-31-PM-1.jpg)](https://postimg.cc/5HB5Kfdv)                                                                                               | u202220138        | Soy Kenyi Ramirez, estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida y trabajadora. Poseo un nivel intermedio en los lenguajes C++, C#, Python, Java y HTML, además de algunos frameworks como Angular, Node.js y Vue, los cuales aplico para garantizar resultados efectivos en mis proyectos. | 
-| Leandro Saúl Contreras Lopez	![Imagen del compañero](https://i.postimg.cc/FF86sBWr/Screenshot-2025-07-08-at-5-48-58-PM.png) | U20231E215        | Mucho gusto, soy Leandro Contreras, estudiante de la carrera de Ingeniería de Software en la UPC, sede San Miguel, tengo 19 años y estoy cursando el sexto ciclo académico. Me considero una persona adaptativa, perseverante y comprometida con lo que me propongo. En este proyecto tengo como objetivo buscar múltiples soluciones que beneficien a todo el grupo, por experiencia propia suelo trabajar de manera colaborativa y eficaz. Terminando la carrera de ingeniería, me gustaría estudiar una segunda carrera: Gastronomía y Gestión culinaria | 
-| Miguel Angel Gomez Hurtado <img src="https://i.postimg.cc/0N1330v8/Miguel-Foto.png" alt="Miguel Angel Gomez Hurtado - Foto" style="display: block; margin-left: auto; margin-right: auto;" height="300"/>                                                                                                        | u202220294            | Tengo 23 años y estoy estudiando la carrera de Ingeniería Informática. Me encuentro en mi segundo ciclo en la UPC Sede San Miguel. Soy una persona académica y siempre estoy abierto al diálogo. Me apasiona mi carrera y siempre estoy dispuesto a aprender sobre este curso para brindar a mis futuros usuarios un buen producto acorde a sus necesidades. | 
-| Imagen del compañero                                                                                                        | codigo            | descripcion | 
+| Miembros del equipo                                                                                                                                                                       | Codigo Estudiante | Descripcion            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------| ---------------------- |
+| Jefferson Ernesto Castro Pariona                                                                                                                                                          | U201822823            | descripcion | 
+| Kenyi Efrain Ramirez Cabrera [![Whats-App-Image-2025-09-12-at-10-09-31-PM-1.jpg](https://i.postimg.cc/ZqgfRqwf/Whats-App-Image-2025-09-12-at-10-09-31-PM-1.jpg)](https://postimg.cc/5HB5Kfdv) | u202220138        | Soy Kenyi Ramirez, estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida y trabajadora. Poseo un nivel intermedio en los lenguajes C++, C#, Python, Java y HTML, además de algunos frameworks como Angular, Node.js y Vue, los cuales aplico para garantizar resultados efectivos en mis proyectos. | 
+| Leandro Saúl Contreras Lopez	![Imagen del compañero](https://i.postimg.cc/FF86sBWr/Screenshot-2025-07-08-at-5-48-58-PM.png)                                                               | U20231E215        | Mucho gusto, soy Leandro Contreras, estudiante de la carrera de Ingeniería de Software en la UPC, sede San Miguel, tengo 19 años y estoy cursando el sexto ciclo académico. Me considero una persona adaptativa, perseverante y comprometida con lo que me propongo. En este proyecto tengo como objetivo buscar múltiples soluciones que beneficien a todo el grupo, por experiencia propia suelo trabajar de manera colaborativa y eficaz. Terminando la carrera de ingeniería, me gustaría estudiar una segunda carrera: Gastronomía y Gestión culinaria | 
+| Miguel Angel Gomez Hurtado <img src="https://i.postimg.cc/0N1330v8/Miguel-Foto.png" alt="Miguel Angel Gomez Hurtado - Foto" style="display: block; margin-left: auto; margin-right: auto;" height="300"/> | u202220294            | Tengo 23 años y estoy estudiando la carrera de Ingeniería Informática. Me encuentro en mi segundo ciclo en la UPC Sede San Miguel. Soy una persona académica y siempre estoy abierto al diálogo. Me apasiona mi carrera y siempre estoy dispuesto a aprender sobre este curso para brindar a mis futuros usuarios un buen producto acorde a sus necesidades. | 
+| Imagen del compañero                                                                                                                                                                      | codigo            | descripcion | 
 
 <br> 
 
