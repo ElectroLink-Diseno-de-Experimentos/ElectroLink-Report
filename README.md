@@ -6072,6 +6072,15 @@ Durante este Sprint, el equipo ha colaborado en el soporte de la Landing Page, F
 
 ## 5.3. Video About-the-Product
 
+**Video publicado en Microsoft Stream:**  
+[Ver video del producto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318323_upc_edu_pe/EaX2Zgimos9BtP8A_A6NVnAB6Q4or5MhvSJrmp8EnSKkEg?e=poBWky&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Video en YouTube (incrustado en el Landing Page):**  
+[https://www.youtube.com/watch?v=vajqovVXk3o](https://www.youtube.com/watch?v=vajqovVXk3o)
+
+**Duración del video:** 2 minutos y 35 segundos
+
+
 ## Conclusiones
 
 Aplicación integral de Domain-Driven Design (DDD) como base estructural del sistema A lo largo de los cuatro sprints, implementamos con rigor el enfoque Domain-Driven Design, lo que nos permitió modelar el sistema en torno a las reglas del negocio y segmentarlo en bounded contexts claramente definidos. Esta estrategia favoreció una solución escalable, mantenible y con bajo acoplamiento, reflejada en la implementación exitosa de los módulos Profiles, IAM, Subscriptions, Monitoring y Service Design and Planning.
