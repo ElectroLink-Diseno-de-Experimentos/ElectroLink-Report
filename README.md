@@ -69,6 +69,7 @@ Insights del TB1
 
 <a href="https://ibb.co/HDMHzSSS"><img src="https://i.ibb.co/WWd2yhhh/Insights.png" alt="Insights" border="0"></a>
 
+<br>
 
 <a href="https://ibb.co/kgGdWcFQ"><img src="https://i.ibb.co/TBwCFh5m/contri.png" alt="contri" border="0"></a><br>
 
