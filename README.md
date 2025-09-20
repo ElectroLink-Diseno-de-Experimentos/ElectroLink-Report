@@ -25,7 +25,7 @@
 </h3>
 
 <div align="center">
-
+  
 |             <div style="width:300px">Alumno</div>             | <div style="width:125px">Código</div> |
 |:-------------------------------------------------------------:|:-------------------------------------------:|
 |                 Kenyi Efrain Ramirez Cabrera                  |              U202220138           |
