@@ -1125,13 +1125,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
 
 # Epics
 
-<table>
+<table border="1">
 <tr>
     <th>EpicId</th>
     <th>Título</th>
     <th>Descripción</th>
   </tr>
-
   <tr>
     <td>EP-01</td>
     <td>Gestión de Acceso de Usuarios</td>
@@ -1213,7 +1212,6 @@ En esta sección, se definieron las epicas y la visualización de las user stori
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-01</td>
     <td>visitante de la landing page</td>
@@ -1253,14 +1251,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-02</td>
     <td>visitante indeciso sobre la plataforma</td>
@@ -1295,14 +1291,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-03</td>
     <td>visitante que accede desde diferentes dispositivos</td>
@@ -1343,14 +1337,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-04</td>
     <td>visitante de la página</td>
@@ -1385,14 +1377,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-05</td>
     <td>visitante</td>
@@ -1426,14 +1416,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-06</td>
     <td>usuario</td>
@@ -1472,14 +1460,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-07</td>
     <td>visitante</td>
@@ -1514,14 +1500,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-08</td>
     <td>potencial cliente</td>
@@ -1555,14 +1539,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-09</td>
     <td>visitante interesado</td>
@@ -1596,14 +1578,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-10</td>
     <td>visitante interesado</td>
@@ -1637,14 +1617,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-11</td>
     <td>visitante interesado</td>
@@ -1678,14 +1656,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-12</td>
     <td>visitante interesado</td>
@@ -1725,14 +1701,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-13</td>
     <td>dueño de hogar</td>
@@ -1771,14 +1745,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-14</td>
     <td>dueño o representante de empresa</td>
@@ -1817,14 +1789,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-15</td>
     <td>Técnico de componentes eléctricos y/o servicios</td>
@@ -1869,7 +1839,6 @@ En esta sección, se definieron las epicas y la visualización de las user stori
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-16</td>
     <td>usuario</td>
@@ -1909,14 +1878,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-17</td>
     <td>usuario registrado</td>
@@ -1956,14 +1923,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-18</td>
     <td>usuario</td>
@@ -2001,14 +1966,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-19</td>
     <td>usuario</td>
@@ -2042,14 +2005,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-20</td>
     <td>usuario</td>
@@ -2084,14 +2045,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-21</td>
     <td>usuario registrado</td>
@@ -2131,14 +2090,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-22</td>
     <td>usuario autenticado</td>
@@ -2172,14 +2129,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-23</td>
     <td>propietario registrado</td>
@@ -2213,14 +2168,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-24</td>
     <td>propietario registrado</td>
@@ -2254,14 +2207,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-25</td>
     <td>Técnico registrado</td>
@@ -2295,14 +2246,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
 <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-26</td>
     <td>Técnico registrado</td>
@@ -2340,14 +2289,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-27</td>
     <td>usuario de la plataforma</td>
@@ -2385,14 +2332,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-28</td>
     <td>Técnico de servicios eléctricos</td>
@@ -2430,14 +2375,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-29</td>
     <td>técnico registrado</td>
@@ -2471,14 +2414,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-30</td>
     <td>usuario de la plataforma</td>
@@ -2512,14 +2453,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-31</td>
     <td>técnico</td>
@@ -2552,14 +2491,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-32</td>
     <td>técnico</td>
@@ -2592,14 +2529,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-33</td>
     <td>técnico</td>
@@ -2633,14 +2568,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-34</td>
     <td>propietario</td>
@@ -2674,14 +2607,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-35</td>
     <td>propietario</td>
@@ -2714,14 +2645,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
 <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-36</td>
     <td>propietario</td>
@@ -2755,14 +2684,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-37</td>
     <td>Técnico</td>
@@ -2795,14 +2722,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-38</td>
     <td>Técnico</td>
@@ -2835,14 +2760,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-39</td>
     <td>Técnico</td>
@@ -2880,14 +2803,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-40</td>
     <td>propietario de PyME</td>
@@ -2921,14 +2842,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-41</td>
     <td>propietario con múltiples propiedades</td>
@@ -2962,14 +2881,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-42</td>
     <td>propietario solicitando un servicio</td>
@@ -3003,14 +2920,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-43</td>
     <td>propietario que ya ha seleccionado un servicio</td>
@@ -3043,14 +2958,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-44</td>
     <td>propietario</td>
@@ -3084,14 +2997,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-45</td>
     <td>cliente</td>
@@ -3131,7 +3042,6 @@ En esta sección, se definieron las epicas y la visualización de las user stori
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-46</td>
     <td>propietario</td>
@@ -3165,14 +3075,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-47</td>
     <td>cliente</td>
@@ -3206,14 +3114,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-48</td>
     <td>técnico registrado</td>
@@ -3247,14 +3153,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-49</td>
     <td>técnico registrado</td>
@@ -3287,14 +3191,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-50</td>
     <td>técnico registrado</td>
@@ -3328,14 +3230,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-51</td>
     <td>técnico registrado</td>
@@ -3369,14 +3269,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-52</td>
     <td>técnico registrado</td>
@@ -3409,14 +3307,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-53</td>
     <td>técnico registrado</td>
@@ -3450,14 +3346,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-54</td>
     <td>técnico registrado</td>
@@ -3490,14 +3384,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-55</td>
     <td>técnico registrado</td>
@@ -3536,7 +3428,6 @@ En esta sección, se definieron las epicas y la visualización de las user stori
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-56</td>
     <td>técnico registrado</td>
@@ -3574,14 +3465,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-57</td>
     <td>propietario con suscripción Premium</td>
@@ -3614,14 +3503,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-58</td>
     <td>propietario del plan Básico</td>
@@ -3656,14 +3543,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-59</td>
     <td>propietario y técnico</td>
@@ -3701,14 +3586,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-60</td>
     <td>técnico ejecutando un servicio</td>
@@ -3741,14 +3624,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-61</td>
     <td>técnico completando un servicio</td>
@@ -3782,14 +3663,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-62</td>
     <td>técnico que completa un servicio</td>
@@ -3822,14 +3701,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-63</td>
     <td>Técnico</td>
@@ -3863,14 +3740,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-64</td>
     <td>usuario</td>
@@ -3903,14 +3778,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-65</td>
     <td>usuario</td>
@@ -3943,14 +3816,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>User</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>US-66</td>
     <td>Técnico</td>
@@ -3990,7 +3861,6 @@ En esta sección, se definieron las epicas y la visualización de las user stori
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-01</td>
     <td>desarrollador</td>
@@ -4034,14 +3904,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-02</td>
     <td>desarrollador</td>
@@ -4079,14 +3947,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-03</td>
     <td>desarrollador</td>
@@ -4129,14 +3995,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-04</td>
     <td>desarrollador</td>
@@ -4174,14 +4038,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-05</td>
     <td>desarrollador</td>
@@ -4224,14 +4086,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-06</td>
     <td>desarrollador</td>
@@ -4269,14 +4129,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-07</td>
     <td>desarrollador</td>
@@ -4319,14 +4177,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-08</td>
     <td>desarrollador</td>
@@ -4369,14 +4225,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-09</td>
     <td>desarrollador</td>
@@ -4419,14 +4273,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-10</td>
     <td>desarrollador</td>
@@ -4464,14 +4316,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-11</td>
     <td>desarrollador</td>
@@ -4509,14 +4359,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-12</td>
     <td>desarrollador</td>
@@ -4560,7 +4408,6 @@ En esta sección, se definieron las epicas y la visualización de las user stori
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-13</td>
     <td>desarrollador</td>
@@ -4598,14 +4445,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-14</td>
     <td>desarrollador</td>
@@ -4648,14 +4493,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-15</td>
     <td>desarrollador</td>
@@ -4693,14 +4536,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-16</td>
     <td>desarrollador</td>
@@ -4738,14 +4579,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-17</td>
     <td>desarrollador</td>
@@ -4792,14 +4631,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-18</td>
     <td>desarrollador</td>
@@ -4848,14 +4685,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-19</td>
     <td>desarrollador</td>
@@ -4903,14 +4738,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-20</td>
     <td>desarrollador</td>
@@ -4956,14 +4789,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-21</td>
     <td>desarrollador</td>
@@ -5011,14 +4842,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-22</td>
     <td>desarrollador</td>
@@ -5066,14 +4895,12 @@ En esta sección, se definieron las epicas y la visualización de las user stori
       </ul>
     </td>
   </tr>
-
   <tr>
     <th>Story ID</th>
     <th>Role</th>
     <th>Priority</th>
     <th>Epic</th>
   </tr>
-
   <tr>
     <td>TS-23</td>
     <td>desarrollador</td>
@@ -6176,13 +6003,16 @@ Detalle del POST /services, mostrando la creación de un servicio con política,
 
 Durante este Sprint, el equipo ha colaborado en el soporte de la Landing Page, Frontend y Backend. Las actividades fueron gestionadas a través de GitHub, permitiendo una trazabilidad clara de los aportes de cada miembro del equipo. Se realizaron tareas de codificación, revisión, organización del repositorio y mejoras visuales y funcionales del producto. Cada miembro del equipo tuvo participación activa, realizando commits, revisando código, y apoyando en la estructura y documentación del proyecto.
 
-Insights de Landing Page:
+- Insights de Landing Page:
+
 <a href="https://ibb.co/20vmC3mP"><img src="https://i.ibb.co/fVkBydBt/i1.png" alt="i1" border="0"></a>
 
-Insights de Frontend:
+- Insights de Frontend:
+- 
 <a href="https://ibb.co/pjFPWtQN"><img src="https://i.ibb.co/VY4NH7xb/i2.png" alt="i2" border="0"></a>
 
-Insights de Backend:
+- Insights de Backend:
+- 
 <a href="https://ibb.co/nN8dCNNy"><img src="https://i.ibb.co/YFTnZFFS/i3.png" alt="i3" border="0"></a>
 
 ## 5.3. Video About-the-Product
