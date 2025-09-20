@@ -5787,6 +5787,8 @@ Luego de unos minutos de seleccionar "Save", se generará un enlace donde se pod
 
 En esta sección, explicamos el despliegue de la aplicación Front-end en firebase
 
+Ulr: https://electrolink-195e0.web.app
+
 Ingresamos al portal de Firebase
 <br>
 
@@ -5824,6 +5826,49 @@ Tras haber compilado subido el directorio dist, desplegamos con el siguiente com
 Url: https://electrolinkv2.onrender.com/swagger-ui/index.html#
 
 Vista general de Swagger con los grupos Autenticación, Propiedades y Perfiles, cada uno con sus operaciones CRUD protegidas.
+
+#### Deploy de una aplicación en Render
+##### 1. Preparar el proyecto en GitHub
+1. Asegúrate de tener tu aplicación en un repositorio de **GitHub** (público o privado).
+2. Verifica que el proyecto tenga los archivos necesarios:
+   - **Dockerfile** (esto debido a que render no acepta java como lenguaje de programación).
+
+##### 2. Crear una cuenta en Render
+1. Ve a [https://render.com](https://render.com).
+2. Regístrate o inicia sesión (puedes usar tu cuenta de GitHub para mayor comodidad).
+3. Autoriza a Render a acceder a tus repositorios de GitHub.
+
+###### 3. Crear un nuevo servicio en Render
+1. En el panel de Render, haz clic en **"New +" → "Web Service"**.
+[![image.png](https://i.postimg.cc/y8ZSps76/image.png)](https://postimg.cc/hXKjfFJN)
+2. Selecciona tu repositorio de GitHub.
+[![image.png](https://i.postimg.cc/Xvn7KbJz/image.png)](https://postimg.cc/v4SsMC5r)
+3. Configura:
+   - **Name**: Nombre de tu aplicación.
+   - **Region**: Generalmente elige la más cercana (ej: Oregon).
+   - **Branch**: `main` o la rama que quieras desplegar.
+   - **Runtime**: Render detecta el lenguaje automáticamente, aunque usaremos Docker debido a la falta de Java (Node, Python, Java, etc.).
+   - **Build Command**: El comando para compilar/instalar dependencias. Ejemplos:
+     - Node.js: `npm install`
+     - Python: `pip install -r requirements.txt`
+     - Java (Maven): `./mvnw clean install`
+   - **Start Command**: El comando para arrancar tu app.
+     - Node.js: `npm start`
+     - Python: `gunicorn app:app`
+     - Java: `java -jar target/app.jar`
+
+###### 4. Seleccionamos el plan gratuito:
+[![image.png](https://i.postimg.cc/Z52XZFkF/image.png)](https://postimg.cc/mP3my9gt)
+###### 5. Configurar variables de entorno
+1. En Render, abre la sección **"Environment"**.
+2. Agrega las variables necesarias (ejemplo: `DATABASE_URL`, `PORT`, `API_KEY`).
+3. Si tienes un archivo `.env.example`, úsalo de guía.
+
+##### 6. Deploy automático
+1. Render hará el primer build y deploy automáticamente.
+2. Si el build es exitoso, Render te dará una **URL pública** con tu app en producción.
+3. Cada vez que hagas **push** a la rama configurada, Render redeployará automáticamente tu aplicación.
+[![image.png](https://i.postimg.cc/L5W3fD3x/image.png)](https://postimg.cc/fSxdQxFd)
 
 <img  src="https://i.postimg.cc/KzwsXDD0/7c8bebf7-f9bd-4728-a6dc-1c1131947026-1.jpg"/>
 
