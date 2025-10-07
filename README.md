@@ -163,7 +163,28 @@ Insights del TB1
     - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
-- [Avance de Conclusiones, Bibliografía y Anexos](#avance-de-conclusiones-bibliografía-y-anexos)
+- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+    - [6.1.4. Core System Tests](#614-core-system-tests)
+  - [6.2. Static testing & Verification](#62-static-testing--verification)
+    - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+      - [6.2.1.1. Coding standard & Code conventions](#6211-coding-standard--code-conventions)
+      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
+    - [6.2.2. Reviews](#622-reviews)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+  - [7.1. Continuous Integration](#71-continuous-integration)
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+  - [7.2. Continuous Delivery](#72-continuous-delivery)
+    - [7.2.1. Tools and Practices](#721-tools-and-practices)
+    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+  - [7.3. Continuous deployment](#73-continuous-deployment)
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+ - [Avance de Conclusiones, Bibliografía y Anexos](#avance-de-conclusiones-bibliografía-y-anexos)
 
 <div style="page-break-after: always;"></div>
 
@@ -6069,6 +6090,62 @@ Durante este Sprint, el equipo ha colaborado en el soporte de la Landing Page, F
 <a href="https://ibb.co/nN8dCNNy"><img src="https://i.ibb.co/YFTnZFFS/i3.png" alt="i3" border="0"></a>
 
 ## 5.3. Video About-the-Product
+
+
+# Capítulo VI: Product Verification & Validation
+
+## 6.1 Testing Suites & Validation
+### 6.1.1 Core Entities Unit Tests
+
+
+### 6.1.2 Core Integration Tests
+
+
+
+### 6.1.3 Core Behavior-Driven Development
+
+
+
+### 6.1.4 Core System Tests
+
+
+
+## 6.2 Static testing & Verification
+### 6.2.1 Static Code Analysis
+
+
+#### 6.2.1.1 Coding standard & Code conventions
+
+
+#### 6.2.1.2 Code Quality & Code Security
+
+
+### 6.2.2 Reviews
+
+---
+
+# Capítulo VII: DevOps Practices
+
+## 7.1 Continuous Integration
+### 7.1.1 Tools and Practices
+
+| Herramienta | Tipo                              | Descripción                                                                                                                                           | Propósito                                                                                                                                         |
+|-------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+|             | Herramienta para pruebas (TDD)    |                                                                                                                                                       |                                                                                                                                                   |
+| Mockito     | Herramienta de simulaciones (TDD) |                                                                                                                                                       |                                                                                                                                                   |
+
+### 7.1.2 Build & Test Suite Pipeline Components
+
+
+## 7.2 Continuous Delivery
+
+Su propósito es automatizar tanto la integración como las pruebas del código, asegurando que el sistema esté siempre en condiciones óptimas para ser desplegado en cualquier momento.
+
+### 7.2.1 Tools and Practices
+
+
+### 7.2.2 Stages Deployment Pipeline Components
+
 
 ## Conclusiones
 
