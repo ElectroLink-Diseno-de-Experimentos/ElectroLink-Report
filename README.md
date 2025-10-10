@@ -6180,6 +6180,20 @@ Schedule Query Service:
 Service Query Service:
 <img src = "https://i.postimg.cc/9XykGzLb/unit3q.png"/>
 
+
+#### Test Unitarios del Bounded Context de Assets
+
+Se puede apreciar el resultado de éxito de los unit test implementado para el bounded context de Assets.
+
+ComponentCommandServiceImplTest:
+[![image.png](https://i.postimg.cc/DyDvqP3b/image.png)](https://postimg.cc/F7yXvcR9)
+
+ComponentTypeCommandServiceImplTest:
+[![image.png](https://i.postimg.cc/mZPCRVjC/image.png)](https://postimg.cc/SjpJf6wx)
+
+TechnicianInventoryCommandServiceImplTest:
+[![image.png](https://i.postimg.cc/HxDDx65J/image.png)](https://postimg.cc/JyqdYcpm)
+
 ### 6.1.2 Core Integration Tests
 
 #### Tests de integración del Bounded Context de Iam
