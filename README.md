@@ -6123,6 +6123,12 @@ Se puede apreciar el resultado de éxito de los 32 unit test implementado para e
 En esta validamos los request command service
 <img src = "https://i.postimg.cc/yYSwpv6M/unit1c.png" />
 
+Luego para Schedule Command service
+<img src = "https://i.postimg.cc/QCKnPdDV/unit2c.png"/>
+
+Y Finalmente para Service Command service
+<img src = "https://i.postimg.cc/rFXkkvH2/unit3c.png"/>
+
 
 ### 6.1.2 Core Integration Tests
 
