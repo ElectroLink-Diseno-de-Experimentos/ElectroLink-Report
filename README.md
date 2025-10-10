@@ -6136,6 +6136,15 @@ Pruebas de integración para USERS
 #### Tests de integración del Bounded Context de Monitoring
 En este apartado se visualiza el resultado positivo de las pruebas realizadas en karate usando el formato gherkin.
 
+Aqui se puede ver la prueba de integracion del controller de service operations
+[![image.png](https://i.postimg.cc/c4zWKpKq/image.png)](https://postimg.cc/bs1WWFHL)
+
+[![image.png](https://i.postimg.cc/FRTqMS3v/image.png)](https://postimg.cc/62GYRyMb)
+
+Aqui se puede ver la prueba de integración del controller de ratings
+[![image.png](https://i.postimg.cc/502KStTy/image.png)](https://postimg.cc/GB6jcbcn)
+
+[![image.png](https://i.postimg.cc/QdZ6nmwK/image.png)](https://postimg.cc/hfMbXLSK)
 
 ### 6.1.3 Core Behavior-Driven Development
 
