@@ -6282,27 +6282,33 @@ Aqui se prueban la funcionalidad de Rating como Create.
 
 #### Behaivor-Driven Development para Bounded Context Assets
 
-Aqui se prueban las funcionalidades de Components como el Create, Update y Delete
+**Aqui se prueban las funcionalidades de Components como el Create, Update y Delete**:
+
 [![image.png](https://i.postimg.cc/8ctJbJmP/image.png)](https://postimg.cc/D44wvzNt)
 
 [![image.png](https://i.postimg.cc/W4vNhp0r/image.png)](https://postimg.cc/QFfGz34x)
 
-Aqui se prueban las funcionalidades de Technician Inventory
+
+**Aqui se prueban las funcionalidades de Technician Inventory**
 
 - Crear Componente :
+  
 [![image.png](https://i.postimg.cc/rzXbQsV5/image.png)](https://postimg.cc/5QgntxFt)
 
 [![image.png](https://i.postimg.cc/PJssF2Kw/image.png)](https://postimg.cc/9RpnDP6m)
 
 
--Actualizar Stock de componentes: 
+- Actualizar Stock de componentes:
+  
 [![image.png](https://i.postimg.cc/ryJQHfh6/image.png)](https://postimg.cc/RqW76L5G)
 
 [![image.png](https://i.postimg.cc/rp1Srp3r/image.png)](https://postimg.cc/R306rvMS)
 
 [![image.png](https://i.postimg.cc/VL00t603/image.png)](https://postimg.cc/Whj4Lsnn)
 
--Registro de inventario de componente:
+
+- Registro de inventario de componente:
+  
 [![image.png](https://i.postimg.cc/yxcJwpKk/image.png)](https://postimg.cc/7JPYzVfk)
 
 [![image.png](https://i.postimg.cc/RVvVSZQt/image.png)](https://postimg.cc/vDSdXMK8)
