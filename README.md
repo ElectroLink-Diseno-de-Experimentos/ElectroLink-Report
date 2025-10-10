@@ -50,7 +50,9 @@
 |   TB1   | 19/09/2025  | **Leandro Saúl Contreras López**             | Elaboración de análisis competitivo y estrategias frente a competidores. Definición de *Lean UX Problem Statements* y *Assumptions*. Colaboración en entrevistas y registro de hallazgos. Implementacion y Mejorar dle Frontend. |
 |   TB1   | 19/09/2025  | **Jefferson Ernesto Castro Pariona**           | Configuración del entorno de desarrollo. Gestión inicial del *Product Backlog*. Aportes en la estructura general del documento y lineamientos de SEO. Correciones de la landing page |
 |   TB1   | 19/09/2025  | **Miguel Angel Gomez Hurtado**            | Diseño de *User Personas*, *User Task Matrix* y flujos de usuario. Desarrollo de prototipos web y guía de estilos visuales. Apoyo en estructura narrativa del documento. Mejoras y despliegue del backend. |
-|   TB2   | 10/10/2025  | **Miguel Angel Gomez Hurtado**            | Desarrollo de pruebas unitarias de Bounded Context Monitoring y pruebas de integración. Desarrollo de checkStyle de Monitoring. |
+|   TP    | 10/10/2025  | **Miguel Angel Gomez Hurtado**            | Desarrollo de pruebas unitarias de Bounded Context Monitoring y pruebas de integración. Desarrollo de checkStyle de Monitoring. |
+|   TP    | 10/10/2025  | **Kenyi Ramirez Cabrera**            | Implementación de elementos faltantes en algunas secciones. |
+
 
 
 <hr>
@@ -77,6 +79,14 @@ Insights del TB1
 
 
 <hr>
+
+Insights del TP
+
+<br>
+
+[![image.png](https://i.postimg.cc/QMTwFQSg/image.png)](https://postimg.cc/PLd2c8gN)
+
+<br>
 
 <div style="page-break-after: always;"></div>
 
@@ -5822,7 +5832,7 @@ El objetivo es que el **estilo de código sea revisado automáticamente** para q
 ## 5.2. Product Implementation & Deployment.
 ### 5.2.1. Sprint Backlogs
 
-| Sprint #       | Sprint 4 | |                                                            |                                                                                                                   |                     |                   |            |
+| Sprint #       | Sprint 1 | |                                                            |                                                                                                                   |                     |                   |            |
 |----------------|----------|---|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------|-------------------|------------|
 | **User Story** | | **Work-Item/task** |                                                            |                                                                                                                   |                     |                   |            |
 | **ID**         | **Title** | **Id** | **Title**                                                  | **Description**                                                                                                   | **Estimation(Hrs)** | **Assigned To**   | **Status** |
@@ -5832,6 +5842,30 @@ El objetivo es que el **estilo de código sea revisado automáticamente** para q
 | **US-13**      | Registro de cuentas como Dueño de Hogar | T001 | Mejorar la visualización del formulario                        | Actualizar la estructura y estilos del formulario de la sección 'Sign up'                                         | 1                   | Leandro Contreras | Done       |
 | **US-17**      | Inicio de sesión de usuarios | T001 | Mejorar la visualización del formulario | Actualizar la estructura y estilos del formulario de la sección 'Sign in'                                         | 1                   | Leandro Contreras | Done       |
 | **TS-13**      | Conectar a Base de Datos | T001 | Desplegar el Backend                                       | Actualizar el despliegue de los servicios web (Backend)                                                           | 1                   | Miguel Gomez      | Done       |
+
+
+| Sprint # | Sprint 2 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User/Technical Story** | | **Work-Item/task** | | | | | |
+| **ID** | **Title** | **Id** | **Title** | **Description** | **Estimation(Hrs)** | **Assigned To** | **Status** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **BC Assets (Kenyi)** | | | | | | | |
+| **TS-03** | Crear Componente | **T-A-01** | Test Unitario Lógica BC Assets | Implementar tests unitarios (JUnit/Mockito) para las reglas de dominio de Componentes e Inventario. | 4 | Kenyi Ramirez | Done |
+| **TS-04** | Actualizar Stock | **T-A-02** | Test Integración/E2E Componentes | Crear escenarios de prueba Karate para verificar endpoints `POST /component` y `PATCH /stock`. | 3 | Kenyi Ramirez | Done |
+| **TS-05** | Crear Servicio | **T-A-03** | Test Integración/E2E Servicios | Crear escenarios de prueba Karate para validar la creación de servicios con recetas de componentes. | 3 | Kenyi Ramirez | Done |
+| **TS-10** | Stock Automático | **T-A-04** | Test Listener Descuento Stock | Implementar test para el *listener* del evento "Servicio Completado" que descuenta el stock. | 2 | Kenyi Ramirez | Done |
+| **BC Service Design (Leandro)** | | | | | | | |
+| **TS-06** | Obtener Servicios por Zona | **T-S-01** | Test Unitario Lógica BC Service | Implementar tests unitarios (JUnit/Mockito) para la lógica de búsqueda de servicios por geografía. | 3 | Leandro Contreras | Done |
+| **TS-07** | Iniciar Solicitud (Límite) | **T-S-02** | Test Integración Límite de Plan | Crear escenario Karate para validar el límite de solicitudes del Plan Básico (`403 Forbidden`). | 3 | Leandro Contreras | Done |
+| **TS-08** | Enviar Solicitud | **T-S-03** | Test Integración/E2E Solicitud | Crear escenarios Karate para el *endpoint* de registro final de una solicitud de servicio. | 4 | Leandro Contreras | Done |
+| **BC Profiles (Jefferson)** | | | | | | | |
+| **US-23/24** | Gest. Perfil Propietario | **T-P-01** | Test Unitario Lógica BC Profiles | Implementar tests unitarios (JUnit/Mockito) para la lógica de gestión de perfiles de Propietario. | 3 | Jefferson Castro | Done |
+| **US-25/26** | Gest. Perfil Técnico | **T-P-02** | Test Integración Perfiles | Crear escenarios Karate para validar la visualización y edición de perfiles de Técnico (`PATCH /profile`). | 4 | Jefferson Castro | Done |
+| **BC IAM & Monitoring (Miguel)** | | | | | | | |
+| **TS-17/18** | Login/Registro | **T-I-01** | Test Integración Autenticación | Crear escenarios Karate para validar el *endpoint* de Login (JWT) y Registro (roles diferenciados). | 4 | Miguel Gomez | Done |
+| **TS-09** | Asignación Automática | **T-I-02** | Test Unitario Lógica Asignación | Implementar tests unitarios para la lógica de asignación automática de técnicos (reglas de stock/prioridad). | 4 | Miguel Gomez | Done |
+| **TS-13/Quality** | DB & Static Analysis | **T-I-04** | CheckStyle/SonarQube | Ejecutar el análisis estático** (CheckStyle/SonarQube) para todos los *Bounded Contexts* Java. | 4 | Miguel Gomez | Done |
+
 
 ### 5.2.2. Implemented Landing Page Evidence
 
@@ -6239,7 +6273,21 @@ Aqui se puede ver la prueba de integración del controller de ratings
 
 #### Test de integracion del bounded context de service desing and planning
 
-<img src = "https://i.postimg.cc/TwKpZZ4V/codigocucumber.png"/>
+Comenzamos con los ratings:
+<img src = "https://i.postimg.cc/MGkX4jKM/inventory-Runner.png"/>
+<img src = "https://i.postimg.cc/CM6hXfmG/karate4.png"/>
+
+Seguimos con los services:
+<img src = "https://i.postimg.cc/HxkmPp5W/service-Runner.png"/>
+<img src = "https://i.postimg.cc/hGb45y5r/karate1.png"/>
+
+Ahora schedules:
+<img src = "https://i.postimg.cc/vBNJq5bq/schedule-Runner.png"/>
+<img src = "https://i.postimg.cc/1z5Rbch7/karate2.png"/>
+
+Finalmente con request (clients):
+<img src = "https://i.postimg.cc/PrWtxFtT/request-Runner.png"/>
+<img src = "https://i.postimg.cc/C1n0VcvX/karate3.png"/>
 
 
 #### Tests de integración del Bounded Context de Assets
@@ -6288,7 +6336,17 @@ Aqui se prueban la funcionalidad de Rating como Create.
 
 #### Behaivor-Driven Development para Bounded Context Service Design and pLanning
 
-<img src = "https://i.postimg.cc/5t1y2XkV/sc1.png"/>
+- Peticiones al inventario del técnico:
+<img src = "https://i.postimg.cc/T31HSpHM/inventory-feature.png"/>
+
+- Solicitudes que realizan los clientes para contactar a un técnico:
+<img src = "https://i.postimg.cc/sfJ6gpkr/client-feature.png"/>
+
+- Crear y/o modificar el horario de atención de un técnico:
+<img src = "https://i.postimg.cc/T12cD4zX/schedule-feature.png"/>
+
+- Catálogo de servicios del técnico:
+<img src = "https://i.postimg.cc/NF01MrHV/tech-service-feature.png"/>
 
 #### Behaivor-Driven Development para Bounded Context Assets
 
@@ -6511,6 +6569,7 @@ Cumplimiento de los objetivos estratégicos del proyecto ElectroLink finaliza su
 - Repositorio de la Landing Page: https://github.com/ElectroLink-Diseno-de-Experimentos/Landing-Page
 - Repositorio Frontend: https://github.com/ElectroLink-Diseno-de-Experimentos/Frontend
 - Repositorio Backend: https://github.com/ElectroLink-Diseno-de-Experimentos/Backend
+- Repositorio de Pruebas de Integracion (Feature): https://github.com/ElectroLink-Diseno-de-Experimentos/Electrolink-API-Tests
 - Landing Page: https://electrolink-diseno-de-experimentos.github.io/Landing-Page/
 - Frontend: https://electrolink-195e0.web.app/
 - Backend: https://electrolinkv2.onrender.com/swagger-ui/index.html#
