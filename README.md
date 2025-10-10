@@ -6115,9 +6115,13 @@ En esta imagen se actualiza el estado de un service operation a COMPLETED, lo qu
 
 ### 6.1.2 Core Integration Tests
 
+#### Tests de integración del Bounded Context de Monitoring
+
 
 
 ### 6.1.3 Core Behavior-Driven Development
+
+#### Behavior-Driven Development para Bounded Context de Monitoring
 
 
 
@@ -6126,13 +6130,19 @@ En esta imagen se actualiza el estado de un service operation a COMPLETED, lo qu
 
 
 ## 6.2 Static testing & Verification
-### 6.2.1 Static Code Analysis
 
+### 6.2.1 Static Code Analysis
 
 #### 6.2.1.1 Coding standard & Code conventions
 
+##### CheckStyle de Bounded Context Monitoring
+
 
 #### 6.2.1.2 Code Quality & Code Security
+
+Esta es una imagen del code standard de SonarQube para nuestro proyecto.
+Representa el estado actual del mismo.
+
 
 
 ### 6.2.2 Reviews
