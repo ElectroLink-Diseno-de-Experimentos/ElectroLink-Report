@@ -5760,6 +5760,39 @@ Se nombrará las siguientes etiquetas que utilizamos para desarrollar nuestra so
 
 <hr>
 
+### Convenciones Estándares y Referencias de Estilo de Código
+
+| Lenguaje | Estándar / Convención Adoptada | Objetivo |
+| :--- | :--- | :--- |
+| **JavaScript** | **[Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)** o **[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)**. _Se elegirá uno de los dos de forma definitiva al inicio de la fase de codificación._ | Garantizar el uso de características modernas de ES6+ y prácticas recomendadas para sintaxis, espaciado, uso de comillas y estructuras de control. |
+| **TypeScript** | **[TypeScript Recommended Coding Practices](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html)** y alineación con el estándar de JavaScript elegido (Airbnb/Google). | Aplicar convenciones específicas de TypeScript, como tipado explícito/inferido, interfaces y minimizar el uso de `any`. |
+| **Java** | **[Oracle Code Conventions for the Java TM Programming Language](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)** o **[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)**. _Se elegirá uno de los dos de forma definitiva._ | Establecer reglas para la estructura del código, comentarios Javadoc, declaraciones, sentencias y formateo. |
+
+---
+
+### Convenciones de Nomenclatura (Naming Conventions)
+
+Se utilizará una convención de nomenclatura **coherente** para cada elemento en el código, basada en las prácticas recomendadas por el estándar de estilo adoptado para cada lenguaje.
+
+| Elemento | Convención (Ejemplo) | Lenguajes Aplicables | Descripción |
+| :--- | :--- | :--- | :--- |
+| **Variables/Propiedades** | `camelCase` (e.g., `nombreUsuario`, `maxRetries`) | JavaScript, TypeScript, Java | Identificadores que no son constantes. |
+| **Constantes** | `SCREAMING_SNAKE_CASE` (e.g., `MAX_SIZE`, `API_KEY`) | JavaScript, TypeScript, Java | Valores inmutables definidos a nivel global o de clase/módulo. |
+| **Funciones/Métodos** | `camelCase` (e.g., `calcularTotal`, `guardarDatos`) | JavaScript, TypeScript, Java | Identificadores de funciones y métodos. |
+| **Clases/Interfaces** | `PascalCase` (e.g., `UsuarioService`, `AuthInterface`) | TypeScript, Java | Nombres de clases, interfaces, tipos y enums. |
+| **Paquetes** | `lowercase` (e.g., `com.empresa.app.utils`) | Java | Nombres de paquetes (totalmente en minúsculas). |
+| **Archivos Fuente** | `PascalCase` (e.g., `UserService.ts`, `MainApplication.java`) | TypeScript, Java | Nombres de archivo que contienen una clase o componente principal. |
+
+---
+
+### Herramientas de Automatización del Estilo
+
+Para hacer cumplir estas convenciones y mantener la uniformidad, se utilizarán las siguientes herramientas, que serán integradas en el flujo de desarrollo:
+
+* **CheckStyle**: Considerados para **Java** para el análisis estático y validación del cumplimiento del estándar.
+
+El objetivo es que el **estilo de código sea revisado automáticamente** para que los desarrolladores puedan concentrarse en la lógica del negocio.
+
 ### 5.1.4. Software Deployment Configuration.
 
 **Consideraciones Preliminares al Despliegue:**
