@@ -6097,6 +6097,8 @@ Durante este Sprint, el equipo ha colaborado en el soporte de la Landing Page, F
 ## 6.1 Testing Suites & Validation
 ### 6.1.1 Core Entities Unit Tests
 
+#### Test Unitarios del Bounded Context de Monitoring
+[![image.png](https://i.postimg.cc/fTjhTVcL/image.png)](https://postimg.cc/qzRF1MZV)
 
 ### 6.1.2 Core Integration Tests
 
