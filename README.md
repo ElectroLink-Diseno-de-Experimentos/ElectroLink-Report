@@ -6129,6 +6129,10 @@ Luego para Schedule Command service
 Y Finalmente para Service Command service
 <img src = "https://i.postimg.cc/rFXkkvH2/unit3c.png"/>
 
+Ahora continuamos con los queryService
+
+Request Query Service:
+<img src = "https://i.postimg.cc/y6RMvL8P/unit1q.png"/>
 
 ### 6.1.2 Core Integration Tests
 
