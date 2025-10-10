@@ -6166,7 +6166,13 @@ Aqui se prueban las funcionalidades de Users como Get All Users, Get By Id, fall
 
 #### Behavior-Driven Development para Bounded Context de Monitoring
 
+Aqui se prueban las funcionalidades de Service Operation como el Create, GetById, Update y GetByTechnicianId
+[![image.png](https://i.postimg.cc/76bdyVDv/image.png)](https://postimg.cc/hzWpLVfM)
 
+[![image.png](https://i.postimg.cc/QdtpmnJR/image.png)](https://postimg.cc/xcwJT57R)
+
+Aqui se prueban la funcionalidad de Rating como Create.
+[![image.png](https://i.postimg.cc/L4x5D4Q6/image.png)](https://postimg.cc/PN8drHkB)
 
 ### 6.1.4 Core System Tests
 
