@@ -5656,6 +5656,12 @@ Aunque la falta de una gestión adecuada de la configuración del software puede
 
 ### 5.1.2. Source Code Management
 
+Link Landing Page: https://electrolink-diseno-de-experimentos.github.io/Landing-Page
+
+Link WebServices: https://electrolinkv2.onrender.com/swagger-ui/index.html
+
+Link FrontEnd: https://electrolink-195e0.web.app
+
 Definir convenciones de nomenclatura para ramas en Git mejora la organización del flujo de trabajo y facilita la colaboración entre desarrolladores. Siguiendo buenas prácticas como las de Git Flow o trunk-based development, se puede establecer una estructura ordenada y predecible.
 
 - Además, utilizar un esquema de nombres predecible permite:
