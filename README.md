@@ -6107,6 +6107,11 @@ Aquí se puede ver algunos ejemplos de algunos pruebas unitarias que resaltan so
 En esta imagen se prueba el servicio de que un service operation que será usado para colocarle un rating tiene que tener el estado COMPLETED, ya que no se puede evaluar un trabajo que no haya finalizado
 [![image.png](https://i.postimg.cc/MK41HGzJ/image.png)](https://postimg.cc/xcvXFnk6)
 
+En esta imagen se muestra la prueba unitaria para crear un report de un service operation. La validación de la existencia de este service operation es puesta a prueba para poder generarlo.
+[![image.png](https://i.postimg.cc/rs2F3vk3/image.png)](https://postimg.cc/dknYTNDj)
+
+En esta imagen se actualiza el estado de un service operation a COMPLETED, lo que conlleva cambios en otros campos como completedAt para mantener el registro de procesos.
+[![image.png](https://i.postimg.cc/rsf3xrQ1/image.png)](https://postimg.cc/bS2mjsXr)
 
 ### 6.1.2 Core Integration Tests
 
