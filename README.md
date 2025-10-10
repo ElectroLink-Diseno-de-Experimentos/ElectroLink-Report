@@ -17,7 +17,7 @@
     <br> <br>
     Ciclo: 2025-20 
     <br> <br>
-    Informe de TB1
+    Informe de TP
     <br> <br>
     Startup: HampCoders
     <br> <br>
@@ -36,7 +36,7 @@
 
 </div>
 
-<div align="center"> Septiembre 2025 </div>
+<div align="center"> Octubre 2025 </div>
 
 <hr>
 
@@ -5424,7 +5424,7 @@ Subscription Billing Bounded Context Diagram
 #### 4.9.1. Class Diagrams
 <hr>
 
-<img src="https://i.ibb.co/Q3KsmkGk/diagram.png"/>
+[![image.png](https://i.postimg.cc/k4S8S4tS/image.png)](https://postimg.cc/sQVvd3mf)
 <hr>
 
 #### 4.9.2. Class Dictionary
