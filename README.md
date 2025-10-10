@@ -6137,6 +6137,10 @@ En esta imagen se actualiza el estado de un service operation a COMPLETED, lo qu
 
 ##### CheckStyle de Bounded Context Monitoring
 
+En esta imagen se ve que se aplico el comando mvn checkstyle:check para verificar los estilos.
+El bounded context de MONITORING y sus errores debería aparecer entre ASSETS y PROFILES, lo que indica que ya no tiene errores sobre sus convenciones.
+[![image.png](https://i.postimg.cc/bYKpCXTq/image.png)](https://postimg.cc/XXcRqzmP)
+
 
 #### 6.2.1.2 Code Quality & Code Security
 
