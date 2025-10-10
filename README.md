@@ -80,7 +80,7 @@ Insights del TB1
 
 <hr>
 
-Insights del TB2
+Insights del TP
 
 <br>
 
