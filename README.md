@@ -6225,6 +6225,7 @@ El bounded context de MONITORING y sus errores debería aparecer entre ASSETS y 
 
 Esta es una imagen del code standard de SonarQube para nuestro proyecto.
 Representa el estado actual del mismo.
+[![image.png](https://i.postimg.cc/0ySKQRkS/image.png)](https://postimg.cc/3kKxSqDr)
 
 
 
