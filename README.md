@@ -6134,6 +6134,12 @@ Ahora continuamos con los queryService
 Request Query Service:
 <img src = "https://i.postimg.cc/y6RMvL8P/unit1q.png"/>
 
+Schedule Query Service:
+<img src = "https://i.postimg.cc/DZXMpznc/unit2q.png"/>
+
+Service Query Service:
+<img src = "https://i.postimg.cc/9XykGzLb/unit3q.png"/>
+
 ### 6.1.2 Core Integration Tests
 
 #### Tests de integración del Bounded Context de Iam
