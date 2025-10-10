@@ -6148,6 +6148,22 @@ Aqui se puede ver la prueba de integración del controller de ratings
 
 ### 6.1.3 Core Behavior-Driven Development
 
+A continuación se mostrarán los archivos .feature los cuales usan el formato gherkin.
+
+#### Behavior-Driven Development para Bounded Context de Iam
+
+Aqui se prueban las funcionalidades de Sign-up happy path, sin roles, fallos de username, password y formato.
+[![image.png](https://i.postimg.cc/65tcrqv0/image.png)](https://postimg.cc/XX193VxG)
+
+Aqui se prueban las funcionalidades de Sign-in relacionadas a happy path, contraseña incorrecta, usuario inexistente y request incompleto
+[![image.png](https://i.postimg.cc/gk2RcZRJ/image.png)](https://postimg.cc/Cd9dmdcT)
+
+Aqui se prueban las funcionalidades de Roles como Validación de token y los fallos de su mal formato
+[![image.png](https://i.postimg.cc/zGJJYCRL/image.png)](https://postimg.cc/WhHRMJ8j)
+
+Aqui se prueban las funcionalidades de Users como Get All Users, Get By Id, fallos con el token y no encontrado.
+[![image.png](https://i.postimg.cc/gcDSB3m2/image.png)](https://postimg.cc/c6vBvgvp)
+
 #### Behavior-Driven Development para Bounded Context de Monitoring
 
 
