@@ -6095,11 +6095,14 @@ Durante este Sprint, el equipo ha colaborado en el soporte de la Landing Page, F
 # Capítulo VI: Product Verification & Validation
 
 ## 6.1 Testing Suites & Validation
+
+La suite de pruebas es el medio o la estructura utilizada para llevar a cabo el proceso de validación. La validación es el objetivo final que determina si la aplicación satisface las necesidades del usuario, y las suites de pruebas son los grupos organizados de casos de prueba que se ejecutan para lograr esa validación. En los siguientes capitulos se mostraran el codigo de las pruebas unitarias.
+
 ### 6.1.1 Core Entities Unit Tests
 
 #### Test Unitarios del Bounded Context de Monitoring
 
-En esta imagen se puede visualizar el rsultado de éxito de lo 42 unit test implementados para el bounded context de monitoring
+En esta imagen se puede visualizar el resultado de éxito de lo 42 unit test implementados para el bounded context de monitoring
 [![image.png](https://i.postimg.cc/fTjhTVcL/image.png)](https://postimg.cc/qzRF1MZV)
 
 Aquí se puede ver algunos ejemplos de algunos pruebas unitarias que resaltan sobre otra de este bounded context.
@@ -6112,6 +6115,14 @@ En esta imagen se muestra la prueba unitaria para crear un report de un service 
 
 En esta imagen se actualiza el estado de un service operation a COMPLETED, lo que conlleva cambios en otros campos como completedAt para mantener el registro de procesos.
 [![image.png](https://i.postimg.cc/rsf3xrQ1/image.png)](https://postimg.cc/bS2mjsXr)
+
+#### Test Unitarios del Bounded Context de Service Design and Planning (SDP)
+
+Se puede apreciar el resultado de éxito de los 32 unit test implementado para el bounded context de service design and planning.
+
+En esta validamos los request command service
+<img src = "https://i.postimg.cc/yYSwpv6M/unit1c.png" />
+
 
 ### 6.1.2 Core Integration Tests
 
