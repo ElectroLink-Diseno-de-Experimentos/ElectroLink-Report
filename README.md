@@ -6115,8 +6115,26 @@ En esta imagen se actualiza el estado de un service operation a COMPLETED, lo qu
 
 ### 6.1.2 Core Integration Tests
 
-#### Tests de integración del Bounded Context de Monitoring
+#### Tests de integración del Bounded Context de Iam
+En este apartado se visualiza el resultado positivo de las pruebas realizadas en karate usando el formato gherkin.
+[![image.png](https://i.postimg.cc/Rh95mmD5/image.png)](https://postimg.cc/vgPS7Jy3)
 
+En las siguientes imagenes se visualiza en mayor detalle cada prueba en el reporte que genera karate.
+
+Pruebas de integración para SIGN-UP
+[![image.png](https://i.postimg.cc/8P6W9Sgy/image.png)](https://postimg.cc/w797RnvJ)
+
+Pruebas de integración para SIGN-IN
+[![image.png](https://i.postimg.cc/SKvCHNR1/image.png)](https://postimg.cc/KKt1Mbnt)
+
+Pruebas de integración para ROLES
+[![image.png](https://i.postimg.cc/SK3YDTtj/image.png)](https://postimg.cc/hJ8GGrnq)
+
+Pruebas de integración para USERS
+[![image.png](https://i.postimg.cc/HszJfsP3/image.png)](https://postimg.cc/nCscmZxQ)
+
+#### Tests de integración del Bounded Context de Monitoring
+En este apartado se visualiza el resultado positivo de las pruebas realizadas en karate usando el formato gherkin.
 
 
 ### 6.1.3 Core Behavior-Driven Development
