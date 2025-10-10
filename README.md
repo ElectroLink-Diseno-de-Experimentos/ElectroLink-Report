@@ -188,7 +188,7 @@ Insights del TB1
 
 <div style="page-break-after: always;"></div>
 
-## Student Outcome 4 – Planificación y Gestión de Proyectos
+## Student Outcome 4 – Diseño de Experimentos
 
 En esta sección se evidencia cómo las actividades realizadas en el **TB1** han contribuido al desarrollo del **Outcome 4 de ABET – EAC**, referido a la capacidad de planificar y gestionar proyectos de desarrollo de software utilizando metodologías y herramientas apropiadas. Cada integrante del equipo ha asumido responsabilidades clave que implicaron la definición de alcances, la organización de tareas y la aplicación de enfoques de gestión ágil. Estas acciones fortalecieron la habilidad del equipo para ejecutar el proyecto de manera coordinada y eficiente, cumpliendo con los objetivos y plazos establecidos.
 
