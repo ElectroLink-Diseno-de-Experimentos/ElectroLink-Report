@@ -6173,6 +6173,10 @@ Aqui se puede ver la prueba de integración del controller de ratings
 
 [![image.png](https://i.postimg.cc/QdZ6nmwK/image.png)](https://postimg.cc/hfMbXLSK)
 
+#### Test de integracion del bounded context de service desing and planning
+
+<img src = "https://i.postimg.cc/TwKpZZ4V/codigocucumber.png"/>
+
 ### 6.1.3 Core Behavior-Driven Development
 
 A continuación se mostrarán los archivos .feature los cuales usan el formato gherkin.
@@ -6201,6 +6205,10 @@ Aqui se prueban las funcionalidades de Service Operation como el Create, GetById
 Aqui se prueban la funcionalidad de Rating como Create.
 [![image.png](https://i.postimg.cc/L4x5D4Q6/image.png)](https://postimg.cc/PN8drHkB)
 
+#### Behaivor-Driven Development para Bounded Context Service Design and pLanning
+
+<img src = "https://i.postimg.cc/5t1y2XkV/sc1.png"/>
+
 ### 6.1.4 Core System Tests
 
 
@@ -6220,6 +6228,8 @@ En esta imagen se ve que se aplico el comando mvn checkstyle:check para verifica
 El bounded context de MONITORING y sus errores debería aparecer entre ASSETS y PROFILES, lo que indica que ya no tiene errores sobre sus convenciones.
 [![image.png](https://i.postimg.cc/bYKpCXTq/image.png)](https://postimg.cc/XXcRqzmP)
 
+#### ChecStyle de Bounded Context Service Design and Planning
+<img src = "https://i.postimg.cc/fyWgzfYv/stylech.png"/>
 
 #### 6.2.1.2 Code Quality & Code Security
 
