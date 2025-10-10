@@ -6366,6 +6366,41 @@ Representa el estado actual del mismo.
 
 ### 6.2.2 Reviews
 
+Las revisiones de código son un proceso fundamental para garantizar la calidad del *software* y la conformidad con las normas de codificación establecidas (como la **Google Java Style Guide** y **Airbnb JavaScript Style Guide**). En el proyecto ElectroLink, este proceso se integra directamente con el flujo de trabajo en **GitHub** mediante **Pull Requests (PR)** y se apoya en revisiones tanto manuales como automatizadas.
+
+### Tipos de Revisiones y Herramientas
+
+| Tipo de Revisión | Descripción y Propósito | Herramientas Utilizadas |
+| :--- | :--- | :--- |
+| **Revisión de Código por Pares (Manual)** | Un desarrollador revisa los cambios de otro a través de un **Pull Request (PR)** en GitHub. Se enfoca en la **claridad, legibilidad y el cumplimiento de las convenciones** de nomenclatura y estructura (`Clean Code`, `DDD`). | **GitHub Pull Requests**, **IntelliJ IDEA** (para inspección local). |
+| **Revisión Automatizada** | Se utiliza para escanear el código y garantizar que cumple con los **estándares técnicos de calidad y seguridad**. | **CheckStyle** (para Java), integrados vía **GitHub Actions** en la *pipeline* de CI. |
+
+### Proceso de Revisión (Flujo del Pull Request)
+
+El proceso de revisión está diseñado para ser eficiente y bloquear la integración de código defectuoso o inconsistente:
+
+1.  **Creación del Pull Request (PR):** Los desarrolladores, siguiendo la convención de ramas (`feature/nombre-corto-descriptivo`), crean un PR desde su rama de trabajo hacia la rama objetivo (`release/x.y.z` o `main`).
+    * **Mandatorio:** El PR debe incluir una **descripción clara** de la *User Story* o *Work-Item* resuelto y una referencia a las pruebas asociadas (`JUnit`, `Karate`).
+2.  **Ejecución de la Pipeline de CI:** Al abrir el PR, **GitHub Actions** se activa automáticamente, ejecutando las fases de *Static Analysis* (**CheckStyle/ESLint**) y la *Test Suite* (`JUnit`, `Karate`).
+3.  **Checklist de Revisión:** El revisor designado utiliza un *checklist* mental o físico que cubre aspectos esenciales antes de dar la aprobación manual:
+    * Verificación de la lógica de negocio y el impacto del cambio.
+    * Comprobación del cumplimiento de las **convenciones de nomenclatura** (ej. `camelCase` en métodos).
+    * Validación de la **cobertura de pruebas** unitarias y de integración.
+4.  **Comentarios y Feedback:** Los revisores deben proporcionar *feedback* **constructivo y específico** dentro de la interfaz de GitHub. Todo *comment* de bloqueo debe ser resuelto y marcado como tal por el autor antes de la aprobación.
+5.  **Aprobación o Rechazo de PR:** El PR debe ser aprobado por **al menos un revisor adicional** antes de que el código pueda fusionarse (*Merge*) a la rama principal (siguiendo el modelo GitFlow adoptado).
+
+### Criterios de Aceptación
+
+Para que un **Pull Request** pueda ser aprobado y fusionado, debe satisfacer los siguientes criterios que garantizan la calidad del código:
+
+* **Calidad de Código y Convenciones:** El código debe superar el análisis estático (**CheckStyle**) y adherirse al 100% de las convenciones de la guía de estilo para el lenguaje correspondiente.
+* **Aprobación de la Pipeline de CI:** Todas las etapas de **GitHub Actions** (Análisis Estático, *Build* y *Tests*) deben pasar exitosamente.
+* **Cobertura de Pruebas:** Se exige una cobertura de pruebas adecuada (idealmente **superior al 80%**) para asegurar que la nueva funcionalidad esté cubierta y que el cambio no haya roto la funcionalidad existente (*regresión*).
+
+### Frecuencia de Revisiones
+
+Las revisiones de código se realizan de forma **continua e incremental**. El objetivo es mantener el tamaño del PR pequeño, por lo que las revisiones se realizan tan pronto como un desarrollador finaliza su tarea y crea el PR. Esto previene la acumulación de código, facilita la detección temprana de defectos y asegura que el repositorio se mantenga en un **estado de integración constante y de alta calidad**.
+
 ---
 
 # Capítulo VII: DevOps Practices
@@ -6424,6 +6459,8 @@ El objetivo de la Entrega Continua (CD) es automatizar la integración y pruebas
 
 
 ### 7.2.2 Stages Deployment Pipeline Components
+
+NO CORRESPONDE A ESTA ENTREGA 
 
 
 ## Conclusiones
