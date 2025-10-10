@@ -50,7 +50,9 @@
 |   TB1   | 19/09/2025  | **Leandro Saúl Contreras López**             | Elaboración de análisis competitivo y estrategias frente a competidores. Definición de *Lean UX Problem Statements* y *Assumptions*. Colaboración en entrevistas y registro de hallazgos. Implementacion y Mejorar dle Frontend. |
 |   TB1   | 19/09/2025  | **Jefferson Ernesto Castro Pariona**           | Configuración del entorno de desarrollo. Gestión inicial del *Product Backlog*. Aportes en la estructura general del documento y lineamientos de SEO. Correciones de la landing page |
 |   TB1   | 19/09/2025  | **Miguel Angel Gomez Hurtado**            | Diseño de *User Personas*, *User Task Matrix* y flujos de usuario. Desarrollo de prototipos web y guía de estilos visuales. Apoyo en estructura narrativa del documento. Mejoras y despliegue del backend. |
-|   TB2   | 10/10/2025  | **Miguel Angel Gomez Hurtado**            | Desarrollo de pruebas unitarias de Bounded Context Monitoring y pruebas de integración. Desarrollo de checkStyle de Monitoring. |
+|   TP    | 10/10/2025  | **Miguel Angel Gomez Hurtado**            | Desarrollo de pruebas unitarias de Bounded Context Monitoring y pruebas de integración. Desarrollo de checkStyle de Monitoring. |
+|   TP    | 10/10/2025  | **Kenyi Ramirez Cabrera**            | Implementación de elementos faltantes en algunas secciones. |
+
 
 
 <hr>
