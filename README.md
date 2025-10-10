@@ -6098,7 +6098,15 @@ Durante este Sprint, el equipo ha colaborado en el soporte de la Landing Page, F
 ### 6.1.1 Core Entities Unit Tests
 
 #### Test Unitarios del Bounded Context de Monitoring
+
+En esta imagen se puede visualizar el rsultado de éxito de lo 42 unit test implementados para el bounded context de monitoring
 [![image.png](https://i.postimg.cc/fTjhTVcL/image.png)](https://postimg.cc/qzRF1MZV)
+
+Aquí se puede ver algunos ejemplos de algunos pruebas unitarias que resaltan sobre otra de este bounded context.
+
+En esta imagen se prueba el servicio de que un service operation que será usado para colocarle un rating tiene que tener el estado COMPLETED, ya que no se puede evaluar un trabajo que no haya finalizado
+[![image.png](https://i.postimg.cc/MK41HGzJ/image.png)](https://postimg.cc/xcvXFnk6)
+
 
 ### 6.1.2 Core Integration Tests
 
