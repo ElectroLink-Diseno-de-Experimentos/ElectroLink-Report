@@ -6273,7 +6273,21 @@ Aqui se puede ver la prueba de integración del controller de ratings
 
 #### Test de integracion del bounded context de service desing and planning
 
-<img src = "https://i.postimg.cc/TwKpZZ4V/codigocucumber.png"/>
+Comenzamos con los ratings:
+<img src = "https://i.postimg.cc/MGkX4jKM/inventory-Runner.png"/>
+<img src = "https://i.postimg.cc/CM6hXfmG/karate4.png"/>
+
+Seguimos con los services:
+<img src = "https://i.postimg.cc/HxkmPp5W/service-Runner.png"/>
+<img src = "https://i.postimg.cc/hGb45y5r/karate1.png"/>
+
+Ahora schedules:
+<img src = "https://i.postimg.cc/vBNJq5bq/schedule-Runner.png"/>
+<img src = "https://i.postimg.cc/1z5Rbch7/karate2.png"/>
+
+Finalmente con request (clients):
+<img src = "https://i.postimg.cc/PrWtxFtT/request-Runner.png"/>
+<img src = "https://i.postimg.cc/C1n0VcvX/karate3.png"/>
 
 
 #### Tests de integración del Bounded Context de Assets
