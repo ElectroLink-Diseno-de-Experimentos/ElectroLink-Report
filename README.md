@@ -78,6 +78,14 @@ Insights del TB1
 
 <hr>
 
+Insights del TB2
+
+<br>
+
+[![image.png](https://i.postimg.cc/QMTwFQSg/image.png)](https://postimg.cc/PLd2c8gN)
+
+<br>
+
 <div style="page-break-after: always;"></div>
 
 ## Tabla de Contenidos
