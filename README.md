@@ -17,7 +17,7 @@
     <br> <br>
     Ciclo: 2025-20 
     <br> <br>
-    Informe de TB1
+    Informe de TP
     <br> <br>
     Startup: HampCoders
     <br> <br>
@@ -36,7 +36,7 @@
 
 </div>
 
-<div align="center"> Septiembre 2025 </div>
+<div align="center"> Octubre 2025 </div>
 
 <hr>
 
@@ -50,6 +50,7 @@
 |   TB1   | 19/09/2025  | **Leandro Saúl Contreras López**             | Elaboración de análisis competitivo y estrategias frente a competidores. Definición de *Lean UX Problem Statements* y *Assumptions*. Colaboración en entrevistas y registro de hallazgos. Implementacion y Mejorar dle Frontend. |
 |   TB1   | 19/09/2025  | **Jefferson Ernesto Castro Pariona**           | Configuración del entorno de desarrollo. Gestión inicial del *Product Backlog*. Aportes en la estructura general del documento y lineamientos de SEO. Correciones de la landing page |
 |   TB1   | 19/09/2025  | **Miguel Angel Gomez Hurtado**            | Diseño de *User Personas*, *User Task Matrix* y flujos de usuario. Desarrollo de prototipos web y guía de estilos visuales. Apoyo en estructura narrativa del documento. Mejoras y despliegue del backend. |
+|   TB2   | 10/10/2025  | **Miguel Angel Gomez Hurtado**            | Desarrollo de pruebas unitarias de Bounded Context Monitoring y pruebas de integración. Desarrollo de checkStyle de Monitoring. |
 
 
 <hr>
@@ -59,8 +60,9 @@
 ## Project Report Collaboration Insights  
 
 **Enlace de la organización del proyecto**
-- [Organización GitHub: ElectroLink-Diseño de Experimentos](https://github.com/ElectroLink-Diseno-de-Experimentos)
-- [Repositorio GitHub: ElectroLink]((https://github.com/ElectroLink-Diseno-de-Experimentos/ElectroLink-Report))
+
+- Organización GitHub: ElectroLink-Diseño de Experimentos: https://github.com/ElectroLink-Diseno-de-Experimentos
+- Repositorio GitHub: ElectroLink: https://github.com/ElectroLink-Diseno-de-Experimentos/ElectroLink-Report
   
 
 Insights del TB1
@@ -166,23 +168,41 @@ Insights del TB1
     - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
-- [Avance de Conclusiones, Bibliografía y Anexos](#avance-de-conclusiones-bibliografía-y-anexos)
+- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+    - [6.1.4. Core System Tests](#614-core-system-tests)
+  - [6.2. Static testing & Verification](#62-static-testing--verification)
+    - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+      - [6.2.1.1. Coding standard & Code conventions](#6211-coding-standard--code-conventions)
+      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
+    - [6.2.2. Reviews](#622-reviews)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+  - [7.1. Continuous Integration](#71-continuous-integration)
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+  - [7.2. Continuous Delivery](#72-continuous-delivery)
+    - [7.2.1. Tools and Practices](#721-tools-and-practices)
+    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+  - [7.3. Continuous deployment](#73-continuous-deployment)
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+ - [Avance de Conclusiones, Bibliografía y Anexos](#avance-de-conclusiones-bibliografía-y-anexos)
 
 <div style="page-break-after: always;"></div>
 
-## Student Outcome 4 – Planificación y Gestión de Proyectos
+## Student Outcome 4 – Diseño de Experimentos
 
 En esta sección se evidencia cómo las actividades realizadas en el **TB1** han contribuido al desarrollo del **Outcome 4 de ABET – EAC**, referido a la capacidad de planificar y gestionar proyectos de desarrollo de software utilizando metodologías y herramientas apropiadas. Cada integrante del equipo ha asumido responsabilidades clave que implicaron la definición de alcances, la organización de tareas y la aplicación de enfoques de gestión ágil. Estas acciones fortalecieron la habilidad del equipo para ejecutar el proyecto de manera coordinada y eficiente, cumpliendo con los objetivos y plazos establecidos.
 
 *Planifica y gestiona proyectos de desarrollo de software utilizando metodologías y herramientas apropiadas.*
 
 -----
-
-| **Criterio específico** | **Acciones realizadas (TB1)** | **Conclusiones (TB1)** | 
-|-------------------------|-------------------------------|-------------------------| 
-| **Demuestra capacidad de planificar y gestionar proyectos de desarrollo de software.** | **Kenyi Efrain Ramirez Cabrera**<br>- Redactó los capítulos iniciales del proyecto, estableciendo la estructura y el alcance del documento.<br>- Lideró la arquitectura del proyecto utilizando **Domain-Driven Design**, lo que sirvió como base para la planificación técnica.<br>- Gestionó la creación e implementación de la **landing page** y la **documentación técnica**, organizando las tareas de desarrollo frontend.<br>- Definió y gestionó las **historias de usuario**, aplicando metodologías ágiles para la planificación de tareas.<br><br>**Leandro Saúl Contreras López**<br>- Elaboró el **análisis competitivo** y las **estrategias**, lo cual formó parte de la planificación estratégica del proyecto.<br>- Definió los **Lean UX Problem Statements** y **Assumptions**, estableciendo la dirección del producto desde una perspectiva centrada en el usuario.<br>- Colaboró en la gestión de entrevistas y en el registro de hallazgos, aportando al levantamiento de requisitos del proyecto.<br>- Participó en la **implementación y mejoras del frontend**, gestionando las tareas de desarrollo asignadas.<br><br>**Jefferson Ernesto Castro Pariona**<br>- Configuró el **entorno de desarrollo**, un paso crítico en la fase de planificación del proyecto.<br>- Asumió la gestión inicial del **Product Backlog**, organizando y priorizando las tareas del equipo.<br>- Contribuyó a la estructura general del documento y a los lineamientos de **SEO**, asegurando que el proyecto cumpliera con los objetivos de visibilidad y calidad de la documentación.<br><br>**Miguel Angel Gomez Hurtado**<br>- Diseñó las **User Personas** y **User Task Matrix**, elementos clave para la planificación del producto y la experiencia de usuario.<br>- Desarrolló los **prototipos web** y la **guía de estilos**, gestionando el diseño visual del proyecto.<br>- Participó en las **mejoras y despliegue del backend**, asegurando el cumplimiento de las tareas de desarrollo backend. | **TB1:** El equipo demostró una sólida capacidad de **planificación y gestión de proyectos**. La aplicación de **metodologías ágiles** como Lean UX y la gestión del Product Backlog permitió organizar las tareas de manera eficiente y adaptarse a los desafíos del proyecto. Cada miembro asumió responsabilidades claras que, al ser ejecutadas de forma coordinada, aseguraron el progreso y cumplimiento de los entregables iniciales, sentando una base robusta para las siguientes etapas del proyecto. |
-
-<div style="page-break-after: always;"></div>
+| **Criterio específico**                                                                  | **Acciones realizadas (TB1)** | **Acciones realizadas (TP)** | **Conclusiones (TP)** |
+|:-----------------------------------------------------------------------------------------| :--- | :--- | :--- |
+| **Demuestra capacidad de planificar y gestionar proyectos de desarrollo de software.**   | **Kenyi Efrain Ramirez Cabrera**<br>- Redactó los capítulos iniciales del proyecto, estableciendo la estructura y el alcance del documento.<br>- Lideró la arquitectura del proyecto utilizando **Domain-Driven Design**, lo que sirvió como base para la planificación técnica.<br>- Gestionó la creación e implementación de la **landing page** y la **documentación técnica**, organizando las tareas de desarrollo *frontend*.<br>- Definió y gestionó las **historias de usuario**, aplicando metodologías ágiles para la planificación de tareas.<br><br>**Leandro Saúl Contreras López**<br>- Elaboró el **análisis competitivo** y las **estrategias**, lo cual formó parte de la planificación estratégica del proyecto.<br>- Definió los **Lean UX Problem Statements** y **Assumptions**, estableciendo la dirección del producto desde una perspectiva centrada en el usuario.<br>- Colaboró en la gestión de entrevistas y en el registro de hallazgos, aportando al levantamiento de requisitos del proyecto.<br>- Participó en la **implementación y mejoras del frontend**, gestionando las tareas de desarrollo asignadas.<br><br>**Jefferson Ernesto Castro Pariona**<br>- Configuró el **entorno de desarrollo**, un paso crítico en la fase de planificación del proyecto.<br>- Asumió la gestión inicial del **Product Backlog**, organizando y priorizando las tareas del equipo.<br>- Contribuyó a la estructura general del documento y a los lineamientos de **SEO**, asegurando que el proyecto cumpliera con los objetivos de visibilidad y calidad de la documentación.<br><br>**Miguel Angel Gomez Hurtado**<br>- **TB1:** Diseñó las **User Personas** y **User Task Matrix**, elementos clave para la planificación del producto y la experiencia de usuario.<br>- Desarrolló los **prototipos web** y la **guía de estilos**, gestionando el diseño visual del proyecto.<br>- Participó en las **mejoras y despliegue del backend**, asegurando el cumplimiento de las tareas de desarrollo *backend*. | **Kenyi Efrain Ramirez Cabrera**<br>- **Diseñó e implementó Pruebas Unitarias (JUnit/Mockito)** y **Pruebas de Integración y E2E (Karate)** para el BC **Assets** (Componentes e Inventario del Técnico).<br>- **Redactó las secciones de DevOps Practices (CI/CD)** y **Static Testing & Verification (Reviews)** del informe, formalizando las prácticas del equipo.<br><br>**Leandro Saúl Contreras López**<br>- **Diseñó e implementó Pruebas Unitarias/Integración (Karate)** y aplicó **Checklist de Calidad** para el BC **Service Design and Planning**.<br>- **Redactó las secciones de introducciones de Pruebas (Test Suite)** del informe, documentando la metodología de validación.<br><br>**Jefferson Ernesto Castro Pariona**<br>- **Diseñó e implementó Pruebas Unitarias/Integración (Karate)** y aplicó **Checklist de Calidad** para el BC **Profiles**.<br>- **Redactó las Conclusiones y Resúmenes Ejecutivos** del informe, sintetizando los hallazgos de cada capítulo.<br><br>**Miguel Angel Gomez Hurtado**<br>- **Diseñó e implementó Pruebas Unitarias/Integración (Karate)** para los BC **Monitoring** e **IAM** (Autenticación/Autorización).<br>- **Lideró la ejecución y el análisis de SonarQube/CheckStyle** para todos los *Bounded Contexts* Java.<br>- **Redactó las secciones de introducciones de Pruebas (Test Suite)** del informe, documentando la metodología de validación. | **TB1:** El equipo demostró una sólida capacidad de **planificación y gestión de proyectos**. La aplicación de **metodologías ágiles** como Lean UX y la gestión del Product Backlog permitió organizar las tareas de manera eficiente y adaptarse a los desafíos del proyecto. Cada miembro asumió responsabilidades claras que, al ser ejecutadas de forma coordinada, aseguraron el progreso y cumplimiento de los entregables iniciales, sentando una base robusta para las siguientes etapas del proyecto.<br><br>**TP:** La fase se centró en la **ejecución rigurosa del testing, la validación de calidad y la documentación formal**. La implementación de un **testing integral (Unitarias, Integración y E2E)** por *Bounded Context* y el uso de herramientas como **Karate, CheckStyle (liderado por Miguel) y SonarQube** confirmaron la adhesión a los estándares de **Clean Code**. La **redacción y formalización de las secciones técnicas (DevOps, Testing, Reviews)** evidenció una gestión efectiva del conocimiento y una madurez en las prácticas de ingeniería de *software* del equipo. |<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 
@@ -5408,7 +5428,7 @@ Subscription Billing Bounded Context Diagram
 #### 4.9.1. Class Diagrams
 <hr>
 
-<img src="https://i.ibb.co/Q3KsmkGk/diagram.png"/>
+[![image.png](https://i.postimg.cc/k4S8S4tS/image.png)](https://postimg.cc/sQVvd3mf)
 <hr>
 
 #### 4.9.2. Class Dictionary
@@ -5637,6 +5657,12 @@ Aunque la falta de una gestión adecuada de la configuración del software puede
 
 ### 5.1.2. Source Code Management
 
+Link Landing Page: https://electrolink-diseno-de-experimentos.github.io/Landing-Page
+
+Link WebServices: https://electrolinkv3.onrender.com/swagger-ui/index.html#
+
+Link FrontEnd: https://electrolink-195e0.web.app
+
 Definir convenciones de nomenclatura para ramas en Git mejora la organización del flujo de trabajo y facilita la colaboración entre desarrolladores. Siguiendo buenas prácticas como las de Git Flow o trunk-based development, se puede establecer una estructura ordenada y predecible.
 
 - Además, utilizar un esquema de nombres predecible permite:
@@ -5734,6 +5760,39 @@ Se nombrará las siguientes etiquetas que utilizamos para desarrollar nuestra so
 * `Background-color:` Otorga color del fondo del elemento.
 
 <hr>
+
+### Convenciones Estándares y Referencias de Estilo de Código
+
+| Lenguaje | Estándar / Convención Adoptada | Objetivo |
+| :--- | :--- | :--- |
+| **JavaScript** | **[Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)** o **[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)**. _Se elegirá uno de los dos de forma definitiva al inicio de la fase de codificación._ | Garantizar el uso de características modernas de ES6+ y prácticas recomendadas para sintaxis, espaciado, uso de comillas y estructuras de control. |
+| **TypeScript** | **[TypeScript Recommended Coding Practices](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html)** y alineación con el estándar de JavaScript elegido (Airbnb/Google). | Aplicar convenciones específicas de TypeScript, como tipado explícito/inferido, interfaces y minimizar el uso de `any`. |
+| **Java** | **[Oracle Code Conventions for the Java TM Programming Language](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)** o **[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)**. _Se elegirá uno de los dos de forma definitiva._ | Establecer reglas para la estructura del código, comentarios Javadoc, declaraciones, sentencias y formateo. |
+
+---
+
+### Convenciones de Nomenclatura (Naming Conventions)
+
+Se utilizará una convención de nomenclatura **coherente** para cada elemento en el código, basada en las prácticas recomendadas por el estándar de estilo adoptado para cada lenguaje.
+
+| Elemento | Convención (Ejemplo) | Lenguajes Aplicables | Descripción |
+| :--- | :--- | :--- | :--- |
+| **Variables/Propiedades** | `camelCase` (e.g., `nombreUsuario`, `maxRetries`) | JavaScript, TypeScript, Java | Identificadores que no son constantes. |
+| **Constantes** | `SCREAMING_SNAKE_CASE` (e.g., `MAX_SIZE`, `API_KEY`) | JavaScript, TypeScript, Java | Valores inmutables definidos a nivel global o de clase/módulo. |
+| **Funciones/Métodos** | `camelCase` (e.g., `calcularTotal`, `guardarDatos`) | JavaScript, TypeScript, Java | Identificadores de funciones y métodos. |
+| **Clases/Interfaces** | `PascalCase` (e.g., `UsuarioService`, `AuthInterface`) | TypeScript, Java | Nombres de clases, interfaces, tipos y enums. |
+| **Paquetes** | `lowercase` (e.g., `com.empresa.app.utils`) | Java | Nombres de paquetes (totalmente en minúsculas). |
+| **Archivos Fuente** | `PascalCase` (e.g., `UserService.ts`, `MainApplication.java`) | TypeScript, Java | Nombres de archivo que contienen una clase o componente principal. |
+
+---
+
+### Herramientas de Automatización del Estilo
+
+Para hacer cumplir estas convenciones y mantener la uniformidad, se utilizarán las siguientes herramientas, que serán integradas en el flujo de desarrollo:
+
+* **CheckStyle**: Considerados para **Java** para el análisis estático y validación del cumplimiento del estándar.
+
+El objetivo es que el **estilo de código sea revisado automáticamente** para que los desarrolladores puedan concentrarse en la lógica del negocio.
 
 ### 5.1.4. Software Deployment Configuration.
 
@@ -6080,6 +6139,338 @@ Durante este Sprint, el equipo ha colaborado en el soporte de la Landing Page, F
 [https://www.youtube.com/watch?v=vajqovVXk3o](https://www.youtube.com/watch?v=vajqovVXk3o)
 
 **Duración del video:** 2 minutos y 35 segundos
+
+
+
+# Capítulo VI: Product Verification & Validation
+
+## 6.1 Testing Suites & Validation
+
+La suite de pruebas es el medio o la estructura utilizada para llevar a cabo el proceso de validación. La validación es el objetivo final que determina si la aplicación satisface las necesidades del usuario, y las suites de pruebas son los grupos organizados de casos de prueba que se ejecutan para lograr esa validación. En los siguientes capitulos se mostraran el codigo de las pruebas unitarias.
+
+### 6.1.1 Core Entities Unit Tests
+
+#### Test Unitarios del Bounded Context de Monitoring
+
+En esta imagen se puede visualizar el resultado de éxito de lo 42 unit test implementados para el bounded context de monitoring
+[![image.png](https://i.postimg.cc/fTjhTVcL/image.png)](https://postimg.cc/qzRF1MZV)
+
+Aquí se puede ver algunos ejemplos de algunos pruebas unitarias que resaltan sobre otra de este bounded context.
+
+En esta imagen se prueba el servicio de que un service operation que será usado para colocarle un rating tiene que tener el estado COMPLETED, ya que no se puede evaluar un trabajo que no haya finalizado
+[![image.png](https://i.postimg.cc/MK41HGzJ/image.png)](https://postimg.cc/xcvXFnk6)
+
+En esta imagen se muestra la prueba unitaria para crear un report de un service operation. La validación de la existencia de este service operation es puesta a prueba para poder generarlo.
+[![image.png](https://i.postimg.cc/rs2F3vk3/image.png)](https://postimg.cc/dknYTNDj)
+
+En esta imagen se actualiza el estado de un service operation a COMPLETED, lo que conlleva cambios en otros campos como completedAt para mantener el registro de procesos.
+[![image.png](https://i.postimg.cc/rsf3xrQ1/image.png)](https://postimg.cc/bS2mjsXr)
+
+#### Test Unitarios del Bounded Context de Service Design and Planning (SDP)
+
+Se puede apreciar el resultado de éxito de los 32 unit test implementado para el bounded context de service design and planning.
+
+En esta validamos los request command service
+<img src = "https://i.postimg.cc/yYSwpv6M/unit1c.png" />
+
+Luego para Schedule Command service
+<img src = "https://i.postimg.cc/QCKnPdDV/unit2c.png"/>
+
+Y Finalmente para Service Command service
+<img src = "https://i.postimg.cc/rFXkkvH2/unit3c.png"/>
+
+Ahora continuamos con los queryService
+
+Request Query Service:
+<img src = "https://i.postimg.cc/y6RMvL8P/unit1q.png"/>
+
+Schedule Query Service:
+<img src = "https://i.postimg.cc/DZXMpznc/unit2q.png"/>
+
+Service Query Service:
+<img src = "https://i.postimg.cc/9XykGzLb/unit3q.png"/>
+
+
+#### Test Unitarios del Bounded Context de Assets
+
+Se puede apreciar el resultado de éxito de los unit test implementado para el bounded context de Assets.
+
+ComponentCommandServiceImplTest:
+[![image.png](https://i.postimg.cc/DyDvqP3b/image.png)](https://postimg.cc/F7yXvcR9)
+
+ComponentTypeCommandServiceImplTest:
+[![image.png](https://i.postimg.cc/mZPCRVjC/image.png)](https://postimg.cc/SjpJf6wx)
+
+TechnicianInventoryCommandServiceImplTest:
+[![image.png](https://i.postimg.cc/HxDDx65J/image.png)](https://postimg.cc/JyqdYcpm)
+
+### 6.1.2 Core Integration Tests
+
+#### Tests de integración del Bounded Context de Iam
+En este apartado se visualiza el resultado positivo de las pruebas realizadas en karate usando el formato gherkin.
+[![image.png](https://i.postimg.cc/Rh95mmD5/image.png)](https://postimg.cc/vgPS7Jy3)
+
+En las siguientes imagenes se visualiza en mayor detalle cada prueba en el reporte que genera karate.
+
+Pruebas de integración para SIGN-UP
+[![image.png](https://i.postimg.cc/8P6W9Sgy/image.png)](https://postimg.cc/w797RnvJ)
+
+Pruebas de integración para SIGN-IN
+[![image.png](https://i.postimg.cc/SKvCHNR1/image.png)](https://postimg.cc/KKt1Mbnt)
+
+Pruebas de integración para ROLES
+[![image.png](https://i.postimg.cc/SK3YDTtj/image.png)](https://postimg.cc/hJ8GGrnq)
+
+Pruebas de integración para USERS
+[![image.png](https://i.postimg.cc/HszJfsP3/image.png)](https://postimg.cc/nCscmZxQ)
+
+#### Tests de integración del Bounded Context de Monitoring
+En este apartado se visualiza el resultado positivo de las pruebas realizadas en karate usando el formato gherkin.
+
+Aqui se puede ver la prueba de integracion del controller de service operations
+[![image.png](https://i.postimg.cc/c4zWKpKq/image.png)](https://postimg.cc/bs1WWFHL)
+
+[![image.png](https://i.postimg.cc/FRTqMS3v/image.png)](https://postimg.cc/62GYRyMb)
+
+Aqui se puede ver la prueba de integración del controller de ratings
+[![image.png](https://i.postimg.cc/502KStTy/image.png)](https://postimg.cc/GB6jcbcn)
+
+[![image.png](https://i.postimg.cc/QdZ6nmwK/image.png)](https://postimg.cc/hfMbXLSK)
+
+#### Test de integracion del bounded context de service desing and planning
+
+<img src = "https://i.postimg.cc/TwKpZZ4V/codigocucumber.png"/>
+
+
+#### Tests de integración del Bounded Context de Assets
+En este apartado se visualiza el resultado positivo de las pruebas realizadas en karate usando el formato gherkin.
+
+En las siguientes imagenes se visualiza en mayor detalle cada prueba en el reporte que genera Karate.
+
+Pruebas de integración para COMPONENTS 
+[![image.png](https://i.postimg.cc/K8pQJ48g/image.png)](https://postimg.cc/w1JhBqJ6)
+
+[![image.png](https://i.postimg.cc/SQWh3b9T/image.png)](https://postimg.cc/bdNWSM3k)
+
+Pruebas de integración para TECHNICIAN INVENTORY
+[![image.png](https://i.postimg.cc/FsWnnTPQ/image.png)](https://postimg.cc/nCmkXGbd)
+
+[![image.png](https://i.postimg.cc/63pvSfjf/image.png)](https://postimg.cc/GB6tTG14)
+
+
+### 6.1.3 Core Behavior-Driven Development
+
+A continuación se mostrarán los archivos .feature los cuales usan el formato gherkin.
+
+#### Behavior-Driven Development para Bounded Context de Iam
+
+Aqui se prueban las funcionalidades de Sign-up happy path, sin roles, fallos de username, password y formato.
+[![image.png](https://i.postimg.cc/65tcrqv0/image.png)](https://postimg.cc/XX193VxG)
+
+Aqui se prueban las funcionalidades de Sign-in relacionadas a happy path, contraseña incorrecta, usuario inexistente y request incompleto
+[![image.png](https://i.postimg.cc/gk2RcZRJ/image.png)](https://postimg.cc/Cd9dmdcT)
+
+Aqui se prueban las funcionalidades de Roles como Validación de token y los fallos de su mal formato
+[![image.png](https://i.postimg.cc/zGJJYCRL/image.png)](https://postimg.cc/WhHRMJ8j)
+
+Aqui se prueban las funcionalidades de Users como Get All Users, Get By Id, fallos con el token y no encontrado.
+[![image.png](https://i.postimg.cc/gcDSB3m2/image.png)](https://postimg.cc/c6vBvgvp)
+
+#### Behavior-Driven Development para Bounded Context de Monitoring
+
+Aqui se prueban las funcionalidades de Service Operation como el Create, GetById, Update y GetByTechnicianId
+[![image.png](https://i.postimg.cc/76bdyVDv/image.png)](https://postimg.cc/hzWpLVfM)
+
+[![image.png](https://i.postimg.cc/QdtpmnJR/image.png)](https://postimg.cc/xcwJT57R)
+
+Aqui se prueban la funcionalidad de Rating como Create.
+[![image.png](https://i.postimg.cc/L4x5D4Q6/image.png)](https://postimg.cc/PN8drHkB)
+
+#### Behaivor-Driven Development para Bounded Context Service Design and pLanning
+
+<img src = "https://i.postimg.cc/5t1y2XkV/sc1.png"/>
+
+#### Behaivor-Driven Development para Bounded Context Assets
+
+**Aqui se prueban las funcionalidades de Components como el Create, Update y Delete**:
+
+[![image.png](https://i.postimg.cc/8ctJbJmP/image.png)](https://postimg.cc/D44wvzNt)
+
+[![image.png](https://i.postimg.cc/W4vNhp0r/image.png)](https://postimg.cc/QFfGz34x)
+
+
+**Aqui se prueban las funcionalidades de Technician Inventory**
+
+- Crear Componente :
+  
+[![image.png](https://i.postimg.cc/rzXbQsV5/image.png)](https://postimg.cc/5QgntxFt)
+
+[![image.png](https://i.postimg.cc/PJssF2Kw/image.png)](https://postimg.cc/9RpnDP6m)
+
+
+- Actualizar Stock de componentes:
+  
+[![image.png](https://i.postimg.cc/ryJQHfh6/image.png)](https://postimg.cc/RqW76L5G)
+
+[![image.png](https://i.postimg.cc/rp1Srp3r/image.png)](https://postimg.cc/R306rvMS)
+
+[![image.png](https://i.postimg.cc/VL00t603/image.png)](https://postimg.cc/Whj4Lsnn)
+
+
+- Registro de inventario de componente:
+  
+[![image.png](https://i.postimg.cc/yxcJwpKk/image.png)](https://postimg.cc/7JPYzVfk)
+
+[![image.png](https://i.postimg.cc/RVvVSZQt/image.png)](https://postimg.cc/vDSdXMK8)
+
+
+### 6.1.4 Core System Tests
+
+NO CORRESPONDE PARA ESTA ENTREGA
+
+# Capítulo VI: Static Testing & Verification
+
+## 6.2 Static testing & Verification
+
+Esta sección se centra en los métodos de prueba estática y verificación del código, asegurando que el *software* cumpla con los estándares de calidad y seguridad antes de su ejecución. Estos métodos permiten identificar defectos en una fase temprana del ciclo de vida del desarrollo.
+
+### 6.2.1 Static Code Analysis
+
+El análisis estático es una fase obligatoria en nuestra *pipeline* de Integración Continua (CI). Para garantizar el cumplimiento de nuestros estándares, nos apoyamos en herramientas y convenciones específicas.
+
+#### 6.2.1.1 Coding standard & Code conventions
+
+Las normas de codificación y las convenciones son directrices que los desarrolladores deben seguir para garantizar un código legible, mantenible y coherente.
+
+| Lenguaje | Estándar / Convención Adoptada | Herramienta de Aplicación | IDE / Plugins Usados |
+| :--- | :--- | :--- | :--- |
+| **Java** | **Google Java Style Guide** (Definitivo) | **CheckStyle** (Integrado en el *build*) | **IntelliJ IDEA** (con plugin de CheckStyle), **Visual Studio Code** |
+
+**Principios de Codificación Clave:**
+
+* **Clean Code:** Utilizamos nombres claros y descriptivos (`camelCase` para variables, `PascalCase` para clases, `SCREAMING_SNAKE_CASE` para constantes). Las funciones deben ser cortas y enfocarse en una sola responsabilidad, eliminando código muerto y comentarios superfluos.
+* **Domain-Driven Design (DDD) (Backend Java):** Empleamos un **lenguaje ubicuo** que refleja los términos del negocio. La arquitectura se divide en *bounded contexts*, y la lógica del dominio es gestionada por *Servicios de Dominio* y *Repositorios*, promoviendo un diseño organizado.
+* **Convenciones en Archivos:** Se sigue el formato `PascalCase` para archivos fuente de clases principales (`UserService.java`) y `lowercase` para paquetes.
+
+---
+
+Para este apartado se evaluará el uso de checkstyle en nuestro proyecto guiados por las convenciones de google_checks.xml
+[![image.png](https://i.postimg.cc/gJFHt2xG/image.png)](https://postimg.cc/t1k6Yydc)
+
+##### CheckStyle de Bounded Context Monitoring
+
+En esta imagen se ve que se aplico el comando mvn checkstyle:check para verificar los estilos.
+El bounded context de MONITORING y sus errores debería aparecer entre ASSETS y PROFILES, lo que indica que ya no tiene errores sobre sus convenciones.
+[![image.png](https://i.postimg.cc/bYKpCXTq/image.png)](https://postimg.cc/XXcRqzmP)
+
+#### ChecStyle de Bounded Context Service Design and Planning
+<img src = "https://i.postimg.cc/fyWgzfYv/stylech.png"/>
+
+#### 6.2.1.2 Code Quality & Code Security
+
+Esta es una imagen del code standard de SonarQube para nuestro proyecto.
+Representa el estado actual del mismo.
+[![image.png](https://i.postimg.cc/0ySKQRkS/image.png)](https://postimg.cc/3kKxSqDr)
+
+
+
+### 6.2.2 Reviews
+
+Las revisiones de código son un proceso fundamental para garantizar la calidad del *software* y la conformidad con las normas de codificación establecidas (como la **Google Java Style Guide** y **Airbnb JavaScript Style Guide**). En el proyecto ElectroLink, este proceso se integra directamente con el flujo de trabajo en **GitHub** mediante **Pull Requests (PR)** y se apoya en revisiones tanto manuales como automatizadas.
+
+### Tipos de Revisiones y Herramientas
+
+| Tipo de Revisión | Descripción y Propósito | Herramientas Utilizadas |
+| :--- | :--- | :--- |
+| **Revisión de Código por Pares (Manual)** | Un desarrollador revisa los cambios de otro a través de un **Pull Request (PR)** en GitHub. Se enfoca en la **claridad, legibilidad y el cumplimiento de las convenciones** de nomenclatura y estructura (`Clean Code`, `DDD`). | **GitHub Pull Requests**, **IntelliJ IDEA** (para inspección local). |
+| **Revisión Automatizada** | Se utiliza para escanear el código y garantizar que cumple con los **estándares técnicos de calidad y seguridad**. | **CheckStyle** (para Java), integrados vía **GitHub Actions** en la *pipeline* de CI. |
+
+### Proceso de Revisión (Flujo del Pull Request)
+
+El proceso de revisión está diseñado para ser eficiente y bloquear la integración de código defectuoso o inconsistente:
+
+1.  **Creación del Pull Request (PR):** Los desarrolladores, siguiendo la convención de ramas (`feature/nombre-corto-descriptivo`), crean un PR desde su rama de trabajo hacia la rama objetivo (`release/x.y.z` o `main`).
+    * **Mandatorio:** El PR debe incluir una **descripción clara** de la *User Story* o *Work-Item* resuelto y una referencia a las pruebas asociadas (`JUnit`, `Karate`).
+2.  **Ejecución de la Pipeline de CI:** Al abrir el PR, **GitHub Actions** se activa automáticamente, ejecutando las fases de *Static Analysis* (**CheckStyle/ESLint**) y la *Test Suite* (`JUnit`, `Karate`).
+3.  **Checklist de Revisión:** El revisor designado utiliza un *checklist* mental o físico que cubre aspectos esenciales antes de dar la aprobación manual:
+    * Verificación de la lógica de negocio y el impacto del cambio.
+    * Comprobación del cumplimiento de las **convenciones de nomenclatura** (ej. `camelCase` en métodos).
+    * Validación de la **cobertura de pruebas** unitarias y de integración.
+4.  **Comentarios y Feedback:** Los revisores deben proporcionar *feedback* **constructivo y específico** dentro de la interfaz de GitHub. Todo *comment* de bloqueo debe ser resuelto y marcado como tal por el autor antes de la aprobación.
+5.  **Aprobación o Rechazo de PR:** El PR debe ser aprobado por **al menos un revisor adicional** antes de que el código pueda fusionarse (*Merge*) a la rama principal (siguiendo el modelo GitFlow adoptado).
+
+### Criterios de Aceptación
+
+Para que un **Pull Request** pueda ser aprobado y fusionado, debe satisfacer los siguientes criterios que garantizan la calidad del código:
+
+* **Calidad de Código y Convenciones:** El código debe superar el análisis estático (**CheckStyle**) y adherirse al 100% de las convenciones de la guía de estilo para el lenguaje correspondiente.
+* **Aprobación de la Pipeline de CI:** Todas las etapas de **GitHub Actions** (Análisis Estático, *Build* y *Tests*) deben pasar exitosamente.
+* **Cobertura de Pruebas:** Se exige una cobertura de pruebas adecuada (idealmente **superior al 80%**) para asegurar que la nueva funcionalidad esté cubierta y que el cambio no haya roto la funcionalidad existente (*regresión*).
+
+### Frecuencia de Revisiones
+
+Las revisiones de código se realizan de forma **continua e incremental**. El objetivo es mantener el tamaño del PR pequeño, por lo que las revisiones se realizan tan pronto como un desarrollador finaliza su tarea y crea el PR. Esto previene la acumulación de código, facilita la detección temprana de defectos y asegura que el repositorio se mantenga en un **estado de integración constante y de alta calidad**.
+
+---
+
+# Capítulo VII: DevOps Practices
+
+## 7.1. Continuous Integration (CI)
+
+La Integración Continua (CI) es la práctica de fusionar automáticamente los cambios de código en una rama compartida y centralizada de forma regular. Su objetivo es detectar y solucionar errores de integración de manera temprana, manteniendo la calidad y estabilidad del proyecto.
+
+### 7.1.1. Tools and Practices
+
+En nuestro proceso, la CI está impulsada por el desarrollo basado en la metodología **Behavior-Driven Development (BDD)** y **Test-Driven Development (TDD)**, garantizando que el código cumpla con los requisitos del negocio y los estándares técnicos.
+
+| Herramienta | Tipo | Descripción | Propósito en el Proceso |
+| :--- | :--- | :--- | :--- |
+| **JUnit 5** | Pruebas Unitarias (TDD) | *Framework* estándar de Java para escribir y ejecutar pruebas que validan el comportamiento de pequeñas unidades de código (métodos, clases). | Asegurar la **calidad interna y funcional** de los componentes del *backend* Java (`electrolinkv3`). |
+| **Mockito** | Simulaciones (TDD) | Librería de *mocking* que permite crear *mocks* de dependencias externas (bases de datos, servicios, etc.). | Facilitar las pruebas unitarias **aislando la lógica de negocio** para ejecutarlas de forma rápida y confiable. |
+| **Karate** | Pruebas de Integración y E2E (BDD) | *Framework* que combina la sintaxis BDD (Gherkin) con pruebas API/Web. Se usa en archivos `.feature` para validar la **integración de *endpoints*** y flujos de negocio. | **Validar el comportamiento del API REST** contra casos de uso definidos en lenguaje Gherkin. |
+| **Cucumber / Gherkin** | Metodología BDD | Lenguaje estructurado para describir el comportamiento del *software* en términos de negocio (utilizado a través de Karate). | Garantizar que el desarrollo esté **alineado con las necesidades del negocio** al escribir los escenarios de aceptación. |
+| **Visual Studio Code / IntelliJ IDEA** | IDEs principales | Entornos de Desarrollo Integrado que, junto a *plugins* de BDD y Java, facilitan la escritura, depuración y ejecución local de las pruebas. | Aumentar la **productividad del desarrollador** y la ejecución inmediata de pruebas TDD/BDD. |
+
+### 7.1.2. Build & Test Suite Pipeline Components
+
+Nuestra *pipeline* de CI está integrada en **GitHub Actions** y sigue un flujo estricto tras cada *push* a las ramas de desarrollo (`feature/` o `release/`).
+
+| Fase del Pipeline | Descripción | Herramientas Involucradas | Output / Criterio de Éxito |
+| :--- | :--- | :--- | :--- |
+| **1. Check-out** | Obtiene el código fuente del repositorio (rama `main` o `feature`). | GitHub | Código disponible en el entorno de CI. |
+| **2. Static Analysis** | Ejecuta herramientas de análisis estático. | **CheckStyle** (Java)  | **Fallo si** se detectan violaciones graves de estilo o convenciones. |
+| **3. Build** | Compila la aplicación *backend* (Java) y genera artefactos. | Maven (`./mvnw clean install`) | **Fallo si** la compilación falla (errores de sintaxis o dependencias). |
+| **4. Unit & Integration Tests** | Ejecuta las suites de pruebas. | **JUnit 5** y **Mockito** (Unitarias), **Karate** (Integración/API) | **Fallo si** una prueba unitaria o de integración falla, deteniendo el flujo CI. |
+| **5. Containerization** | Construye la imagen de Docker para la aplicación *backend*. | **Docker** | Generación exitosa de la imagen del contenedor, lista para ser desplegada. |
+
+---
+
+## 7.2. Continuous Delivery (CD)
+
+El objetivo de la Entrega Continua (CD) es automatizar la integración y pruebas del código, manteniendo la aplicación lista para un **despliegue manual** a producción en cualquier momento. A diferencia del Despliegue Continuo (Deployment), esta práctica introduce una aprobación final.
+
+### 7.2.1. Tools and Practices
+
+| Herramienta | Tipo | Propósito en Continuous Delivery |
+| :--- | :--- | :--- |
+| **GitHub Actions** | Automatización CI/CD | Se usa para ejecutar el *pipeline* completo de *build*, *test* y *staging*. Se configura una etapa donde el **despliegue final a producción es manual**. |
+| **Render** | Plataforma de Despliegue (Backend) | Se utiliza para el despliegue del *backend* RESTful API (`electrolinkv3.onrender.com`). Garantiza un entorno de producción estable y fácil de gestionar. |
+| **Firebase Hosting** | Plataforma de Despliegue (Front-end) | Se utiliza para el despliegue de la aplicación *front-end* (`electrolink-195e0.web.app`). |
+| **Docker** | Contenedorización | Asegura la **consistencia del entorno** (Dev, Staging y Producción) para el *backend* Java, facilitando la validación en entornos intermedios. |
+| **Trello** | Gestión de Aprobación | Se usa para gestionar el proceso de aprobación. Después de la validación del *pipeline* en *staging*, un Product Owner  debe revisar el build y autorizar manualmente el movimiento del ticket a la columna de Despliegue a Producción. |
+
+**Prácticas Clave:**
+
+* **Feature Branching y Merge Requests:** Los cambios se desarrollan en ramas separadas (`feature/login-ui`) y se integran a una rama estable (`main` o `release`) solo después de pasar todas las pruebas de CI.
+* **Pipeline de Validación en Staging:** Tras la CI exitosa, los artefactos se despliegan automáticamente a un entorno de **Staging (Pre-producción)**. Aquí, el equipo puede ejecutar pruebas exploratorias y los interesados pueden validar la funcionalidad, replicando las condiciones de producción (Render, Firebase).
+* **Despliegue Semiautomático:** El *pipeline* prepara la aplicación y las imágenes de Docker/artefactos para el despliegue final, pero **no lo ejecuta**. La acción de desplegar a producción se dispara únicamente cuando un desarrollador o administrador **aprueba la *build* validada** en el entorno de *staging*.
+* **Aprobación Manual:** Es el punto clave del CD. Antes del despliegue en producción, el *pipeline* requiere una aprobación explícita (a menudo representada por un *Merge Request* a `main` y/o una acción manual en GitHub Actions/Trello) para **reducir el riesgo** de lanzar código no deseado.
+* **Rollback Manual:** Aunque la infraestructura de Render y Firebase puede facilitar *rollbacks* rápidos, la decisión y ejecución de un *rollback* en producción son **manuales y controladas** por el equipo, garantizando la supervisión total ante una incidencia.
+
+
+### 7.2.2 Stages Deployment Pipeline Components
+
+NO CORRESPONDE A ESTA ENTREGA 
 
 
 ## Conclusiones
