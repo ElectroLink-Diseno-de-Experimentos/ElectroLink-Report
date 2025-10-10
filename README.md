@@ -6135,6 +6135,9 @@ En esta imagen se actualiza el estado de un service operation a COMPLETED, lo qu
 
 #### 6.2.1.1 Coding standard & Code conventions
 
+Para este apartado se evaluará el uso de checkstyle en nuestro proyecto guiados por las convenciones de google_checks.xml
+[![image.png](https://i.postimg.cc/gJFHt2xG/image.png)](https://postimg.cc/t1k6Yydc)
+
 ##### CheckStyle de Bounded Context Monitoring
 
 En esta imagen se ve que se aplico el comando mvn checkstyle:check para verificar los estilos.
