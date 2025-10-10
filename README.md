@@ -6336,7 +6336,17 @@ Aqui se prueban la funcionalidad de Rating como Create.
 
 #### Behaivor-Driven Development para Bounded Context Service Design and pLanning
 
-<img src = "https://i.postimg.cc/5t1y2XkV/sc1.png"/>
+- Peticiones al inventario del técnico:
+<img src = "https://i.postimg.cc/T31HSpHM/inventory-feature.png"/>
+
+- Solicitudes que realizan los clientes para contactar a un técnico:
+<img src = "https://i.postimg.cc/sfJ6gpkr/client-feature.png"/>
+
+- Crear y/o modificar el horario de atención de un técnico:
+<img src = "https://i.postimg.cc/T12cD4zX/schedule-feature.png"/>
+
+- Catálogo de servicios del técnico:
+<img src = "https://i.postimg.cc/NF01MrHV/tech-service-feature.png"/>
 
 #### Behaivor-Driven Development para Bounded Context Assets
 
