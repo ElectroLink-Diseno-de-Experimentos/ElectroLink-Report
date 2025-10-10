@@ -5830,7 +5830,7 @@ El objetivo es que el **estilo de código sea revisado automáticamente** para q
 ## 5.2. Product Implementation & Deployment.
 ### 5.2.1. Sprint Backlogs
 
-| Sprint #       | Sprint 4 | |                                                            |                                                                                                                   |                     |                   |            |
+| Sprint #       | Sprint 1 | |                                                            |                                                                                                                   |                     |                   |            |
 |----------------|----------|---|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------|-------------------|------------|
 | **User Story** | | **Work-Item/task** |                                                            |                                                                                                                   |                     |                   |            |
 | **ID**         | **Title** | **Id** | **Title**                                                  | **Description**                                                                                                   | **Estimation(Hrs)** | **Assigned To**   | **Status** |
@@ -5840,6 +5840,30 @@ El objetivo es que el **estilo de código sea revisado automáticamente** para q
 | **US-13**      | Registro de cuentas como Dueño de Hogar | T001 | Mejorar la visualización del formulario                        | Actualizar la estructura y estilos del formulario de la sección 'Sign up'                                         | 1                   | Leandro Contreras | Done       |
 | **US-17**      | Inicio de sesión de usuarios | T001 | Mejorar la visualización del formulario | Actualizar la estructura y estilos del formulario de la sección 'Sign in'                                         | 1                   | Leandro Contreras | Done       |
 | **TS-13**      | Conectar a Base de Datos | T001 | Desplegar el Backend                                       | Actualizar el despliegue de los servicios web (Backend)                                                           | 1                   | Miguel Gomez      | Done       |
+
+
+| Sprint # | Sprint 2 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User/Technical Story** | | **Work-Item/task** | | | | | |
+| **ID** | **Title** | **Id** | **Title** | **Description** | **Estimation(Hrs)** | **Assigned To** | **Status** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **BC Assets (Kenyi)** | | | | | | | |
+| **TS-03** | Crear Componente | **T-A-01** | Test Unitario Lógica BC Assets | Implementar tests unitarios (JUnit/Mockito) para las reglas de dominio de Componentes e Inventario. | 4 | Kenyi Ramirez | Done |
+| **TS-04** | Actualizar Stock | **T-A-02** | Test Integración/E2E Componentes | Crear escenarios de prueba Karate para verificar endpoints `POST /component` y `PATCH /stock`. | 3 | Kenyi Ramirez | Done |
+| **TS-05** | Crear Servicio | **T-A-03** | Test Integración/E2E Servicios | Crear escenarios de prueba Karate para validar la creación de servicios con recetas de componentes. | 3 | Kenyi Ramirez | Done |
+| **TS-10** | Stock Automático | **T-A-04** | Test Listener Descuento Stock | Implementar test para el *listener* del evento "Servicio Completado" que descuenta el stock. | 2 | Kenyi Ramirez | Done |
+| **BC Service Design (Leandro)** | | | | | | | |
+| **TS-06** | Obtener Servicios por Zona | **T-S-01** | Test Unitario Lógica BC Service | Implementar tests unitarios (JUnit/Mockito) para la lógica de búsqueda de servicios por geografía. | 3 | Leandro Contreras | Done |
+| **TS-07** | Iniciar Solicitud (Límite) | **T-S-02** | Test Integración Límite de Plan | Crear escenario Karate para validar el límite de solicitudes del Plan Básico (`403 Forbidden`). | 3 | Leandro Contreras | Done |
+| **TS-08** | Enviar Solicitud | **T-S-03** | Test Integración/E2E Solicitud | Crear escenarios Karate para el *endpoint* de registro final de una solicitud de servicio. | 4 | Leandro Contreras | Done |
+| **BC Profiles (Jefferson)** | | | | | | | |
+| **US-23/24** | Gest. Perfil Propietario | **T-P-01** | Test Unitario Lógica BC Profiles | Implementar tests unitarios (JUnit/Mockito) para la lógica de gestión de perfiles de Propietario. | 3 | Jefferson Castro | Done |
+| **US-25/26** | Gest. Perfil Técnico | **T-P-02** | Test Integración Perfiles | Crear escenarios Karate para validar la visualización y edición de perfiles de Técnico (`PATCH /profile`). | 4 | Jefferson Castro | Done |
+| **BC IAM & Monitoring (Miguel)** | | | | | | | |
+| **TS-17/18** | Login/Registro | **T-I-01** | Test Integración Autenticación | Crear escenarios Karate para validar el *endpoint* de Login (JWT) y Registro (roles diferenciados). | 4 | Miguel Gomez | Done |
+| **TS-09** | Asignación Automática | **T-I-02** | Test Unitario Lógica Asignación | Implementar tests unitarios para la lógica de asignación automática de técnicos (reglas de stock/prioridad). | 4 | Miguel Gomez | Done |
+| **TS-13/Quality** | DB & Static Analysis | **T-I-04** | CheckStyle/SonarQube | Ejecutar el análisis estático** (CheckStyle/SonarQube) para todos los *Bounded Contexts* Java. | 4 | Miguel Gomez | Done |
+
 
 ### 5.2.2. Implemented Landing Page Evidence
 
