@@ -6231,6 +6231,23 @@ Aqui se puede ver la prueba de integración del controller de ratings
 
 <img src = "https://i.postimg.cc/TwKpZZ4V/codigocucumber.png"/>
 
+
+#### Tests de integración del Bounded Context de Assets
+En este apartado se visualiza el resultado positivo de las pruebas realizadas en karate usando el formato gherkin.
+
+En las siguientes imagenes se visualiza en mayor detalle cada prueba en el reporte que genera Karate.
+
+Pruebas de integración para COMPONENTS 
+[![image.png](https://i.postimg.cc/K8pQJ48g/image.png)](https://postimg.cc/w1JhBqJ6)
+
+[![image.png](https://i.postimg.cc/SQWh3b9T/image.png)](https://postimg.cc/bdNWSM3k)
+
+Pruebas de integración para TECHNICIAN INVENTORY
+[![image.png](https://i.postimg.cc/FsWnnTPQ/image.png)](https://postimg.cc/nCmkXGbd)
+
+[![image.png](https://i.postimg.cc/63pvSfjf/image.png)](https://postimg.cc/GB6tTG14)
+
+
 ### 6.1.3 Core Behavior-Driven Development
 
 A continuación se mostrarán los archivos .feature los cuales usan el formato gherkin.
