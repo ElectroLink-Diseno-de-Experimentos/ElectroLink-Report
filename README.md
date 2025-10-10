@@ -6543,6 +6543,7 @@ Cumplimiento de los objetivos estratégicos del proyecto ElectroLink finaliza su
 - Repositorio de la Landing Page: https://github.com/ElectroLink-Diseno-de-Experimentos/Landing-Page
 - Repositorio Frontend: https://github.com/ElectroLink-Diseno-de-Experimentos/Frontend
 - Repositorio Backend: https://github.com/ElectroLink-Diseno-de-Experimentos/Backend
+- Repositorio de Pruebas de Integracion (Feature): https://github.com/ElectroLink-Diseno-de-Experimentos/Electrolink-API-Tests
 - Landing Page: https://electrolink-diseno-de-experimentos.github.io/Landing-Page/
 - Frontend: https://electrolink-195e0.web.app/
 - Backend: https://electrolinkv2.onrender.com/swagger-ui/index.html#
