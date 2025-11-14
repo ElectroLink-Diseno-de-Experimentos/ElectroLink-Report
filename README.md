@@ -6732,9 +6732,10 @@ Basados en las preguntas de mayor prioridad (Q2 y Q1), diseñamos los siguientes
 | **Success Criteria** | Sabremos que estamos en lo correcto si al menos 8 de 10 (80%) usuarios eligen al técnico verificado y reportan un nivel de confianza de 4 o 5 en el proceso. | 
 
 <hr>
+
 ### 8.2. Experiment Design
 
-En esta fase se detalla el diseño técnico de los experimentos identificados a partir de las "Preguntas Listas para Experimentar" (Experiment-Ready Questions) de la sección anterior. El objetivo es construir un marco metodológico sólido que permita validar o refutar las hipótesis críticas del negocio con significancia estadística.
+En esta fase se detalla el diseño técnico de los experimentos identificados a partir del Experiment-Ready Questions de la sección anterior. El objetivo es construir un marco metodológico sólido que permita validar o refutar las hipótesis críticas del negocio con significancia estadística.
 
 #### 8.2.1. Hypotheses
 
