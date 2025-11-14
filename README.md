@@ -6944,8 +6944,13 @@ Aqui se puede ver los resultados de los analisis de usuarios
 
 #### 7.4.3. Alerting Pipeline Components
 
-#### 7.4.4. Notification Pipeline Components.
+El componente de alertas es crucial para la detección y respuesta rápida ante problemas de rendimiento o disponibilidad.
 
+- **Prometheus con Alertmanager:** Prometheus recopila métricas y define umbrales (ej. uso de CPU, latencia). Cuando los límites se exceden, genera alertas que son enviadas a Alertmanager para su gestión y distribución. Alertmanager enruta las notificaciones a distintos canales (Slack, Correo) según la gravedad.
+
+- **Grafana:** Se utiliza para la visualización avanzada de métricas y la configuración de alertas visuales en paneles personalizados. Proporciona una interfaz intuitiva para monitorear y recibir alertas de rendimiento en tiempo real.
+
+#### 7.4.4. Notification Pipeline Components.
 
 ## 8.1. Experiment Planning
 
