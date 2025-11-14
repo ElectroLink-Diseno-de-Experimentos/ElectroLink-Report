@@ -6628,6 +6628,26 @@ El objetivo de la Entrega Continua (CD) es automatizar la integración y pruebas
 
 #### 7.4.1. Tools and Practices.
 
+## **Tools and Practices**
+
+| Herramienta | Tipo | Propósito en Continuous Delivery |
+| :--- | :--- | :--- |
+| **Google Analytics** | Herramienta de Análisis Web | Se usa para **ver cómo los usuarios usan la aplicación** después de cada despliegue. Muestra qué páginas visitan, cuánto tiempo permanecen y qué botones clickean. |
+| **Event Tracking** | Monitoreo de Acciones | Se configuran **eventos simples** para saber si las nuevas funciones se usan correctamente (ejemplo: "usuario_completo_formulario", "boton_descarga_presionado"). |
+| **Dashboard de Métricas** | Panel de Control | Proporciona **reportes fáciles de entender** sobre el uso de la aplicación, ayudando al equipo a ver si los cambios recientes funcionan bien. |
+
+**Prácticas Clave:**
+
+* **Verificación Después del Despliegue:** Después de lanzar nuevos cambios a producción, **revisamos Google Analytics por 1-2 días** para confirmar que los usuarios están usando las nuevas funciones correctamente.
+
+* **Datos para Decisiones:** Si vemos que **los usuarios no usan una función nueva**, podemos decidir mejorarla o explicarla mejor en la siguiente versión.
+
+* **Detección Temprana de Problemas:** Si las **métricas bajan mucho** después de un despliegue, es una señal para investigar si hay errores que no detectamos en pruebas.
+
+* **Validación con Datos Reales:** Usamos la **información real de usuarios** (no solo nuestras suposiciones) para decidir qué mejorar en la aplicación.
+
+* **Monitoreo Continuo:** Revisamos los **reportes semanales** de Google Analytics para entender cómo evoluciona el uso de la aplicación con el tiempo.
+
 #### 7.4.2. Monitoring Pipeline Components
 
 Este es el script que se pondra en el header del proyecto
