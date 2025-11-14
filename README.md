@@ -6630,10 +6630,18 @@ El objetivo de la Entrega Continua (CD) es automatizar la integración y pruebas
 
 #### 7.4.2. Monitoring Pipeline Components
 
+Este es el script que se pondra en el header del proyecto
+[![image.png](https://i.postimg.cc/Y2ZTQdXd/image.png)](https://postimg.cc/mh3dsyW9)
+
+Se coloca el script dentro del header
+[![image.png](https://i.postimg.cc/Dy1pLn44/image.png)](https://postimg.cc/7fYNyvVq)
+
+Aqui se puede ver los resultados de los analisis de usuarios
+[![image.png](https://i.postimg.cc/R05Y2q5m/image.png)](https://postimg.cc/hXsMdDtZ)
+
 #### 7.4.3. Alerting Pipeline Components
 
 #### 7.4.4. Notification Pipeline Components.
-
 
 
 ## 8.1. Experiment Planning
