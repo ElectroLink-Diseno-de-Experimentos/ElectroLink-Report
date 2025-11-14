@@ -6784,83 +6784,94 @@ A partir de nuestras Asunciones Lean UX (Capítulo 1), hemos refinado las hipót
     *   **Resultará en** una mayor percepción del valor de la suscripción paga de la plataforma.
         
     *   **Sabremos que esto es cierto si** los técnicos expuestos al nuevo dashboard (Variante B) tienen una tasa de abandono (churn) un 20% menor que el grupo de control (Variante A) después de 30 días de uso.  
-        
+
+| Hipótesis | Pregunta | Belief (Creencia) | Hypothesis (H1) | Null Hypothesis (H0) |
+| --- | --- | --- | --- | --- |
+| H1 (Adopción Cliente - Confianza) | Q2 | La implementación de insignias de "Técnico Verificado" y reseñas destacadas aumentará la confianza de los propietarios. | La Tasa de Conversión a solicitud de servicio aumentará al menos un 25% con insignias y reseñas destacadas. | La implementación de insignias y reseñas destacadas no aumentará la Tasa de Conversión a solicitud de servicio en un 25% (o más). |
+| H2 (Retención Proveedor - Valor Percibido) | Q3 | Proporcionar un dashboard con "Métricas de Oportunidad" incrementará la percepción del valor de la suscripción. | Los técnicos expuestos al nuevo dashboard tendrán una tasa de abandono (churn) un 20% menor después de 30 días de uso. | El nuevo dashboard de Métricas de Oportunidad no reducirá la tasa de abandono (churn) en un 20% (o más). |
 
 #### 8.2.2. Domain Business Metrics
 
 Estas son las métricas de alto nivel (OKRs) que el negocio (ElectroLink) utiliza para medir el éxito general, y que nuestros experimentos buscan impactar.
 
 *   **Tasa de Conversión de Clientes (CCR):** (Número de servicios contratados / Número de visitantes únicos) %.
-    
+
 *   **Tasa de Abandono de Proveedores (Provider Churn Rate):** (% de proveedores que cancelan su suscripción paga por mes).
-    
+
 *   **Tasa de Adopción de Funcionalidades (Feature Adoption Rate - FAR):** (% de usuarios activos que utilizan una nueva funcionalidad clave al menos una vez por semana).
-    
+
 *   **Puntuación Neta del Promotor (NPS):** Medida de la lealtad y satisfacción del cliente (tanto propietarios como técnicos).
-    
+
 
 #### 8.2.3. Measures
 
 Estas son las métricas de datos crudos (cuantitativas y cualitativas) que recopilaremos directamente durante el experimento para evaluar las hipótesis.
 
 *   **Para Hipótesis 1 (Confianza):**
-    
-    *   Clics en el botón "Solicitar Servicio" (por variante).
-        
-    *   Número de impresiones (vistas) del perfil del técnico.
-        
-    *   Tasa de rebote en la página del perfil.
-        
-    *   _Cualitativo:_ Respuestas a encuestas de salida ("¿Qué tan confiable le pareció este perfil?").
-        
+
+  *   Clics en el botón "Solicitar Servicio" (por variante).
+
+  *   Número de impresiones (vistas) del perfil del técnico.
+
+  *   Tasa de rebote en la página del perfil.
+
+  *   _Cualitativo:_ Respuestas a encuestas de salida ("¿Qué tan confiable le pareció este perfil?").
+
 *   **Para Hipótesis 2 (Retención):**
-    
-    *   Número de clics en la pestaña "Dashboard de Métricas".
-        
-    *   Tiempo promedio de sesión dentro del dashboard de métricas.
-        
-    *   Clics en el botón "Cancelar Suscripción".
-        
-    *   Número de servicios aceptados por el técnico (post-visualización del dashboard).
-        
+
+  *   Número de clics en la pestaña "Dashboard de Métricas".
+
+  *   Tiempo promedio de sesión dentro del dashboard de métricas.
+
+  *   Clics en el botón "Cancelar Suscripción".
+
+  *   Número de servicios aceptados por el técnico (post-visualización del dashboard).
+
+
+| Question | Measure |
+| --- | --- |
+| Q2: ¿Contratarán los propietarios basando su confianza en perfiles verificados y reseñas? | Cuantitativo: Clics en el botón "Solicitar Servicio" por variante. Tasa de Conversión (Visita a Perfil → Solicitud). Tasa de rebote en la página del perfil. Cualitativo: Respuestas a encuestas de salida ("¿Qué tan confiable le pareció este perfil?"). |
+| Q3: ¿Usarán los técnicos activamente las herramientas de agenda e inventario? | Cuantitativo: Clics en la pestaña "Dashboard de Métricas". Tiempo promedio de sesión dentro del dashboard. Clics en el botón "Cancelar Suscripción" (medición de churn). |
 
 #### 8.2.4. Conditions
 
 Definimos las condiciones del experimento (grupos de control y variantes) para aislar el impacto de los cambios introducidos.
 
-*   **Experimento 1 (Perfil Verificado):**
-    
-    *   **Grupo de Control (A):** 50% de los propietarios (segmento "Olivia Pérez") ven el diseño actual del perfil del técnico, con reseñas al final de la página y sin insignias.
-        
-    *   **Grupo Variante (B):** 50% de los propietarios ven el nuevo diseño (To-Be) con una insignia "Verificado por ElectroLink" prominente junto al nombre y la sección de reseñas ubicada directamente debajo de la información de contacto.
-        
-*   **Experimento 2 (Dashboard Técnico):**
-    
-    *   **Grupo de Control (A):** 50% de los técnicos (segmento "Alejandro López") ven el dashboard actual (lista de servicios pendientes y agenda).
-        
-    *   **Grupo Variante (B):** 50% de los técnicos ven el dashboard "To-Be", que incluye un nuevo widget de "Métricas de Oportunidad" en la parte superior.
-        
+| Experimento | Condición Experimental (Variante B) | Condición de Control (Grupo A) |
+| --- | --- | --- |
+| Experimento 1 (Confianza del Cliente - H1) | 50% de propietarios ven el diseño To-Be: Insignia "Verificado por ElectroLink" prominente y reseñas ubicadas directamente debajo de la información de contacto. | 50% de propietarios ven el diseño As-Is: Perfil estándar, con reseñas al final de la página y sin insignias. |
+| Experimento 2 (Retención Proveedor - H2) | 50% de técnicos ven el dashboard To-Be: Incluye un nuevo widget de "Métricas de Oportunidad" (solicitudes perdidas en su zona) en la parte superior. | 50% de técnicos ven el dashboard As-Is: Solo muestra lista de servicios pendientes y agenda, sin el nuevo widget de Métricas de Oportunidad. |
+
 
 #### 8.2.5. Scale Calculations and Decisions
 
 Para asegurar la validez estadística, calculamos el tamaño de muestra necesario.
 
 *   **Decisión de Nivel de Confianza:** 95% (p-value < 0.05).
-    
+
 *   **Decisión de Poder Estadístico:** 80%.
-    
+
 *   **Efecto Mínimo Detectable (MDE):**
-    
-    *   Para H1: Buscamos detectar un _lift_ (mejora) relativo del 20% sobre nuestra tasa de conversión base actual del 5%.
-        
-    *   Para H2: Buscamos detectar una reducción relativa del 15% en el _churn_ base del 10%.
-        
+
+  *   Para H1: Buscamos detectar un _lift_ (mejora) relativo del 20% sobre nuestra tasa de conversión base actual del 5%.
+
+  *   Para H2: Buscamos detectar una reducción relativa del 15% en el _churn_ base del 10%.
+
 *   **Cálculo de Muestra (H1):** Se requiere un mínimo de 4,500 visitantes únicos por variante (Total: 9,000).
-    
+
 *   **Cálculo de Muestra (H2):** Se requiere un mínimo de 1,200 técnicos por variante (Total: 2,400).
-    
+
 *   **Duración:** Los experimentos se ejecutarán durante 21 días para capturar el comportamiento de tres ciclos semanales completos y alcanzar el tamaño de muestra requerido.
-    
+
+
+| Factor | Valor de Decisión | Justificación y Nivel |
+| --- | --- | --- |
+| Nivel de Confianza (1−α) | 95% | Ideal. Estándar de la industria para asegurar la fiabilidad de los resultados. |
+| Poder Estadístico (1−β) | 80% | Aceptable/Ideal. Mínimo requerido para reducir la posibilidad de un Falso Negativo. |
+| Efecto Mínimo Detectable (MDE) | H1: Lift relativo del 20% en CCR. H2: Reducción relativa del 15% en Churn. | Ideal. Define el cambio mínimo que se considera valioso para el negocio. |
+| Tamaño Muestral Calculado | H1: 9,000 visitantes únicos totales. H2: 2,400 técnicos totales. | Ideal. Muestra calculada para validar el MDE con 95% de confianza. |
+| Duración | 21 días | Ideal. Periodo suficiente para alcanzar el tamaño de muestra y cubrir ciclos de comportamiento. |
+
 
 #### 8.2.6. Methods Selection
 
