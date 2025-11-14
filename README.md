@@ -6909,16 +6909,17 @@ Estableceremos un plan de seguimiento exhaustivo basado en el A/B Testing para e
 
 **1. Implementación Inicial**
 Durante esta fase, nos enfocaremos en el lanzamiento de los diseños Experimentales y la recolección de datos segmentados para establecer la causalidad de los resultados frente a la Línea Base (Control).
-Asignación del Grupo: Todos los eventos críticos incluirán una propiedad que identifica si el usuario está en el grupo Control o Experimental para garantizar que los resultados de cada usuario sean analizados dentro de su grupo asignado.
-Métricas de Confianza (H1): Se capturarán los clics en "Solicitar Servicio" (service_request_initiated) y las vistas de perfil (profile_view) para medir la Tasa de Conversión (CCR).
-Métricas de Valor/Retención (H2): Se registrarán los clics en el botón "Cancelar Suscripción" (subscription_cancellation_attempt) y la interacción con el nuevo widget (metrics_widget_interaction) para medir el Churn y la adopción.
-Feedback de Usuarios: Se implementarán encuestas (ej., Qualtrics o Hotjar) post-interacción para obtener datos cualitativos sobre la confianza percibida tras ver el perfil verificado (H1).
+- **Asignación del Grupo:** Todos los eventos críticos incluirán una propiedad que identifica si el usuario está en el grupo Control o Experimental para garantizar que los resultados de cada usuario sean analizados dentro de su grupo asignado.
+- **Métricas de Confianza (H1):** Se capturarán los clics en "Solicitar Servicio" (service_request_initiated) y las vistas de perfil (profile_view) para medir la Tasa de Conversión (CCR).
+- **Métricas de Valor/Retención (H2):** Se registrarán los clics en el botón "Cancelar Suscripción" (subscription_cancellation_attempt) y la interacción con el nuevo widget (metrics_widget_interaction) para medir el Churn y la adopción.
+- **Feedback de Usuarios:** Se implementarán encuestas (ej., Qualtrics o Hotjar) post-interacción para obtener datos cualitativos sobre la confianza percibida tras ver el perfil verificado (H1).
 
 **2. Seguimiento Continuo**
 Después de la fase inicial de validación (21 días), se establecerá un proceso continuo de seguimiento para evaluar el rendimiento a largo plazo.
-Métricas en Tiempo Real: Se implementarán herramientas de análisis web y móvil (ej., Google Analytics) para monitorear el comportamiento de los usuarios en tiempo real.
-Segmentación de Usuarios: Los datos se segmentarán por tipo de usuario (Propietarios, Técnicos, Rol de Suscripción) para entender mejor cómo cada grupo interactúa con las funcionalidades clave.
-Tasa de Retención a Largo Plazo: Se medirá la Tasa de Abandono de Proveedores (Provider Churn Rate) a lo largo del tiempo para evaluar la efectividad del nuevo dashboard (H2) en mantener a los técnicos comprometidos con la plataforma.
+- **Métricas en Tiempo Real:** Se implementarán herramientas de análisis web y móvil (ej., Google Analytics) para monitorear el comportamiento de los usuarios en tiempo real.
+- **Segmentación de Usuarios:** Los datos se segmentarán por tipo de usuario (Propietarios, Técnicos, Rol de Suscripción) para entender mejor cómo cada grupo interactúa con las funcionalidades clave.
+- **Tasa de Retención a Largo Plazo:** Se medirá la Tasa de Abandono de Proveedores (Provider Churn Rate) a lo largo del tiempo para evaluar la efectividad del nuevo dashboard (H2) en mantener a los técnicos comprometidos con la plataforma.
+
 Este enfoque asegurará que ElectroLink tome decisiones informadas y validadas por datos, centrándose en la viabilidad económica del proyecto.
 
 
@@ -6965,22 +6966,25 @@ Estas historias de usuario describen las funcionalidades específicas requeridas
         *   Entonces el sistema debe mostrar el widget "Métricas de Oportunidad".
             
         *   El widget debe mostrar (como mínimo): "Solicitudes en tu zona (últ. 7 días)" y "Tasa de Aceptación".
-            
+
+
+| ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Experimento) |
+| :--- | :--- | :--- | :--- | :--- |
+| **EXP-US-001** | Perfil con Insignia Verificada y Reseñas Destacadas | Como propietaria (Olivia), quiero ver una insignia visual de "Técnico Verificado" y las reseñas más útiles en la parte superior del perfil de un técnico, para poder evaluar su confiabilidad rápidamente y tomar una decisión de contratación más segura. | **Escenario 1: Visualización de la Insignia**<br>• Given el propietario pertenece al grupo Experimental de H1.<br>• When carga un perfil de técnico con certificación validada.<br>• Then el sistema debe mostrar la insignia "Verificado por ElectroLink" de forma prominente junto al nombre del técnico.<br><br>**Escenario 2: Priorización de Reseñas**<br>• Given el propietario está en el grupo Experimental.<br>• When la página del perfil se carga.<br>• Then el componente de "Reseñas Destacadas" debe ser el segundo elemento visible en el viewport (sobre la sección "Servicios Ofrecidos"). | H1 (Confianza del Cliente) |
+| **EXP-US-002** | Widget de Métricas de Oportunidad para Técnicos | Como técnico (Alejandro), quiero ver un widget en mi dashboard que resuma las "Oportunidades Perdidas" (solicitudes en mi zona que no acepté o que fueron tomadas por otros), para entender mejor la demanda real y ajustar mi disponibilidad o mi tasa de aceptación de servicios. | **Escenario 1: Carga y Contenido del Widget**<br>• Given el técnico pertenece al grupo Experimental de H2.<br>• When el técnico carga su dashboard principal.<br>• Then el sistema debe mostrar el widget "Métricas de Oportunidad" en la parte superior.<br>• And el widget debe mostrar los datos calculados: "Solicitudes en tu zona (últ. 7 días)" y "Tasa de Aceptación".<br><br>**Escenario 2: Interacción con el Widget**<br>• Given el widget está visible.<br>• When el técnico hace clic en el widget.<br>• Then el sistema debe registrar el evento `metrics_widget_interaction`. | H2 (Retención del Proveedor) |
+| **EXP-US-003** | Asignación Persistente a Grupos de Experimento | Como ElectroLink, necesito que cada usuario (Olivia, Alejandro, u otro) sea asignado de forma aleatoria y persistente a un grupo de experimento al iniciar sesión, para que el Test A/B tenga validez y el usuario no cambie de experiencia. | **Escenario 1: Asignación Inicial**<br>• Given un usuario inicia sesión por primera vez.<br>• When el usuario es asignado a un grupo (Control o Experimental) para H1 y/o H2.<br>• Then el sistema debe guardar esta asignación en la base de datos.<br><br>**Escenario 2: Persistencia del Grupo**<br>• Given un usuario que ya ha sido asignado.<br>• When el usuario inicia sesión de nuevo o accede desde otro dispositivo.<br>• Then el sistema debe mostrarle siempre la misma versión (Control o Experimental) a la que fue asignado inicialmente. | Infraestructura (Soporte H1 y H2) |
+| **EXP-US-004** | Registro de Eventos Clave para A/B Testing | Como equipo de ElectroLink, quiero que los eventos críticos del experimento (Solicitud de Servicio y Cancelación) registren la propiedad del grupo de experimento, para poder comparar las tasas de conversión y abandono entre el Control y el Experimental. | **Escenario 1: Tracking de Solicitud de Servicio**<br>• Given un propietario hace clic en "Solicitar Servicio".<br>• When el evento `service_request_initiated` es enviado a Google Analytics.<br>• Then el evento debe incluir una propiedad que indique si el propietario estaba en el grupo Control o Experimental de H1.<br><br>**Escenario 2: Tracking de Intento de Cancelación**<br>• Given un técnico hace clic en el botón "Cancelar Suscripción".<br>• When el evento `subscription_cancellation_attempt` es enviado al sistema de tracking.<br>• Then el evento debe incluir una propiedad que indique si el técnico estaba en el grupo Control o Experimental de H2. | Infraestructura (Soporte H1 y H2) |
 
 #### 8.3.2. To-Be Product Backlog
 
-Este es el backlog de tareas técnicas (priorizado) requerido para implementar los experimentos diseñados.
+Este es el backlog de las historias de usuario (priorizado) requerido para implementar los experimentos diseñados.
 
-
-| ID | Épica | Historia de Usuario | Prioridad | Estimación (Story Points) | Criterios de Aceptación |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| PB-EXP-001 | EP-EXP-H1 (Confianza Cliente) | Desarrollar insignia visual "Verificado por ElectroLink" en el perfil del técnico (Variante B). | Alta | 5 pts | Dado el profile_variant = B, la insignia se muestra junto al nombre si status_certificacion = TRUE. |
-| PB-EXP-002 | EP-EXP-H1 (Confianza Cliente) | Reorganizar el perfil para colocar el componente de "Reseñas Destacadas" sobre los "Servicios Ofrecidos". | Alta | 3 pts | En la Variante B, el componente de Reseñas debe ser el segundo elemento visible en el viewport del perfil. |
-| PB-EXP-003 | EP-EXP-H2 (Retención Proveedor) | Construir el Widget "Métricas de Oportunidad" dentro del dashboard del técnico (Variante B). | Alta | 8 pts | Dado el dashboard_variant = B, el widget debe cargar y mostrar la data calculada de Solicitudes en Zona y Tasa de Aceptación. |
-| PB-EXP-004 | EP-EXP-H2 (Retención Proveedor) | Implementar la lógica de backend para calcular las "Oportunidades Perdidas" (Solicitudes no aceptadas o tomadas por otros). | Alta | 13 pts | La API debe retornar el conteo correcto de solicitudes no atendidas por el técnico en su radio de acción y no debe fallar con más de 1000 técnicos. |
-| PB-EXP-005 | EP-INFRA (A/B Testing) | Implementar la lógica para la asignación aleatoria persistente de usuarios a la Variante A o B. | Alta | 5 pts | El usuario debe ser asignado a un grupo (A o B) al iniciar sesión por primera vez y debe permanecer en ese grupo a través de sesiones y dispositivos. |
-| PB-EXP-006 | EP-INFRA (A/B Testing) | Integrar los eventos de tracking clave (click_solicitar_servicio, view_metrics_dashboard) con la herramienta de A/B Testing. | Media | 8 pts | Todos los eventos críticos deben incluir la propiedad experiment_variant (A o B) para su análisis posterior. |
-| PB-EXP-007 | EP-INFRA (A/B Testing) | Configurar la meta de Conversión (KPI) y la Hipótesis Nula dentro de la plataforma de A/B Testing. | Media | 3 pts | Los experimentos H1 y H2 deben estar activos en el sistema de A/B testing con un Nivel de Confianza del 95% y un MDE del 20%. |
+|  Orden| User Story ID | Título                                                 | Story Points (1 / 2 / 3 / 5 / 8) |
+|:------| :------------ | :----------------------------------------------------- | :------------------------------- |
+| 1     | EXP-US-001    | Perfil con Insignia Verificada y Reseñas Destacadas    | 8                                |
+| 2     | EXP-US-002    | Widget de Métricas de Oportunidad para Técnicos       | 8                                |
+| 3     | EXP-US-003    | Asignación Persistente a Grupos de Experimento         | 5                                |
+| 4     | EXP-US-004    | Registro de Eventos Clave para A/B Testing             | 5                                |
 
 
 ## Conclusiones
