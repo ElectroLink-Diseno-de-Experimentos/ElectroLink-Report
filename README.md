@@ -6614,7 +6614,27 @@ El objetivo de la Entrega Continua (CD) es automatizar la integración y pruebas
 
 ### 7.2.2 Stages Deployment Pipeline Components
 
-NO CORRESPONDE A ESTA ENTREGA 
+[![image.png](https://i.postimg.cc/2yVsvsFZ/image.png)](https://postimg.cc/tnGvGmcq)
+
+[![image.png](https://i.postimg.cc/C5GQjwnR/image.png)](https://postimg.cc/LgsDSKTS)
+
+### 7.3 Continuous deployment
+
+#### 7.3.1. Tools and Practices.
+
+#### 7.3.2. Production Deployment Pipeline Components.
+
+### 7.4. Continuous Monitoring
+
+#### 7.4.1. Tools and Practices.
+
+#### 7.4.2. Monitoring Pipeline Components
+
+#### 7.4.3. Alerting Pipeline Components
+
+#### 7.4.4. Notification Pipeline Components.
+
+
 
 ## 8.1. Experiment Planning
 
