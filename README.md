@@ -6759,6 +6759,14 @@ Basados en las preguntas de mayor prioridad (Q2 y Q1), diseñamos los siguientes
 | **Metrics** | Mediremos el porcentaje de usuarios que completan el flujo de contratación y el porcentaje que elige al técnico verificado. También registraremos su nivel de confianza reportado (escala 1-5) después de la tarea. |
 | **Success Criteria** | Sabremos que estamos en lo correcto si al menos 8 de 10 (80%) usuarios eligen al técnico verificado y reportan un nivel de confianza de 4 o 5 en el proceso. | 
 
+| Elemento | Experiment Card #2: Validación del Modelo de Negocio (Suscripción Proveedor) |
+| -------- | ---------------------------------------------- |
+| **Hypothesis** | *(Basandonos en Q1)* |
+| **Experiment** | Creemos que los técnicos certificados (como Alejandro) pagarán una suscripción mensual.<br><br>Porque la plataforma les garantiza acceso a clientes recurrentes y herramientas de gestión (agenda, inventario), solucionando su problema de inconsistencia de trabajo y falta de digitalización.<br><br>Para verificar esto, realizaremos entrevistas de validación de concepto y precio con 15 técnicos certificados que actualmente trabajen de forma independiente.<br><br>Les mostraremos el prototipo de la plataforma (perfil de cliente, herramientas de gestión) y les presentaremos 3 niveles de precio tentativos (Ej: S/ 25, S/ 50, S/ 100 al mes) después de un mes de prueba gratis. |
+| **Metrics** | Mediremos el porcentaje de técnicos que expresen una "alta intención de pago" (verbalmente) por el plan de S/ 50. |
+| **Success Criteria** | Sabremos que estamos en lo correcto si al menos 60% (9 de 15) de los técnicos indican que "muy probablemente" o "definitivamente" pagarían la suscripción de S/ 50 tras ver el valor ofrecido. | 
+
+
 <hr>
 
 ### 8.2. Experiment Design
@@ -6895,28 +6903,24 @@ El objetivo analítico es determinar si las variantes (B) producen un resultado 
 
 #### 8.2.8. Web and Mobile Tracking Plan
 
-Se implementará un plan de seguimiento de eventos (event tracking) en nuestra plataforma de analítica (ej. Mixpanel o Google Analytics 4) para capturar las medidas necesarias.
+Para ElectroLink, el objetivo es monitorear la plataforma web y móvil para validar si los cambios introducidos en los perfiles (H1) y el dashboard de técnicos (H2) generan la confianza y el valor percibido necesarios para sostener el modelo de negocio.
 
-*   **Evento (H1):** profile\_view
-    
-    *   _Propiedades:_ user\_id, technician\_id, variant: \[A|B\]
-        
-*   **Evento (H1):** service\_request\_initiated
-    
-    *   _Propiedades:_ user\_id, technician\_id, variant: \[A|B\]
-        
-*   **Evento (H2):** technician\_dashboard\_view
-    
-    *   _Propiedades:_ technician\_id, variant: \[A|B\]
-        
-*   **Evento (H2):** metrics\_widget\_interaction
-    
-    *   _Propiedades:_ technician\_id, variant: \[B\]
-        
-*   **Evento (H2):** subscription\_cancellation\_attempt
-    
-    *   _Propiedades:_ technician\_id, variant: \[A|B\]
-        
+Estableceremos un plan de seguimiento exhaustivo basado en el A/B Testing para evaluar el impacto causal de las mejoras implementadas.
+
+**1. Implementación Inicial**
+Durante esta fase, nos enfocaremos en el lanzamiento de los diseños Experimentales y la recolección de datos segmentados para establecer la causalidad de los resultados frente a la Línea Base (Control).
+Asignación del Grupo: Todos los eventos críticos incluirán una propiedad que identifica si el usuario está en el grupo Control o Experimental para garantizar que los resultados de cada usuario sean analizados dentro de su grupo asignado.
+Métricas de Confianza (H1): Se capturarán los clics en "Solicitar Servicio" (service_request_initiated) y las vistas de perfil (profile_view) para medir la Tasa de Conversión (CCR).
+Métricas de Valor/Retención (H2): Se registrarán los clics en el botón "Cancelar Suscripción" (subscription_cancellation_attempt) y la interacción con el nuevo widget (metrics_widget_interaction) para medir el Churn y la adopción.
+Feedback de Usuarios: Se implementarán encuestas (ej., Qualtrics o Hotjar) post-interacción para obtener datos cualitativos sobre la confianza percibida tras ver el perfil verificado (H1).
+
+**2. Seguimiento Continuo**
+Después de la fase inicial de validación (21 días), se establecerá un proceso continuo de seguimiento para evaluar el rendimiento a largo plazo.
+Métricas en Tiempo Real: Se implementarán herramientas de análisis web y móvil (ej., Google Analytics) para monitorear el comportamiento de los usuarios en tiempo real.
+Segmentación de Usuarios: Los datos se segmentarán por tipo de usuario (Propietarios, Técnicos, Rol de Suscripción) para entender mejor cómo cada grupo interactúa con las funcionalidades clave.
+Tasa de Retención a Largo Plazo: Se medirá la Tasa de Abandono de Proveedores (Provider Churn Rate) a lo largo del tiempo para evaluar la efectividad del nuevo dashboard (H2) en mantener a los técnicos comprometidos con la plataforma.
+Este enfoque asegurará que ElectroLink tome decisiones informadas y validadas por datos, centrándose en la viabilidad económica del proyecto.
+
 
 ### 8.3. Experimentation
 
@@ -6968,24 +6972,15 @@ Estas historias de usuario describen las funcionalidades específicas requeridas
 Este es el backlog de tareas técnicas (priorizado) requerido para implementar los experimentos diseñados.
 
 
-| **ID** | **Épica** | **Historia de Usuario** | **Prioridad** | **Estimación** | **Criterios de Aceptación** |
-|:------:|:-----------|:------------------------|:---------------|:----------------|:-----------------------------|
-| **PB-01** | EP-001 Registro y autenticación | Implementar login y registro de usuarios con validación | Alta | 5 pts | El usuario puede registrarse y autenticarse correctamente con validación de correo y contraseña segura. |
-| **PB-02** | EP-003 Gestión de Recursos | Desarrollar sistema de filtros de búsqueda por criterios avanzados (precio, ubicación, tipo de vivienda, servicios) | Alta | 8 pts | Los resultados deben actualizarse dinámicamente al aplicar filtros y coincidir con los parámetros seleccionados. |
-| **PB-03** | EP-006 Comunidad y Colaboración | Implementar chat seguro entre estudiantes y anfitriones para mejorar la comunicación | Alta | 10 pts | El chat permite mensajes en tiempo real, cifrados y notificaciones instantáneas. |
-| **PB-04** | EP-007 Acceso a Mercados y Proveedores | Integrar sistema de pagos electrónicos (Yape, Plin, MercadoPago) dentro de la plataforma | Alta | 13 pts | Los pagos se procesan correctamente y se registran en la base de datos con confirmación al usuario. |
-| **PB-05** | EP-004 Análisis y Reportes | Diseñar dashboard con métricas sobre reservas, pagos y actividad de usuarios | Media | 8 pts | El dashboard muestra métricas actualizadas cada 24 horas y permite filtrar por periodo. |
-| **PB-06** | EP-002 Gestión de Información Agrícola | (Iteración futura) Módulo de anuncios de alquiler vinculados a zonas agrícolas o universidades rurales | Baja | 13 pts | Los anuncios se muestran según la ubicación y perfil del estudiante. |
-
-
-
-
-| Elemento | Experiment Card #2: Validación del Modelo de Negocio (Suscripción Proveedor) |
-| -------- | ---------------------------------------------- |
-| **Hypothesis** | *(Basandonos en Q1)* |
-| **Experiment** | Creemos que los técnicos certificados (como Alejandro) pagarán una suscripción mensual.<br><br>Porque la plataforma les garantiza acceso a clientes recurrentes y herramientas de gestión (agenda, inventario), solucionando su problema de inconsistencia de trabajo y falta de digitalización.<br><br>Para verificar esto, realizaremos entrevistas de validación de concepto y precio con 15 técnicos certificados que actualmente trabajen de forma independiente.<br><br>Les mostraremos el prototipo de la plataforma (perfil de cliente, herramientas de gestión) y les presentaremos 3 niveles de precio tentativos (Ej: S/ 25, S/ 50, S/ 100 al mes) después de un mes de prueba gratis. |
-| **Metrics** | Mediremos el porcentaje de técnicos que expresen una "alta intención de pago" (verbalmente) por el plan de S/ 50. |
-| **Success Criteria** | Sabremos que estamos en lo correcto si al menos 60% (9 de 15) de los técnicos indican que "muy probablemente" o "definitivamente" pagarían la suscripción de S/ 50 tras ver el valor ofrecido. | 
+| ID | Épica | Historia de Usuario | Prioridad | Estimación (Story Points) | Criterios de Aceptación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| PB-EXP-001 | EP-EXP-H1 (Confianza Cliente) | Desarrollar insignia visual "Verificado por ElectroLink" en el perfil del técnico (Variante B). | Alta | 5 pts | Dado el profile_variant = B, la insignia se muestra junto al nombre si status_certificacion = TRUE. |
+| PB-EXP-002 | EP-EXP-H1 (Confianza Cliente) | Reorganizar el perfil para colocar el componente de "Reseñas Destacadas" sobre los "Servicios Ofrecidos". | Alta | 3 pts | En la Variante B, el componente de Reseñas debe ser el segundo elemento visible en el viewport del perfil. |
+| PB-EXP-003 | EP-EXP-H2 (Retención Proveedor) | Construir el Widget "Métricas de Oportunidad" dentro del dashboard del técnico (Variante B). | Alta | 8 pts | Dado el dashboard_variant = B, el widget debe cargar y mostrar la data calculada de Solicitudes en Zona y Tasa de Aceptación. |
+| PB-EXP-004 | EP-EXP-H2 (Retención Proveedor) | Implementar la lógica de backend para calcular las "Oportunidades Perdidas" (Solicitudes no aceptadas o tomadas por otros). | Alta | 13 pts | La API debe retornar el conteo correcto de solicitudes no atendidas por el técnico en su radio de acción y no debe fallar con más de 1000 técnicos. |
+| PB-EXP-005 | EP-INFRA (A/B Testing) | Implementar la lógica para la asignación aleatoria persistente de usuarios a la Variante A o B. | Alta | 5 pts | El usuario debe ser asignado a un grupo (A o B) al iniciar sesión por primera vez y debe permanecer en ese grupo a través de sesiones y dispositivos. |
+| PB-EXP-006 | EP-INFRA (A/B Testing) | Integrar los eventos de tracking clave (click_solicitar_servicio, view_metrics_dashboard) con la herramienta de A/B Testing. | Media | 8 pts | Todos los eventos críticos deben incluir la propiedad experiment_variant (A o B) para su análisis posterior. |
+| PB-EXP-007 | EP-INFRA (A/B Testing) | Configurar la meta de Conversión (KPI) y la Hipótesis Nula dentro de la plataforma de A/B Testing. | Media | 3 pts | Los experimentos H1 y H2 deben estar activos en el sistema de A/B testing con un Nivel de Confianza del 95% y un MDE del 20%. |
 
 
 ## Conclusiones
