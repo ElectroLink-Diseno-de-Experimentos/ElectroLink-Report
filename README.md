@@ -6454,7 +6454,6 @@ Representa el estado actual del mismo.
 [![image.png](https://i.postimg.cc/0ySKQRkS/image.png)](https://postimg.cc/3kKxSqDr)
 
 
-
 ### 6.2.2 Reviews
 
 Las revisiones de código son un proceso fundamental para garantizar la calidad del *software* y la conformidad con las normas de codificación establecidas (como la **Google Java Style Guide** y **Airbnb JavaScript Style Guide**). En el proyecto ElectroLink, este proceso se integra directamente con el flujo de trabajo en **GitHub** mediante **Pull Requests (PR)** y se apoya en revisiones tanto manuales como automatizadas.
@@ -6553,8 +6552,109 @@ El objetivo de la Entrega Continua (CD) es automatizar la integración y pruebas
 
 NO CORRESPONDE A ESTA ENTREGA 
 
+## 8.1. Experiment Planning
 
+En esta sección, se planifica el enfoque experimental para validar las hipótesis y supuestos clave del proyecto ElectroLink. El objetivo es movernos de las suposiciones a los hechos probados mediante la experimentación.
 
+### 8.1.1. As-Is Summary
+
+El estado actual (As-Is) del dominio de servicios eléctricos en el segmento objetivo presenta una fricción significativa y desconfianza entre los dos actores principales:
+
+-  1. Clientes (Propietarios y PYMES): (Representados por Olivia Pérez y Eduardo Gonzales). Tienen una necesidad crítica de servicios eléctricos, pero su problema central es la dificultad para encontrar proveedores confiables y certificados. Actualmente, recurren a métodos informales (recomendaciones, redes sociales), lo que les genera un alto nivel de ansiedad, incertidumbre y riesgo, resultando a menudo en trabajos de mala calidad o inseguros.
+
+- 2. Proveedores (Técnicos Certificados): (Representado por Alejandro López). Luchan por encontrar un flujo constante de clientes y compiten en desventaja contra un gran mercado informal que ofrece precios más bajos sin garantías. Carecen de herramientas digitales para gestionar sus servicios, construir una reputación verificable y demostrar su certificación de manera efectiva.
+
+La situación actual es un ciclo de desconfianza: los clientes no confían en los técnicos que encuentran, y los técnicos certificados no pueden diferenciarse digitalmente de los informales.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+Basado en el Lean UX Process (Capítulo 1.2.2) y el As-Is Scenario (Capítulo 2.3.5) definiremos el material en bruto para la experimentación:
+
+**1. Assumptions (Suposiciones Clave):**
+
+ - Suposición de Valor (Cliente): Creemos que los clientes (propietarios y PYMES) valoran más la garantía de un técnico certificado y la seguridad del servicio que un precio bajo.
+
+ - Suposición de Valor (Proveedor): Creemos que los técnicos certificados pagarán una suscripción mensual si les proporcionamos un flujo constante de clientes calificados y herramientas de gestión.
+
+ - Suposición de Adquisición: Creemos que podemos adquirir la mayoría de los clientes a través de estrategias de marketing digital (p.ej., redes sociales, publicidad segmentada).
+
+ - Suposición de Confianza: Creemos que un sistema de reseñas y calificaciones (Hypothesis #1) es fundamental para construir la confianza que los clientes necesitan para contratar.
+
+**2. Knowledge Gaps (Brechas de Conocimiento):**
+
+ - No sabemos el monto exacto (precio) que los técnicos están dispuestos a pagar por la suscripción mensual.
+
+ - No sabemos cuál es el canal de marketing digital más efectivo (Facebook, Google Ads, etc.) y con el menor costo de adquisición (CAC) para captar propietarios de viviendas.
+
+ - No sabemos qué características específicas del perfil de un técnico (además de la certificación) son las que más generan confianza en un cliente al momento de decidir (¿fotos de trabajos, años de experiencia, reseñas?).
+
+ - No sabemos si los propietarios del Plan Básico (gratuito) verán suficiente valor en el "servicio prioritario" (US-57) como para pagar por un Plan Premium.
+
+ - No sabemos si los técnicos (como Alejandro) realmente adoptarán las herramientas de gestión (agenda, inventario) o si preferirán seguir usando sus métodos manuales (WhatsApp, cuaderno).
+
+**3. Ideas:**
+
+ - Implementar un riguroso proceso de validación de certificaciones para todos los técnicos que se registren.
+
+ - Crear un sistema de reseñas y calificaciones de 5 estrellas visible en el perfil público del técnico.
+
+ - Desarrollar un módulo de gestión de agenda e inventario (US-37, US-48) como valor agregado para los técnicos.
+
+ - Ofrecer un modelo "Freemium" para los propietarios (Plan Básico y Premium) para fomentar la adopción.
+
+**4. Claims (Declaraciones):**
+
+ - Nuestra plataforma reducirá los riesgos eléctricos en hogares y PYMES al formalizar la contratación de servicios.
+
+ - ElectroLink romperá el ciclo de informalidad en el sector (Problem Statement #2).
+
+ - El modelo de negocio basado en suscripción para proveedores es   viable y escalable.
+
+### 8.1.3. Experiment Ready-Questions
+
+Transformamos las suposiciones y brechas de conocimiento en preguntas específicas que podemos responder mediante experimentos.
+
+ - **Q1[Viabilidad/Proveedor]:** ¿Pagarán los técnicos certificados una suscripción mensual (p.ej., S/ 50) por acceder a clientes calificados y herramientas de gestión?
+
+ - **Q2[Viabilidad/Cliente]:** ¿Contratarán los propietarios de viviendas un servicio eléctrico a través de la plataforma, basando su confianza en los perfiles verificados y las reseñas?
+
+ - **Q3[Valor/Retención Proveedor]:** ¿Usarán los técnicos activamente las herramientas de agenda e inventario de la plataforma para gestionar sus servicios?
+
+ - **Q4[Adquisición/Cliente]:** ¿Cuál canal de marketing digital (Facebook Ads vs. Google Ads) genera registros de propietarios (leads) al menor costo?
+
+ - **Q5[Crecimiento/Cliente]:** ¿Cuántos propietarios del Plan Básico (con un límite de 2 solicitudes) estarán dispuestos a pagar por el Plan Premium para obtener "servicio prioritario"?
+
+### 8.1.4. Question Backlog
+
+Priorizamos las preguntas anteriores para enfocar nuestros primeros esfuerzos en validar lo más riesgoso e importante para el modelo de negocio.
+
+| Prioridad | ID | Pregunta(Experiment-Ready Question) |
+| --------- | -- | ----------------------------------- |
+| **Alta** | *Q2* | ¿Contratarán los propietarios de viviendas un servicio eléctrico a través de la plataforma, basando su confianza en los perfiles verificados y las reseñas? |
+| **Alta** | *Q1* | ¿Pagarán los técnicos certificados una suscripción mensual (p.ej., S/ 50) por acceder a clientes calificados y herramientas de gestión? | 
+| **Media** | *Q3* | ¿Usarán los técnicos activamente las herramientas de agenda e inventario de la plataforma para gestionar sus servicios? |
+| **Media** | *Q4* | ¿Cuál canal de marketing digital (Facebook Ads vs. Google Ads) genera registros de propietarios (leads) al menor costo? |
+| **Baja** | *Q5* | ¿Cuántos propietarios del Plan Básico (con un límite de 2 solicitudes) estarán dispuestos a pagar por el Plan Premium para obtener "servicio prioritario"? |
+
+### 8.1.5. Experiment Cards
+
+Basados en las preguntas de mayor prioridad (Q2 y Q1), diseñamos los siguientes experimentos:
+
+| Elemento | Experiment Card #1: Validación de Confianza del Cliente | 
+| -------- | ---------------------------------------------- |
+| **Hypothesis** | *(Basandonos en Q2)* |
+| **Experiment** | Creemos que los propietarios de viviendas (como Olivia) contratarán un servicio a través de ElectroLink.<br><br>Porque su mayor frustración actual es la desconfianza y ansiedad que les genera el mercado informal, y nuestra plataforma soluciona eso mostrando perfiles verificados y reseñas reales.<br><br>Para verificar esto, realizaremos una prueba de usabilidad con un prototipo de alta fidelidad (Mockups) del flujo de contratación (US-40 a US-44).<br><br>Presentaremos a 10 usuarios (del segmento "propietarios de hogar") dos perfiles de técnicos (uno verificado y con reseñas; otro nuevo sin reseñas) y les pediremos que "contraten a alguien para una revisión eléctrica". |
+| **Metrics** | Mediremos el porcentaje de usuarios que completan el flujo de contratación y el porcentaje que elige al técnico verificado. También registraremos su nivel de confianza reportado (escala 1-5) después de la tarea. |
+| **Success Criteria** | Sabremos que estamos en lo correcto si al menos 8 de 10 (80%) usuarios eligen al técnico verificado y reportan un nivel de confianza de 4 o 5 en el proceso. | 
+
+<hr>
+
+| Elemento | Experiment Card #2: Validación del Modelo de Negocio (Suscripción Proveedor) |
+| -------- | ---------------------------------------------- |
+| **Hypothesis** | *(Basandonos en Q1)* |
+| **Experiment** | Creemos que los técnicos certificados (como Alejandro) pagarán una suscripción mensual.<br><br>Porque la plataforma les garantiza acceso a clientes recurrentes y herramientas de gestión (agenda, inventario), solucionando su problema de inconsistencia de trabajo y falta de digitalización.<br><br>Para verificar esto, realizaremos entrevistas de validación de concepto y precio con 15 técnicos certificados que actualmente trabajen de forma independiente.<br><br>Les mostraremos el prototipo de la plataforma (perfil de cliente, herramientas de gestión) y les presentaremos 3 niveles de precio tentativos (Ej: S/ 25, S/ 50, S/ 100 al mes) después de un mes de prueba gratis. |
+| **Metrics** | Mediremos el porcentaje de técnicos que expresen una "alta intención de pago" (verbalmente) por el plan de S/ 50. |
+| **Success Criteria** | Sabremos que estamos en lo correcto si al menos 60% (9 de 15) de los técnicos indican que "muy probablemente" o "definitivamente" pagarían la suscripción de S/ 50 tras ver el valor ofrecido. | 
 
 
 ## Conclusiones
