@@ -6952,6 +6952,13 @@ El componente de alertas es crucial para la detección y respuesta rápida ante 
 
 #### 7.4.4. Notification Pipeline Components.
 
+El pipeline de notificaciones es esencial para comunicar de forma automática los resultados de las pruebas y el estado del pipeline.
+
+- **Jenkins/GitHub Actions:** Permiten configurar notificaciones detalladas sobre el progreso y los resultados de cada fase del pipeline de pruebas.
+
+- **Alertas en Tiempo Real:** Las notificaciones se configuran para enviarse automáticamente al finalizar cada build o etapa del pipeline, informando sobre el éxito o fallo de las pruebas, facilitando una respuesta inmediata a cualquier incidente.
+
+
 ## 8.1. Experiment Planning
 
 En esta sección, se planifica el enfoque experimental para validar las hipótesis y supuestos clave del proyecto ElectroLink. El objetivo es movernos de las suposiciones a los hechos probados mediante la experimentación.
