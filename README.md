@@ -6407,7 +6407,71 @@ Aqui se prueban la funcionalidad de Rating como Create.
 
 ### 6.1.4 Core System Tests
 
-NO CORRESPONDE PARA ESTA ENTREGA
+En este apartado nos encargamos de realizar algunas pruebas de integración usando Selenium para interactuar con el front y el formato de StepDefinitions usando Gherkin para facilitar la interacción.
+
+##### SignUp
+
+- Resultado de la prueba en el Front
+[![image.png](https://i.postimg.cc/pdZMGxSF/image.png)](https://postimg.cc/SXJPj0kS)
+
+- Feature en formato Gherkin con el resultado
+[![image.png](https://i.postimg.cc/9FZmP3cG/image.png)](https://postimg.cc/569W1RY0)
+
+- Step Definitions
+[![image.png](https://i.postimg.cc/YSVZy93f/image.png)](https://postimg.cc/94dLDcsr)
+
+##### SignIn
+- Resultado de la prueba en el Front
+[![image.png](https://i.postimg.cc/6QRftpKL/image.png)](https://postimg.cc/p9WFBxpp)
+
+- Feature en formato Gherkin con el resultado
+[![image.png](https://i.postimg.cc/XJ4dWKQj/image.png)](https://postimg.cc/CZrzHq3X)
+
+- Step Definitions
+[![image.png](https://i.postimg.cc/260bfs1C/image.png)](https://postimg.cc/TLWYVHjs)
+
+##### CreateSchedule
+- Resultado de la prueba en el Front
+[![image.png](https://i.postimg.cc/vm3H1WGQ/image.png)](https://postimg.cc/ns9tg9s5)
+
+- Feature en formato Gherkin con el resultado
+[![image.png](https://i.postimg.cc/dV9TBZJB/image.png)](https://postimg.cc/Yvh929GG)
+
+- Step Definitions
+[![image.png](https://i.postimg.cc/dtPkcj1N/image.png)](https://postimg.cc/NLDf1TRR)
+[![image.png](https://i.postimg.cc/k54Dvj1r/image.png)](https://postimg.cc/dhbqq9cn)
+
+##### SearchScheduleById
+- Resultado de la prueba en el Front
+[![image.png](https://i.postimg.cc/RVgBLvjL/image.png)](https://postimg.cc/SJY3ybQn)
+
+- Feature en formato Gherkin con el resultado
+[![image.png](https://i.postimg.cc/Hk8h8HH1/image.png)](https://postimg.cc/68w0FkyM)
+
+- Step Definitions
+[![image.png](https://i.postimg.cc/WbC9vKZg/image.png)](https://postimg.cc/ykhhhLv8)
+[![image.png](https://i.postimg.cc/85p44V8p/image.png)](https://postimg.cc/jW1yqmdm)
+
+##### CreateService
+- Resultado de la prueba en el Front
+[![image.png](https://i.postimg.cc/J7BxQxv5/image.png)](https://postimg.cc/jCtyxHsD)
+
+- Feature en formato Gherkin con el resultado
+[![image.png](https://i.postimg.cc/Nfc6kc19/image.png)](https://postimg.cc/pys5P3cR)
+
+- Step Definitions
+[![image.png](https://i.postimg.cc/SK2YpTWW/image.png)](https://postimg.cc/XZWYfg1J)
+[![image.png](https://i.postimg.cc/ZKwWvtHF/image.png)](https://postimg.cc/1fNmbdLf)
+
+##### SearchService
+- Resultado de la prueba en el Front
+[![image.png](https://i.postimg.cc/bvkYTK08/image.png)](https://postimg.cc/B8ZGZ7ww)
+
+- Feature en formato Gherkin con el resultado
+[![image.png](https://i.postimg.cc/3JqKHK91/image.png)](https://postimg.cc/D8qVr394)
+
+- Step Definitions
+[![image.png](https://i.postimg.cc/FzRQ2qS4/image.png)](https://postimg.cc/cgVj3FT9)
 
 # Capítulo VI: Static Testing & Verification
 
