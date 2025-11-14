@@ -6845,6 +6845,32 @@ El objetivo de la Entrega Continua (CD) es automatizar la integración y pruebas
 
 ### 7.2.2 Stages Deployment Pipeline Components
 
+El pipeline de Continuous Delivery en ElectroLink está dividido en etapas claras para garantizar la calidad antes de la aprobación final. Utilizamos Jenkins para la orquestación de la fase de Integración Continua (CI), que es el pilar de este flujo.
+
+**A. Flujo de Integración (CI - Jenkins)**
+
+El proceso inicia tras cada commit con la ejecución del pipeline de CI en Jenkins, garantizando que el código es estable y "desplegable". La imagen muestra la ejecución exitosa de este flujo:
+
+| Etapa del Pipeline (Jenkins) | Objetivo                                                                        |
+| :--------------------------- | :------------------------------------------------------------------------------ |
+| Checkout SCM                 | Obtener el código actualizado.                                                  |
+| Compile Stage                | Construir la aplicación Java/Spring Boot.                                       |
+| Testing Stage                | Ejecutar la suite de pruebas (JUnit, Mockito, Karate).                          |
+| Package Stage                | Generar el artefacto final (ej. imagen Docker) que será utilizado para el despliegue. |
+
+**B. Componentes de Entrega Continua (Post-CI)**
+
+Una vez que el build es exitoso en Jenkins, el pipeline avanza a las siguientes etapas, orquestadas por GitHub Actions en conjunto con las plataformas de despliegue:
+
+| Componente                         | Descripción                                                                                                                                                                                                                              |
+| :--------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Despliegue a Staging               | Si la CI es exitosa, el backend (Render) y el front-end (Firebase) se despliegan automáticamente al entorno de Staging para la validación de pre-producción.                                                                                 |
+| Validación en Staging              | Se realizan pruebas de sistema (System Tests con Selenium) y validaciones manuales/exploratorias para verificar el comportamiento de extremo a extremo, replicando escenarios de producción.                                                  |
+| Aprobación Manual de Despliegue    | El pipeline se detiene en este punto. El Product Owner debe revisar los resultados de las pruebas en Staging y dar la aprobación explícita para avanzar a Producción (ej. mediante una gestión en Trello o una acción de aprobación en el sistema de CI/CD). |
+| Despliegue Controlado a Producción | Solo tras la aprobación manual, se ejecuta la acción para desplegar la build validada a los entornos de Producción (Render y Firebase).                                                                                                      |
+
+
+
 [![image.png](https://i.postimg.cc/2yVsvsFZ/image.png)](https://postimg.cc/tnGvGmcq)
 
 [![image.png](https://i.postimg.cc/C5GQjwnR/image.png)](https://postimg.cc/LgsDSKTS)
