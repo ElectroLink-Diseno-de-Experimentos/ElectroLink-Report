@@ -6878,8 +6878,34 @@ Una vez que el build es exitoso en Jenkins, el pipeline avanza a las siguientes 
 ### 7.3 Continuous deployment
 
 #### 7.3.1. Tools and Practices.
+El Despliegue Continuo (CD) se enfoca en que los cambios aprobados en el código pasen automáticamente desde el desarrollo hasta la producción, garantizando que cada nueva versión sea entregada sin intervención manual, siempre y cuando pase todas las pruebas. En ElectroLink, esta automatización total se reserva para entornos de Desarrollo y Staging.
+
+| Herramienta       | Propósito en el Despliegue Automatizado                                                                                                     |
+| :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+| GitHub Actions    | Para automatizar el pipeline de CI/CD. Permite configurar workflows que incluyen la ejecución de pruebas y el despliegue automático a entornos (Development, Staging). |
+| Docker            | Para contenerizar la aplicación backend (Spring Boot). Asegura consistencia en los entornos de desarrollo y producción.                       |
+| Railway           | Plataforma para la base de datos MySQL. Permite gestionar el despliegue de forma automatizada, con soporte para migraciones y backups.         |
+| Render            | Se encarga del despliegue automático del backend en Spring Boot a los entornos intermedios, ofreciendo monitoreo y escalabilidad.              |
+| Firebase Hosting  | Para el front-end en Angular, automatiza los despliegues de la aplicación web a entornos intermedios.                                          |
+
+**Prácticas Clave:**
+
+- **Feature Branching:** Utilizamos ramas separadas para el desarrollo. Una vez completadas y probadas, se fusionan a la rama develop o main.
+
+- **Commit-based Deployment:** Cada vez que se realiza un commit en la rama develop (o rama de integración), el pipeline de CI/CD se activa automáticamente para el despliegue a Staging.
+
+- **Rollback Automático:** En caso de detectar fallos post-despliegue en entornos automáticos (como Staging), el pipeline está configurado para realizar un rollback automático, restaurando la versión anterior.
 
 #### 7.3.2. Production Deployment Pipeline Components.
+
+Estos componentes detallan cómo se automatiza el despliegue, incluyendo la Base de Datos, el Backend y el Frontend.
+
+| Componente                         | Flujo de Automatización                                                                                                                                                                                                                              |
+| :--------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Base de Datos (Railway)            | **Gestión de Migraciones Automáticas:** Al modificar entidades, Spring Boot aplica los cambios automáticamente en Railway.<br>**Backup Automático:** Railway crea copias de seguridad antes de aplicar migraciones críticas.                          |
+| Backend (Render para Spring Boot)  | **Integración Continua:** Render toma el código de la rama `develop`, lo construye con Maven.<br>**Construcción Docker:** Crea la imagen Docker con todas las dependencias.<br>**Despliegue:** Implementa la nueva versión en el servidor.             |
+| Frontend (Firebase para Angular)   | **Compilación:** Firebase CLI construye la aplicación Angular en modo producción.<br>**Pruebas Automatizadas:** Ejecuta pruebas unitarias y E2E.<br>**Despliegue:** Si las pruebas pasan, Firebase implementa automáticamente la nueva versión. |
+
 
 ### 7.4. Continuous Monitoring
 
