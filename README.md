@@ -6648,6 +6648,208 @@ Basados en las preguntas de mayor prioridad (Q2 y Q1), diseñamos los siguientes
 | **Success Criteria** | Sabremos que estamos en lo correcto si al menos 8 de 10 (80%) usuarios eligen al técnico verificado y reportan un nivel de confianza de 4 o 5 en el proceso. | 
 
 <hr>
+### 8.2. Experiment Design
+
+En esta fase se detalla el diseño técnico de los experimentos identificados a partir de las "Preguntas Listas para Experimentar" (Experiment-Ready Questions) de la sección anterior. El objetivo es construir un marco metodológico sólido que permita validar o refutar las hipótesis críticas del negocio con significancia estadística.
+
+#### 8.2.1. Hypotheses
+
+A partir de nuestras Asunciones Lean UX (Capítulo 1), hemos refinado las hipótesis de negocio para convertirlas en hipótesis de experimento medibles.
+
+*   **Hipótesis 1 (Adopción del Cliente - Confianza):**
+    
+    *   **Creemos que** al implementar un sistema de insignias de "Técnico Verificado" (basado en la validación de certificaciones) y mostrar las reseñas de forma prominente en el perfil del proveedor...
+        
+    *   **Resultará en** un incremento en la confianza percibida por los propietarios (Persona: Olivia Pérez), lo que aumentará la tasa de solicitudes de servicio.
+        
+    *   **Sabremos que esto es cierto si** la Variante B (con insignias y reseñas destacadas) logra una tasa de conversión de "visita a perfil" a "solicitud de servicio" al menos un 25% mayor que la Variante A (perfil estándar), en un período de 14 días.
+        
+*   **Hipótesis 2 (Retención del Proveedor - Valor Percibido):**
+    
+    *   **Creemos que** al proporcionar a los técnicos (Persona: Alejandro López) un dashboard con "Métricas de Oportunidad" (que muestre solicitudes perdidas en su zona y su tasa de aceptación)...
+        
+    *   **Resultará en** una mayor percepción del valor de la suscripción paga de la plataforma.
+        
+    *   **Sabremos que esto es cierto si** los técnicos expuestos al nuevo dashboard (Variante B) tienen una tasa de abandono (churn) un 20% menor que el grupo de control (Variante A) después de 30 días de uso.
+        
+
+#### 8.2.2. Domain Business Metrics
+
+Estas son las métricas de alto nivel (OKRs) que el negocio (ElectroLink) utiliza para medir el éxito general, y que nuestros experimentos buscan impactar.
+
+*   **Tasa de Conversión de Clientes (CCR):** (Número de servicios contratados / Número de visitantes únicos) %.
+    
+*   **Tasa de Abandono de Proveedores (Provider Churn Rate):** (% de proveedores que cancelan su suscripción paga por mes).
+    
+*   **Tasa de Adopción de Funcionalidades (Feature Adoption Rate - FAR):** (% de usuarios activos que utilizan una nueva funcionalidad clave al menos una vez por semana).
+    
+*   **Puntuación Neta del Promotor (NPS):** Medida de la lealtad y satisfacción del cliente (tanto propietarios como técnicos).
+    
+
+#### 8.2.3. Measures
+
+Estas son las métricas de datos crudos (cuantitativas y cualitativas) que recopilaremos directamente durante el experimento para evaluar las hipótesis.
+
+*   **Para Hipótesis 1 (Confianza):**
+    
+    *   Clics en el botón "Solicitar Servicio" (por variante).
+        
+    *   Número de impresiones (vistas) del perfil del técnico.
+        
+    *   Tasa de rebote en la página del perfil.
+        
+    *   _Cualitativo:_ Respuestas a encuestas de salida ("¿Qué tan confiable le pareció este perfil?").
+        
+*   **Para Hipótesis 2 (Retención):**
+    
+    *   Número de clics en la pestaña "Dashboard de Métricas".
+        
+    *   Tiempo promedio de sesión dentro del dashboard de métricas.
+        
+    *   Clics en el botón "Cancelar Suscripción".
+        
+    *   Número de servicios aceptados por el técnico (post-visualización del dashboard).
+        
+
+#### 8.2.4. Conditions
+
+Definimos las condiciones del experimento (grupos de control y variantes) para aislar el impacto de los cambios introducidos.
+
+*   **Experimento 1 (Perfil Verificado):**
+    
+    *   **Grupo de Control (A):** 50% de los propietarios (segmento "Olivia Pérez") ven el diseño actual del perfil del técnico, con reseñas al final de la página y sin insignias.
+        
+    *   **Grupo Variante (B):** 50% de los propietarios ven el nuevo diseño (To-Be) con una insignia "Verificado por ElectroLink" prominente junto al nombre y la sección de reseñas ubicada directamente debajo de la información de contacto.
+        
+*   **Experimento 2 (Dashboard Técnico):**
+    
+    *   **Grupo de Control (A):** 50% de los técnicos (segmento "Alejandro López") ven el dashboard actual (lista de servicios pendientes y agenda).
+        
+    *   **Grupo Variante (B):** 50% de los técnicos ven el dashboard "To-Be", que incluye un nuevo widget de "Métricas de Oportunidad" en la parte superior.
+        
+
+#### 8.2.5. Scale Calculations and Decisions
+
+Para asegurar la validez estadística, calculamos el tamaño de muestra necesario.
+
+*   **Decisión de Nivel de Confianza:** 95% (p-value < 0.05).
+    
+*   **Decisión de Poder Estadístico:** 80%.
+    
+*   **Efecto Mínimo Detectable (MDE):**
+    
+    *   Para H1: Buscamos detectar un _lift_ (mejora) relativo del 20% sobre nuestra tasa de conversión base actual del 5%.
+        
+    *   Para H2: Buscamos detectar una reducción relativa del 15% en el _churn_ base del 10%.
+        
+*   **Cálculo de Muestra (H1):** Se requiere un mínimo de 4,500 visitantes únicos por variante (Total: 9,000).
+    
+*   **Cálculo de Muestra (H2):** Se requiere un mínimo de 1,200 técnicos por variante (Total: 2,400).
+    
+*   **Duración:** Los experimentos se ejecutarán durante 21 días para capturar el comportamiento de tres ciclos semanales completos y alcanzar el tamaño de muestra requerido.
+    
+
+#### 8.2.6. Methods Selection
+
+Se seleccionó el método de **Test A/B (A/B Testing)** como el enfoque principal.
+
+*   **Tipo:** Paralelo (concurrente) y _client-side_.
+    
+*   **Asignación:** La asignación de un usuario (propietario o técnico) a un grupo (A o B) será aleatoria y persistente (basada en _cookies_ o ID de usuario) para garantizar que vean la misma experiencia en visitas subsecuentes.
+    
+
+#### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+El objetivo analítico es determinar si las variantes (B) producen un resultado estadísticamente superior al control (A), utilizando los KPIs definidos.
+
+**HipótesisObjetivo AnalíticoKPI Primario (Métrica de Éxito)Métricas Secundarias (Guardrails)H1: Perfil Verificado**Determinar si la confianza visual (insignia) impacta la decisión de contratación.**Tasa de Conversión (Solicitudes / Vistas de Perfil)**Tasa de rebote en perfil, Tiempo en página.**H2: Dashboard Técnico**Determinar si la provisión de datos de mercado (métricas) reduce el abandono.**Tasa de Abandono (Churn Rate)**Tasa de Adopción de la Funcionalidad (FAR), Tasa de aceptación de servicios.
+
+#### 8.2.8. Web and Mobile Tracking Plan
+
+Se implementará un plan de seguimiento de eventos (event tracking) en nuestra plataforma de analítica (ej. Mixpanel o Google Analytics 4) para capturar las medidas necesarias.
+
+*   **Evento (H1):** profile\_view
+    
+    *   _Propiedades:_ user\_id, technician\_id, variant: \[A|B\]
+        
+*   **Evento (H1):** service\_request\_initiated
+    
+    *   _Propiedades:_ user\_id, technician\_id, variant: \[A|B\]
+        
+*   **Evento (H2):** technician\_dashboard\_view
+    
+    *   _Propiedades:_ technician\_id, variant: \[A|B\]
+        
+*   **Evento (H2):** metrics\_widget\_interaction
+    
+    *   _Propiedades:_ technician\_id, variant: \[B\]
+        
+*   **Evento (H2):** subscription\_cancellation\_attempt
+    
+    *   _Propiedades:_ technician\_id, variant: \[A|B\]
+        
+
+### 8.3. Experimentation
+
+Esta sección traduce el diseño del experimento en los artefactos de desarrollo (Historias de Usuario y Backlog) necesarios para construir, ejecutar y medir las variantes del experimento.
+
+#### 8.3.1. To-Be User Stories
+
+Estas historias de usuario describen las funcionalidades específicas requeridas para implementar las **Variantes B** de nuestros experimentos.
+
+*   **ID: EXP-US-001 (Relacionada a H1)**
+    
+    *   **Como** propietaria (Olivia),
+        
+    *   **Quiero** ver una insignia visual de "Técnico Verificado" y las reseñas más útiles en la parte superior del perfil de un técnico,
+        
+    *   **Para** poder evaluar su confiabilidad rápidamente y tomar una decisión de contratación más segura.
+        
+    *   **Criterios de Aceptación:**
+        
+        *   Dado que un usuario pertenece a la "Variante B" del experimento H1.
+            
+        *   Cuando carga un perfil de técnico que ha completado la validación de documentos.
+            
+        *   Entonces el sistema debe mostrar la insignia "Verificado por ElectroLink" junto al nombre.
+            
+        *   Y el componente de "Reseñas Destacadas" debe aparecer sobre la sección "Servicios Ofrecidos".
+            
+*   **ID: EXP-US-002 (Relacionada a H2)**
+    
+    *   **Como** técnico (Alejandro),
+        
+    *   **Quiero** ver un widget en mi dashboard que resuma las "Oportunidades Perdidas" (solicitudes en mi zona que no acepté o que fueron tomadas por otros),
+        
+    *   **Para** entender mejor la demanda real y ajustar mi disponibilidad o mi tasa de aceptación de servicios.
+        
+    *   **Criterios de Aceptación:**
+        
+        *   Dado que un técnico pertenece a la "Variante B" del experimento H2.
+            
+        *   Cuando carga su dashboard principal.
+            
+        *   Entonces el sistema debe mostrar el widget "Métricas de Oportunidad".
+            
+        *   El widget debe mostrar (como mínimo): "Solicitudes en tu zona (últ. 7 días)" y "Tasa de Aceptación".
+            
+
+#### 8.3.2. To-Be Product Backlog
+
+Este es el backlog de tareas técnicas (priorizado) requerido para implementar los experimentos diseñados.
+
+
+| **ID** | **Épica** | **Historia de Usuario** | **Prioridad** | **Estimación** | **Criterios de Aceptación** |
+|:------:|:-----------|:------------------------|:---------------|:----------------|:-----------------------------|
+| **PB-01** | EP-001 Registro y autenticación | Implementar login y registro de usuarios con validación | Alta | 5 pts | El usuario puede registrarse y autenticarse correctamente con validación de correo y contraseña segura. |
+| **PB-02** | EP-003 Gestión de Recursos | Desarrollar sistema de filtros de búsqueda por criterios avanzados (precio, ubicación, tipo de vivienda, servicios) | Alta | 8 pts | Los resultados deben actualizarse dinámicamente al aplicar filtros y coincidir con los parámetros seleccionados. |
+| **PB-03** | EP-006 Comunidad y Colaboración | Implementar chat seguro entre estudiantes y anfitriones para mejorar la comunicación | Alta | 10 pts | El chat permite mensajes en tiempo real, cifrados y notificaciones instantáneas. |
+| **PB-04** | EP-007 Acceso a Mercados y Proveedores | Integrar sistema de pagos electrónicos (Yape, Plin, MercadoPago) dentro de la plataforma | Alta | 13 pts | Los pagos se procesan correctamente y se registran en la base de datos con confirmación al usuario. |
+| **PB-05** | EP-004 Análisis y Reportes | Diseñar dashboard con métricas sobre reservas, pagos y actividad de usuarios | Media | 8 pts | El dashboard muestra métricas actualizadas cada 24 horas y permite filtrar por periodo. |
+| **PB-06** | EP-002 Gestión de Información Agrícola | (Iteración futura) Módulo de anuncios de alquiler vinculados a zonas agrícolas o universidades rurales | Baja | 13 pts | Los anuncios se muestran según la ubicación y perfil del estudiante. |
+
+
+
 
 | Elemento | Experiment Card #2: Validación del Modelo de Negocio (Suscripción Proveedor) |
 | -------- | ---------------------------------------------- |
