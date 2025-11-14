@@ -6755,7 +6755,7 @@ A partir de nuestras Asunciones Lean UX (Capítulo 1), hemos refinado las hipót
         
     *   **Resultará en** una mayor percepción del valor de la suscripción paga de la plataforma.
         
-    *   **Sabremos que esto es cierto si** los técnicos expuestos al nuevo dashboard (Variante B) tienen una tasa de abandono (churn) un 20% menor que el grupo de control (Variante A) después de 30 días de uso.
+    *   **Sabremos que esto es cierto si** los técnicos expuestos al nuevo dashboard (Variante B) tienen una tasa de abandono (churn) un 20% menor que el grupo de control (Variante A) después de 30 días de uso.  
         
 
 #### 8.2.2. Domain Business Metrics
@@ -6847,7 +6847,10 @@ Se seleccionó el método de **Test A/B (A/B Testing)** como el enfoque principa
 
 El objetivo analítico es determinar si las variantes (B) producen un resultado estadísticamente superior al control (A), utilizando los KPIs definidos.
 
-**HipótesisObjetivo AnalíticoKPI Primario (Métrica de Éxito)Métricas Secundarias (Guardrails)H1: Perfil Verificado**Determinar si la confianza visual (insignia) impacta la decisión de contratación.**Tasa de Conversión (Solicitudes / Vistas de Perfil)**Tasa de rebote en perfil, Tiempo en página.**H2: Dashboard Técnico**Determinar si la provisión de datos de mercado (métricas) reduce el abandono.**Tasa de Abandono (Churn Rate)**Tasa de Adopción de la Funcionalidad (FAR), Tasa de aceptación de servicios.
+| Hipótesis | Objetivo Analítico | KPI Primario (Métrica de Éxito) | Métricas Secundarias (Guardrails) |
+| :--- | :--- | :--- | :--- |
+| **H1: Perfil Verificado** | Determinar si la confianza visual (insignia) impacta la decisión de contratación. | Tasa de Conversión (Solicitudes / Vistas de Perfil) | Tasa de rebote en perfil, Tiempo en página. |
+| **H2: Dashboard Técnico** | Determinar si la provisión de datos de mercado (métricas) reduce el abandono. | Tasa de Abandono (Churn Rate) | Tasa de Adopción de la Funcionalidad (FAR), Tasa de aceptación de servicios. |
 
 #### 8.2.8. Web and Mobile Tracking Plan
 
