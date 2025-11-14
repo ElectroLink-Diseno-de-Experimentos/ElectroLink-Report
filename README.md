@@ -6875,12 +6875,14 @@ Para asegurar la validez estadística, calculamos el tamaño de muestra necesari
 
 #### 8.2.6. Methods Selection
 
-Se seleccionó el método de **Test A/B (A/B Testing)** como el enfoque principal.
+| Herramienta | Precio | Capacidad de Análisis | Ventajas | Documentación | Sencillez |
+| --- | --- | --- | --- | --- | --- |
+| Google Analytics | Plan gratuito/Créditos gratis | Análisis cuantitativo completo y exhaustivo del tráfico y comportamiento del usuario. | Excelente para reportes. Gran capacidad de integración. Medición post-experimento. | Extensa | Aprendizaje sencillo para funciones básicas, complejidad media para análisis avanzados. |
+| Optimizely | Basado en suscripción (Plan Starter gratuito) | Plataforma líder para Test A/B, Multivariante y Feature Flagging (Gestión de liberaciones de funcionalidad). | Ideal para la ejecución de experimentos y garantizar la validez estadística. Analítica de impacto directa. | Extensa y técnica | Requiere configuración técnica inicial, pero la interfaz de diseño de experimentos es intuitiva. |
+| Qualtrics | Plan gratuito básico (Suscripción Enterprise) | Recolección de datos cualitativos/cuantitativos mediante encuestas avanzadas, formularios y análisis de feedback. | Herramienta de nivel empresarial para mediciones de NPS, satisfacción (CSAT) y recolección de feedback específico post-experimento. | Muy Extensa y académica | Interfaz intuitiva para encuestas, requiere curva de aprendizaje para análisis estadístico avanzado. |
+| Hotjar | Plan gratuito con limitaciones | Análisis cualitativo (mapas de calor, grabaciones de sesión, encuestas de feedback visual). | Permite entender el "porqué" detrás del comportamiento del usuario de forma visual, fundamental para la H1 (Confianza). | Buena | Interfaz muy intuitiva y fácil de configurar. |
 
-*   **Tipo:** Paralelo (concurrente) y _client-side_.
-    
-*   **Asignación:** La asignación de un usuario (propietario o técnico) a un grupo (A o B) será aleatoria y persistente (basada en _cookies_ o ID de usuario) para garantizar que vean la misma experiencia en visitas subsecuentes.
-    
+Tras evaluar cada una de las opciones, elegimos Google Analytics, considerando todas las funcionalidades y la documentación que ofrece. Esto se debe a que esta herramienta tiene un plan gratuito que nos permite obtener datos estadísticos relevantes y sencillos. Además, al ser una herramienta muy usada, hay mucha información disponible sobre su uso e integración en forma de guías, tutoriales y videos.
 
 #### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
