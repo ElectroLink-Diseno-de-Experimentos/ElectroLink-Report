@@ -92,6 +92,21 @@ Insights del TP
 
 <br>
 
+
+Insights del TB2
+
+<br>
+
+[image.png](https://postimg.cc/dLDrhNFR)
+
+<br>
+
+[image.png](https://postimg.cc/D40Jb09T)
+
+<br>
+
+
+
 <div style="page-break-after: always;"></div>
 
 ## Tabla de Contenidos
