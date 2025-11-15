@@ -17,7 +17,7 @@
     <br> <br>
     Ciclo: 2025-20 
     <br> <br>
-    Informe de TP
+    Informe de TB2
     <br> <br>
     Startup: HampCoders
     <br> <br>
@@ -44,14 +44,18 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha       | Autor(es)                                   | Descripción de modificación |
-|---------|-------------|----------------------------------------------|------------------------------|
-|   TB1   | 19/09/2025  | **Kenyi Efrain Ramirez Cabrera**              | Redacción del Capítulo I a V. Diseño de arquitectura usando *Domain-Driven Design*. Implementación inicial de la landing page. Documentación técnica de componentes. Diseño de historias de usuario. Coordinación general del enfoque técnico del proyecto. Correcciones y mejoras en el desarrollo frontend. |
-|   TB1   | 19/09/2025  | **Leandro Saúl Contreras López**             | Elaboración de análisis competitivo y estrategias frente a competidores. Definición de *Lean UX Problem Statements* y *Assumptions*. Colaboración en entrevistas y registro de hallazgos. Implementacion y Mejorar dle Frontend. |
-|   TB1   | 19/09/2025  | **Jefferson Ernesto Castro Pariona**           | Configuración del entorno de desarrollo. Gestión inicial del *Product Backlog*. Aportes en la estructura general del documento y lineamientos de SEO. Correciones de la landing page |
-|   TB1   | 19/09/2025  | **Miguel Angel Gomez Hurtado**            | Diseño de *User Personas*, *User Task Matrix* y flujos de usuario. Desarrollo de prototipos web y guía de estilos visuales. Apoyo en estructura narrativa del documento. Mejoras y despliegue del backend. |
-|   TP    | 10/10/2025  | **Miguel Angel Gomez Hurtado**            | Desarrollo de pruebas unitarias de Bounded Context Monitoring y pruebas de integración. Desarrollo de checkStyle de Monitoring. |
-|   TP    | 10/10/2025  | **Kenyi Ramirez Cabrera**            | Implementación de elementos faltantes en algunas secciones. |
+| Versión     | Fecha      | Autor(es)                                   | Descripción de modificación                                                                                                                                                                                                                                                                                   |
+|-------------|------------|----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TB1 (0.1.0) | 19/09/2025 | **Kenyi Efrain Ramirez Cabrera**              | Redacción del Capítulo I a V. Diseño de arquitectura usando *Domain-Driven Design*. Implementación inicial de la landing page. Documentación técnica de componentes. Diseño de historias de usuario. Coordinación general del enfoque técnico del proyecto. Correcciones y mejoras en el desarrollo frontend. |
+| TB1 (0.2.0) | 19/09/2025 | **Leandro Saúl Contreras López**             | Elaboración de análisis competitivo y estrategias frente a competidores. Definición de *Lean UX Problem Statements* y *Assumptions*. Colaboración en entrevistas y registro de hallazgos. Implementacion y Mejorar dle Frontend.                                                                              |
+| TB1 (0.3.0) | 19/09/2025 | **Jefferson Ernesto Castro Pariona**           | Configuración del entorno de desarrollo. Gestión inicial del *Product Backlog*. Aportes en la estructura general del documento y lineamientos de SEO. Correciones de la landing page                                                                                                                          |
+| TB1 (1.0.0) | 19/09/2025 | **Miguel Angel Gomez Hurtado**            | Diseño de *User Personas*, *User Task Matrix* y flujos de usuario. Desarrollo de prototipos web y guía de estilos visuales. Apoyo en estructura narrativa del documento. Mejoras y despliegue del backend.                                                                                                    |
+| TP  (1.1.0) | 10/10/2025 | **Miguel Angel Gomez Hurtado**            | Desarrollo de pruebas unitarias de Bounded Context Monitoring y pruebas de integración. Desarrollo de checkStyle de Monitoring.                                                                                                                                                                               |
+| TP  (2.0.0) | 10/10/2025 | **Kenyi Ramirez Cabrera**            | Implementación de elementos faltantes en algunas secciones.                                                                                                                                                                                                                                                   |
+| TB2 (2.1.0) | 13/11/2025 | **Leandro Contreras López** | Desarrollo de la documentación completa de Planificación del Experimento (Experiment Planning), incluyendo la identificación de Raw Material (Gaps, Ideas, Claims), el Question Backlog y la creación de Experiment Cards, sentando la base para las hipótesis de A/B Testing.                                |
+| TB2 (2.2.0) | 13/11/2025 | **Jefferson Castro Pariona** | Diseño formal de la Experimentación (Design), redactando las Hipótesis, definiendo las Medidas, Condiciones y Escalas de Decisión. Formalización de las Historias de Usuario (To-Be US) y el Product Backlog asociado a los experimentos de A/B Testing.                                                      |
+| TB2 (2.3.0) | 14/11/2025 | **Miguel Gomez Hurtado** | Implementación de Core System Tests (Selenium/Gherkin) para la validación funcional del front-end. Compleción y mejora de las secciones de Continuous Deployment (CD) y Continuous Monitoring (CM) (Tools, Practices y Pipeline Components) con detalles de la infraestructura actual.                        |
+| TB2 (2.4.0) | 14/11/2025 | **Kenyi Ramirez Cabrera** | Definición de la estrategia de Continuous Monitoring (Alertas y Notificaciones). Definición de Objetivos, KPIs y Tracking para A/B Testing. Corrección y finalización de la documentación de experimentación (Medidas, Condiciones, Escalas, US y Backlog).                                                   |
 
 
 
@@ -233,9 +237,10 @@ En esta sección se evidencia cómo las actividades realizadas en el **TB1** han
 *Planifica y gestiona proyectos de desarrollo de software utilizando metodologías y herramientas apropiadas.*
 
 -----
-| **Criterio específico**                                                                  | **Acciones realizadas (TB1)** | **Acciones realizadas (TP)** | **Conclusiones (TP)** |
-|:-----------------------------------------------------------------------------------------| :--- | :--- | :--- |
-| **Demuestra capacidad de planificar y gestionar proyectos de desarrollo de software.**   | **Kenyi Efrain Ramirez Cabrera**<br>- Redactó los capítulos iniciales del proyecto, estableciendo la estructura y el alcance del documento.<br>- Lideró la arquitectura del proyecto utilizando **Domain-Driven Design**, lo que sirvió como base para la planificación técnica.<br>- Gestionó la creación e implementación de la **landing page** y la **documentación técnica**, organizando las tareas de desarrollo *frontend*.<br>- Definió y gestionó las **historias de usuario**, aplicando metodologías ágiles para la planificación de tareas.<br><br>**Leandro Saúl Contreras López**<br>- Elaboró el **análisis competitivo** y las **estrategias**, lo cual formó parte de la planificación estratégica del proyecto.<br>- Definió los **Lean UX Problem Statements** y **Assumptions**, estableciendo la dirección del producto desde una perspectiva centrada en el usuario.<br>- Colaboró en la gestión de entrevistas y en el registro de hallazgos, aportando al levantamiento de requisitos del proyecto.<br>- Participó en la **implementación y mejoras del frontend**, gestionando las tareas de desarrollo asignadas.<br><br>**Jefferson Ernesto Castro Pariona**<br>- Configuró el **entorno de desarrollo**, un paso crítico en la fase de planificación del proyecto.<br>- Asumió la gestión inicial del **Product Backlog**, organizando y priorizando las tareas del equipo.<br>- Contribuyó a la estructura general del documento y a los lineamientos de **SEO**, asegurando que el proyecto cumpliera con los objetivos de visibilidad y calidad de la documentación.<br><br>**Miguel Angel Gomez Hurtado**<br>- **TB1:** Diseñó las **User Personas** y **User Task Matrix**, elementos clave para la planificación del producto y la experiencia de usuario.<br>- Desarrolló los **prototipos web** y la **guía de estilos**, gestionando el diseño visual del proyecto.<br>- Participó en las **mejoras y despliegue del backend**, asegurando el cumplimiento de las tareas de desarrollo *backend*. | **Kenyi Efrain Ramirez Cabrera**<br>- **Diseñó e implementó Pruebas Unitarias (JUnit/Mockito)** y **Pruebas de Integración y E2E (Karate)** para el BC **Assets** (Componentes e Inventario del Técnico).<br>- **Redactó las secciones de DevOps Practices (CI/CD)** y **Static Testing & Verification (Reviews)** del informe, formalizando las prácticas del equipo.<br><br>**Leandro Saúl Contreras López**<br>- **Diseñó e implementó Pruebas Unitarias/Integración (Karate)** y aplicó **Checklist de Calidad** para el BC **Service Design and Planning**.<br>- **Redactó las secciones de introducciones de Pruebas (Test Suite)** del informe, documentando la metodología de validación.<br><br>**Jefferson Ernesto Castro Pariona**<br>- **Diseñó e implementó Pruebas Unitarias/Integración (Karate)** y aplicó **Checklist de Calidad** para el BC **Profiles**.<br>- **Redactó las Conclusiones y Resúmenes Ejecutivos** del informe, sintetizando los hallazgos de cada capítulo.<br><br>**Miguel Angel Gomez Hurtado**<br>- **Diseñó e implementó Pruebas Unitarias/Integración (Karate)** para los BC **Monitoring** e **IAM** (Autenticación/Autorización).<br>- **Lideró la ejecución y el análisis de SonarQube/CheckStyle** para todos los *Bounded Contexts* Java.<br>- **Redactó las secciones de introducciones de Pruebas (Test Suite)** del informe, documentando la metodología de validación. | **TB1:** El equipo demostró una sólida capacidad de **planificación y gestión de proyectos**. La aplicación de **metodologías ágiles** como Lean UX y la gestión del Product Backlog permitió organizar las tareas de manera eficiente y adaptarse a los desafíos del proyecto. Cada miembro asumió responsabilidades claras que, al ser ejecutadas de forma coordinada, aseguraron el progreso y cumplimiento de los entregables iniciales, sentando una base robusta para las siguientes etapas del proyecto.<br><br>**TP:** La fase se centró en la **ejecución rigurosa del testing, la validación de calidad y la documentación formal**. La implementación de un **testing integral (Unitarias, Integración y E2E)** por *Bounded Context* y el uso de herramientas como **Karate, CheckStyle (liderado por Miguel) y SonarQube** confirmaron la adhesión a los estándares de **Clean Code**. La **redacción y formalización de las secciones técnicas (DevOps, Testing, Reviews)** evidenció una gestión efectiva del conocimiento y una madurez en las prácticas de ingeniería de *software* del equipo. |<div style="page-break-after: always;"></div>
+| Criterio específico | Acciones realizadas (TB1, TP, TB2) | Conclusiones (TB1, TP, TB2) |
+| :--- | :--- | :--- |
+| Demuestra capacidad de planificar y gestionar proyectos de desarrollo de software. | **Kenyi Efrain Ramirez Cabrera**<br>- **TB1:** Redactó los capítulos iniciales, estableció la arquitectura DDD y gestionó la landing page y la documentación técnica. Definió y gestionó las historias de usuario.<br>- **TP:** Diseñó e implementó Pruebas Unitarias/Integración (Karate) para el BC Assets. Redactó y formalizó las secciones de DevOps Practices (CI/CD) y Static Testing & Verification (Reviews).<br>- **TB2:** Definió la estrategia de Continuous Monitoring (Alertas y Notificaciones). Lideró la definición de Objetivos, KPIs y Tracking para A/B Testing, incluyendo la corrección y finalización de la documentación de experimentación (Medidas, Condiciones, Escalas, US y Backlog).<br><br>**Leandro Saúl Contreras López**<br>- **TB1:** Elaboró el análisis competitivo y las estrategias. Definió los Lean UX Problem Statements y Assumptions. Colaboró en la gestión de entrevistas y la implementación del frontend.<br>- **TP:** Diseñó e implementó Pruebas Unitarias/Integración (Karate) y aplicó Checklist de Calidad para el BC Service Design and Planning. Redactó las secciones de introducciones de Pruebas (Test Suite) del informe.<br>- **TB2:** Desarrolló la documentación completa de Planificación del Experimento (Experiment Planning), incluyendo la identificación de Raw Material (Gaps, Ideas, Claims), el Question Backlog y la creación de Experiment Cards, sentando la base para las hipótesis de A/B Testing.<br><br>**Jefferson Ernesto Castro Pariona**<br>- **TB1:** Configuró el entorno de desarrollo. Asumió la gestión inicial del Product Backlog. Contribuyó a la estructura general del documento y a los lineamientos de SEO.<br>- **TP:** Diseñó e implementó Pruebas Unitarias/Integración (Karate) y aplicó Checklist de Calidad para el BC Profiles. Redactó las Conclusiones y Resúmenes Ejecutivos del informe.<br>- **TB2:** Lideró el diseño formal de la Experimentación (Design), redactando las Hipótesis, definiendo las Medidas, Condiciones y Escalas de Decisión. Formalizó las Historias de Usuario (To-Be US) y el Product Backlog asociado a los experimentos de A/B Testing.<br><br>**Miguel Angel Gomez Hurtado**<br>- **TB1:** Diseñó las User Personas y User Task Matrix. Desarrolló los prototipos web y la guía de estilos. Participó en las mejoras y despliegue del backend.<br>- **TP:** Diseñó e implementó Pruebas Unitarias/Integración (Karate) para los BC Monitoring e IAM. Lideró la ejecución y el análisis de SonarQube/CheckStyle.<br>- **TB2:** Implementó Core System Tests (Selenium/Gherkin) para la validación funcional del front-end. Completó y mejoró las secciones de Continuous Deployment (CD) y Continuous Monitoring (CM) (Tools, Practices y Pipeline Components) con detalles de la infraestructura actual. | - **TB1:** El equipo demostró una sólida capacidad de planificación y gestión de proyectos. La aplicación de metodologías ágiles como Lean UX y la gestión del Product Backlog permitió organizar las tareas de manera eficiente y adaptarse a los desafíos del proyecto, sentando una base robusta para las siguientes etapas del proyecto.<br>- **TP:** La fase se centró en la ejecución rigurosa del testing, la validación de calidad y la documentación formal. La implementación de un testing integral (Unitarias, Integración y E2E) por Bounded Context y el uso de herramientas como Karate, CheckStyle y SonarQube confirmaron la adhesión a los estándares de Clean Code.<br>- **TB2:** La fase final se centró en la madurez del producto a través de la experimentación A/B y la estabilización de DevOps. Se logró la planificación completa de experimentos (Hipótesis, Medidas y Backlogs), estableciendo un marco de medición claro (KPIs/Tracking) para el crecimiento. Paralelamente, se completó la formalización de System Tests (Selenium), Continuous Deployment y las prácticas avanzadas de Continuous Monitoring, garantizando la calidad funcional y la resiliencia del producto en producción. |
+
 
 # Capítulo I: Introducción
 
@@ -6407,7 +6412,71 @@ Aqui se prueban la funcionalidad de Rating como Create.
 
 ### 6.1.4 Core System Tests
 
-NO CORRESPONDE PARA ESTA ENTREGA
+En este apartado nos encargamos de realizar algunas pruebas de integración usando Selenium para interactuar con el front y el formato de StepDefinitions usando Gherkin para facilitar la interacción.
+
+##### SignUp
+
+- Resultado de la prueba en el Front
+[![image.png](https://i.postimg.cc/pdZMGxSF/image.png)](https://postimg.cc/SXJPj0kS)
+
+- Feature en formato Gherkin con el resultado
+[![image.png](https://i.postimg.cc/9FZmP3cG/image.png)](https://postimg.cc/569W1RY0)
+
+- Step Definitions
+[![image.png](https://i.postimg.cc/YSVZy93f/image.png)](https://postimg.cc/94dLDcsr)
+
+##### SignIn
+- Resultado de la prueba en el Front
+[![image.png](https://i.postimg.cc/6QRftpKL/image.png)](https://postimg.cc/p9WFBxpp)
+
+- Feature en formato Gherkin con el resultado
+[![image.png](https://i.postimg.cc/XJ4dWKQj/image.png)](https://postimg.cc/CZrzHq3X)
+
+- Step Definitions
+[![image.png](https://i.postimg.cc/260bfs1C/image.png)](https://postimg.cc/TLWYVHjs)
+
+##### CreateSchedule
+- Resultado de la prueba en el Front
+[![image.png](https://i.postimg.cc/vm3H1WGQ/image.png)](https://postimg.cc/ns9tg9s5)
+
+- Feature en formato Gherkin con el resultado
+[![image.png](https://i.postimg.cc/dV9TBZJB/image.png)](https://postimg.cc/Yvh929GG)
+
+- Step Definitions
+[![image.png](https://i.postimg.cc/dtPkcj1N/image.png)](https://postimg.cc/NLDf1TRR)
+[![image.png](https://i.postimg.cc/k54Dvj1r/image.png)](https://postimg.cc/dhbqq9cn)
+
+##### SearchScheduleById
+- Resultado de la prueba en el Front
+[![image.png](https://i.postimg.cc/RVgBLvjL/image.png)](https://postimg.cc/SJY3ybQn)
+
+- Feature en formato Gherkin con el resultado
+[![image.png](https://i.postimg.cc/Hk8h8HH1/image.png)](https://postimg.cc/68w0FkyM)
+
+- Step Definitions
+[![image.png](https://i.postimg.cc/WbC9vKZg/image.png)](https://postimg.cc/ykhhhLv8)
+[![image.png](https://i.postimg.cc/85p44V8p/image.png)](https://postimg.cc/jW1yqmdm)
+
+##### CreateService
+- Resultado de la prueba en el Front
+[![image.png](https://i.postimg.cc/J7BxQxv5/image.png)](https://postimg.cc/jCtyxHsD)
+
+- Feature en formato Gherkin con el resultado
+[![image.png](https://i.postimg.cc/Nfc6kc19/image.png)](https://postimg.cc/pys5P3cR)
+
+- Step Definitions
+[![image.png](https://i.postimg.cc/SK2YpTWW/image.png)](https://postimg.cc/XZWYfg1J)
+[![image.png](https://i.postimg.cc/ZKwWvtHF/image.png)](https://postimg.cc/1fNmbdLf)
+
+##### SearchService
+- Resultado de la prueba en el Front
+[![image.png](https://i.postimg.cc/bvkYTK08/image.png)](https://postimg.cc/B8ZGZ7ww)
+
+- Feature en formato Gherkin con el resultado
+[![image.png](https://i.postimg.cc/3JqKHK91/image.png)](https://postimg.cc/D8qVr394)
+
+- Step Definitions
+[![image.png](https://i.postimg.cc/FzRQ2qS4/image.png)](https://postimg.cc/cgVj3FT9)
 
 # Capítulo VI: Static Testing & Verification
 
@@ -6454,7 +6523,6 @@ Representa el estado actual del mismo.
 [![image.png](https://i.postimg.cc/0ySKQRkS/image.png)](https://postimg.cc/3kKxSqDr)
 
 
-
 ### 6.2.2 Reviews
 
 Las revisiones de código son un proceso fundamental para garantizar la calidad del *software* y la conformidad con las normas de codificación establecidas (como la **Google Java Style Guide** y **Airbnb JavaScript Style Guide**). En el proyecto ElectroLink, este proceso se integra directamente con el flujo de trabajo en **GitHub** mediante **Pull Requests (PR)** y se apoya en revisiones tanto manuales como automatizadas.
@@ -6493,6 +6561,237 @@ Para que un **Pull Request** pueda ser aprobado y fusionado, debe satisfacer los
 Las revisiones de código se realizan de forma **continua e incremental**. El objetivo es mantener el tamaño del PR pequeño, por lo que las revisiones se realizan tan pronto como un desarrollador finaliza su tarea y crea el PR. Esto previene la acumulación de código, facilita la detección temprana de defectos y asegura que el repositorio se mantenga en un **estado de integración constante y de alta calidad**.
 
 ---
+
+
+### 6.3.1. Diseño de Entrevistas.
+
+# Entrevistas por Segmento - Plataforma ElectroLink
+
+## Segmento: Clientes
+
+1. ¿Qué tan fácil te resultó registrarte y entender para qué servía ElectroLink como cliente?
+2. ¿Cómo fue tu experiencia al navegar desde el Home hasta encontrar un técnico?
+3. Al ver las cards de técnicos, ¿qué información fue clave para tomar una decisión (reseñas, distancia, disponibilidad)?
+4. ¿La sección de “Servicios activos” en el dashboard te ayudó a hacer seguimiento de lo que contrataste?
+5. ¿Pudiste identificar sin problemas en qué estado estaba tu solicitud o mantenimiento?
+6. ¿Sentiste que el diseño de la app era confiable y profesional desde el primer momento?
+7. ¿Qué tan útil te pareció el botón “Buscar técnico”? ¿Qué filtro usaste más?
+8. ¿La función de geolocalización y mapa te ayudó a elegir al mejor técnico cercano?
+9. ¿Te sentiste cómodo contratando a alguien por internet directamente desde la plataforma?
+10. ¿Te sirvió el módulo de notificaciones para saber cuándo ocurriría el mantenimiento?
+11. ¿Después de recibir el servicio, pudiste calificar al técnico fácilmente?
+12. ¿Qué cambiarías en la experiencia visual o funcional para que ElectroLink sea aún más clara o rápida de usar?
+
+---
+
+## Segmento: PYMEs
+
+1. ¿Tu empresa ya tenía una forma de gestionar proveedores eléctricos? ¿Qué cambió con ElectroLink?
+2. ¿El dashboard de “Gestión de agenda” te pareció fácil de entender para programar mantenimientos?
+3. ¿La opción de ver “Métricas y Rendimiento” fue útil para tomar decisiones de mejora?
+4. ¿Consideras valioso poder ver el “Historial de servicios” directamente en la plataforma?
+5. ¿ElectroLink te permite tener control sobre los días y horas en que recibes mantenimiento?
+6. ¿Qué tan clara te parece la visualización de técnicos preferidos? ¿Los volverías a contratar?
+7. ¿La interfaz de búsqueda por tipo de servicio eléctrico y ubicación te pareció ágil?
+8. ¿Usaste el sistema de reseñas para elegir a quién contratar? ¿Confiaste en él?
+9. ¿Crees que el diseño transmite formalidad y profesionalismo suficiente para una pyme?
+10. ¿Qué tan útil sería para ti recibir un reporte automático del mantenimiento realizado?
+11. ¿Te sirvió ver alertas de “Notificaciones” como recordatorio de mantenimientos?
+12. ¿Qué funcionalidades crees que le hacen falta a ElectroLink para facilitarte la gestión como empresa?
+
+---
+
+## Segmento: Proveedores
+
+1. ¿Fue fácil registrarte como proveedor y configurar tu perfil dentro de ElectroLink?
+2. ¿El dashboard de proveedor refleja claramente tu estado (disponible/no disponible, servicios en curso)?
+3. ¿Te sentiste representado profesionalmente con el diseño y datos de tu perfil?
+4. ¿Qué tan útil te parece tener un módulo específico para gestionar tus servicios activos?
+5. ¿La sección de “Inventario y Catálogo” fue fácil de actualizar con tus propios servicios?
+6. ¿Consideras útil tener tus “Métricas y Rendimiento” disponibles en tiempo real?
+7. ¿Las reseñas de los clientes te han servido para mejorar tu trabajo o conseguir más solicitudes?
+8. ¿Qué tan fácil fue para ti agregar un horario a la agenda y gestionar tu disponibilidad?
+9. ¿La función de ver tu perfil como los clientes lo ven te parece clara y justa?
+10. ¿Pudiste cargar bien tus certificaciones y ver cómo aparecen en la app?
+11. ¿Sentiste que la app te dio mayor visibilidad profesional que buscar clientes por tu cuenta?
+12. ¿Qué cosas le agregarías al panel de proveedor para sentirte más apoyado como técnico?
+---
+
+### 6.3.2. Registro de Entrevistas.
+1. Leonardo Prieto<br>
+
+   [image.png](https://postimg.cc/G8vp6Yvf)
+    _Entrevista del Frontend Application a Leonardo Prieto_
+
+   Duración: 6:28 min<br>
+   Empieza: 00:00
+
+*Resumen de la opinión del entrevistado sobre la aplicación Electrolink*
+
+1. **Comprensión general de la plataforma**:
+
+* Leonardo comprendió rápidamente que **la aplicación conecta clientes con proveedores de servicios eléctricos**, lo cual indica que el objetivo principal está bien comunicado.
+
+2. **Experiencia de usuario (UX)**:
+
+* Destaca que **la interfaz le transmite confianza**, lo cual es clave para cualquier plataforma online. Aunque no profundiza en detalles visuales, su respuesta sugiere que la estructura y navegación iniciales son adecuadas.
+
+3. **Información clave para el usuario**:
+
+* Menciona que **la disponibilidad del técnico** es un factor determinante para tomar decisiones como cliente, lo que sugiere que este dato debería estar muy visible y actualizado en la interfaz.
+
+4. **Funcionalidad destacada**:
+
+* Encuentra **muy útil la opción de búsqueda por localización**, ya que permite identificar técnicos cercanos, algo esencial en servicios presenciales.
+
+5. **Sugerencias de mejora**:
+
+* Sugiere **implementar un sistema de chat en tiempo real** entre técnico y cliente. Esto permitiría una comunicación más fluida, resolver dudas previas al servicio y facilitar la coordinación.
+* Propone **añadir imágenes y más información visual** para hacer el apartado visual más atractivo y mejorar el diseño en general.
+
+---
+
+**Análisis general**
+
+Leonardo refleja el perfil de un **usuario potencialmente interesado** en usar la aplicación. Su retroalimentación valida que:
+
+* El **objetivo principal se comunica con claridad**.
+* Hay un **mínimo viable funcional** con buen potencial.
+* **La confianza en la plataforma es positiva**, aunque aún hay espacio para mejorar la presentación visual.
+
+Además, sus comentarios demuestran que valora:
+
+* La **usabilidad práctica (disponibilidad, localización)**.
+* La **comunicación directa (chat)**.
+* Una **presentación atractiva (imágenes e información enriquecida)**.
+
+---
+
+2. Piero Tenorio Medina <br>
+   [image.png](https://postimg.cc/K4LLy3Z3)
+   _Entrevista del Frontend Application a Piero Tenorio_
+
+   Enlace: https://youtu.be/Epc6R8F4hjE <br>
+   Duración: 7:53 min<br>
+   Empieza: 00:00<br>
+
+*Resumen de la opinión del entrevistado sobre la aplicación Electrolink*
+
+1. **Comprensión general de la plataforma**:
+
+* Piero comprendió rápidamente el proposito de la aplicación, lo cual es el punto deseado..
+
+2. **Experiencia de usuario (UX)**:
+
+* Destaca que la interfaz le transmite confianza, lo cual es clave para cualquier plataforma online. Aunque si reforzaria en lo que la organización visual de algunos elementos.
+
+3. **Información clave para el usuario**:
+
+* Menciona que las secciones para manejar sus componentes electricos son bastante buenas pero considera mejorar la paleta de colores.
+
+4. **Funcionalidad destacada**:
+
+* Encuentra muy útil la sección para agregar componetes a su inventario..
+
+5. **Sugerencias de mejora**:
+
+* Sugiere mejorar la organización visual para poder evitar la fatiga al momento de buscar entre secciones.Asimismo, piensa que es muy importante utilizar mostrar la vista de componentes mediante tablas.
+
+---
+
+**Análisis general**
+
+Leonardo refleja el perfil de un **usuario potencialmente interesado** en usar la aplicación. Su retroalimentación valida que:
+
+* El **objetivo principal se comunica con claridad**.
+* Hay un **mínimo viable funcional** con buen potencial.
+* **La confianza en la plataforma es positiva**, aunque aún hay espacio para mejorar la presentación visual.
+
+Además, sus comentarios demuestran que valora:
+
+* La **usabilidad práctica (disponibilidad, localización)**.
+* La **comunicación directa (chat)**.
+* Una **presentación atractiva (imágenes e información enriquecida)**.
+
+---
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+En esta sección, el equipo presenta la evalución en base a las heuristicas de diseño y accesibilidad
+<hr>
+Evaluación Heurística de ElectroLink
+
+**Carrera:** Ingeniería de Software  
+**Curso:** Desarrollo de Aplicaciones Open Source  
+**Auditor:** ElectroLink  
+**Plataforma evaluada:** ElectroLink – Plataforma Web
+
+---
+
+## Tareas evaluadas
+
+- Comprender el propósito del sitio al ingresar
+- Navegar y entender la propuesta de valor tanto para propietarios como para proveedores
+- Visualizar e interactuar con el catálogo de servicios
+- Acceder a testimonios, valores, misión y visión de la empresa
+- Evaluar la visual jerárquica de acciones clave (registrarse, buscar técnicos, mostrar perfil)
+- Interacción de proveedores con sus servicios e inventario
+- Mostrar el trabajo realizado (visibilidad a clientes)
+- Comparar perfiles técnicos y ver reseñas
+- Reportar un servicio finalizado (cliente y proveedor)
+- Evaluar accesibilidad visual e inclusividad
+
+---
+
+## Tabla resumen de problemas detectados
+
+| #  | Problema detectado                                                                 | Severidad | Heurística/Principio violado                                       |
+|----|-------------------------------------------------------------------------------------|-----------|-------------------------------------------------------------------|
+| 1  | Falta un botón de regreso rápido al inicio en páginas extensas                     | 2         | Control del usuario                                               |
+| 2  | Íconos e imágenes no tienen descripciones accesibles (sin `alt`)                   | 3         | Inclusive Design – Experiencias comparables                      |
+| 3  | Jerarquía visual poco clara en botones de acción principal                         | 2         | Visibilidad y jerarquía visual                                    |
+| 4  | No hay diferenciación visual clara entre botones de cliente y proveedor            | 2         | Consistencia y estándares                                         |
+| 5  | No se explicita claramente el beneficio tangible de publicar un servicio           | 2         | Reconocer en lugar de recordar                                   |
+| 6  | En vistas de gestión, no se resalta lo más urgente (como “nuevas solicitudes”)     | 3         | Visibilidad del estado del sistema                               |
+| 7  | No hay retroalimentación visual luego de acciones (ej. guardar inventario)         | 3         | Visibilidad del estado del sistema                               |
+| 8  | No hay ayudas contextuales (tooltips o descripciones) en íconos de servicios       | 2         | Ayuda y documentación                                             |
+| 9  | No se destacan los beneficios diferenciales para PYMEs respecto a clientes comunes | 2         | Reconocer en lugar de recordar / Personalización del contenido    |
+| 10 | No se ofrecen opciones de configuración accesibles (contraste, tamaños)            | 3         | Diseño inclusivo                                                  |
+| 11 | La opción “Mostrar tu trabajo” no guía claramente cómo se verá al cliente          | 2         | Correspondencia entre sistema y el mundo real                     |
+| 12 | El flujo de registro y rol no se valida con confirmación clara al usuario          | 3         | Prevención de errores / Control del usuario                       |
+
+---
+
+## Descripción de problemas clave
+
+### Problema #2: Falta de etiquetas accesibles en íconos e imágenes
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design  
+**Descripción:** Los íconos que representan funcionalidades como “servicio garantizado”, “componentes”, “perfiles”, etc., no tienen `alt` ni descripciones para lectores de pantalla.  
+**Recomendación:** Añadir `alt`, `aria-label` o tooltips en cada ícono o imagen decorativa relevante.
+
+---
+
+### Problema #6: No se resalta lo más urgente para el proveedor
+**Severidad:** 3  
+**Heurística violada:** Visibilidad del estado del sistema  
+**Descripción:** En el panel del proveedor, las nuevas solicitudes o acciones pendientes no están resaltadas con prioridad visual.  
+**Recomendación:** Usar badges, resaltado en rojo o secciones tipo “acciones recientes”.
+
+---
+
+### Problema #7: No hay retroalimentación visual tras acciones clave
+**Severidad:** 3  
+**Heurística violada:** Visibilidad del estado del sistema  
+**Descripción:** Al guardar componentes, aceptar solicitudes o subir fotos, el usuario no recibe un mensaje inmediato o animación de confirmación.  
+**Recomendación:** Mostrar mensajes toast, iconos animados de éxito o loaders donde aplique.
+
+
+<hr>
+
+<div style="page-break-after: always;"></div>
+
+
 
 # Capítulo VII: DevOps Practices
 
@@ -6551,10 +6850,441 @@ El objetivo de la Entrega Continua (CD) es automatizar la integración y pruebas
 
 ### 7.2.2 Stages Deployment Pipeline Components
 
-NO CORRESPONDE A ESTA ENTREGA 
+El pipeline de Continuous Delivery en ElectroLink está dividido en etapas claras para garantizar la calidad antes de la aprobación final. Utilizamos Jenkins para la orquestación de la fase de Integración Continua (CI), que es el pilar de este flujo.
+
+**A. Flujo de Integración (CI - Jenkins)**
+
+El proceso inicia tras cada commit con la ejecución del pipeline de CI en Jenkins, garantizando que el código es estable y "desplegable". La imagen muestra la ejecución exitosa de este flujo:
+
+| Etapa del Pipeline (Jenkins) | Objetivo                                                                        |
+| :--------------------------- | :------------------------------------------------------------------------------ |
+| Checkout SCM                 | Obtener el código actualizado.                                                  |
+| Compile Stage                | Construir la aplicación Java/Spring Boot.                                       |
+| Testing Stage                | Ejecutar la suite de pruebas (JUnit, Mockito, Karate).                          |
+| Package Stage                | Generar el artefacto final (ej. imagen Docker) que será utilizado para el despliegue. |
+
+**B. Componentes de Entrega Continua (Post-CI)**
+
+Una vez que el build es exitoso en Jenkins, el pipeline avanza a las siguientes etapas, orquestadas por GitHub Actions en conjunto con las plataformas de despliegue:
+
+| Componente                         | Descripción                                                                                                                                                                                                                              |
+| :--------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Despliegue a Staging               | Si la CI es exitosa, el backend (Render) y el front-end (Firebase) se despliegan automáticamente al entorno de Staging para la validación de pre-producción.                                                                                 |
+| Validación en Staging              | Se realizan pruebas de sistema (System Tests con Selenium) y validaciones manuales/exploratorias para verificar el comportamiento de extremo a extremo, replicando escenarios de producción.                                                  |
+| Aprobación Manual de Despliegue    | El pipeline se detiene en este punto. El Product Owner debe revisar los resultados de las pruebas en Staging y dar la aprobación explícita para avanzar a Producción (ej. mediante una gestión en Trello o una acción de aprobación en el sistema de CI/CD). |
+| Despliegue Controlado a Producción | Solo tras la aprobación manual, se ejecuta la acción para desplegar la build validada a los entornos de Producción (Render y Firebase).                                                                                                      |
 
 
 
+[![image.png](https://i.postimg.cc/2yVsvsFZ/image.png)](https://postimg.cc/tnGvGmcq)
+
+[![image.png](https://i.postimg.cc/C5GQjwnR/image.png)](https://postimg.cc/LgsDSKTS)
+
+### 7.3 Continuous deployment
+
+#### 7.3.1. Tools and Practices.
+El Despliegue Continuo (CD) se enfoca en que los cambios aprobados en el código pasen automáticamente desde el desarrollo hasta la producción, garantizando que cada nueva versión sea entregada sin intervención manual, siempre y cuando pase todas las pruebas. En ElectroLink, esta automatización total se reserva para entornos de Desarrollo y Staging.
+
+| Herramienta       | Propósito en el Despliegue Automatizado                                                                                                     |
+| :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+| GitHub Actions    | Para automatizar el pipeline de CI/CD. Permite configurar workflows que incluyen la ejecución de pruebas y el despliegue automático a entornos (Development, Staging). |
+| Docker            | Para contenerizar la aplicación backend (Spring Boot). Asegura consistencia en los entornos de desarrollo y producción.                       |
+| Railway           | Plataforma para la base de datos MySQL. Permite gestionar el despliegue de forma automatizada, con soporte para migraciones y backups.         |
+| Render            | Se encarga del despliegue automático del backend en Spring Boot a los entornos intermedios, ofreciendo monitoreo y escalabilidad.              |
+| Firebase Hosting  | Para el front-end en Angular, automatiza los despliegues de la aplicación web a entornos intermedios.                                          |
+
+**Prácticas Clave:**
+
+- **Feature Branching:** Utilizamos ramas separadas para el desarrollo. Una vez completadas y probadas, se fusionan a la rama develop o main.
+
+- **Commit-based Deployment:** Cada vez que se realiza un commit en la rama develop (o rama de integración), el pipeline de CI/CD se activa automáticamente para el despliegue a Staging.
+
+- **Rollback Automático:** En caso de detectar fallos post-despliegue en entornos automáticos (como Staging), el pipeline está configurado para realizar un rollback automático, restaurando la versión anterior.
+
+#### 7.3.2. Production Deployment Pipeline Components.
+
+Estos componentes detallan cómo se automatiza el despliegue, incluyendo la Base de Datos, el Backend y el Frontend.
+
+| Componente                         | Flujo de Automatización                                                                                                                                                                                                                              |
+| :--------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Base de Datos (Railway)            | **Gestión de Migraciones Automáticas:** Al modificar entidades, Spring Boot aplica los cambios automáticamente en Railway.<br>**Backup Automático:** Railway crea copias de seguridad antes de aplicar migraciones críticas.                          |
+| Backend (Render para Spring Boot)  | **Integración Continua:** Render toma el código de la rama `develop`, lo construye con Maven.<br>**Construcción Docker:** Crea la imagen Docker con todas las dependencias.<br>**Despliegue:** Implementa la nueva versión en el servidor.             |
+| Frontend (Firebase para Angular)   | **Compilación:** Firebase CLI construye la aplicación Angular en modo producción.<br>**Pruebas Automatizadas:** Ejecuta pruebas unitarias y E2E.<br>**Despliegue:** Si las pruebas pasan, Firebase implementa automáticamente la nueva versión. |
+
+
+### 7.4. Continuous Monitoring
+
+#### 7.4.1. Tools and Practices.
+
+## **Tools and Practices**
+
+| Herramienta | Tipo | Propósito en Continuous Delivery |
+| :--- | :--- | :--- |
+| **Google Analytics** | Herramienta de Análisis Web | Se usa para **ver cómo los usuarios usan la aplicación** después de cada despliegue. Muestra qué páginas visitan, cuánto tiempo permanecen y qué botones clickean. |
+| **Event Tracking** | Monitoreo de Acciones | Se configuran **eventos simples** para saber si las nuevas funciones se usan correctamente (ejemplo: "usuario_completo_formulario", "boton_descarga_presionado"). |
+| **Dashboard de Métricas** | Panel de Control | Proporciona **reportes fáciles de entender** sobre el uso de la aplicación, ayudando al equipo a ver si los cambios recientes funcionan bien. |
+
+**Prácticas Clave:**
+
+* **Verificación Después del Despliegue:** Después de lanzar nuevos cambios a producción, **revisamos Google Analytics por 1-2 días** para confirmar que los usuarios están usando las nuevas funciones correctamente.
+
+* **Datos para Decisiones:** Si vemos que **los usuarios no usan una función nueva**, podemos decidir mejorarla o explicarla mejor en la siguiente versión.
+
+* **Detección Temprana de Problemas:** Si las **métricas bajan mucho** después de un despliegue, es una señal para investigar si hay errores que no detectamos en pruebas.
+
+* **Validación con Datos Reales:** Usamos la **información real de usuarios** (no solo nuestras suposiciones) para decidir qué mejorar en la aplicación.
+
+* **Monitoreo Continuo:** Revisamos los **reportes semanales** de Google Analytics para entender cómo evoluciona el uso de la aplicación con el tiempo.
+
+#### 7.4.2. Monitoring Pipeline Components
+
+Este es el script que se pondra en el header del proyecto
+[![image.png](https://i.postimg.cc/Y2ZTQdXd/image.png)](https://postimg.cc/mh3dsyW9)
+
+Se coloca el script dentro del header
+[![image.png](https://i.postimg.cc/Dy1pLn44/image.png)](https://postimg.cc/7fYNyvVq)
+
+Aqui se puede ver los resultados de los analisis de usuarios
+[![image.png](https://i.postimg.cc/R05Y2q5m/image.png)](https://postimg.cc/hXsMdDtZ)
+
+#### 7.4.3. Alerting Pipeline Components
+
+El componente de alertas es crucial para la detección y respuesta rápida ante problemas de rendimiento o disponibilidad.
+
+- **Prometheus con Alertmanager:** Prometheus recopila métricas y define umbrales (ej. uso de CPU, latencia). Cuando los límites se exceden, genera alertas que son enviadas a Alertmanager para su gestión y distribución. Alertmanager enruta las notificaciones a distintos canales (Slack, Correo) según la gravedad.
+
+- **Grafana:** Se utiliza para la visualización avanzada de métricas y la configuración de alertas visuales en paneles personalizados. Proporciona una interfaz intuitiva para monitorear y recibir alertas de rendimiento en tiempo real.
+
+#### 7.4.4. Notification Pipeline Components.
+
+El pipeline de notificaciones es esencial para comunicar de forma automática los resultados de las pruebas y el estado del pipeline.
+
+- **Jenkins/GitHub Actions:** Permiten configurar notificaciones detalladas sobre el progreso y los resultados de cada fase del pipeline de pruebas.
+
+- **Alertas en Tiempo Real:** Las notificaciones se configuran para enviarse automáticamente al finalizar cada build o etapa del pipeline, informando sobre el éxito o fallo de las pruebas, facilitando una respuesta inmediata a cualquier incidente.
+
+
+## 8.1. Experiment Planning
+
+En esta sección, se planifica el enfoque experimental para validar las hipótesis y supuestos clave del proyecto ElectroLink. El objetivo es movernos de las suposiciones a los hechos probados mediante la experimentación.
+
+### 8.1.1. As-Is Summary
+
+El estado actual (As-Is) del dominio de servicios eléctricos en el segmento objetivo presenta una fricción significativa y desconfianza entre los dos actores principales:
+
+-  1. Clientes (Propietarios y PYMES): (Representados por Olivia Pérez y Eduardo Gonzales). Tienen una necesidad crítica de servicios eléctricos, pero su problema central es la dificultad para encontrar proveedores confiables y certificados. Actualmente, recurren a métodos informales (recomendaciones, redes sociales), lo que les genera un alto nivel de ansiedad, incertidumbre y riesgo, resultando a menudo en trabajos de mala calidad o inseguros.
+
+- 2. Proveedores (Técnicos Certificados): (Representado por Alejandro López). Luchan por encontrar un flujo constante de clientes y compiten en desventaja contra un gran mercado informal que ofrece precios más bajos sin garantías. Carecen de herramientas digitales para gestionar sus servicios, construir una reputación verificable y demostrar su certificación de manera efectiva.
+
+La situación actual es un ciclo de desconfianza: los clientes no confían en los técnicos que encuentran, y los técnicos certificados no pueden diferenciarse digitalmente de los informales.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+Basado en el Lean UX Process (Capítulo 1.2.2) y el As-Is Scenario (Capítulo 2.3.5) definiremos el material en bruto para la experimentación:
+
+**1. Assumptions (Suposiciones Clave):**
+
+ - Suposición de Valor (Cliente): Creemos que los clientes (propietarios y PYMES) valoran más la garantía de un técnico certificado y la seguridad del servicio que un precio bajo.
+
+ - Suposición de Valor (Proveedor): Creemos que los técnicos certificados pagarán una suscripción mensual si les proporcionamos un flujo constante de clientes calificados y herramientas de gestión.
+
+ - Suposición de Adquisición: Creemos que podemos adquirir la mayoría de los clientes a través de estrategias de marketing digital (p.ej., redes sociales, publicidad segmentada).
+
+ - Suposición de Confianza: Creemos que un sistema de reseñas y calificaciones (Hypothesis #1) es fundamental para construir la confianza que los clientes necesitan para contratar.
+
+**2. Knowledge Gaps (Brechas de Conocimiento):**
+
+ - No sabemos el monto exacto (precio) que los técnicos están dispuestos a pagar por la suscripción mensual.
+
+ - No sabemos cuál es el canal de marketing digital más efectivo (Facebook, Google Ads, etc.) y con el menor costo de adquisición (CAC) para captar propietarios de viviendas.
+
+ - No sabemos qué características específicas del perfil de un técnico (además de la certificación) son las que más generan confianza en un cliente al momento de decidir (¿fotos de trabajos, años de experiencia, reseñas?).
+
+ - No sabemos si los propietarios del Plan Básico (gratuito) verán suficiente valor en el "servicio prioritario" (US-57) como para pagar por un Plan Premium.
+
+ - No sabemos si los técnicos (como Alejandro) realmente adoptarán las herramientas de gestión (agenda, inventario) o si preferirán seguir usando sus métodos manuales (WhatsApp, cuaderno).
+
+**3. Ideas:**
+
+ - Implementar un riguroso proceso de validación de certificaciones para todos los técnicos que se registren.
+
+ - Crear un sistema de reseñas y calificaciones de 5 estrellas visible en el perfil público del técnico.
+
+ - Desarrollar un módulo de gestión de agenda e inventario (US-37, US-48) como valor agregado para los técnicos.
+
+ - Ofrecer un modelo "Freemium" para los propietarios (Plan Básico y Premium) para fomentar la adopción.
+
+**4. Claims (Declaraciones):**
+
+ - Nuestra plataforma reducirá los riesgos eléctricos en hogares y PYMES al formalizar la contratación de servicios.
+
+ - ElectroLink romperá el ciclo de informalidad en el sector (Problem Statement #2).
+
+ - El modelo de negocio basado en suscripción para proveedores es   viable y escalable.
+
+### 8.1.3. Experiment Ready-Questions
+
+Transformamos las suposiciones y brechas de conocimiento en preguntas específicas que podemos responder mediante experimentos.
+
+ - **Q1[Viabilidad/Proveedor]:** ¿Pagarán los técnicos certificados una suscripción mensual (p.ej., S/ 50) por acceder a clientes calificados y herramientas de gestión?
+
+ - **Q2[Viabilidad/Cliente]:** ¿Contratarán los propietarios de viviendas un servicio eléctrico a través de la plataforma, basando su confianza en los perfiles verificados y las reseñas?
+
+ - **Q3[Valor/Retención Proveedor]:** ¿Usarán los técnicos activamente las herramientas de agenda e inventario de la plataforma para gestionar sus servicios?
+
+ - **Q4[Adquisición/Cliente]:** ¿Cuál canal de marketing digital (Facebook Ads vs. Google Ads) genera registros de propietarios (leads) al menor costo?
+
+ - **Q5[Crecimiento/Cliente]:** ¿Cuántos propietarios del Plan Básico (con un límite de 2 solicitudes) estarán dispuestos a pagar por el Plan Premium para obtener "servicio prioritario"?
+
+### 8.1.4. Question Backlog
+
+Priorizamos las preguntas anteriores para enfocar nuestros primeros esfuerzos en validar lo más riesgoso e importante para el modelo de negocio.
+
+| Prioridad | ID | Pregunta(Experiment-Ready Question) |
+| --------- | -- | ----------------------------------- |
+| **Alta** | *Q2* | ¿Contratarán los propietarios de viviendas un servicio eléctrico a través de la plataforma, basando su confianza en los perfiles verificados y las reseñas? |
+| **Alta** | *Q1* | ¿Pagarán los técnicos certificados una suscripción mensual (p.ej., S/ 50) por acceder a clientes calificados y herramientas de gestión? | 
+| **Media** | *Q3* | ¿Usarán los técnicos activamente las herramientas de agenda e inventario de la plataforma para gestionar sus servicios? |
+| **Media** | *Q4* | ¿Cuál canal de marketing digital (Facebook Ads vs. Google Ads) genera registros de propietarios (leads) al menor costo? |
+| **Baja** | *Q5* | ¿Cuántos propietarios del Plan Básico (con un límite de 2 solicitudes) estarán dispuestos a pagar por el Plan Premium para obtener "servicio prioritario"? |
+
+### 8.1.5. Experiment Cards
+
+Basados en las preguntas de mayor prioridad (Q2 y Q1), diseñamos los siguientes experimentos:
+
+| Elemento | Experiment Card #1: Validación de Confianza del Cliente | 
+| -------- | ---------------------------------------------- |
+| **Hypothesis** | *(Basandonos en Q2)* |
+| **Experiment** | Creemos que los propietarios de viviendas (como Olivia) contratarán un servicio a través de ElectroLink.<br><br>Porque su mayor frustración actual es la desconfianza y ansiedad que les genera el mercado informal, y nuestra plataforma soluciona eso mostrando perfiles verificados y reseñas reales.<br><br>Para verificar esto, realizaremos una prueba de usabilidad con un prototipo de alta fidelidad (Mockups) del flujo de contratación (US-40 a US-44).<br><br>Presentaremos a 10 usuarios (del segmento "propietarios de hogar") dos perfiles de técnicos (uno verificado y con reseñas; otro nuevo sin reseñas) y les pediremos que "contraten a alguien para una revisión eléctrica". |
+| **Metrics** | Mediremos el porcentaje de usuarios que completan el flujo de contratación y el porcentaje que elige al técnico verificado. También registraremos su nivel de confianza reportado (escala 1-5) después de la tarea. |
+| **Success Criteria** | Sabremos que estamos en lo correcto si al menos 8 de 10 (80%) usuarios eligen al técnico verificado y reportan un nivel de confianza de 4 o 5 en el proceso. | 
+
+| Elemento | Experiment Card #2: Validación del Modelo de Negocio (Suscripción Proveedor) |
+| -------- | ---------------------------------------------- |
+| **Hypothesis** | *(Basandonos en Q1)* |
+| **Experiment** | Creemos que los técnicos certificados (como Alejandro) pagarán una suscripción mensual.<br><br>Porque la plataforma les garantiza acceso a clientes recurrentes y herramientas de gestión (agenda, inventario), solucionando su problema de inconsistencia de trabajo y falta de digitalización.<br><br>Para verificar esto, realizaremos entrevistas de validación de concepto y precio con 15 técnicos certificados que actualmente trabajen de forma independiente.<br><br>Les mostraremos el prototipo de la plataforma (perfil de cliente, herramientas de gestión) y les presentaremos 3 niveles de precio tentativos (Ej: S/ 25, S/ 50, S/ 100 al mes) después de un mes de prueba gratis. |
+| **Metrics** | Mediremos el porcentaje de técnicos que expresen una "alta intención de pago" (verbalmente) por el plan de S/ 50. |
+| **Success Criteria** | Sabremos que estamos en lo correcto si al menos 60% (9 de 15) de los técnicos indican que "muy probablemente" o "definitivamente" pagarían la suscripción de S/ 50 tras ver el valor ofrecido. | 
+
+
+<hr>
+
+### 8.2. Experiment Design
+
+En esta fase se detalla el diseño técnico de los experimentos identificados a partir del Experiment-Ready Questions de la sección anterior. El objetivo es construir un marco metodológico sólido que permita validar o refutar las hipótesis críticas del negocio con significancia estadística.
+
+#### 8.2.1. Hypotheses
+
+A partir de nuestras Asunciones Lean UX (Capítulo 1), hemos refinado las hipótesis de negocio para convertirlas en hipótesis de experimento medibles.
+
+*   **Hipótesis 1 (Adopción del Cliente - Confianza):**
+    
+    *   **Creemos que** al implementar un sistema de insignias de "Técnico Verificado" (basado en la validación de certificaciones) y mostrar las reseñas de forma prominente en el perfil del proveedor...
+        
+    *   **Resultará en** un incremento en la confianza percibida por los propietarios (Persona: Olivia Pérez), lo que aumentará la tasa de solicitudes de servicio.
+        
+    *   **Sabremos que esto es cierto si** la Variante B (con insignias y reseñas destacadas) logra una tasa de conversión de "visita a perfil" a "solicitud de servicio" al menos un 25% mayor que la Variante A (perfil estándar), en un período de 14 días.
+        
+*   **Hipótesis 2 (Retención del Proveedor - Valor Percibido):**
+    
+    *   **Creemos que** al proporcionar a los técnicos (Persona: Alejandro López) un dashboard con "Métricas de Oportunidad" (que muestre solicitudes perdidas en su zona y su tasa de aceptación)...
+        
+    *   **Resultará en** una mayor percepción del valor de la suscripción paga de la plataforma.
+        
+    *   **Sabremos que esto es cierto si** los técnicos expuestos al nuevo dashboard (Variante B) tienen una tasa de abandono (churn) un 20% menor que el grupo de control (Variante A) después de 30 días de uso.  
+
+| Hipótesis | Pregunta | Belief (Creencia) | Hypothesis (H1) | Null Hypothesis (H0) |
+| --- | --- | --- | --- | --- |
+| H1 (Adopción Cliente - Confianza) | Q2 | La implementación de insignias de "Técnico Verificado" y reseñas destacadas aumentará la confianza de los propietarios. | La Tasa de Conversión a solicitud de servicio aumentará al menos un 25% con insignias y reseñas destacadas. | La implementación de insignias y reseñas destacadas no aumentará la Tasa de Conversión a solicitud de servicio en un 25% (o más). |
+| H2 (Retención Proveedor - Valor Percibido) | Q3 | Proporcionar un dashboard con "Métricas de Oportunidad" incrementará la percepción del valor de la suscripción. | Los técnicos expuestos al nuevo dashboard tendrán una tasa de abandono (churn) un 20% menor después de 30 días de uso. | El nuevo dashboard de Métricas de Oportunidad no reducirá la tasa de abandono (churn) en un 20% (o más). |
+
+#### 8.2.2. Domain Business Metrics
+
+Estas son las métricas de alto nivel (OKRs) que el negocio (ElectroLink) utiliza para medir el éxito general, y que nuestros experimentos buscan impactar.
+
+*   **Tasa de Conversión de Clientes (CCR):** (Número de servicios contratados / Número de visitantes únicos) %.
+
+*   **Tasa de Abandono de Proveedores (Provider Churn Rate):** (% de proveedores que cancelan su suscripción paga por mes).
+
+*   **Tasa de Adopción de Funcionalidades (Feature Adoption Rate - FAR):** (% de usuarios activos que utilizan una nueva funcionalidad clave al menos una vez por semana).
+
+*   **Puntuación Neta del Promotor (NPS):** Medida de la lealtad y satisfacción del cliente (tanto propietarios como técnicos).
+
+
+#### 8.2.3. Measures
+
+Estas son las métricas de datos crudos (cuantitativas y cualitativas) que recopilaremos directamente durante el experimento para evaluar las hipótesis.
+
+*   **Para Hipótesis 1 (Confianza):**
+
+  *   Clics en el botón "Solicitar Servicio" (por variante).
+
+  *   Número de impresiones (vistas) del perfil del técnico.
+
+  *   Tasa de rebote en la página del perfil.
+
+  *   _Cualitativo:_ Respuestas a encuestas de salida ("¿Qué tan confiable le pareció este perfil?").
+
+*   **Para Hipótesis 2 (Retención):**
+
+  *   Número de clics en la pestaña "Dashboard de Métricas".
+
+  *   Tiempo promedio de sesión dentro del dashboard de métricas.
+
+  *   Clics en el botón "Cancelar Suscripción".
+
+  *   Número de servicios aceptados por el técnico (post-visualización del dashboard).
+
+
+| Question | Measure |
+| --- | --- |
+| Q2: ¿Contratarán los propietarios basando su confianza en perfiles verificados y reseñas? | Cuantitativo: Clics en el botón "Solicitar Servicio" por variante. Tasa de Conversión (Visita a Perfil → Solicitud). Tasa de rebote en la página del perfil. Cualitativo: Respuestas a encuestas de salida ("¿Qué tan confiable le pareció este perfil?"). |
+| Q3: ¿Usarán los técnicos activamente las herramientas de agenda e inventario? | Cuantitativo: Clics en la pestaña "Dashboard de Métricas". Tiempo promedio de sesión dentro del dashboard. Clics en el botón "Cancelar Suscripción" (medición de churn). |
+
+#### 8.2.4. Conditions
+
+Definimos las condiciones del experimento (grupos de control y variantes) para aislar el impacto de los cambios introducidos.
+
+| Experimento | Condición Experimental (Variante B) | Condición de Control (Grupo A) |
+| --- | --- | --- |
+| Experimento 1 (Confianza del Cliente - H1) | 50% de propietarios ven el diseño To-Be: Insignia "Verificado por ElectroLink" prominente y reseñas ubicadas directamente debajo de la información de contacto. | 50% de propietarios ven el diseño As-Is: Perfil estándar, con reseñas al final de la página y sin insignias. |
+| Experimento 2 (Retención Proveedor - H2) | 50% de técnicos ven el dashboard To-Be: Incluye un nuevo widget de "Métricas de Oportunidad" (solicitudes perdidas en su zona) en la parte superior. | 50% de técnicos ven el dashboard As-Is: Solo muestra lista de servicios pendientes y agenda, sin el nuevo widget de Métricas de Oportunidad. |
+
+
+#### 8.2.5. Scale Calculations and Decisions
+
+Para asegurar la validez estadística, calculamos el tamaño de muestra necesario.
+
+*   **Decisión de Nivel de Confianza:** 95% (p-value < 0.05).
+
+*   **Decisión de Poder Estadístico:** 80%.
+
+*   **Efecto Mínimo Detectable (MDE):**
+
+  *   Para H1: Buscamos detectar un _lift_ (mejora) relativo del 20% sobre nuestra tasa de conversión base actual del 5%.
+
+  *   Para H2: Buscamos detectar una reducción relativa del 15% en el _churn_ base del 10%.
+
+*   **Cálculo de Muestra (H1):** Se requiere un mínimo de 4,500 visitantes únicos por variante (Total: 9,000).
+
+*   **Cálculo de Muestra (H2):** Se requiere un mínimo de 1,200 técnicos por variante (Total: 2,400).
+
+*   **Duración:** Los experimentos se ejecutarán durante 21 días para capturar el comportamiento de tres ciclos semanales completos y alcanzar el tamaño de muestra requerido.
+
+
+| Factor | Valor de Decisión | Justificación y Nivel |
+| --- | --- | --- |
+| Nivel de Confianza (1−α) | 95% | Ideal. Estándar de la industria para asegurar la fiabilidad de los resultados. |
+| Poder Estadístico (1−β) | 80% | Aceptable/Ideal. Mínimo requerido para reducir la posibilidad de un Falso Negativo. |
+| Efecto Mínimo Detectable (MDE) | H1: Lift relativo del 20% en CCR. H2: Reducción relativa del 15% en Churn. | Ideal. Define el cambio mínimo que se considera valioso para el negocio. |
+| Tamaño Muestral Calculado | H1: 9,000 visitantes únicos totales. H2: 2,400 técnicos totales. | Ideal. Muestra calculada para validar el MDE con 95% de confianza. |
+| Duración | 21 días | Ideal. Periodo suficiente para alcanzar el tamaño de muestra y cubrir ciclos de comportamiento. |
+
+
+#### 8.2.6. Methods Selection
+
+| Herramienta | Precio | Capacidad de Análisis | Ventajas | Documentación | Sencillez |
+| --- | --- | --- | --- | --- | --- |
+| Google Analytics | Plan gratuito/Créditos gratis | Análisis cuantitativo completo y exhaustivo del tráfico y comportamiento del usuario. | Excelente para reportes. Gran capacidad de integración. Medición post-experimento. | Extensa | Aprendizaje sencillo para funciones básicas, complejidad media para análisis avanzados. |
+| Optimizely | Basado en suscripción (Plan Starter gratuito) | Plataforma líder para Test A/B, Multivariante y Feature Flagging (Gestión de liberaciones de funcionalidad). | Ideal para la ejecución de experimentos y garantizar la validez estadística. Analítica de impacto directa. | Extensa y técnica | Requiere configuración técnica inicial, pero la interfaz de diseño de experimentos es intuitiva. |
+| Qualtrics | Plan gratuito básico (Suscripción Enterprise) | Recolección de datos cualitativos/cuantitativos mediante encuestas avanzadas, formularios y análisis de feedback. | Herramienta de nivel empresarial para mediciones de NPS, satisfacción (CSAT) y recolección de feedback específico post-experimento. | Muy Extensa y académica | Interfaz intuitiva para encuestas, requiere curva de aprendizaje para análisis estadístico avanzado. |
+| Hotjar | Plan gratuito con limitaciones | Análisis cualitativo (mapas de calor, grabaciones de sesión, encuestas de feedback visual). | Permite entender el "porqué" detrás del comportamiento del usuario de forma visual, fundamental para la H1 (Confianza). | Buena | Interfaz muy intuitiva y fácil de configurar. |
+
+Tras evaluar cada una de las opciones, elegimos Google Analytics, considerando todas las funcionalidades y la documentación que ofrece. Esto se debe a que esta herramienta tiene un plan gratuito que nos permite obtener datos estadísticos relevantes y sencillos. Además, al ser una herramienta muy usada, hay mucha información disponible sobre su uso e integración en forma de guías, tutoriales y videos.
+
+#### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+El objetivo analítico es determinar si las variantes (B) producen un resultado estadísticamente superior al control (A), utilizando los KPIs definidos.
+
+| Hipótesis | Objetivo Analítico | KPI Primario (Métrica de Éxito) | Métricas Secundarias (Guardrails) |
+| :--- | :--- | :--- | :--- |
+| **H1: Perfil Verificado** | Determinar si la confianza visual (insignia) impacta la decisión de contratación. | Tasa de Conversión (Solicitudes / Vistas de Perfil) | Tasa de rebote en perfil, Tiempo en página. |
+| **H2: Dashboard Técnico** | Determinar si la provisión de datos de mercado (métricas) reduce el abandono. | Tasa de Abandono (Churn Rate) | Tasa de Adopción de la Funcionalidad (FAR), Tasa de aceptación de servicios. |
+
+#### 8.2.8. Web and Mobile Tracking Plan
+
+Para ElectroLink, el objetivo es monitorear la plataforma web y móvil para validar si los cambios introducidos en los perfiles (H1) y el dashboard de técnicos (H2) generan la confianza y el valor percibido necesarios para sostener el modelo de negocio.
+
+Estableceremos un plan de seguimiento exhaustivo basado en el A/B Testing para evaluar el impacto causal de las mejoras implementadas.
+
+**1. Implementación Inicial**
+Durante esta fase, nos enfocaremos en el lanzamiento de los diseños Experimentales y la recolección de datos segmentados para establecer la causalidad de los resultados frente a la Línea Base (Control).
+- **Asignación del Grupo:** Todos los eventos críticos incluirán una propiedad que identifica si el usuario está en el grupo Control o Experimental para garantizar que los resultados de cada usuario sean analizados dentro de su grupo asignado.
+- **Métricas de Confianza (H1):** Se capturarán los clics en "Solicitar Servicio" (service_request_initiated) y las vistas de perfil (profile_view) para medir la Tasa de Conversión (CCR).
+- **Métricas de Valor/Retención (H2):** Se registrarán los clics en el botón "Cancelar Suscripción" (subscription_cancellation_attempt) y la interacción con el nuevo widget (metrics_widget_interaction) para medir el Churn y la adopción.
+- **Feedback de Usuarios:** Se implementarán encuestas (ej., Qualtrics o Hotjar) post-interacción para obtener datos cualitativos sobre la confianza percibida tras ver el perfil verificado (H1).
+
+**2. Seguimiento Continuo**
+Después de la fase inicial de validación (21 días), se establecerá un proceso continuo de seguimiento para evaluar el rendimiento a largo plazo.
+- **Métricas en Tiempo Real:** Se implementarán herramientas de análisis web y móvil (ej., Google Analytics) para monitorear el comportamiento de los usuarios en tiempo real.
+- **Segmentación de Usuarios:** Los datos se segmentarán por tipo de usuario (Propietarios, Técnicos, Rol de Suscripción) para entender mejor cómo cada grupo interactúa con las funcionalidades clave.
+- **Tasa de Retención a Largo Plazo:** Se medirá la Tasa de Abandono de Proveedores (Provider Churn Rate) a lo largo del tiempo para evaluar la efectividad del nuevo dashboard (H2) en mantener a los técnicos comprometidos con la plataforma.
+
+Este enfoque asegurará que ElectroLink tome decisiones informadas y validadas por datos, centrándose en la viabilidad económica del proyecto.
+
+
+### 8.3. Experimentation
+
+Esta sección traduce el diseño del experimento en los artefactos de desarrollo (Historias de Usuario y Backlog) necesarios para construir, ejecutar y medir las variantes del experimento.
+
+#### 8.3.1. To-Be User Stories
+
+Estas historias de usuario describen las funcionalidades específicas requeridas para implementar las **Variantes B** de nuestros experimentos.
+
+*   **ID: EXP-US-001 (Relacionada a H1)**
+    
+    *   **Como** propietaria (Olivia),
+        
+    *   **Quiero** ver una insignia visual de "Técnico Verificado" y las reseñas más útiles en la parte superior del perfil de un técnico,
+        
+    *   **Para** poder evaluar su confiabilidad rápidamente y tomar una decisión de contratación más segura.
+        
+    *   **Criterios de Aceptación:**
+        
+        *   Dado que un usuario pertenece a la "Variante B" del experimento H1.
+            
+        *   Cuando carga un perfil de técnico que ha completado la validación de documentos.
+            
+        *   Entonces el sistema debe mostrar la insignia "Verificado por ElectroLink" junto al nombre.
+            
+        *   Y el componente de "Reseñas Destacadas" debe aparecer sobre la sección "Servicios Ofrecidos".
+            
+*   **ID: EXP-US-002 (Relacionada a H2)**
+    
+    *   **Como** técnico (Alejandro),
+        
+    *   **Quiero** ver un widget en mi dashboard que resuma las "Oportunidades Perdidas" (solicitudes en mi zona que no acepté o que fueron tomadas por otros),
+        
+    *   **Para** entender mejor la demanda real y ajustar mi disponibilidad o mi tasa de aceptación de servicios.
+        
+    *   **Criterios de Aceptación:**
+        
+        *   Dado que un técnico pertenece a la "Variante B" del experimento H2.
+            
+        *   Cuando carga su dashboard principal.
+            
+        *   Entonces el sistema debe mostrar el widget "Métricas de Oportunidad".
+            
+        *   El widget debe mostrar (como mínimo): "Solicitudes en tu zona (últ. 7 días)" y "Tasa de Aceptación".
+
+
+| ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Experimento) |
+| :--- | :--- | :--- | :--- | :--- |
+| **EXP-US-001** | Perfil con Insignia Verificada y Reseñas Destacadas | Como propietaria (Olivia), quiero ver una insignia visual de "Técnico Verificado" y las reseñas más útiles en la parte superior del perfil de un técnico, para poder evaluar su confiabilidad rápidamente y tomar una decisión de contratación más segura. | **Escenario 1: Visualización de la Insignia**<br>• Given el propietario pertenece al grupo Experimental de H1.<br>• When carga un perfil de técnico con certificación validada.<br>• Then el sistema debe mostrar la insignia "Verificado por ElectroLink" de forma prominente junto al nombre del técnico.<br><br>**Escenario 2: Priorización de Reseñas**<br>• Given el propietario está en el grupo Experimental.<br>• When la página del perfil se carga.<br>• Then el componente de "Reseñas Destacadas" debe ser el segundo elemento visible en el viewport (sobre la sección "Servicios Ofrecidos"). | H1 (Confianza del Cliente) |
+| **EXP-US-002** | Widget de Métricas de Oportunidad para Técnicos | Como técnico (Alejandro), quiero ver un widget en mi dashboard que resuma las "Oportunidades Perdidas" (solicitudes en mi zona que no acepté o que fueron tomadas por otros), para entender mejor la demanda real y ajustar mi disponibilidad o mi tasa de aceptación de servicios. | **Escenario 1: Carga y Contenido del Widget**<br>• Given el técnico pertenece al grupo Experimental de H2.<br>• When el técnico carga su dashboard principal.<br>• Then el sistema debe mostrar el widget "Métricas de Oportunidad" en la parte superior.<br>• And el widget debe mostrar los datos calculados: "Solicitudes en tu zona (últ. 7 días)" y "Tasa de Aceptación".<br><br>**Escenario 2: Interacción con el Widget**<br>• Given el widget está visible.<br>• When el técnico hace clic en el widget.<br>• Then el sistema debe registrar el evento `metrics_widget_interaction`. | H2 (Retención del Proveedor) |
+| **EXP-US-003** | Asignación Persistente a Grupos de Experimento | Como ElectroLink, necesito que cada usuario (Olivia, Alejandro, u otro) sea asignado de forma aleatoria y persistente a un grupo de experimento al iniciar sesión, para que el Test A/B tenga validez y el usuario no cambie de experiencia. | **Escenario 1: Asignación Inicial**<br>• Given un usuario inicia sesión por primera vez.<br>• When el usuario es asignado a un grupo (Control o Experimental) para H1 y/o H2.<br>• Then el sistema debe guardar esta asignación en la base de datos.<br><br>**Escenario 2: Persistencia del Grupo**<br>• Given un usuario que ya ha sido asignado.<br>• When el usuario inicia sesión de nuevo o accede desde otro dispositivo.<br>• Then el sistema debe mostrarle siempre la misma versión (Control o Experimental) a la que fue asignado inicialmente. | Infraestructura (Soporte H1 y H2) |
+| **EXP-US-004** | Registro de Eventos Clave para A/B Testing | Como equipo de ElectroLink, quiero que los eventos críticos del experimento (Solicitud de Servicio y Cancelación) registren la propiedad del grupo de experimento, para poder comparar las tasas de conversión y abandono entre el Control y el Experimental. | **Escenario 1: Tracking de Solicitud de Servicio**<br>• Given un propietario hace clic en "Solicitar Servicio".<br>• When el evento `service_request_initiated` es enviado a Google Analytics.<br>• Then el evento debe incluir una propiedad que indique si el propietario estaba en el grupo Control o Experimental de H1.<br><br>**Escenario 2: Tracking de Intento de Cancelación**<br>• Given un técnico hace clic en el botón "Cancelar Suscripción".<br>• When el evento `subscription_cancellation_attempt` es enviado al sistema de tracking.<br>• Then el evento debe incluir una propiedad que indique si el técnico estaba en el grupo Control o Experimental de H2. | Infraestructura (Soporte H1 y H2) |
+
+#### 8.3.2. To-Be Product Backlog
+
+Este es el backlog de las historias de usuario (priorizado) requerido para implementar los experimentos diseñados.
+
+|  Orden| User Story ID | Título                                                 | Story Points (1 / 2 / 3 / 5 / 8) |
+|:------| :------------ | :----------------------------------------------------- | :------------------------------- |
+| 1     | EXP-US-001    | Perfil con Insignia Verificada y Reseñas Destacadas    | 8                                |
+| 2     | EXP-US-002    | Widget de Métricas de Oportunidad para Técnicos       | 8                                |
+| 3     | EXP-US-003    | Asignación Persistente a Grupos de Experimento         | 5                                |
+| 4     | EXP-US-004    | Registro de Eventos Clave para A/B Testing             | 5                                |
 
 
 ## Conclusiones
