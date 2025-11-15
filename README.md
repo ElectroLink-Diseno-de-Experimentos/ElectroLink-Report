@@ -97,11 +97,12 @@ Insights del TB2
 
 <br>
 
-[image.png](https://postimg.cc/dLDrhNFR)
+[![image.png](https://i.postimg.cc/Y9PV0Twb/image.png)](https://postimg.cc/HcQ3PZny)
 
 <br>
 
-[image.png](https://postimg.cc/D40Jb09T)
+[![image.png](https://i.postimg.cc/xCFrHcLW/image.png)](https://postimg.cc/r0WY2ynJ)
+
 
 <br>
 
@@ -6644,7 +6645,8 @@ Las revisiones de código se realizan de forma **continua e incremental**. El ob
 ### 6.3.2. Registro de Entrevistas.
 1. Leonardo Prieto<br>
 
-   [image.png](https://postimg.cc/G8vp6Yvf)
+    [![image.png](https://i.postimg.cc/LXrpwJhg/image.png)](https://postimg.cc/ftjp0TcM)
+
     _Entrevista del Frontend Application a Leonardo Prieto_
 
    Duración: 6:28 min<br>
@@ -6692,7 +6694,8 @@ Además, sus comentarios demuestran que valora:
 ---
 
 2. Piero Tenorio Medina <br>
-   [image.png](https://postimg.cc/K4LLy3Z3)
+
+   [![image.png](https://i.postimg.cc/MGL2fn7L/image.png)](https://postimg.cc/B82wdQw5)
    _Entrevista del Frontend Application a Piero Tenorio_
 
    Enlace: https://youtu.be/Epc6R8F4hjE <br>
