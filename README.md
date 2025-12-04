@@ -7313,6 +7313,24 @@ Este es el backlog de las historias de usuario (priorizado) requerido para imple
 | 3     | EXP-US-003    | Asignación Persistente a Grupos de Experimento         | 5                                |
 | 4     | EXP-US-004    | Registro de Eventos Clave para A/B Testing             | 5                                |
 
+#### **8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle**
+
+##### **8.3.3.1. To-Be Sprint Backlog**
+
+Para la implementación de la User Story `EXP-US-001`, se desglosó el trabajo en las siguientes tareas técnicas dentro del Sprint:
+
+| User Story Id  | Task Id | Title                                          | Description                                                                                                                             | Estimation (Story Points) | Assigned To       | Status |
+|:---------------|:--------|:-----------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|:--------------------------|:------------------|:-----|
+| **EXP-US-001** | TK-F01  | Crear página de lista de técnicos verificados  | Desarrollar un nuevo componente (`VerifiedTechniciansListPageComponent`) para mostrar todos los técnicos con `isVerified: true`.        | 2                         | Kenyi Ramirez     | Done |
+|                | TK-F02  | Actualizar `homeowner-dashboard`               | Reemplazar la sección de técnicos por una tarjeta de enlace que redirija a la nueva página de lista de técnicos.                        | 1                         | Leandro Contreras | Done |
+|                | TK-F03  | Implementar insignia "Verificado" en el perfil | En `TechnicianProfilePageComponent`, mostrar un ícono de `verified` junto al nombre del técnico si `isVerified` es `true`.              | 1                         | Kenyi Ramirez     | Done |
+|                | TK-F04  | Implementar sección de Reseñas Destacadas      | Obtener y mostrar las reseñas con `isFeatured: true` o `score: 5` en la parte superior del perfil.                                      | 2                         | Kenyi Ramirez     | Done |
+|                | TK-F05  | Mostrar detalles de la operación de servicio   | Para cada reseña destacada, obtener y mostrar los detalles de la `ServiceOperation` asociada usando el `requestId`.                     | 1                         | Kenyi Ramirez     | Done |
+|                | TK-F06  | Mejorar diseño y UI del perfil de técnico      | Aplicar estilos CSS para mejorar la estética, incluyendo la visualización de estrellas para el `score` y una disposición más atractiva. | 2                         | Miguel Gomez      | Done |
+|                | TK-B01  | Crear endpoint para perfiles de técnico        | Desarrollar el endpoint `GET /api/v1/profiles/:id` para obtener los datos de un técnico específico.                                     | 2                         | Kenyi Ramirez     | Done |
+|                | TK-B02  | Añadir campo `isVerified` al modelo            | Modificar el modelo de datos y la base de datos del perfil para incluir el campo booleano `isVerified`.                                 | 1                         | Kenyi Ramirez     | Done |
+|                | TK-B03  | Crear endpoint para reseñas destacadas         | Implementar `GET /api/v1/ratings/technicians/:id/featured` para devolver solo las reseñas más relevantes.                               | 2                         | Kenyi Ramirez     | Done |
+
 
 ## Conclusiones
 
