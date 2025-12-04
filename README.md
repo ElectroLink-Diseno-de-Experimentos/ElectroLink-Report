@@ -7522,6 +7522,58 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
 
 **Segmento objetivo #2: Proveedores de componentes o servicios eléctricos certificados**
 
+<div style="font-family: Arial, sans-serif; border: 1px solid #000; padding: 20px; margin-bottom: 30px;">
+    <h3 style="border-bottom: 1px solid #000; padding-bottom: 10px; margin-top: 0;">Entrevista 1</h3>
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img src="assets/chapter05/placeholder.png" alt="Foto del Entrevistado" style="max-width: 200px; height: auto; border: 1px solid #000; padding: 4px;">
+    </div>
+    <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid #000; padding: 10px; text-align: left; width: 30%;">Campo</th>
+                <th style="border: 1px solid #000; padding: 10px; text-align: left;">Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Nombre</td>
+                <td style="border: 1px solid #000; padding: 10px;">Alejandro Rojas</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Edad</td>
+                <td style="border: 1px solid #000; padding: 10px;">25 años</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Distrito</td>
+                <td style="border: 1px solid #000; padding: 10px;">Lima Metropolitana (zona norte y centro)</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Ocupación / Institución</td>
+                <td style="border: 1px solid #000; padding: 10px;">Tecnico electricista independiente</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Video / Timing</td>
+                <td style="border: 1px solid #000; padding: 10px;">
+                    <a href="#" target="_blank" style="color: #000; text-decoration: underline;">[https://youtu.be/qtbB17ofdPk](https://youtu.be/qtbBl7ofdPk)</a><br>
+                    Timing: 12:09 min
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Resumen</td>
+                <td style="border: 1px solid #000; padding: 10px;">
+                    Alejandro desde hace unos años trabaja de manera independiente, al principio sus clientes eran por recomendaciones de sus compañeros de trabajos, pero luego opto por publicar su servicios en las redes seciales para no depender de ellos. Actualmente desea tener más clientela, todavia no tiene pensado postular a una compañia, por lo que ElectroLink es un gran apoyo para técnicos como el.
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Dispositivos y Apps</td>
+                <td style="border: 1px solid #000; padding: 10px;">
+                    Smartphone;<br>
+                    Apps de referencia: Facebook, WhatsApp.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 ---
 
