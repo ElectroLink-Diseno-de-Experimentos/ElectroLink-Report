@@ -7465,27 +7465,64 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
 
 ##### **8.3.4.2. Registro de Entrevistas**
 
-Se realizaron entrevistas para recopilar feedback.
+**Segmento objetivo #1: Propietarios de hogares urbanos**
 
-**Segmento: Propietario**
+<div style="font-family: Arial, sans-serif; border: 1px solid #000; padding: 20px; margin-bottom: 30px;">
+    <h3 style="border-bottom: 1px solid #000; padding-bottom: 10px; margin-top: 0;">Entrevista 1</h3>
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img src="assets/chapter05/placeholder.png" alt="Foto del Entrevistado" style="max-width: 200px; height: auto; border: 1px solid #000; padding: 4px;">
+    </div>
+    <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid #000; padding: 10px; text-align: left; width: 30%;">Campo</th>
+                <th style="border: 1px solid #000; padding: 10px; text-align: left;">Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Nombre</td>
+                <td style="border: 1px solid #000; padding: 10px;">Nelson</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Edad</td>
+                <td style="border: 1px solid #000; padding: 10px;">25 años</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Distrito</td>
+                <td style="border: 1px solid #000; padding: 10px;">San Borja</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Ocupación / Institución</td>
+                <td style="border: 1px solid #000; padding: 10px;">Propietario de Departamento</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Video / Timing</td>
+                <td style="border: 1px solid #000; padding: 10px;">
+                    <a href="#" target="_blank" style="color: #000; text-decoration: underline;">Ver Entrevista</a><br>
+                    Timing: N/A
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Resumen</td>
+                <td style="border: 1px solid #000; padding: 10px;">
+                    Nelson valora la seguridad y la "tranquilidad mental". Considera crucial la insignia de verificación y las reseñas con contexto del servicio realizado. Califica el nuevo perfil con 4.5/5, destacando que es más ordenado que Facebook/WhatsApp. Sugiere añadir información sobre facturación y garantías explícitas.
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Dispositivos y Apps</td>
+                <td style="border: 1px solid #000; padding: 10px;">
+                    Smartphone;<br>
+                    Apps de referencia: Uber, Facebook, WhatsApp (busca evitar la informalidad de estas últimas para servicios).
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-*   **Entrevista 01 -**
-  *   **Resumen:** 
+**Segmento objetivo #2: Proveedores de componentes o servicios eléctricos certificados**
 
 
-*   **Entrevista 02 -**
-  *   **Resumen:** 
-
-
-
-**Segmento: Técnico**
-
-*   **Entrevista 01 -**
-  *   **Resumen:** 
-
-
-*   **Entrevista 02 -**
-  *   **Resumen:** 
 ---
 
 
