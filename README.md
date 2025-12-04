@@ -7358,11 +7358,43 @@ Esta es la implementación central de la User Story. Se puede observar clarament
 
 ![Perfil del Técnico Mejorado](https://i.imgur.com/link-to-your-image.png)
 
-#### **8.3.3.4. Implemented To-Be Native-Mobile Application Evidence**
+##### **8.3.3.4. Implemented To-Be Native-Mobile Application Evidence**
 
-#### **8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence**
+##### **8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence**
 
-#### **8.3.3.6. Team Collaboration Insights**
+##### **8.3.3.6. Team Collaboration Insights**
+
+#### **8.3.4. To-Be Validation Interviews**
+
+##### **8.3.4.1. Diseño de Entrevistas**
+
+Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjunto de preguntas para dos segmentos clave: **Propietarios** y **Técnicos**.
+
+**Preguntas para el Segmento: Propietario**
+
+1.  Al buscar un técnico, ¿qué información es más importante para ti en su perfil?
+2.  ¿Qué tan importante es para ti saber si un técnico ha sido verificado por la plataforma?
+3.  Al ver la insignia "Verificado por ElectroLink" en el perfil, ¿cómo afecta esto tu nivel de confianza para contratarlo?
+4.  ¿Te resultó fácil encontrar y entender las reseñas de otros clientes?
+5.  ¿Qué te parece que las reseñas más destacadas aparezcan en la parte superior? ¿Lo consideras útil?
+6.  ¿La información sobre el servicio específico que se realizó para una reseña te ayuda a tomar una decisión?
+7.  En una escala del 1 al 5, ¿qué tanto mejora tu confianza esta nueva presentación del perfil?
+8.  ¿Hay alguna otra información que te gustaría ver en el perfil de un técnico para sentirte más seguro?
+9.  ¿Cómo compararías este perfil con otros que has visto en otras plataformas de servicios?
+10. ¿Qué probabilidad hay de que contrates a un técnico a través de nuestra plataforma basándote en este nuevo perfil?
+
+**Preguntas para el Segmento: Técnico**
+
+1.  ¿Qué crees que es lo más importante que un cliente potencial busca en tu perfil?
+2.  ¿Cómo crees que la insignia "Verificado por ElectroLink" impactará la percepción que los clientes tienen de ti?
+3.  ¿Consideras que esta insignia te dará una ventaja sobre otros técnicos no verificados?
+4.  ¿Qué opinas de que las reseñas destacadas (con alta puntuación) se muestren de forma prominente?
+5.  ¿Te motiva el sistema de reseñas destacadas a ofrecer un servicio de mayor calidad?
+6.  ¿Te parece útil que los clientes puedan ver los detalles del servicio asociado a una reseña positiva?
+7.  En una escala del 1 al 5, ¿cuánto valor crees que añade este nuevo diseño de perfil a tu presencia en la plataforma?
+8.  ¿Estarías dispuesto a pagar una tarifa de suscripción si la plataforma te garantiza este tipo de perfil destacado y acceso a más clientes?
+9.  ¿Qué otra información o herramienta te gustaría tener en tu perfil para atraer más trabajos?
+10. ¿Crees que este perfil te ayudará a justificar una tarifa de servicio más alta?
 
 
 ---
