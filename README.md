@@ -7468,6 +7468,14 @@ Basado en los hallazgos de la experimentación y las entrevistas, el Question Ba
 
 ##### **8.6.1. About-the-Product Intro Video**
 
+Enlace del video: [https://youtu.be/z5KrWLrW3fg]
+
+<div align="center">
+<a href="https://postimg.cc/XGJvQYSZ">
+    <img src="https://i.postimg.cc/LXkZ4JxV/To-Be-About-The-Product.png" alt="To-Be-About-The-Product.png" style="width: 50%; max-width: 300px; height: auto; display: block; margin: 0 auto;">
+</a>
+</div>
+
 
 ## Conclusiones
 
