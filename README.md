@@ -7331,6 +7331,41 @@ Para la implementación de la User Story `EXP-US-001`, se desglosó el trabajo e
 |                | TK-B02  | Añadir campo `isVerified` al modelo            | Modificar el modelo de datos y la base de datos del perfil para incluir el campo booleano `isVerified`.                                 | 1                         | Kenyi Ramirez     | Done |
 |                | TK-B03  | Crear endpoint para reseñas destacadas         | Implementar `GET /api/v1/ratings/technicians/:id/featured` para devolver solo las reseñas más relevantes.                               | 2                         | Kenyi Ramirez     | Done |
 
+##### **8.3.3.2. Implemented To-Be Landing Page Evidence**
+
+##### **8.3.3.3. Implemented To-Be Frontend-Web Application Evidence**
+
+A continuación, se presentan las evidencias visuales de la implementación de la User Story `EXP-US-001`.
+
+**1. Dashboard del Propietario (`Homeowner Dashboard`) con acceso a Técnicos Verificados**
+
+Se ha implementado una tarjeta dedicada que invita al usuario a explorar la lista de técnicos, manteniendo el dashboard limpio y enfocado.
+
+![Dashboard del Propietario](https://i.imgur.com/link-to-your-image.png)
+
+**2. Página de Lista de Técnicos Verificados**
+
+Al hacer clic en la tarjeta, el usuario es dirigido a una página que lista todos los técnicos verificados, cada uno presentado en una tarjeta con su información clave y un botón para ver su perfil completo.
+
+![Lista de Técnicos Verificados](https://i.imgur.com/link-to-your-image.png)
+
+**3. Perfil del Técnico con Insignia y Reseñas Destacadas**
+
+Esta es la implementación central de la User Story. Se puede observar claramente:
+*   La **insignia de "Verificado"** junto al nombre del técnico.
+*   La sección de **"Featured Reviews"** mostrando la calificación con estrellas.
+*   Los **detalles del servicio** asociado a cada reseña.
+
+![Perfil del Técnico Mejorado](https://i.imgur.com/link-to-your-image.png)
+
+#### **8.3.3.4. Implemented To-Be Native-Mobile Application Evidence**
+
+#### **8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence**
+
+#### **8.3.3.6. Team Collaboration Insights**
+
+
+---
 
 ## Conclusiones
 
