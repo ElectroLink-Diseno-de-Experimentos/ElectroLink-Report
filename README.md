@@ -7378,6 +7378,7 @@ Al hacer clic en la tarjeta, el usuario es dirigido a una página que lista todo
 </div>
 
 
+
 **3. Perfil del Técnico con Insignia y Reseñas Destacadas**
 
 Esta es la implementación central de la User Story. Se puede observar claramente:
@@ -7392,9 +7393,38 @@ Esta es la implementación central de la User Story. Se puede observar clarament
 </div>
 
 
+
 ##### **8.3.3.4. Implemented To-Be Native-Mobile Application Evidence**
 
 ##### **8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence**
+
+Para dar soporte a la funcionalidad de perfiles de técnico verificados y reseñas destacadas implementada en el frontend (`EXP-US-001`), se realizaron las siguientes modificaciones y adiciones clave en el backend. A continuación, se detallan los endpoints y cambios en el modelo de datos que habilitan esta experiencia de usuario.
+
+**1. Modificación del Modelo de Datos del Perfil**
+
+Se actualizó la entidad `Profile` en la base de datos y en el modelo de dominio para incluir el campo booleano `isVerified`. Este campo es fundamental para que el sistema pueda identificar a los técnicos que han completado el proceso de validación de documentos.
+
+[![image.png](https://i.postimg.cc/L82RSsJJ/image.png)](https://postimg.cc/cr9PM0MW)
+
+
+**2. Endpoint para Obtener Reseñas Destacadas**
+
+Se implementó un endpoint específico para obtener únicamente las reseñas más relevantes de un técnico. Esto evita que el frontend tenga que cargar todas las reseñas y filtrarlas, optimizando el rendimiento. El backend se encarga de la lógica de negocio para determinar qué reseñas son "destacadas" (p. ej., aquellas con `score = 5` o marcadas manualmente como `isFeatured = true`).
+
+*   **Endpoint:** `GET /api/v1/ratings/technicians/{id}/featured`
+*   **Descripción:** Devuelve una lista de las reseñas destacadas para un técnico específico.
+
+[![image.png](https://i.postimg.cc/MH5x42zz/image.png)](https://postimg.cc/sGMtQLBL)
+
+
+[![image.png](https://i.postimg.cc/g0sCmyfh/image.png)](https://postimg.cc/1ggCKFRR)
+
+
+
+
+Estos componentes del backend fueron diseñados para ser eficientes y específicos, asegurando que el frontend solo reciba la información necesaria para construir la interfaz de usuario, optimizando así los tiempos de carga y la experiencia general.
+
+
 
 ##### **8.3.3.6. Team Collaboration Insights**
 
