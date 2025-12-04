@@ -7399,6 +7399,49 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
 
 ---
 
+##### **8.3.4.2. Registro de Entrevistas**
+
+Se realizaron entrevistas para recopilar feedback.
+
+**Segmento: Propietario**
+
+*   **Entrevista 01 -**
+  *   **Resumen:** 
+
+
+*   **Entrevista 02 -**
+  *   **Resumen:** 
+
+
+
+**Segmento: Técnico**
+
+*   **Entrevista 01 -**
+  *   **Resumen:** 
+
+
+*   **Entrevista 02 -**
+  *   **Resumen:** 
+---
+
+
+#### **8.4. Experiment Aftermath & Analysis**
+
+##### **8.4.1. Analysis and Interpretation of Results**
+
+##### **8.4.2. Re-scored and Re-prioritized Question Backlog**
+
+Basado en los hallazgos de la experimentación y las entrevistas, el Question Backlog original se re-evalúa de la siguiente manera:
+
+| Prioridad Original | ID | Pregunta (Experiment-Ready Question) | Nueva Prioridad | Justificación del Cambio |
+| :--- | :- | :--- | :--- | :--- |
+| **Alta** | Q2 | ¿Contratarán los propietarios de viviendas un servicio eléctrico a través de la plataforma, basando su confianza en los perfiles verificados y las reseñas? | **Alta (Validada)** | Las entrevistas cualitativas validaron fuertemente esta premisa. El siguiente paso es medirlo cuantitativamente con un A/B test para obtener métricas de conversión. |
+| **Alta** | Q1 | ¿Pagarán los técnicos certificados una suscripción mensual (p.ej., S/ 50) por acceder a clientes calificados y herramientas de gestión? | **Alta** | Las entrevistas revelaron una alta disposición a pagar si la plataforma ofrece diferenciación y visibilidad. La prioridad se mantiene alta para diseñar un experimento de monetización. |
+| **Media** | Q3 | ¿Usarán los técnicos activamente las herramientas de agenda e inventario de la plataforma para gestionar sus servicios? | **Media** | Aunque no se abordó directamente, la profesionalización del perfil (H1) puede ser un gancho para que los técnicos adopten otras herramientas. La prioridad se mantiene. |
+| **Media** | Q4 | ¿Cuál canal de marketing digital (Facebook Ads vs. Google Ads) genera registros de propietarios (leads) al menor costo? | **Alta** | Ahora que tenemos una propuesta de valor más fuerte para los propietarios (perfiles de confianza), es crucial atraerlos a la plataforma. La prioridad aumenta para iniciar la fase de adquisición. |
+| **Baja** | Q5 | ¿Cuántos propietarios del Plan Básico estarán dispuestos a pagar por el Plan Premium para obtener "servicio prioritario"? | **Baja** | La prioridad se mantiene baja. El foco actual está en validar el modelo de negocio principal (suscripción de técnicos) y la adquisición de usuarios. |
+
+
 ## Conclusiones
 
 Aplicación integral de Domain-Driven Design (DDD) como base estructural del sistema A lo largo de los cuatro sprints, implementamos con rigor el enfoque Domain-Driven Design, lo que nos permitió modelar el sistema en torno a las reglas del negocio y segmentarlo en bounded contexts claramente definidos. Esta estrategia favoreció una solución escalable, mantenible y con bajo acoplamiento, reflejada en la implementación exitosa de los módulos Profiles, IAM, Subscriptions, Monitoring y Service Design and Planning.
