@@ -7359,13 +7359,24 @@ A continuación, se presentan las evidencias visuales de la implementación de l
 
 Se ha implementado una tarjeta dedicada que invita al usuario a explorar la lista de técnicos, manteniendo el dashboard limpio y enfocado.
 
-![Dashboard del Propietario](https://i.imgur.com/link-to-your-image.png)
+<div align="center">
+<a href="https://postimg.cc/NKZMpcG1">
+    <img src="https://i.postimg.cc/fbR9Wz6g/image.png" alt="image.png" style="width: 50%; max-width: 300px; height: auto; display: block; margin: 0 auto;">
+</a>
+</div>
+
 
 **2. Página de Lista de Técnicos Verificados**
 
 Al hacer clic en la tarjeta, el usuario es dirigido a una página que lista todos los técnicos verificados, cada uno presentado en una tarjeta con su información clave y un botón para ver su perfil completo.
 
-![Lista de Técnicos Verificados](https://i.imgur.com/link-to-your-image.png)
+
+<div align="center">
+<a href="https://postimg.cc/V5HcjFk0">
+    <img src="https://i.postimg.cc/c4d4G9qh/image.png" alt="image.png" style="width: 50%; max-width: 300px; height: auto; display: block; margin: 0 auto;">
+</a>
+</div>
+
 
 **3. Perfil del Técnico con Insignia y Reseñas Destacadas**
 
@@ -7374,7 +7385,12 @@ Esta es la implementación central de la User Story. Se puede observar clarament
 *   La sección de **"Featured Reviews"** mostrando la calificación con estrellas.
 *   Los **detalles del servicio** asociado a cada reseña.
 
-![Perfil del Técnico Mejorado](https://i.imgur.com/link-to-your-image.png)
+<div align="center">
+<a href="https://postimg.cc/vggtCMfJ">
+    <img src="https://i.postimg.cc/JnKYDznz/image.png" alt="image.png" style="width: 50%; max-width: 300px; height: auto; display: block; margin: 0 auto;">
+</a>
+</div>
+
 
 ##### **8.3.3.4. Implemented To-Be Native-Mobile Application Evidence**
 
