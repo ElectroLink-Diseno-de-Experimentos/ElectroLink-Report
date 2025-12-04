@@ -7554,14 +7554,16 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Video / Timing</td>
                 <td style="border: 1px solid #000; padding: 10px;">
-                    <a href="#" target="_blank" style="color: #000; text-decoration: underline;">[https://youtu.be/qtbB17ofdPk](https://youtu.be/qtbBl7ofdPk)</a><br>
+                    <a href="https://youtu.be/qtbB17ofdPk" target="_blank" style="color: #000; text-decoration: underline;">
+                        https://youtu.be/qtbB17ofdPk
+                    </a><br>
                     Timing: 12:09 min
                 </td>
             </tr>
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Resumen</td>
                 <td style="border: 1px solid #000; padding: 10px;">
-                    Alejandro desde hace unos años trabaja de manera independiente, al principio sus clientes eran por recomendaciones de sus compañeros de trabajos, pero luego opto por publicar su servicios en las redes seciales para no depender de ellos. Actualmente desea tener más clientela, todavia no tiene pensado postular a una compañia, por lo que ElectroLink es un gran apoyo para técnicos como el.
+                    Alejandro desde hace unos años trabaja de manera independiente, al principio sus clientes eran por recomendaciones de sus compañeros de trabajos, pero luego optó por publicar sus servicios en las redes sociales para no depender de ellos. Actualmente desea tener más clientela; todavía no tiene pensado postular a una compañía, por lo que ElectroLink es un gran apoyo para técnicos como él.
                 </td>
             </tr>
             <tr>
