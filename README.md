@@ -7470,7 +7470,7 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
 <div style="font-family: Arial, sans-serif; border: 1px solid #000; padding: 20px; margin-bottom: 30px;">
     <h3 style="border-bottom: 1px solid #000; padding-bottom: 10px; margin-top: 0;">Entrevista 1</h3>
     <div style="text-align: center; margin-bottom: 20px;">
-        <img src="assets/chapter05/placeholder.png" alt="Foto del Entrevistado" style="max-width: 200px; height: auto; border: 1px solid #000; padding: 4px;">
+         <img src="https://i.postimg.cc/FY0MvCnJ/image.png" alt="Foto del Entrevistado" style="max-width: 200px; height: auto; border: 1px solid #000; padding: 4px;">
     </div>
     <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
         <thead>
@@ -7482,15 +7482,15 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
         <tbody>
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Nombre</td>
-                <td style="border: 1px solid #000; padding: 10px;">Nelson</td>
+                <td style="border: 1px solid #000; padding: 10px;">Gianella Castro</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Edad</td>
-                <td style="border: 1px solid #000; padding: 10px;">25 años</td>
+                <td style="border: 1px solid #000; padding: 10px;">29 años</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Distrito</td>
-                <td style="border: 1px solid #000; padding: 10px;">San Borja</td>
+                <td style="border: 1px solid #000; padding: 10px;">San Luis</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Ocupación / Institución</td>
@@ -7499,14 +7499,14 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Video / Timing</td>
                 <td style="border: 1px solid #000; padding: 10px;">
-                    <a href="#" target="_blank" style="color: #000; text-decoration: underline;">Ver Entrevista</a><br>
-                    Timing: N/A
+                    <a href="#" target="_blank" style="color: #000; text-decoration: underline;">https://drive.google.com/file/d/1mHCqNOhn-29ejmFIuWm-jjzBFYX-SWkX/view?usp=sharing</a><br>
+                    Timing: 5:59
                 </td>
             </tr>
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Resumen</td>
                 <td style="border: 1px solid #000; padding: 10px;">
-                    Nelson valora la seguridad y la "tranquilidad mental". Considera crucial la insignia de verificación y las reseñas con contexto del servicio realizado. Califica el nuevo perfil con 4.5/5, destacando que es más ordenado que Facebook/WhatsApp. Sugiere añadir información sobre facturación y garantías explícitas.
+                    La entrevistada revela que su relación con los problemas eléctricos es de ansiedad y vulnerabilidad, no solo por el riesgo técnico, sino principalmente por la inseguridad personal que siente al permitir el ingreso de desconocidos a su hogar viviendo sola. Su comportamiento es totalmente reactivo (no realiza mantenimiento preventivo) y su método actual de búsqueda se limita a recomendaciones de conocidos por miedo a estafas o peligros físicos. Lo que demanda explícitamente es un servicio que profesionalice la experiencia mediante tecnología: exige ver la identidad y reputación del técnico antes de abrir la puerta, transparencia en los precios para no ser engañada por su desconocimiento técnico, y la facilidad de pagos digitales, dejando claro que para ella la garantía de seguridad es el factor decisivo de compra.
                 </td>
             </tr>
             <tr>
