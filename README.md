@@ -108,6 +108,13 @@ Insights del TB2
 <br>
 
 
+Insights del TF
+
+<br>
+
+[![image.png](https://i.postimg.cc/W4Z5bHsw/image.png)](https://postimg.cc/mcbYmVzP)
+
+<br>
 
 <div style="page-break-after: always;"></div>
 
@@ -273,17 +280,110 @@ Insights del TB2
 
 <div style="page-break-after: always;"></div>
 
-## Student Outcome 4 – Diseño de Experimentos
-
-En esta sección se evidencia cómo las actividades realizadas en el **TB1** han contribuido al desarrollo del **Outcome 4 de ABET – EAC**, referido a la capacidad de planificar y gestionar proyectos de desarrollo de software utilizando metodologías y herramientas apropiadas. Cada integrante del equipo ha asumido responsabilidades clave que implicaron la definición de alcances, la organización de tareas y la aplicación de enfoques de gestión ágil. Estas acciones fortalecieron la habilidad del equipo para ejecutar el proyecto de manera coordinada y eficiente, cumpliendo con los objetivos y plazos establecidos.
-
-*Planifica y gestiona proyectos de desarrollo de software utilizando metodologías y herramientas apropiadas.*
 
 -----
-| Criterio específico | Acciones realizadas (TB1, TP, TB2) | Conclusiones (TB1, TP, TB2) |
-| :--- | :--- | :--- |
-| Demuestra capacidad de planificar y gestionar proyectos de desarrollo de software. | **Kenyi Efrain Ramirez Cabrera**<br>- **TB1:** Redactó los capítulos iniciales, estableció la arquitectura DDD y gestionó la landing page y la documentación técnica. Definió y gestionó las historias de usuario.<br>- **TP:** Diseñó e implementó Pruebas Unitarias/Integración (Karate) para el BC Assets. Redactó y formalizó las secciones de DevOps Practices (CI/CD) y Static Testing & Verification (Reviews).<br>- **TB2:** Definió la estrategia de Continuous Monitoring (Alertas y Notificaciones). Lideró la definición de Objetivos, KPIs y Tracking para A/B Testing, incluyendo la corrección y finalización de la documentación de experimentación (Medidas, Condiciones, Escalas, US y Backlog).<br><br>**Leandro Saúl Contreras López**<br>- **TB1:** Elaboró el análisis competitivo y las estrategias. Definió los Lean UX Problem Statements y Assumptions. Colaboró en la gestión de entrevistas y la implementación del frontend.<br>- **TP:** Diseñó e implementó Pruebas Unitarias/Integración (Karate) y aplicó Checklist de Calidad para el BC Service Design and Planning. Redactó las secciones de introducciones de Pruebas (Test Suite) del informe.<br>- **TB2:** Desarrolló la documentación completa de Planificación del Experimento (Experiment Planning), incluyendo la identificación de Raw Material (Gaps, Ideas, Claims), el Question Backlog y la creación de Experiment Cards, sentando la base para las hipótesis de A/B Testing.<br><br>**Jefferson Ernesto Castro Pariona**<br>- **TB1:** Configuró el entorno de desarrollo. Asumió la gestión inicial del Product Backlog. Contribuyó a la estructura general del documento y a los lineamientos de SEO.<br>- **TP:** Diseñó e implementó Pruebas Unitarias/Integración (Karate) y aplicó Checklist de Calidad para el BC Profiles. Redactó las Conclusiones y Resúmenes Ejecutivos del informe.<br>- **TB2:** Lideró el diseño formal de la Experimentación (Design), redactando las Hipótesis, definiendo las Medidas, Condiciones y Escalas de Decisión. Formalizó las Historias de Usuario (To-Be US) y el Product Backlog asociado a los experimentos de A/B Testing.<br><br>**Miguel Angel Gomez Hurtado**<br>- **TB1:** Diseñó las User Personas y User Task Matrix. Desarrolló los prototipos web y la guía de estilos. Participó en las mejoras y despliegue del backend.<br>- **TP:** Diseñó e implementó Pruebas Unitarias/Integración (Karate) para los BC Monitoring e IAM. Lideró la ejecución y el análisis de SonarQube/CheckStyle.<br>- **TB2:** Implementó Core System Tests (Selenium/Gherkin) para la validación funcional del front-end. Completó y mejoró las secciones de Continuous Deployment (CD) y Continuous Monitoring (CM) (Tools, Practices y Pipeline Components) con detalles de la infraestructura actual. | - **TB1:** El equipo demostró una sólida capacidad de planificación y gestión de proyectos. La aplicación de metodologías ágiles como Lean UX y la gestión del Product Backlog permitió organizar las tareas de manera eficiente y adaptarse a los desafíos del proyecto, sentando una base robusta para las siguientes etapas del proyecto.<br>- **TP:** La fase se centró en la ejecución rigurosa del testing, la validación de calidad y la documentación formal. La implementación de un testing integral (Unitarias, Integración y E2E) por Bounded Context y el uso de herramientas como Karate, CheckStyle y SonarQube confirmaron la adhesión a los estándares de Clean Code.<br>- **TB2:** La fase final se centró en la madurez del producto a través de la experimentación A/B y la estabilización de DevOps. Se logró la planificación completa de experimentos (Hipótesis, Medidas y Backlogs), estableciendo un marco de medición claro (KPIs/Tracking) para el crecimiento. Paralelamente, se completó la formalización de System Tests (Selenium), Continuous Deployment y las prácticas avanzadas de Continuous Monitoring, garantizando la calidad funcional y la resiliencia del producto en producción. |
+<h2>Student Outcome 4 – Diseño de Experimentos</h2>
+<p>El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Student Outcome 4</p>
+<blockquote>
+    <p><strong>Criterio:</strong> La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.</p>
+</blockquote>
+<p>En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 4.</p>
+<hr>
 
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ccc;">
+    <thead>
+        <tr>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left; width: 25%;">Criterio específico</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left; width: 45%;">Acciones realizadas (TB1, TP, TB2, TF)</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left; width: 30%;">Conclusiones (TB1, TP, TB2, TF)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Fila para Criterio 4.c.1 -->
+        <tr style="page-break-inside: avoid;">
+            <td style="border: 1px solid #ccc; padding: 10px; vertical-align: top; font-weight: bold;">
+                4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software.
+            </td>
+            <td style="border: 1px solid #ccc; padding: 10px; vertical-align: top;">
+                <h4 style="margin-top: 0; margin-bottom: 5px;">Kenyi Efrain Ramirez Cabrera</h4>
+                <p style="font-size: 14px; margin: 0;">
+                    - <strong>TB1:</strong> Redactó los capítulos iniciales, estableció la arquitectura DDD y gestionó la landing page y la documentación técnica. Definió y gestionó las historias de usuario.<br>
+                    - <strong>TP:</strong> Diseñó e implementó Pruebas Unitarias/Integración (Karate) para el BC Assets. Redactó y formalizó las secciones de DevOps Practices (CI/CD) y Static Testing & Verification (Reviews).<br>
+                    - <strong>TB2:</strong> Definió la estrategia de Continuous Monitoring (Alertas y Notificaciones). Lideró la definición de Objetivos, KPIs y Tracking para A/B Testing, incluyendo la corrección y finalización de la documentación de experimentación.<br>
+                    - <strong>TF:</strong> Demostró una alta responsabilidad profesional al liderar la implementación de las historias de usuario del <strong>"To-Be Sprint Backlog"</strong> en frontend y backend. Su liderazgo aseguró que cada nueva funcionalidad, derivada de la experimentación, se integrara de manera coherente en la arquitectura existente, manteniendo la calidad a través del pipeline de CI/CD y la suite de pruebas automatizadas, cumpliendo así con el ciclo completo de un Experiment-Driven SDLC.
+                </p>
+                <h4 style="margin-top: 20px; margin-bottom: 5px;">Leandro Saúl Contreras López</h4>
+                <p style="font-size: 14px; margin: 0;">
+                    - <strong>TB1:</strong> Elaboró el análisis competitivo y las estrategias. Definió los Lean UX Problem Statements y Assumptions. Colaboró en la gestión de entrevistas y la implementación del frontend.<br>
+                    - <strong>TP:</strong> Diseñó e implementó Pruebas Unitarias/Integración (Karate) y aplicó Checklist de Calidad para el BC Service Design and Planning. Redactó las secciones de introducciones de Pruebas (Test Suite) del informe.<br>
+                    - <strong>TB2:</strong> Desarrolló la documentación completa de Planificación del Experimento (Experiment Planning), incluyendo la identificación de Raw Material (Gaps, Ideas, Claims), el Question Backlog y la creación de Experiment Cards.<br>
+                    - <strong>TF:</strong> Ejerció su responsabilidad profesional al aplicar de forma colaborativa el SDLC basado en experimentación, asegurando que la planificación se ejecutara fielmente. Su trabajo en la documentación de hallazgos en los <strong>"Shareback Session Artifacts"</strong> fue fundamental para dar trazabilidad y transparencia al proceso de validación, demostrando un compromiso ético con la investigación y el desarrollo basado en evidencia.
+                </p>
+                <h4 style="margin-top: 20px; margin-bottom: 5px;">Jefferson Ernesto Castro Pariona</h4>
+                <p style="font-size: 14px; margin: 0;">
+                    - <strong>TB1:</strong> Configuró el entorno de desarrollo. Asumió la gestión inicial del Product Backlog. Contribuyó a la estructura general del documento y a los lineamientos de SEO.<br>
+                    - <strong>TP:</strong> Diseñó e implementó Pruebas Unitarias/Integración (Karate) y aplicó Checklist de Calidad para el BC Profiles. Redactó las Conclusiones y Resúmenes Ejecutivos del informe.<br>
+                    - <strong>TB2:</strong> Lideró el diseño formal de la Experimentación (Design), redactando las Hipótesis, definiendo las Medidas, Condiciones y Escalas de Decisión. Formalizó las Historias de Usuario (To-Be US) y el Product Backlog asociado a los experimentos.<br>
+                    - <strong>TF:</strong> Ejerció su responsabilidad ética al garantizar la coherencia entre la estrategia y la ejecución. Su labor documentando las evidencias de implementación y su participación en las entrevistas de validación aseguraron que el producto final estuviera alineado tanto con las hipótesis validadas como con los objetivos de negocio, demostrando una clara orientación a la mejora continua.
+                </p>
+                <h4 style="margin-top: 20px; margin-bottom: 5px;">Miguel Angel Gomez Hurtado</h4>
+                <p style="font-size: 14px; margin: 0;">
+                    - <strong>TB1:</strong> Diseñó las User Personas y User Task Matrix. Desarrolló los prototipos web y la guía de estilos. Participó en las mejoras y despliegue del backend.<br>
+                    - <strong>TP:</strong> Diseñó e implementó Pruebas Unitarias/Integración (Karate) para los BC Monitoring e IAM. Lideró la ejecución y el análisis de SonarQube/CheckStyle.<br>
+                    - <strong>TB2:</strong> Implementó Core System Tests (Selenium/Gherkin) para la validación funcional del front-end. Completó y mejoró las secciones de Continuous Deployment (CD) y Continuous Monitoring (CM).<br>
+                    - <strong>TF:</strong> Demostró una notable capacidad de aprendizaje y responsabilidad profesional al gestionar el despliegue completo de la solución (frontend, backend, DB). Aseguró que la plataforma estuviera operativa y estable para la fase de experimentación, garantizando la integridad técnica necesaria para que el ciclo de Experiment-Driven SDLC se llevara a cabo con éxito.
+                </p>
+            </td>
+            <td style="border: 1px solid #ccc; padding: 10px; vertical-align: top;">
+                <p style="font-size: 14px;"><strong>TB1:</strong> El equipo demostró una sólida capacidad de planificación y gestión de proyectos. La aplicación de metodologías ágiles como Lean UX y la gestión del Product Backlog permitió organizar las tareas de manera eficiente y adaptarse a los desafíos del proyecto, sentando una base robusta para las siguientes etapas del proyecto.</p>
+                <p style="font-size: 14px;"><strong>TP:</strong> La fase se centró en la ejecución rigurosa del testing, la validación de calidad y la documentación formal. La implementación de un testing integral (Unitarias, Integración y E2E) por Bounded Context y el uso de herramientas como Karate, CheckStyle y SonarQube confirmaron la adhesión a los estándares de Clean Code.</p>
+                <p style="font-size: 14px;"><strong>TB2:</strong> La fase final se centró en la madurez del producto a través de la experimentación A/B y la estabilización de DevOps. Se logró la planificación completa de experimentos (Hipótesis, Medidas y Backlogs), estableciendo un marco de medición claro (KPIs/Tracking) para el crecimiento. Paralelamente, se completó la formalización de System Tests (Selenium), Continuous Deployment y las prácticas avanzadas de Continuous Monitoring, garantizando la calidad funcional y la resiliencia del producto en producción.</p>
+                <p style="font-size: 14px;"><strong>TF:</strong> El equipo demostró una sobresaliente responsabilidad ética y profesional al aplicar de forma colaborativa un <strong>Experiment-Driven SDLC</strong>. Se utilizó un pipeline de CI/CD maduro para desplegar iterativamente los experimentos, validando cada cambio con una suite de pruebas automatizada completa (unitaria, integración y sistema). Los artefactos finales, como el Impact Map y el Backlog, reflejan un ciclo de mejora continua basado en evidencia, cumpliendo con los más altos estándares de la ingeniería de software moderna.</p>
+            </td>
+        </tr>
+        <!-- Fila para Criterio 4.c.2 -->
+        <tr style="page-break-inside: avoid;">
+            <td style="border: 1px solid #ccc; padding: 10px; vertical-align: top; font-weight: bold;">
+                4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales.
+            </td>
+            <td style="border: 1px solid #ccc; padding: 10px; vertical-align: top;">
+                <h4 style="margin-top: 0; margin-bottom: 5px;">Kenyi Efrain Ramirez Cabrera</h4>
+                <p style="font-size: 14px; margin: 0;">
+                    - <strong>TB1:</strong> Redactó los capítulos iniciales, estableció la arquitectura DDD y gestionó la landing page y la documentación técnica. Definió y gestionó las historias de usuario.<br>
+                    - <strong>TP:</strong> Diseñó e implementó Pruebas Unitarias/Integración (Karate) para el BC Assets. Redactó y formalizó las secciones de DevOps Practices (CI/CD) y Static Testing & Verification (Reviews).<br>
+                    - <strong>TB2:</strong> Definió la estrategia de Continuous Monitoring (Alertas y Notificaciones). Lideró la definición de Objetivos, KPIs y Tracking para A/B Testing, incluyendo la corrección y finalización de la documentación de experimentación.<br>
+                    - <strong>TF:</strong> Emitió juicios informados al utilizar los resultados del análisis de datos para tomar decisiones estratégicas. Su trabajo en el diseño de entrevistas y la re-priorización del <strong>"Question Backlog"</strong> fue crucial para enfocar la recolección de datos en los aspectos más relevantes para el negocio, comunicando estas decisiones de forma clara y objetiva en los artefactos finales del proyecto.
+                </p>
+                <h4 style="margin-top: 20px; margin-bottom: 5px;">Leandro Saúl Contreras López</h4>
+                <p style="font-size: 14px; margin: 0;">
+                    - <strong>TB1:</strong> Elaboró el análisis competitivo y las estrategias. Definió los Lean UX Problem Statements y Assumptions. Colaboró en la gestión de entrevistas y la implementación del frontend.<br>
+                    - <strong>TP:</strong> Diseñó e implementó Pruebas Unitarias/Integración (Karate) y aplicó Checklist de Calidad para el BC Service Design and Planning. Redactó las secciones de introducciones de Pruebas (Test Suite) del informe.<br>
+                    - <strong>TB2:</strong> Desarrolló la documentación completa de Planificación del Experimento (Experiment Planning), incluyendo la identificación de Raw Material (Gaps, Ideas, Claims), el Question Backlog y la creación de Experiment Cards.<br>
+                    - <strong>TF:</strong> Lideró la recolección de datos cualitativos para emitir juicios informados, enfocándose en la validación con usuarios a través de las entrevistas que realizó. Su análisis de estos datos, documentado en los <strong>"Shareback Session Artifacts"</strong>, fue clave para generar aprendizaje continuo sobre el modelo de negocio y proponer mejoras concretas, comunicando los hallazgos con objetividad.
+                </p>
+                <h4 style="margin-top: 20px; margin-bottom: 5px;">Jefferson Ernesto Castro Pariona</h4>
+                <p style="font-size: 14px; margin: 0;">
+                    - <strong>TB1:</strong> Configuró el entorno de desarrollo. Asumió la gestión inicial del Product Backlog. Contribuyó a la estructura general del documento y a los lineamientos de SEO.<br>
+                    - <strong>TP:</strong> Diseñó e implementó Pruebas Unitarias/Integración (Karate) y aplicó Checklist de Calidad para el BC Profiles. Redactó las Conclusiones y Resúmenes Ejecutivos del informe.<br>
+                    - <strong>TB2:</strong> Lideró el diseño formal de la Experimentación (Design), redactando las Hipótesis, definiendo las Medidas, Condiciones y Escalas de Decisión. Formalizó las Historias de Usuario (To-Be US) y el Product Backlog asociado a los experimentos.<br>
+                    - <strong>TF:</strong> Comunicó de forma escrita y objetiva el impacto de las soluciones, sustentando sus juicios en los datos de la experimentación. Su labor integrando el video del producto en la landing page y documentando las evidencias de implementación fue una forma tangible de presentar los resultados del proyecto, demostrando una clara orientación a la mejora continua basada en evidencia.
+                </p>
+                <h4 style="margin-top: 20px; margin-bottom: 5px;">Miguel Angel Gomez Hurtado</h4>
+                <p style="font-size: 14px; margin: 0;">
+                    - <strong>TB1:</strong> Diseñó las User Personas y User Task Matrix. Desarrolló los prototipos web y la guía de estilos. Participó en las mejoras y despliegue del backend.<br>
+                    - <strong>TP:</strong> Diseñó e implementó Pruebas Unitarias/Integración (Karate) para los BC Monitoring e IAM. Lideró la ejecución y el análisis de SonarQube/CheckStyle.<br>
+                    - <strong>TB2:</strong> Implementó Core System Tests (Selenium/Gherkin) para la validación funcional del front-end. Completó y mejoró las secciones de Continuous Deployment (CD) y Continuous Monitoring (CM).<br>
+                    - <strong>TF:</strong> Su rol fue fundamental para emitir juicios informados, ya que llevó a cabo el <strong>análisis e interpretación de los resultados</strong> de la experimentación. Contrastó los datos recolectados contra las hipótesis definidas, proporcionando una base sólida y objetiva para las decisiones del equipo y evidenciando el aprendizaje continuo sobre el impacto de la solución de software.
+                </p>
+            </td>
+            <td style="border: 1px solid #ccc; padding: 10px; vertical-align: top;">
+                <p style="font-size: 14px;"><strong>TF:</strong> El equipo demostró una capacidad sobresaliente para emitir juicios informados. Se implementaron herramientas adecuadas para la recolección de datos cualitativos y cuantitativos, que fueron sistemáticamente analizados y contrastados contra las hipótesis. Los hallazgos se comunicaron con objetividad y se utilizaron para impulsar un ciclo de mejora continua, reflejando los aprendizajes en las nuevas versiones de los artefactos del proyecto. Este proceso evidencia un profundo entendimiento del impacto de las soluciones de ingeniería en su contexto de negocio y social.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+-----
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 
@@ -7351,6 +7451,16 @@ Para la implementación de la User Story `EXP-US-001`, se desglosó el trabajo e
 
 ##### **8.3.3.2. Implemented To-Be Landing Page Evidence**
 
+**1. Sección Cómo Funciona**
+
+[![image.png](https://i.postimg.cc/tJMTcY0V/image.png)](https://postimg.cc/ctf0g1Ls)
+
+**2. Sección Ver ElectroLink en acción**
+
+[![image.png](https://i.postimg.cc/dV1RDSjL/image.png)](https://postimg.cc/fJGSrCFN)
+
+
+
 ##### **8.3.3.3. Implemented To-Be Frontend-Web Application Evidence**
 
 A continuación, se presentan las evidencias visuales de la implementación de la User Story `EXP-US-001`.
@@ -7428,6 +7538,26 @@ Estos componentes del backend fueron diseñados para ser eficientes y específic
 
 ##### **8.3.3.6. Team Collaboration Insights**
 
+**Landing Page:**
+
+[![image.png](https://i.postimg.cc/D0w05RZZ/image.png)](https://postimg.cc/7GjqZsS8)
+
+
+
+**Frontend:**
+
+[![image.png](https://i.postimg.cc/3xm8j3Bn/image.png)](https://postimg.cc/DSf3nkRX)
+
+
+
+**Backend:**
+
+[![image.png](https://i.postimg.cc/GmC25BH1/image.png)](https://postimg.cc/zVx8LGCd)
+
+
+
+
+
 #### **8.3.4. To-Be Validation Interviews**
 
 ##### **8.3.4.1. Diseño de Entrevistas**
@@ -7470,7 +7600,7 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
 <div style="font-family: Arial, sans-serif; border: 1px solid #000; padding: 20px; margin-bottom: 30px;">
     <h3 style="border-bottom: 1px solid #000; padding-bottom: 10px; margin-top: 0;">Entrevista 1</h3>
     <div style="text-align: center; margin-bottom: 20px;">
-        <img src="assets/chapter05/placeholder.png" alt="Foto del Entrevistado" style="max-width: 200px; height: auto; border: 1px solid #000; padding: 4px;">
+         <img src="https://i.postimg.cc/FY0MvCnJ/image.png" alt="Foto del Entrevistado" style="max-width: 200px; height: auto; border: 1px solid #000; padding: 4px;">
     </div>
     <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
         <thead>
@@ -7482,15 +7612,15 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
         <tbody>
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Nombre</td>
-                <td style="border: 1px solid #000; padding: 10px;">Nelson</td>
+                <td style="border: 1px solid #000; padding: 10px;">Gianella Castro</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Edad</td>
-                <td style="border: 1px solid #000; padding: 10px;">25 años</td>
+                <td style="border: 1px solid #000; padding: 10px;">29 años</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Distrito</td>
-                <td style="border: 1px solid #000; padding: 10px;">San Borja</td>
+                <td style="border: 1px solid #000; padding: 10px;">San Luis</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Ocupación / Institución</td>
@@ -7499,14 +7629,14 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Video / Timing</td>
                 <td style="border: 1px solid #000; padding: 10px;">
-                    <a href="#" target="_blank" style="color: #000; text-decoration: underline;">Ver Entrevista</a><br>
-                    Timing: N/A
+                    <a href="#" target="_blank" style="color: #000; text-decoration: underline;">https://drive.google.com/file/d/1mHCqNOhn-29ejmFIuWm-jjzBFYX-SWkX/view?usp=sharing</a><br>
+                    Timing: 5:59
                 </td>
             </tr>
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Resumen</td>
                 <td style="border: 1px solid #000; padding: 10px;">
-                    Nelson valora la seguridad y la "tranquilidad mental". Considera crucial la insignia de verificación y las reseñas con contexto del servicio realizado. Califica el nuevo perfil con 4.5/5, destacando que es más ordenado que Facebook/WhatsApp. Sugiere añadir información sobre facturación y garantías explícitas.
+                    La entrevistada revela que su relación con los problemas eléctricos es de ansiedad y vulnerabilidad, no solo por el riesgo técnico, sino principalmente por la inseguridad personal que siente al permitir el ingreso de desconocidos a su hogar viviendo sola. Su comportamiento es totalmente reactivo (no realiza mantenimiento preventivo) y su método actual de búsqueda se limita a recomendaciones de conocidos por miedo a estafas o peligros físicos. Lo que demanda explícitamente es un servicio que profesionalice la experiencia mediante tecnología: exige ver la identidad y reputación del técnico antes de abrir la puerta, transparencia en los precios para no ser engañada por su desconocimiento técnico, y la facilidad de pagos digitales, dejando claro que para ella la garantía de seguridad es el factor decisivo de compra.
                 </td>
             </tr>
             <tr>
@@ -7673,7 +7803,25 @@ Basado en los hallazgos de la experimentación y las entrevistas, el Question Ba
 
 #### **8.5. Continuous Learning**
 
+El ciclo de desarrollo impulsado por la experimentación no termina con el análisis de resultados. La fase de **Aprendizaje Continuo** es donde formalizamos y compartimos el conocimiento adquirido para que se convierta en un activo estratégico para la startup. El objetivo es transformar los datos y hallazgos en decisiones de producto concretas, refinar nuestro entendimiento del usuario y generar nuevas hipótesis que impulsen el siguiente ciclo de innovación.
+
 ##### **8.5.1. Shareback Session Artifacts: Learning Workflow**
+
+A continuación, se presenta el artefacto de aprendizaje generado a partir de la sesión de análisis del **Experimento H1: Validación de Confianza del Cliente**. Este documento resume lo que aprendimos y las acciones que tomaremos como resultado.
+
+---
+
+### **Learning Card: Experimento H1 - Perfil Verificado**
+
+| Elemento | Descripción Detallada |
+| :--- | :--- |
+| **Experimento y Pregunta Clave** | **Experimento:** Implementación de un perfil de técnico mejorado (`EXP-US-001`) con una insignia de "Verificado" y una sección de "Reseñas Destacadas" en la parte superior.<br>**Pregunta (Q2):** ¿Contratarán los propietarios un servicio basando su confianza en estos nuevos elementos visuales? |
+| **Hipótesis Validada** | **Sí, la hipótesis fue validada.** La implementación de insignias de verificación y la priorización de reseñas **aumentan significativamente la confianza del cliente y la tasa de conversión** a "solicitud de servicio". |
+| **Hallazgos Cuantitativos (Lo que pasó)** | - **Incremento en Solicitudes:** Se observó un **aumento del 33%** en las vistas a la ruta de solicitudes de servicio (`/requests`) en el día del análisis, en comparación con el promedio de los 28 días anteriores. <br>- **Interacción Positiva:** Las analíticas en tiempo real mostraron que las rutas `/technician-verified` y `/dashboard/homeowner` tuvieron una interacción casi idéntica, lo que sugiere que los usuarios que accedieron al dashboard procedieron a explorar la lista de técnicos verificados, validando el flujo diseñado. |
+| **Hallazgos Cualitativos (Por qué pasó)** | - **Reducción de la Ansiedad:** Las entrevistas de validación (con Gianella Castro y Diego Acuña) confirmaron que la insignia "Verificado" y las reseñas visibles son el factor decisivo para reducir la ansiedad y la desconfianza, especialmente la preocupación por la seguridad personal al contratar a un desconocido. <br>- **Profesionalismo Percibido:** Los usuarios perciben a los técnicos con perfiles verificados como más profesionales y confiables, lo que justifica su elección incluso si el costo fuera mayor. <br>- **Valor de la Prueba Social:** Las reseñas actúan como una poderosa prueba social. Saber que otros clientes tuvieron una buena experiencia es un catalizador clave para la contratación. |
+| **Decisiones y Acciones (Qué haremos)** | 1. **Roll-out al 100%:** El diseño del perfil de técnico de la Variante B (con insignia y reseñas destacadas) se implementará para el 100% de los usuarios. El diseño "As-Is" será deprecado. <br>2. **Optimizar el Flujo:** Se mejorará el `homeowner-dashboard` para que el acceso a la lista de "Técnicos Verificados" sea aún más prominente. <br>3. **Comunicar el Valor:** Se utilizará la insignia "Verificado" como un pilar en las campañas de marketing dirigidas a propietarios, destacando la seguridad como propuesta de valor principal. |
+| **Nuevas Preguntas (Qué sigue)** | - **Q6 (Monetización):** Ahora que hemos validado que la confianza es un diferenciador, ¿estarán los técnicos dispuestos a pagar una tarifa más alta por obtener la insignia de "Verificado"? <br>- **Q7 (Optimización):** ¿Qué otros elementos (además de reseñas y verificación) podríamos añadir al perfil para incrementar aún más la confianza? (Ej: Video de presentación, historial de trabajos con fotos). <br>- **Q8 (Riesgo):** ¿Cómo podemos hacer el proceso de verificación lo suficientemente riguroso para ser confiable, pero lo suficientemente ágil para no desmotivar a los nuevos técnicos? |
+| **Impacto en el Negocio** | Este aprendizaje valida uno de los pilares de nuestro modelo de negocio: **la confianza es nuestro producto principal**. Demuestra que invertir en mecanismos de verificación y transparencia no es solo un "nice-to-have", sino un motor directo de la conversión y, por ende, de los ingresos. Esto nos da una base sólida para justificar el valor de la suscripción a los técnicos y para posicionar a ElectroLink como la plataforma más segura del mercado. |
 
 
 #### **8.6. To-Be Software Platform Pre-launch**
@@ -7705,6 +7853,13 @@ Base sólida para la evolución futura del producto en nuevos mercados La arquit
 
 Cumplimiento de los objetivos estratégicos del proyecto ElectroLink finaliza su desarrollo como una solución madura que conecta de forma confiable a usuarios con técnicos certificados y proveedores de componentes, reduciendo significativamente los riesgos de informalidad e ineficiencia en el sector eléctrico. La plataforma logra resolver los principales pain points del mercado inicial, y está lista para ser validada en condiciones reales de uso con métricas claras de éxito.
 
+El proyecto "ElectroLink" concluye con la creación exitosa de una plataforma de software madura y de nivel profesional. El equipo demostró una alta competencia técnica al aplicar una arquitectura robusta con Domain-Driven Design (DDD), un riguroso plan de pruebas automatizadas y un ecosistema DevOps para la integración y despliegue continuo (CI/CD). El resultado es una solución bien documentada que no solo resuelve un problema real del mercado (conectar usuarios con técnicos eléctricos certificados), sino que también valida sus hipótesis de negocio a través de la experimentación.
+
+## Video About-The-Team
+
+URL: [https://youtu.be/QwZblS3XT_g]
+
+
 ## Bibliografía
 
 - Conventional Commits. (s.f.). *Conventional commits*. Recuperado el 10 de julio de 2025, de https://www.conventionalcommits.org/
@@ -7728,6 +7883,6 @@ Cumplimiento de los objetivos estratégicos del proyecto ElectroLink finaliza su
 - Repositorio Frontend: https://github.com/ElectroLink-Diseno-de-Experimentos/Frontend
 - Repositorio Backend: https://github.com/ElectroLink-Diseno-de-Experimentos/Backend
 - Repositorio de Pruebas de Integracion (Feature): https://github.com/ElectroLink-Diseno-de-Experimentos/Electrolink-API-Tests
-- Landing Page: https://electrolink-diseno-de-experimentos.github.io/Landing-Page/
-- Frontend: https://electrolink-195e0.web.app/
-- Backend: https://electrolinkv3.onrender.com/swagger-ui/index.html#
+- Landing Page: [https://electrolink-diseno-de-experimentos.github.io/Landing-Page/]
+- Frontend: [https://electrolink-195e0.web.app]
+- Backend: [https://electrolinkv3.onrender.com/swagger-ui/index.html]
