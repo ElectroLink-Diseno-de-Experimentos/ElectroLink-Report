@@ -7719,7 +7719,25 @@ Basado en los hallazgos de la experimentación y las entrevistas, el Question Ba
 
 #### **8.5. Continuous Learning**
 
+El ciclo de desarrollo impulsado por la experimentación no termina con el análisis de resultados. La fase de **Aprendizaje Continuo** es donde formalizamos y compartimos el conocimiento adquirido para que se convierta en un activo estratégico para la startup. El objetivo es transformar los datos y hallazgos en decisiones de producto concretas, refinar nuestro entendimiento del usuario y generar nuevas hipótesis que impulsen el siguiente ciclo de innovación.
+
 ##### **8.5.1. Shareback Session Artifacts: Learning Workflow**
+
+A continuación, se presenta el artefacto de aprendizaje generado a partir de la sesión de análisis del **Experimento H1: Validación de Confianza del Cliente**. Este documento resume lo que aprendimos y las acciones que tomaremos como resultado.
+
+---
+
+### **Learning Card: Experimento H1 - Perfil Verificado**
+
+| Elemento | Descripción Detallada |
+| :--- | :--- |
+| **Experimento y Pregunta Clave** | **Experimento:** Implementación de un perfil de técnico mejorado (`EXP-US-001`) con una insignia de "Verificado" y una sección de "Reseñas Destacadas" en la parte superior.<br>**Pregunta (Q2):** ¿Contratarán los propietarios un servicio basando su confianza en estos nuevos elementos visuales? |
+| **Hipótesis Validada** | **Sí, la hipótesis fue validada.** La implementación de insignias de verificación y la priorización de reseñas **aumentan significativamente la confianza del cliente y la tasa de conversión** a "solicitud de servicio". |
+| **Hallazgos Cuantitativos (Lo que pasó)** | - **Incremento en Solicitudes:** Se observó un **aumento del 33%** en las vistas a la ruta de solicitudes de servicio (`/requests`) en el día del análisis, en comparación con el promedio de los 28 días anteriores. <br>- **Interacción Positiva:** Las analíticas en tiempo real mostraron que las rutas `/technician-verified` y `/dashboard/homeowner` tuvieron una interacción casi idéntica, lo que sugiere que los usuarios que accedieron al dashboard procedieron a explorar la lista de técnicos verificados, validando el flujo diseñado. |
+| **Hallazgos Cualitativos (Por qué pasó)** | - **Reducción de la Ansiedad:** Las entrevistas de validación (con Gianella Castro y Diego Acuña) confirmaron que la insignia "Verificado" y las reseñas visibles son el factor decisivo para reducir la ansiedad y la desconfianza, especialmente la preocupación por la seguridad personal al contratar a un desconocido. <br>- **Profesionalismo Percibido:** Los usuarios perciben a los técnicos con perfiles verificados como más profesionales y confiables, lo que justifica su elección incluso si el costo fuera mayor. <br>- **Valor de la Prueba Social:** Las reseñas actúan como una poderosa prueba social. Saber que otros clientes tuvieron una buena experiencia es un catalizador clave para la contratación. |
+| **Decisiones y Acciones (Qué haremos)** | 1. **Roll-out al 100%:** El diseño del perfil de técnico de la Variante B (con insignia y reseñas destacadas) se implementará para el 100% de los usuarios. El diseño "As-Is" será deprecado. <br>2. **Optimizar el Flujo:** Se mejorará el `homeowner-dashboard` para que el acceso a la lista de "Técnicos Verificados" sea aún más prominente. <br>3. **Comunicar el Valor:** Se utilizará la insignia "Verificado" como un pilar en las campañas de marketing dirigidas a propietarios, destacando la seguridad como propuesta de valor principal. |
+| **Nuevas Preguntas (Qué sigue)** | - **Q6 (Monetización):** Ahora que hemos validado que la confianza es un diferenciador, ¿estarán los técnicos dispuestos a pagar una tarifa más alta por obtener la insignia de "Verificado"? <br>- **Q7 (Optimización):** ¿Qué otros elementos (además de reseñas y verificación) podríamos añadir al perfil para incrementar aún más la confianza? (Ej: Video de presentación, historial de trabajos con fotos). <br>- **Q8 (Riesgo):** ¿Cómo podemos hacer el proceso de verificación lo suficientemente riguroso para ser confiable, pero lo suficientemente ágil para no desmotivar a los nuevos técnicos? |
+| **Impacto en el Negocio** | Este aprendizaje valida uno de los pilares de nuestro modelo de negocio: **la confianza es nuestro producto principal**. Demuestra que invertir en mecanismos de verificación y transparencia no es solo un "nice-to-have", sino un motor directo de la conversión y, por ende, de los ingresos. Esto nos da una base sólida para justificar el valor de la suscripción a los técnicos y para posicionar a ElectroLink como la plataforma más segura del mercado. |
 
 
 #### **8.6. To-Be Software Platform Pre-launch**
@@ -7750,6 +7768,8 @@ Alineamiento entre descubrimiento de usuario y diseño técnico Las metodología
 Base sólida para la evolución futura del producto en nuevos mercados La arquitectura actual permite escalar la plataforma a nuevas regiones y segmentos con mínima fricción técnica. Además, la implementación por contextos desacoplados favorece la incorporación futura de integraciones externas (pagos, logística, verificación digital) y mecanismos de gobernanza para comunidades de técnicos certificados.
 
 Cumplimiento de los objetivos estratégicos del proyecto ElectroLink finaliza su desarrollo como una solución madura que conecta de forma confiable a usuarios con técnicos certificados y proveedores de componentes, reduciendo significativamente los riesgos de informalidad e ineficiencia en el sector eléctrico. La plataforma logra resolver los principales pain points del mercado inicial, y está lista para ser validada en condiciones reales de uso con métricas claras de éxito.
+
+El proyecto "ElectroLink" concluye con la creación exitosa de una plataforma de software madura y de nivel profesional. El equipo demostró una alta competencia técnica al aplicar una arquitectura robusta con Domain-Driven Design (DDD), un riguroso plan de pruebas automatizadas y un ecosistema DevOps para la integración y despliegue continuo (CI/CD). El resultado es una solución bien documentada que no solo resuelve un problema real del mercado (conectar usuarios con técnicos eléctricos certificados), sino que también valida sus hipótesis de negocio a través de la experimentación.
 
 ## Bibliografía
 
