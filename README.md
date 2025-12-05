@@ -56,8 +56,8 @@
 | TB2 (2.2.0) | 13/11/2025 | **Jefferson Castro Pariona** | Diseño formal de la Experimentación (Design), redactando las Hipótesis, definiendo las Medidas, Condiciones y Escalas de Decisión. Formalización de las Historias de Usuario (To-Be US) y el Product Backlog asociado a los experimentos de A/B Testing.                                                      |
 | TB2 (2.3.0) | 14/11/2025 | **Miguel Gomez Hurtado** | Implementación de Core System Tests (Selenium/Gherkin) para la validación funcional del front-end. Compleción y mejora de las secciones de Continuous Deployment (CD) y Continuous Monitoring (CM) (Tools, Practices y Pipeline Components) con detalles de la infraestructura actual.                        |
 | TB2 (2.4.0) | 14/11/2025 | **Kenyi Ramirez Cabrera** | Definición de la estrategia de Continuous Monitoring (Alertas y Notificaciones). Definición de Objetivos, KPIs y Tracking para A/B Testing. Corrección y finalización de la documentación de experimentación (Medidas, Condiciones, Escalas, US y Backlog).                                                   |
-| TF (3.0.0)  | 04/12/2025 | **Kenyi Ramirez Cabrera** | Documentación de sprint backlog, entrevistas y análisis.                                                                                                                                                                                                                                                      |
-
+| TF (3.0.0)  | 04/12/2025 | **Kenyi Ramirez Cabrera** | Documentación de sprint backlog, entrevistas y análisis.|
+| TF (3.0.0)  | 04/12/2025 | **Miguel Angel Gomez Hurtado** | Entrevista de validacion de un propietario y análisis del 8.4.1 del google analytics.|
 
 
 <hr>
