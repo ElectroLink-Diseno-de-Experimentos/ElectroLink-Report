@@ -108,6 +108,13 @@ Insights del TB2
 <br>
 
 
+Insights del TF
+
+<br>
+
+[![image.png](https://i.postimg.cc/W4Z5bHsw/image.png)](https://postimg.cc/mcbYmVzP)
+
+<br>
 
 <div style="page-break-after: always;"></div>
 
