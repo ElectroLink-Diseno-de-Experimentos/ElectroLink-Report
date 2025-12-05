@@ -7637,6 +7637,28 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
 
 ##### **8.4.1. Analysis and Interpretation of Results**
 
+A continuación se presenta una tabla con los datos de google analytics sobre los accesos a rutas y los usuarios que las usan.
+[![image.png](https://i.postimg.cc/rp1wyczW/image.png)](https://postimg.cc/zLfrpsCX)
+
+Esta información será mejor presentada en un grafico de barras para su mejor comprención.
+[![image.png](https://i.postimg.cc/9fWvTjJ9/image.png)](https://postimg.cc/hX5yWNF4)
+
+En este segunda tabla de google analytics se muestran los datos con los que compararemos nuestro nuevo experimento. Estos datos abarcan los días desde que se integraron las analíticas al sitio web.
+[![image.png](https://i.postimg.cc/LXRLm2BY/image.png)](https://postimg.cc/8FKjH8YN)
+
+En esta tabla se visualizan los datos más relevantes a comparar.
+[![image.png](https://i.postimg.cc/50NyP0SR/image.png)](https://postimg.cc/8F9TcT3R)
+
+Si comparamos las datos, en la versión antigua, al no existir los datos de tecnico verificado, su ruta no aparece, y la opción de requerir servicio se encuentra dentro del dashboard/homeowner en la ruta requests. La razón por la que Google Analytics no capta esta ruta puede deberse a la forma en que esta construida el front end mediante el componente route. Por este motivo, para los datos actuales se uso la medida por rutas y pantallas en tiempo real para saber el acceso a todas las rutas que se usan en tiempo real.
+
+Aclarando esto, si suponemos que en los datos antiguos, los usuarios que accedieron al dashboard de homeowner son los mismo que solicitaron un servicio en /requests. tenemos que fueron 3 usuarios que vieron o solicitaron un servicio.
+
+Si analizamos los mismos datos pero en el ammbiente más actual, se puede observar que si las vistas del dashboard/homeowner y las de technician-verified son acasi identicas, representando un efecto rebote para visualizarlas. Luego, se puede evidenciar que la cantidad de vistas a requests sube a 4 vistas.
+
+Si tomamos en cuenta que Google Analytics no capta de forma predeterminada la acción de solicitar un servicio en nuestra plataforma, pero inferimos que al acceder a esta ruta se encuentra la opción de solicitar un servicio, se puede suponer que la misma cantidad realizo dicha solicitud.
+
+Como conclusión, se muestra que de las 3 solicitudes en el intervalo de 28 días, se incrementó a 4 solicitudes el día 4 de diciembre Esto resulta en un incremento del 33%, lo cual cumple con el parámetro de exito que planteamos anteriormente. 
+
 ##### **8.4.2. Re-scored and Re-prioritized Question Backlog**
 
 Basado en los hallazgos de la experimentación y las entrevistas, el Question Backlog original se re-evalúa de la siguiente manera:
@@ -7708,4 +7730,4 @@ Cumplimiento de los objetivos estratégicos del proyecto ElectroLink finaliza su
 - Repositorio de Pruebas de Integracion (Feature): https://github.com/ElectroLink-Diseno-de-Experimentos/Electrolink-API-Tests
 - Landing Page: https://electrolink-diseno-de-experimentos.github.io/Landing-Page/
 - Frontend: https://electrolink-195e0.web.app/
-- Backend: https://electrolinkv2.onrender.com/swagger-ui/index.html#
+- Backend: https://electrolinkv3.onrender.com/swagger-ui/index.html#
