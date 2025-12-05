@@ -7552,7 +7552,7 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
             <tr>
                 <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Video / Timing</td>
                 <td style="border: 1px solid #000; padding: 10px;">
-                    <a href="#" target="_blank" style="color: #000; text-decoration: underline;">Ver Entrevista</a><br>
+                    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220294_upc_edu_pe/IQCAOov4or0pSoNZCg48HfUpAUgt1Re2UukXIYK14FXO9Ck?e=0OxvJB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank" style="color: #000; text-decoration: underline;">Entrevista-Diego-Experimentos.mp4</a><br>
                     Timing: N/A
                 </td>
             </tr>
