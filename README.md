@@ -282,9 +282,16 @@ Insights del TF
 
 ## Student Outcome 4 – Diseño de Experimentos
 
-En esta sección se evidencia cómo las actividades realizadas en el **TB1** han contribuido al desarrollo del **Outcome 4 de ABET – EAC**, referido a la capacidad de planificar y gestionar proyectos de desarrollo de software utilizando metodologías y herramientas apropiadas. Cada integrante del equipo ha asumido responsabilidades clave que implicaron la definición de alcances, la organización de tareas y la aplicación de enfoques de gestión ágil. Estas acciones fortalecieron la habilidad del equipo para ejecutar el proyecto de manera coordinada y eficiente, cumpliendo con los objetivos y plazos establecidos.
+El curso contribuye al cumplimiento del Student Outcome ABET:
+ABET – EAC - Student Outcome 4
 
-*Planifica y gestiona proyectos de desarrollo de software utilizando metodologías y herramientas apropiadas.*
+**Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
+situaciones de ingeniería y hacer juicios informados, que deben considerar el
+impacto de las soluciones de ingeniería en contextos globales, económicos,
+ambientales y sociales.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones
+por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET –
+EAC - Student Outcome 4.**
 
 -----
 | Criterio específico | Acciones realizadas (TB1, TP, TB2, TF) | Conclusiones (TB1, TP, TB2, TF) |
