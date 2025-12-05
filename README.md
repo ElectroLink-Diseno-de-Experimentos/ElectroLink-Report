@@ -7520,6 +7520,59 @@ Para validar la efectividad de la User Story `EXP-US-001`, se diseñó un conjun
     </table>
 </div>
 
+<div style="font-family: Arial, sans-serif; border: 1px solid #000; padding: 20px; margin-bottom: 30px;">
+    <h3 style="border-bottom: 1px solid #000; padding-bottom: 10px; margin-top: 0;">Entrevista 2</h3>
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img src="https://i.postimg.cc/s2nsgJ56/image.png" alt="Foto del Entrevistado" style="max-width: 300px; height: auto; border: 1px solid #000; padding: 4px;">
+    </div>
+    <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid #000; padding: 10px; text-align: left; width: 30%;">Campo</th>
+                <th style="border: 1px solid #000; padding: 10px; text-align: left;">Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Nombre</td>
+                <td style="border: 1px solid #000; padding: 10px;">Diego Acuña</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Edad</td>
+                <td style="border: 1px solid #000; padding: 10px;">24 años</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Distrito</td>
+                <td style="border: 1px solid #000; padding: 10px;">San Miguel</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Ocupación / Institución</td>
+                <td style="border: 1px solid #000; padding: 10px;">Estudiante de la UPC</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Video / Timing</td>
+                <td style="border: 1px solid #000; padding: 10px;">
+                    <a href="#" target="_blank" style="color: #000; text-decoration: underline;">Ver Entrevista</a><br>
+                    Timing: N/A
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Resumen</td>
+                <td style="border: 1px solid #000; padding: 10px;">
+                    Diego confirma que la nueva funcionalidad le brinda tranquilidad al momento de elegir un técnico para que le realize un servicio electrico usando nuestra plataforma web. Comenta que le agrada la información que se muestra sobre unb técnico verificado, como comentarios y trabajos realizados.
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000; padding: 10px; font-weight: bold;">Dispositivos y Apps</td>
+                <td style="border: 1px solid #000; padding: 10px;">
+                    Smartphone y computadora de escritorio<br>
+                    Apps de referencia: WhatsApp
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 **Segmento objetivo #2: Proveedores de componentes o servicios eléctricos certificados**
 
 <div style="font-family: Arial, sans-serif; border: 1px solid #000; padding: 20px; margin-bottom: 30px;">
