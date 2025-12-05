@@ -7351,6 +7351,16 @@ Para la implementación de la User Story `EXP-US-001`, se desglosó el trabajo e
 
 ##### **8.3.3.2. Implemented To-Be Landing Page Evidence**
 
+**1. Sección Cómo Funciona**
+
+[![image.png](https://i.postimg.cc/tJMTcY0V/image.png)](https://postimg.cc/ctf0g1Ls)
+
+**2. Sección Ver ElectroLink en acción**
+
+[![image.png](https://i.postimg.cc/dV1RDSjL/image.png)](https://postimg.cc/fJGSrCFN)
+
+
+
 ##### **8.3.3.3. Implemented To-Be Frontend-Web Application Evidence**
 
 A continuación, se presentan las evidencias visuales de la implementación de la User Story `EXP-US-001`.
@@ -7427,6 +7437,26 @@ Estos componentes del backend fueron diseñados para ser eficientes y específic
 
 
 ##### **8.3.3.6. Team Collaboration Insights**
+
+**Landing Page:**
+
+[![image.png](https://i.postimg.cc/D0w05RZZ/image.png)](https://postimg.cc/7GjqZsS8)
+
+
+
+**Frontend:**
+
+[![image.png](https://i.postimg.cc/3xm8j3Bn/image.png)](https://postimg.cc/DSf3nkRX)
+
+
+
+**Backend:**
+
+[![image.png](https://i.postimg.cc/GmC25BH1/image.png)](https://postimg.cc/zVx8LGCd)
+
+
+
+
 
 #### **8.3.4. To-Be Validation Interviews**
 
@@ -7728,6 +7758,6 @@ Cumplimiento de los objetivos estratégicos del proyecto ElectroLink finaliza su
 - Repositorio Frontend: https://github.com/ElectroLink-Diseno-de-Experimentos/Frontend
 - Repositorio Backend: https://github.com/ElectroLink-Diseno-de-Experimentos/Backend
 - Repositorio de Pruebas de Integracion (Feature): https://github.com/ElectroLink-Diseno-de-Experimentos/Electrolink-API-Tests
-- Landing Page: https://electrolink-diseno-de-experimentos.github.io/Landing-Page/
-- Frontend: https://electrolink-195e0.web.app/
-- Backend: https://electrolinkv3.onrender.com/swagger-ui/index.html#
+- Landing Page: [https://electrolink-diseno-de-experimentos.github.io/Landing-Page/]
+- Frontend: [https://electrolink-195e0.web.app]
+- Backend: [https://electrolinkv3.onrender.com/swagger-ui/index.html]
