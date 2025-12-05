@@ -7855,6 +7855,11 @@ Cumplimiento de los objetivos estratégicos del proyecto ElectroLink finaliza su
 
 El proyecto "ElectroLink" concluye con la creación exitosa de una plataforma de software madura y de nivel profesional. El equipo demostró una alta competencia técnica al aplicar una arquitectura robusta con Domain-Driven Design (DDD), un riguroso plan de pruebas automatizadas y un ecosistema DevOps para la integración y despliegue continuo (CI/CD). El resultado es una solución bien documentada que no solo resuelve un problema real del mercado (conectar usuarios con técnicos eléctricos certificados), sino que también valida sus hipótesis de negocio a través de la experimentación.
 
+## Video About-The-Team
+
+URL: [https://youtu.be/QwZblS3XT_g]
+
+
 ## Bibliografía
 
 - Conventional Commits. (s.f.). *Conventional commits*. Recuperado el 10 de julio de 2025, de https://www.conventionalcommits.org/
